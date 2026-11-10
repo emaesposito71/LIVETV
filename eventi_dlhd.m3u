@@ -2,69 +2,294 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecpinetovsvispesaro" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Pineto 🇮🇹 vs Vis Pesaro 🇮🇹 (19:30)" tvg-logo="https://raw.githubusercontent.com/leanhhu061206/LIVETV/main/logos/Pineto_vs_Vis_Pesaro.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Pineto 🇮🇹 vs Vis Pesaro 🇮🇹 (19:30)
-https://dlive.sx/watch.php?id=3
+#EXTINF:-1 tvg-id="formula1qatargrandprixpractice1lusailqatar27november2026" tvg-name="Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 1 | Lusail, Qatar | 27 November 2026 (13:30)" group-title="Eventi Live DLHD",Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 1 | Lusail, Qatar | 27 November 2026 (13:30)
+https://thedaddy.li/watch.php?id=60
 
-#EXTINF:-1 tvg-id="italyseriecteamaltamuravscavese" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Team Altamura 🇮🇹 vs Cavese 🇮🇹 (19:30)" tvg-logo="https://raw.githubusercontent.com/leanhhu061206/LIVETV/main/logos/Team_Altamura_vs_Cavese.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Team Altamura 🇮🇹 vs Cavese 🇮🇹 (19:30)
-https://dlive.sx/watch.php?id=4
+#EXTINF:-1 tvg-id="formula1qatargrandprixracelusailqatar29november2026" tvg-name="Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Race | Lusail, Qatar | 29 November 2026 (16:00)" group-title="Eventi Live DLHD",Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Race | Lusail, Qatar | 29 November 2026 (16:00)
+https://thedaddy.li/watch.php?id=60
 
-#EXTINF:-1 tvg-id="italyseriecfoggiavsbarletta" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Foggia 🇮🇹 vs Barletta 🇮🇹 (19:30)" tvg-logo="https://raw.githubusercontent.com/leanhhu061206/LIVETV/main/logos/Foggia_vs_Barletta.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Foggia 🇮🇹 vs Barletta 🇮🇹 (19:30)
-https://dlive.sx/watch.php?id=5
+#EXTINF:-1 tvg-id="formula1qatargrandprixpractice2lusailqatar27november2026" tvg-name="Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 2 | Lusail, Qatar | 27 November 2026 (17:00)" group-title="Eventi Live DLHD",Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 2 | Lusail, Qatar | 27 November 2026 (17:00)
+https://thedaddy.li/watch.php?id=60
 
-#EXTINF:-1 tvg-id="italyseriecfoggiavsbarletta" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Foggia 🇮🇹 vs Barletta 🇮🇹 (19:30)" tvg-logo="https://raw.githubusercontent.com/leanhhu061206/LIVETV/main/logos/Foggia_vs_Barletta.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Foggia 🇮🇹 vs Barletta 🇮🇹 (19:30)
-https://dlive.sx/watch.php?id=462
+#EXTINF:-1 tvg-id="uefachampionsleaguematchday5europe25november2026" tvg-name="Upcoming Events | ⚽🇪🇺 UEFA Champions League – Matchday 5 | Europe | 25 November 2026 (17:45)" group-title="Eventi Live DLHD",Upcoming Events | ⚽🇪🇺 UEFA Champions League – Matchday 5 | Europe | 25 November 2026 (17:45)
+https://thedaddy.li/watch.php?id=31
 
-#EXTINF:-1 tvg-id="italyseriecpicernovsbari1908" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Picerno 🇮🇹 vs Bari 1908 🇮🇹 (19:45)" tvg-logo="https://raw.githubusercontent.com/leanhhu061206/LIVETV/main/logos/Picerno_vs_Bari_1908.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Picerno 🇮🇹 vs Bari 1908 🇮🇹 (19:45)
-https://dlive.sx/watch.php?id=6
+#EXTINF:-1 tvg-id="formula1qatargrandprixqualifyinglusailqatar28november2026" tvg-name="Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Qualifying | Lusail, Qatar | 28 November 2026 (18:00)" group-title="Eventi Live DLHD",Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Qualifying | Lusail, Qatar | 28 November 2026 (18:00)
+https://thedaddy.li/watch.php?id=60
 
-#EXTINF:-1 tvg-id="italyseriecpicernovsbari1908" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Picerno 🇮🇹 vs Bari 1908 🇮🇹 (19:45)" tvg-logo="https://raw.githubusercontent.com/leanhhu061206/LIVETV/main/logos/Picerno_vs_Bari_1908.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Picerno 🇮🇹 vs Bari 1908 🇮🇹 (19:45)
-https://dlive.sx/watch.php?id=882
+#EXTINF:-1 tvg-id="saturdaynightlivesnlusa" tvg-name="Upcoming Events | 📺🇺🇸 Saturday Night Live (SNL USA) (03:30)" group-title="Eventi Live DLHD",Upcoming Events | 📺🇺🇸 Saturday Night Live (SNL USA) (03:30)
+https://thedaddy.li/watch.php?id=708
 
-#EXTINF:-1 tvg-id="italyseriecpicernovsbari1908" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Picerno 🇮🇹 vs Bari 1908 🇮🇹 (19:45)" tvg-logo="https://raw.githubusercontent.com/leanhhu061206/LIVETV/main/logos/Picerno_vs_Bari_1908.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Picerno 🇮🇹 vs Bari 1908 🇮🇹 (19:45)
-https://dlive.sx/watch.php?id=870
+#EXTINF:-1 tvg-id="saturdaynightlivesnlusa" tvg-name="Upcoming Events | 📺🇺🇸 Saturday Night Live (SNL USA) (03:30)" group-title="Eventi Live DLHD",Upcoming Events | 📺🇺🇸 Saturday Night Live (SNL USA) (03:30)
+https://thedaddy.li/watch.php?id=53
+
+#EXTINF:-1 tvg-id="saturdaynightlivesnlusa" tvg-name="Upcoming Events | 📺🇺🇸 Saturday Night Live (SNL USA) (03:30)" group-title="Eventi Live DLHD",Upcoming Events | 📺🇺🇸 Saturday Night Live (SNL USA) (03:30)
+https://thedaddy.li/watch.php?id=769
+
+#EXTINF:-1 tvg-id="uefawomenschampionsleaguepostmatchshowlive" tvg-name="TV Shows 📺 | 📺 UEFA Women's Champions League Post-Match Show • Live (22:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 UEFA Women's Champions League Post-Match Show • Live (22:00)
+https://thedaddy.li/watch.php?id=308
+
+#EXTINF:-1 tvg-id="jeopardys43e42" tvg-name="TV Shows 📺 | 📺 Jeopardy! S43, E42 (00:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Jeopardy! S43, E42 (00:00)
+https://thedaddy.li/watch.php?id=766
+
+#EXTINF:-1 tvg-id="nciss24e5" tvg-name="TV Shows 📺 | 📺 NCIS S24, E5 (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 NCIS S24, E5 (01:00)
+https://thedaddy.li/watch.php?id=767
+
+#EXTINF:-1 tvg-id="bestmedicines2e7" tvg-name="TV Shows 📺 | 📺 Best Medicine S2, E7 (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Best Medicine S2, E7 (01:00)
+https://thedaddy.li/watch.php?id=768
+
+#EXTINF:-1 tvg-id="dancingwiththestarss35e10live" tvg-name="TV Shows 📺 | 📺 Dancing With the Stars S35, E10 • Live (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Dancing With the Stars S35, E10 • Live (01:00)
+https://thedaddy.li/watch.php?id=766
+
+#EXTINF:-1 tvg-id="wechosetogotothemoonnew" tvg-name="TV Shows 📺 | 📺 We Chose to Go to the Moon • New (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 We Chose to Go to the Moon • New (01:00)
+https://thedaddy.li/watch.php?id=210
+
+#EXTINF:-1 tvg-id="mylotterydreamhomewherearetheynows2e1premiere" tvg-name="TV Shows 📺 | 📺 My Lottery Dream Home: Where Are They Now? S2, E1 • Premiere (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 My Lottery Dream Home: Where Are They Now? S2, E1 • Premiere (01:00)
+https://thedaddy.li/watch.php?id=382
+
+#EXTINF:-1 tvg-id="therealhousewivesofnewyorkcitys16e10" tvg-name="TV Shows 📺 | 📺 The Real Housewives of New York City S16, E10 (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 The Real Housewives of New York City S16, E10 (01:00)
+https://thedaddy.li/watch.php?id=307
+
+#EXTINF:-1 tvg-id="lawamporderspecialvictimsunits27e10" tvg-name="TV Shows 📺 | 📺 Law &amp; Order: Special Victims Unit S27, E10 (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Law &amp; Order: Special Victims Unit S27, E10 (01:00)
+https://thedaddy.li/watch.php?id=343
+
+#EXTINF:-1 tvg-id="onedayinmybodys1e2" tvg-name="TV Shows 📺 | 📺 One Day in My Body S1, E2 (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 One Day in My Body S1, E2 (01:00)
+https://thedaddy.li/watch.php?id=311
+
+#EXTINF:-1 tvg-id="thecurseofoakislanddrillingdowns14e1" tvg-name="TV Shows 📺 | 📺 The Curse of Oak Island: Drilling Down S14, E1 (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 The Curse of Oak Island: Drilling Down S14, E1 (01:00)
+https://thedaddy.li/watch.php?id=322
+
+#EXTINF:-1 tvg-id="moonshinerss16e6" tvg-name="TV Shows 📺 | 📺 Moonshiners S16, E6 (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Moonshiners S16, E6 (01:00)
+https://thedaddy.li/watch.php?id=313
+
+#EXTINF:-1 tvg-id="loveamphiphopthefinalchapters1e1premiere" tvg-name="TV Shows 📺 | 📺 Love &amp; Hip Hop: The Final Chapter S1, E1 • Premiere (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Love &amp; Hip Hop: The Final Chapter S1, E1 • Premiere (01:00)
+https://thedaddy.li/watch.php?id=306
+
+#EXTINF:-1 tvg-id="loveamphiphopthefinalchapters1e1premiere" tvg-name="TV Shows 📺 | 📺 Love &amp; Hip Hop: The Final Chapter S1, E1 • Premiere (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Love &amp; Hip Hop: The Final Chapter S1, E1 • Premiere (01:00)
+https://thedaddy.li/watch.php?id=371
+
+#EXTINF:-1 tvg-id="loveamphiphopthefinalchapters1e1premiere" tvg-name="TV Shows 📺 | 📺 Love &amp; Hip Hop: The Final Chapter S1, E1 • Premiere (01:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Love &amp; Hip Hop: The Final Chapter S1, E1 • Premiere (01:00)
+https://thedaddy.li/watch.php?id=344
+
+#EXTINF:-1 tvg-id="ncisnewyorks1e5" tvg-name="TV Shows 📺 | 📺 NCIS: New York S1, E5 (02:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 NCIS: New York S1, E5 (02:00)
+https://thedaddy.li/watch.php?id=767
+
+#EXTINF:-1 tvg-id="docs3e7" tvg-name="TV Shows 📺 | 📺 Doc S3, E7 (02:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Doc S3, E7 (02:00)
+https://thedaddy.li/watch.php?id=768
+
+#EXTINF:-1 tvg-id="bigbargainholidayshowdowns1e1premiere" tvg-name="TV Shows 📺 | 📺 Big Bargain Holiday Showdown S1, E1 • Premiere (02:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Big Bargain Holiday Showdown S1, E1 • Premiere (02:00)
+https://thedaddy.li/watch.php?id=382
+
+#EXTINF:-1 tvg-id="roadwarss8e9" tvg-name="TV Shows 📺 | 📺 Road Wars S8, E9 (02:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Road Wars S8, E9 (02:00)
+https://thedaddy.li/watch.php?id=302
+
+#EXTINF:-1 tvg-id="thecurseofoakislands14e1premiere" tvg-name="TV Shows 📺 | 📺 The Curse of Oak Island S14, E1 • Premiere (02:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 The Curse of Oak Island S14, E1 • Premiere (02:00)
+https://thedaddy.li/watch.php?id=322
+
+#EXTINF:-1 tvg-id="everybodyhatess1e3" tvg-name="TV Shows 📺 | 📺 Everybody Hates S1, E3 (02:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Everybody Hates S1, E3 (02:00)
+https://thedaddy.li/watch.php?id=659
+
+#EXTINF:-1 tvg-id="1000lbsisterss9e11finale" tvg-name="TV Shows 📺 | 📺 1000-lb Sisters S9, E11 • Finale (02:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 1000-lb Sisters S9, E11 • Finale (02:00)
+https://thedaddy.li/watch.php?id=337
+
+#EXTINF:-1 tvg-id="deadlywomen20s1e1" tvg-name="TV Shows 📺 | 📺 Deadly Women 2.0 S1, E1 (02:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Deadly Women 2.0 S1, E1 (02:00)
+https://thedaddy.li/watch.php?id=324
+
+#EXTINF:-1 tvg-id="ncisoriginss3e5" tvg-name="TV Shows 📺 | 📺 NCIS: Origins S3, E5 (03:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 NCIS: Origins S3, E5 (03:00)
+https://thedaddy.li/watch.php?id=767
+
+#EXTINF:-1 tvg-id="michaelstrahansiconicfashionnew" tvg-name="TV Shows 📺 | 📺 Michael Strahan's Iconic Fashion • New (03:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Michael Strahan's Iconic Fashion • New (03:00)
+https://thedaddy.li/watch.php?id=766
+
+#EXTINF:-1 tvg-id="househuntersinternationals211e6" tvg-name="TV Shows 📺 | 📺 House Hunters International S211, E6 (03:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 House Hunters International S211, E6 (03:00)
+https://thedaddy.li/watch.php?id=382
+
+#EXTINF:-1 tvg-id="thegoldenlifes1e4" tvg-name="TV Shows 📺 | 📺 The Golden Life S1, E4 (03:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 The Golden Life S1, E4 (03:00)
+https://thedaddy.li/watch.php?id=315
+
+#EXTINF:-1 tvg-id="customerwarss9e9" tvg-name="TV Shows 📺 | 📺 Customer Wars S9, E9 (03:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Customer Wars S9, E9 (03:00)
+https://thedaddy.li/watch.php?id=302
+
+#EXTINF:-1 tvg-id="historysmysteryfiless1e1premiere" tvg-name="TV Shows 📺 | 📺 History's Mystery Files S1, E1 • Premiere (03:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 History's Mystery Files S1, E1 • Premiere (03:00)
+https://thedaddy.li/watch.php?id=322
+
+#EXTINF:-1 tvg-id="mybigfatfabulouslifes14e1premiere" tvg-name="TV Shows 📺 | 📺 My Big Fat Fabulous Life S14, E1 • Premiere (03:00)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 My Big Fat Fabulous Life S14, E1 • Premiere (03:00)
+https://thedaddy.li/watch.php?id=337
+
+#EXTINF:-1 tvg-id="cornettesideofthering" tvg-name="TV Shows 📺 | 📺 Cornette Side of the Ring (03:30)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Cornette Side of the Ring (03:30)
+https://thedaddy.li/watch.php?id=659
+
+#EXTINF:-1 tvg-id="thetonightshowstarringjimmyfallons14e27" tvg-name="TV Shows 📺 | 📺 The Tonight Show Starring Jimmy Fallon S14, E27 (04:30)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 The Tonight Show Starring Jimmy Fallon S14, E27 (04:30)
+https://thedaddy.li/watch.php?id=769
+
+#EXTINF:-1 tvg-id="jimmykimmellives25e33" tvg-name="TV Shows 📺 | 📺 Jimmy Kimmel Live! S25, E33 (04:30)" group-title="Eventi Live DLHD",TV Shows 📺 | 📺 Jimmy Kimmel Live! S25, E33 (04:30)
+https://thedaddy.li/watch.php?id=766
+
+#EXTINF:-1 tvg-id="uefawomenschampionsleaguehäckenvschelseafc" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Women's Champions League : Häcken 🇸🇪 vs Chelsea FC 🏴 (17:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hacken_vs_Chelsea_FC.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Women's Champions League : Häcken 🇸🇪 vs Chelsea FC 🏴 (17:45)
+https://thedaddy.li/watch.php?id=55
+
+#EXTINF:-1 tvg-id="spaincopadelreyanaitasunaftvsdeportivoalavés" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Anaitasuna FT 🇪🇸 vs Deportivo Alavés 🇪🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Anaitasuna_FT_vs_Deportivo_Alaves.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Anaitasuna FT 🇪🇸 vs Deportivo Alavés 🇪🇸 (18:00)
+https://thedaddy.li/watch.php?id=59
+
+#EXTINF:-1 tvg-id="argentinaprimeralpfreservestalleresdecórdobareservevssarmientoreserve" tvg-name="All Soccer Events ⚽ | ⚽ Argentina Primera LPF, Reserves : Talleres de Córdoba Reserve 🇦🇷 vs Sarmiento Reserve 🇦🇷 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Talleres_de_Cordoba_Reserve_vs_Sarmiento_Reserve.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Argentina Primera LPF, Reserves : Talleres de Córdoba Reserve 🇦🇷 vs Sarmiento Reserve 🇦🇷 (20:00)
+https://thedaddy.li/watch.php?id=388
+
+#EXTINF:-1 tvg-id="spaincopadelreytavernesvsvalencia" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Tavernes 🇪🇸 vs Valencia 🇪🇸 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tavernes_vs_Valencia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Tavernes 🇪🇸 vs Valencia 🇪🇸 (20:00)
+https://thedaddy.li/watch.php?id=68
+
+#EXTINF:-1 tvg-id="collegesocceramericanvsbucknell" tvg-name="College Soccer ⚽ | ⚽ College Soccer : American 🇺🇸 vs Bucknell 🇺🇸 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/American_vs_Bucknell.png" group-title="Eventi Live DLHD",College Soccer ⚽ | ⚽ College Soccer : American 🇺🇸 vs Bucknell 🇺🇸 (17:00)
+https://thedaddy.li/watch.php?id=76
+
+#EXTINF:-1 tvg-id="collegesoccerduquesnevsfordham" tvg-name="College Soccer ⚽ | ⚽ College Soccer : Duquesne 🇺🇸 vs Fordham 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Duquesne_vs_Fordham.png" group-title="Eventi Live DLHD",College Soccer ⚽ | ⚽ College Soccer : Duquesne 🇺🇸 vs Fordham 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=77
+
+#EXTINF:-1 tvg-id="collegesoccerbostonuniversityvslehigh" tvg-name="College Soccer ⚽ | ⚽ College Soccer : Boston University 🇺🇸 vs Lehigh 🇺🇸 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Boston_University_vs_Lehigh.png" group-title="Eventi Live DLHD",College Soccer ⚽ | ⚽ College Soccer : Boston University 🇺🇸 vs Lehigh 🇺🇸 (20:00)
+https://thedaddy.li/watch.php?id=86
+
+#EXTINF:-1 tvg-id="collegesoccersaintlouisvsdavidson" tvg-name="College Soccer ⚽ | ⚽ College Soccer : Saint Louis 🇺🇸 vs Davidson 🇺🇸 (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Saint_Louis_vs_Davidson.png" group-title="Eventi Live DLHD",College Soccer ⚽ | ⚽ College Soccer : Saint Louis 🇺🇸 vs Davidson 🇺🇸 (22:00)
+https://thedaddy.li/watch.php?id=105
+
+#EXTINF:-1 tvg-id="womenscollegesoccerincarnatewordvsnicholls" tvg-name="Women's College Soccer ⚽ | ⚽ Women's College Soccer : Incarnate Word 🇺🇸 vs Nicholls 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Incarnate_Word_vs_Nicholls.png" group-title="Eventi Live DLHD",Women's College Soccer ⚽ | ⚽ Women's College Soccer : Incarnate Word 🇺🇸 vs Nicholls 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=106
+
+#EXTINF:-1 tvg-id="womenscollegesoccerumassamherstvsballstate" tvg-name="Women's College Soccer ⚽ | ⚽ Women's College Soccer : UMass Amherst 🇺🇸 vs Ball State 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/UMass_Amherst_vs_Ball_State.png" group-title="Eventi Live DLHD",Women's College Soccer ⚽ | ⚽ Women's College Soccer : UMass Amherst 🇺🇸 vs Ball State 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=107
+
+#EXTINF:-1 tvg-id="womenscollegesoccernorthwesternstatevsmcneese" tvg-name="Women's College Soccer ⚽ | ⚽ Women's College Soccer : Northwestern State 🇺🇸 vs McNeese 🇺🇸 (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Northwestern_State_vs_McNeese.png" group-title="Eventi Live DLHD",Women's College Soccer ⚽ | ⚽ Women's College Soccer : Northwestern State 🇺🇸 vs McNeese 🇺🇸 (21:30)
+https://thedaddy.li/watch.php?id=108
+
+#EXTINF:-1 tvg-id="womenscollegesoccerwesternmichiganvsmiamioh" tvg-name="Women's College Soccer ⚽ | ⚽ Women's College Soccer : Western Michigan 🇺🇸 vs Miami (OH) 🇺🇸 (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Western_Michigan_vs_Miami_OH.png" group-title="Eventi Live DLHD",Women's College Soccer ⚽ | ⚽ Women's College Soccer : Western Michigan 🇺🇸 vs Miami (OH) 🇺🇸 (22:00)
+https://thedaddy.li/watch.php?id=109
+
+#EXTINF:-1 tvg-id="womenscollegesocceruncashevillevshighpoint" tvg-name="Women's College Soccer ⚽ | ⚽ Women's College Soccer : UNC Asheville 🇺🇸 vs High Point 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/UNC_Asheville_vs_High_Point.png" group-title="Eventi Live DLHD",Women's College Soccer ⚽ | ⚽ Women's College Soccer : UNC Asheville 🇺🇸 vs High Point 🇺🇸 (23:00)
+https://thedaddy.li/watch.php?id=110
+
+#EXTINF:-1 tvg-id="womenscollegesoccersouthcarolinaupstatevsradford" tvg-name="Women's College Soccer ⚽ | ⚽ Women's College Soccer : South Carolina Upstate 🇺🇸 vs Radford 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/South_Carolina_Upstate_vs_Radford.png" group-title="Eventi Live DLHD",Women's College Soccer ⚽ | ⚽ Women's College Soccer : South Carolina Upstate 🇺🇸 vs Radford 🇺🇸 (23:00)
+https://thedaddy.li/watch.php?id=151
+
+#EXTINF:-1 tvg-id="womenscollegesoccerhoustonchristianvseasttexasaampm" tvg-name="Women's College Soccer ⚽ | ⚽ Women's College Soccer : Houston Christian 🇺🇸 vs East Texas A&amp;M 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Houston_Christian_vs_East_Texas_A_amp_M.png" group-title="Eventi Live DLHD",Women's College Soccer ⚽ | ⚽ Women's College Soccer : Houston Christian 🇺🇸 vs East Texas A&amp;M 🇺🇸 (01:00)
+https://thedaddy.li/watch.php?id=152
+
+#EXTINF:-1 tvg-id="worldabudhabit10leagueyaslionsvsunitedtigers" tvg-name="Cricket 🏏 | 🏏 World Abu Dhabi T10 League : Yas Lions vs United Tigers (13:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Yas_Lions_vs_United_Tigers.png" group-title="Eventi Live DLHD",Cricket 🏏 | 🏏 World Abu Dhabi T10 League : Yas Lions vs United Tigers (13:45)
+https://thedaddy.li/watch.php?id=550
+
+#EXTINF:-1 tvg-id="worldabudhabit10leagueuaebullsvsemirateseagles" tvg-name="Cricket 🏏 | 🏏 World Abu Dhabi T10 League : UAE Bulls 🇦🇪 vs Emirates Eagles 🇦🇪 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/UAE_Bulls_vs_Emirates_Eagles.png" group-title="Eventi Live DLHD",Cricket 🏏 | 🏏 World Abu Dhabi T10 League : UAE Bulls 🇦🇪 vs Emirates Eagles 🇦🇪 (16:00)
+https://thedaddy.li/watch.php?id=550
 
 #EXTINF:-1 tvg-id="2026stockholmopentennisearlyrounds" tvg-name="Tennis 🎾 | 🎾 2026 Stockholm Open Tennis Early Rounds (12:00)" group-title="Eventi Live DLHD",Tennis 🎾 | 🎾 2026 Stockholm Open Tennis Early Rounds (12:00)
-https://dlive.sx/watch.php?id=576
+https://thedaddy.li/watch.php?id=46
 
-#EXTINF:-1 tvg-id="fiawecround86hoursofmonzarace" tvg-name="Motorsport 🏎️🏁 | 🏎️ FIA WEC | Round 8 | 6 Hours of Monza Race (09:30)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ FIA WEC | Round 8 | 6 Hours of Monza Race (09:30)
-https://dlive.sx/watch.php?id=878
+#EXTINF:-1 tvg-id="2026stockholmopentennisearlyrounds" tvg-name="Tennis 🎾 | 🎾 2026 Stockholm Open Tennis Early Rounds (12:00)" group-title="Eventi Live DLHD",Tennis 🎾 | 🎾 2026 Stockholm Open Tennis Early Rounds (12:00)
+https://thedaddy.li/watch.php?id=576
 
-#EXTINF:-1 tvg-id="motogpround20qatarwarmup" tvg-name="Motorsport 🏎️🏁 | 🏎️ MotoGP | Round 20 | Qatar Warm Up (11:30)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ MotoGP | Round 20 | Qatar Warm Up (11:30)
-https://dlive.sx/watch.php?id=575
+#EXTINF:-1 tvg-id="wwenxt" tvg-name="Wrestling (NXT) 🤼 | 🤼 WWE NXT (10:30)" group-title="Eventi Live DLHD",Wrestling (NXT) 🤼 | 🤼 WWE NXT (10:30)
+https://thedaddy.li/watch.php?id=300
 
-#EXTINF:-1 tvg-id="moto3round20qatarrace" tvg-name="Motorsport 🏎️🏁 | 🏎️ Moto3 | Round 20 | Qatar Race (12:00)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ Moto3 | Round 20 | Qatar Race (12:00)
-https://dlive.sx/watch.php?id=575
+#EXTINF:-1 tvg-id="wwenxt" tvg-name="Wrestling (NXT) 🤼 | 🤼 WWE NXT (10:30)" group-title="Eventi Live DLHD",Wrestling (NXT) 🤼 | 🤼 WWE NXT (10:30)
+https://thedaddy.li/watch.php?id=280
 
-#EXTINF:-1 tvg-id="moto2round20qatarrace" tvg-name="Motorsport 🏎️🏁 | 🏎️ Moto2 | Round 20 | Qatar Race (14:00)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ Moto2 | Round 20 | Qatar Race (14:00)
-https://dlive.sx/watch.php?id=575
+#EXTINF:-1 tvg-id="womenstgl2026motorcitygcvslosangelesgc" tvg-name="Golf ⛳ | ⛳ Womens TGL 2026 : Motor City GC vs Los Angeles GC (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Motor_City_GC_vs_Los_Angeles_GC.png" group-title="Eventi Live DLHD",Golf ⛳ | ⛳ Womens TGL 2026 : Motor City GC vs Los Angeles GC (01:00)
+https://thedaddy.li/watch.php?id=325
 
-#EXTINF:-1 tvg-id="formula1msccruisessaopaulogpgrandprixsunday" tvg-name="Motorsport 🏎️🏁 | 🏎️ Formula 1 : MSC Cruises Sao Paulo GP - Grand Prix Sunday (15:00)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ Formula 1 : MSC Cruises Sao Paulo GP - Grand Prix Sunday (15:00)
-https://dlive.sx/watch.php?id=577
+#EXTINF:-1 tvg-id="womenstgl2026motorcitygcvslosangelesgc" tvg-name="Golf ⛳ | ⛳ Womens TGL 2026 : Motor City GC vs Los Angeles GC (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Motor_City_GC_vs_Los_Angeles_GC.png" group-title="Eventi Live DLHD",Golf ⛳ | ⛳ Womens TGL 2026 : Motor City GC vs Los Angeles GC (01:00)
+https://thedaddy.li/watch.php?id=70
 
-#EXTINF:-1 tvg-id="formula1msccruisessaopaulogpgrandprixsunday" tvg-name="Motorsport 🏎️🏁 | 🏎️ Formula 1 : MSC Cruises Sao Paulo GP - Grand Prix Sunday (15:00)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ Formula 1 : MSC Cruises Sao Paulo GP - Grand Prix Sunday (15:00)
-https://dlive.sx/watch.php?id=3046
+#EXTINF:-1 tvg-id="worldsnookerlivechampionofchampions2026leicesterengland" tvg-name="Snooker 🎱 | 🎱 World Snooker Live Champion of Champions 2026 - Leicester, England 🏴 (13:00)" group-title="Eventi Live DLHD",Snooker 🎱 | 🎱 World Snooker Live Champion of Champions 2026 - Leicester, England 🏴 (13:00)
+https://thedaddy.li/watch.php?id=353
 
-#EXTINF:-1 tvg-id="motogpround20qatarrace" tvg-name="Motorsport 🏎️🏁 | 🏎️ MotoGP | Round 20 | Qatar Race (15:15)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ MotoGP | Round 20 | Qatar Race (15:15)
-https://dlive.sx/watch.php?id=575
+#EXTINF:-1 tvg-id="worldsnookerlivechampionofchampions2026leicesterengland" tvg-name="Snooker 🎱 | 🎱 World Snooker Live Champion of Champions 2026 - Leicester, England 🏴 (19:00)" group-title="Eventi Live DLHD",Snooker 🎱 | 🎱 World Snooker Live Champion of Champions 2026 - Leicester, England 🏴 (19:00)
+https://thedaddy.li/watch.php?id=353
 
-#EXTINF:-1 tvg-id="formula1msccruisessaopaulogprace" tvg-name="Motorsport 🏎️🏁 | 🏎️ Formula 1 : MSC Cruises Sao Paulo GP - Race (16:00)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ Formula 1 : MSC Cruises Sao Paulo GP - Race (16:00)
-https://dlive.sx/watch.php?id=577
+#EXTINF:-1 tvg-id="ncaafbskentstatevsbowlinggreen" tvg-name="Am. Football (NCAAF) 🏈 | 🏈 NCAA FBS : Kent State 🇺🇸 vs Bowling Green 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kent_State_vs_Bowling_Green.png" group-title="Eventi Live DLHD",Am. Football (NCAAF) 🏈 | 🏈 NCAA FBS : Kent State 🇺🇸 vs Bowling Green 🇺🇸 (00:00)
+https://thedaddy.li/watch.php?id=316
 
-#EXTINF:-1 tvg-id="formula1msccruisessaopaulogprace" tvg-name="Motorsport 🏎️🏁 | 🏎️ Formula 1 : MSC Cruises Sao Paulo GP - Race (16:00)" group-title="Eventi Live DLHD",Motorsport 🏎️🏁 | 🏎️ Formula 1 : MSC Cruises Sao Paulo GP - Race (16:00)
-https://dlive.sx/watch.php?id=3046
+#EXTINF:-1 tvg-id="ncaafbswesternmichiganvsakron" tvg-name="Am. Football (NCAAF) 🏈 | 🏈 NCAA FBS : Western Michigan 🇺🇸 vs Akron 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Western_Michigan_vs_Akron.png" group-title="Eventi Live DLHD",Am. Football (NCAAF) 🏈 | 🏈 NCAA FBS : Western Michigan 🇺🇸 vs Akron 🇺🇸 (00:00)
+https://thedaddy.li/watch.php?id=308
 
-#EXTINF:-1 tvg-id="singaporecriteriumucimenmarinabay245kmx25" tvg-name="Cycling 🚴 | 🚴 Singapore Criterium UCI | Men | Marina Bay (2.45km x 25) (08:30)" group-title="Eventi Live DLHD",Cycling 🚴 | 🚴 Singapore Criterium UCI | Men | Marina Bay (2.45km x 25) (08:30)
-https://dlive.sx/watch.php?id=879
+#EXTINF:-1 tvg-id="ncaafbsohiovsmiamioh" tvg-name="Am. Football (NCAAF) 🏈 | 🏈 NCAA FBS : Ohio 🇺🇸 vs Miami (OH) 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ohio_vs_Miami_OH.png" group-title="Eventi Live DLHD",Am. Football (NCAAF) 🏈 | 🏈 NCAA FBS : Ohio 🇺🇸 vs Miami (OH) 🇺🇸 (01:00)
+https://thedaddy.li/watch.php?id=45
 
-#EXTINF:-1 tvg-id="ueccyclocrosseuropeanchampionshipsmontferlandmenelite" tvg-name="Cycling 🚴 | 🚴 UEC Cyclo-cross European Championships | Montferland Men Elite (13:50)" group-title="Eventi Live DLHD",Cycling 🚴 | 🚴 UEC Cyclo-cross European Championships | Montferland Men Elite (13:50)
-https://dlive.sx/watch.php?id=879
+#EXTINF:-1 tvg-id="nbanewyorkknicksvsmilwaukeebucks" tvg-name="NBA Basketball 🏀 | 🏀 NBA : New York Knicks 🇺🇸 vs Milwaukee Bucks 🇺🇸 (00:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_York_Knicks_vs_Milwaukee_Bucks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : New York Knicks 🇺🇸 vs Milwaukee Bucks 🇺🇸 (00:30)
+https://thedaddy.li/watch.php?id=765
 
-#EXTINF:-1 tvg-id="grandprixchinafreeroutinemale" tvg-name="Ice Skating ⛸️ | ⛸️ Grand Prix | China Free Routine | Male (05:00)" group-title="Eventi Live DLHD",Ice Skating ⛸️ | ⛸️ Grand Prix | China Free Routine | Male (05:00)
-https://dlive.sx/watch.php?id=879
+#EXTINF:-1 tvg-id="nbaphiladelphia76ersvsbostonceltics" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Boston Celtics 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Boston_Celtics.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Boston Celtics 🇺🇸 (01:00)
+https://thedaddy.li/watch.php?id=53
 
-#EXTINF:-1 tvg-id="grandprixchinagala" tvg-name="Ice Skating ⛸️ | ⛸️ Grand Prix | China Gala (10:00)" group-title="Eventi Live DLHD",Ice Skating ⛸️ | ⛸️ Grand Prix | China Gala (10:00)
-https://dlive.sx/watch.php?id=879
+#EXTINF:-1 tvg-id="nbaphiladelphia76ersvsbostonceltics" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Boston Celtics 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Boston_Celtics.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Boston Celtics 🇺🇸 (01:00)
+https://thedaddy.li/watch.php?id=769
 
-#EXTINF:-1 tvg-id="nationschampionshipenglandvsaustralia" tvg-name="Rugby Union 🏉 | 🏉 Nations Championship : England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Australia 🇦🇺 (15:10)" tvg-logo="https://raw.githubusercontent.com/leanhhu061206/LIVETV/main/logos/England_vs_Australia.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Nations Championship : England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Australia 🇦🇺 (15:10)
-https://dlive.sx/watch.php?id=462
+#EXTINF:-1 tvg-id="nbaphiladelphia76ersvsbostonceltics" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Boston Celtics 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Boston_Celtics.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Boston Celtics 🇺🇸 (01:00)
+https://thedaddy.li/watch.php?id=754
+
+#EXTINF:-1 tvg-id="nbaphiladelphia76ersvsbostonceltics" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Boston Celtics 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Boston_Celtics.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Boston Celtics 🇺🇸 (01:00)
+https://thedaddy.li/watch.php?id=38
+
+#EXTINF:-1 tvg-id="nbasacramentokingsvsorlandomagic" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Sacramento Kings 🇺🇸 vs Orlando Magic 🇺🇸 (03:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sacramento_Kings_vs_Orlando_Magic.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Sacramento Kings 🇺🇸 vs Orlando Magic 🇺🇸 (03:00)
+https://thedaddy.li/watch.php?id=755
+
+#EXTINF:-1 tvg-id="nbaportlandtrailblazersvsoklahomacitythunder" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Portland Trail Blazers 🇺🇸 vs Oklahoma City Thunder 🇺🇸 (04:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Portland_Trail_Blazers_vs_Oklahoma_City_Thunder.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Portland Trail Blazers 🇺🇸 vs Oklahoma City Thunder 🇺🇸 (04:00)
+https://thedaddy.li/watch.php?id=38
+
+#EXTINF:-1 tvg-id="nbagleagueaguacalienteclippersvscoachellavalleylakers" tvg-name="NBA G League 🏀 | 🏀 NBA G League : Agua Caliente Clippers 🇺🇸 vs Coachella Valley Lakers 🇺🇸 (03:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Agua_Caliente_Clippers_vs_Coachella_Valley_Lakers.png" group-title="Eventi Live DLHD",NBA G League 🏀 | 🏀 NBA G League : Agua Caliente Clippers 🇺🇸 vs Coachella Valley Lakers 🇺🇸 (03:00)
+https://thedaddy.li/watch.php?id=982
+
+#EXTINF:-1 tvg-id="collegebasketballfloridavsfloridastate" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : Florida 🇺🇸 vs Florida State 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Florida_vs_Florida_State.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : Florida 🇺🇸 vs Florida State 🇺🇸 (23:00)
+https://thedaddy.li/watch.php?id=45
+
+#EXTINF:-1 tvg-id="collegebasketballnjitvsrutgers" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : NJIT 🇺🇸 vs Rutgers 🇺🇸 (23:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/NJIT_vs_Rutgers.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : NJIT 🇺🇸 vs Rutgers 🇺🇸 (23:30)
+https://thedaddy.li/watch.php?id=397
+
+#EXTINF:-1 tvg-id="collegebasketballlasallevsvillanova" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : La Salle 🇺🇸 vs Villanova 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/La_Salle_vs_Villanova.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : La Salle 🇺🇸 vs Villanova 🇺🇸 (00:00)
+https://thedaddy.li/watch.php?id=341
+
+#EXTINF:-1 tvg-id="collegebasketballiowavsvirginiatech" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : Iowa 🇺🇸 vs Virginia Tech 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Iowa_vs_Virginia_Tech.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : Iowa 🇺🇸 vs Virginia Tech 🇺🇸 (00:00)
+https://thedaddy.li/watch.php?id=39
+
+#EXTINF:-1 tvg-id="collegebasketballwyomingvsnorthcarolina" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : Wyoming 🇺🇸 vs North Carolina 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Wyoming_vs_North_Carolina.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : Wyoming 🇺🇸 vs North Carolina 🇺🇸 (00:00)
+https://thedaddy.li/watch.php?id=664
+
+#EXTINF:-1 tvg-id="collegebasketballdukevsmichiganstate" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : Duke 🇺🇸 vs Michigan State 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Duke_vs_Michigan_State.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : Duke 🇺🇸 vs Michigan State 🇺🇸 (00:00)
+https://thedaddy.li/watch.php?id=44
+
+#EXTINF:-1 tvg-id="collegebasketballfairfieldvswisconsin" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : Fairfield 🇺🇸 vs Wisconsin 🇺🇸 (01:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Fairfield_vs_Wisconsin.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : Fairfield 🇺🇸 vs Wisconsin 🇺🇸 (01:30)
+https://thedaddy.li/watch.php?id=397
+
+#EXTINF:-1 tvg-id="collegebasketballbucknellvsvirginia" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : Bucknell 🇺🇸 vs Virginia 🇺🇸 (02:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bucknell_vs_Virginia.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : Bucknell 🇺🇸 vs Virginia 🇺🇸 (02:00)
+https://thedaddy.li/watch.php?id=664
+
+#EXTINF:-1 tvg-id="collegebasketballcreightonvskansasstate" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : Creighton 🇺🇸 vs Kansas State 🇺🇸 (02:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Creighton_vs_Kansas_State.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : Creighton 🇺🇸 vs Kansas State 🇺🇸 (02:00)
+https://thedaddy.li/watch.php?id=39
+
+#EXTINF:-1 tvg-id="collegebasketballkentuckyvskansas" tvg-name="Men's College Basketball 🏀 | 🏀 College Basketball : Kentucky 🇺🇸 vs Kansas 🇺🇸 (02:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kentucky_vs_Kansas.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 College Basketball : Kentucky 🇺🇸 vs Kansas 🇺🇸 (02:30)
+https://thedaddy.li/watch.php?id=44
+
+#EXTINF:-1 tvg-id="womenscollegebasketballcollegeofcharlestonvssoutherncal" tvg-name="Women's College Basketball 🏀 | 🏀 Women's College Basketball : College of Charleston 🇺🇸 vs Southern Cal 🇺🇸 (03:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/College_of_Charleston_vs_Southern_Cal.png" group-title="Eventi Live DLHD",Women's College Basketball 🏀 | 🏀 Women's College Basketball : College of Charleston 🇺🇸 vs Southern Cal 🇺🇸 (03:30)
+https://thedaddy.li/watch.php?id=397
+
+#EXTINF:-1 tvg-id="liveracingfromhuntingdonandfairyhouse" tvg-name="Horse Racing 🏇 | 🏇 Live racing from Huntingdon and Fairyhouse (12:00)" group-title="Eventi Live DLHD",Horse Racing 🏇 | 🏇 Live racing from Huntingdon and Fairyhouse (12:00)
+https://thedaddy.li/watch.php?id=555
+
+#EXTINF:-1 tvg-id="liveracingfromaroundtheuk" tvg-name="Horse Racing 🏇 | 🏇 Live racing from around the UK (12:30)" group-title="Eventi Live DLHD",Horse Racing 🏇 | 🏇 Live racing from around the UK (12:30)
+https://thedaddy.li/watch.php?id=554
+
+#EXTINF:-1 tvg-id="nhlminnesotawildvsmontrealcanadiens" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Minnesota Wild 🇺🇸 vs Montreal Canadiens 🇨🇦 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Minnesota_Wild_vs_Montreal_Canadiens.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Minnesota Wild 🇺🇸 vs Montreal Canadiens 🇨🇦 (00:00)
+https://thedaddy.li/watch.php?id=550
+
+#EXTINF:-1 tvg-id="nhldetroitredwingsvsstlouisblues" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Detroit Red Wings 🇺🇸 vs St. Louis Blues 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Red_Wings_vs_St_Louis_Blues.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Detroit Red Wings 🇺🇸 vs St. Louis Blues 🇺🇸 (01:00)
+https://thedaddy.li/watch.php?id=338
+
+#EXTINF:-1 tvg-id="nhlnashvillepredatorsvslosangeleskings" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Nashville Predators 🇺🇸 vs Los Angeles Kings 🇺🇸 (03:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nashville_Predators_vs_Los_Angeles_Kings.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Nashville Predators 🇺🇸 vs Los Angeles Kings 🇺🇸 (03:00)
+https://thedaddy.li/watch.php?id=451
+
+#EXTINF:-1 tvg-id="worldchampionshipwomenswitzerlandwvsaustriaw" tvg-name="Ice Hockey 🏒 | 🏒 World Championship, Women : Switzerland (W) 🇨🇭 vs Austria (W) 🇦🇹 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Switzerland_W_vs_Austria_W.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 World Championship, Women : Switzerland (W) 🇨🇭 vs Austria (W) 🇦🇹 (18:00)
+https://thedaddy.li/watch.php?id=663
+
+#EXTINF:-1 tvg-id="iihfwomensicehockeyworldchampionshipjapanvsfinland" tvg-name="IIHF Ice Hockey 🏒 | 🏒 IIHF Women's Ice Hockey World Championship : Japan 🇯🇵 vs Finland 🇫🇮 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Japan_vs_Finland.png" group-title="Eventi Live DLHD",IIHF Ice Hockey 🏒 | 🏒 IIHF Women's Ice Hockey World Championship : Japan 🇯🇵 vs Finland 🇫🇮 (14:00)
+https://thedaddy.li/watch.php?id=663
+
+#EXTINF:-1 tvg-id="lenchampionsleaguecsmoradeavsbrescia" tvg-name="Water polo 🤽 | 🤽 LEN Champions League : CSM Oradea 🇷🇴 vs Brescia 🇮🇹 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/CSM_Oradea_vs_Brescia.png" group-title="Eventi Live DLHD",Water polo 🤽 | 🤽 LEN Champions League : CSM Oradea 🇷🇴 vs Brescia 🇮🇹 (17:30)
+https://thedaddy.li/watch.php?id=462
+
+#EXTINF:-1 tvg-id="lenchampionsleagueradnickivsprorecco" tvg-name="Water polo 🤽 | 🤽 LEN Champions League : Radnicki 🇷🇸 vs Pro Recco 🇮🇹 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Radnicki_vs_Pro_Recco.png" group-title="Eventi Live DLHD",Water polo 🤽 | 🤽 LEN Champions League : Radnicki 🇷🇸 vs Pro Recco 🇮🇹 (19:30)
+https://thedaddy.li/watch.php?id=462
 
