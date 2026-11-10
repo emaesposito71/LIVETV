@@ -1947,8 +1947,8 @@ def schedule_extractor():
     load_dotenv()
     
     SCHEDULE_URLS = [
-        "https://dlive-sx.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en",
-        "https://dlive.sx",
+        "https://thedaddy.li",
+        "https://thedaddy-li.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en",
     ]
     
     def html_to_json(html_content):
