@@ -2,12 +2,6 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="formula1qatargrandprixpractice1lusailqatar27november2026" tvg-name="Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 1 | Lusail, Qatar | 27 November 2026 (13:30)" group-title="Eventi Live DLHD",Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 1 | Lusail, Qatar | 27 November 2026 (13:30)
-https://thedaddy.li/watch.php?id=60
-
-#EXTINF:-1 tvg-id="formula1qatargrandprixracelusailqatar29november2026" tvg-name="Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Race | Lusail, Qatar | 29 November 2026 (16:00)" group-title="Eventi Live DLHD",Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Race | Lusail, Qatar | 29 November 2026 (16:00)
-https://thedaddy.li/watch.php?id=60
-
 #EXTINF:-1 tvg-id="formula1qatargrandprixpractice2lusailqatar27november2026" tvg-name="Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 2 | Lusail, Qatar | 27 November 2026 (17:00)" group-title="Eventi Live DLHD",Upcoming Events | 🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 2 | Lusail, Qatar | 27 November 2026 (17:00)
 https://thedaddy.li/watch.php?id=60
 
@@ -170,32 +164,11 @@ https://thedaddy.li/watch.php?id=151
 #EXTINF:-1 tvg-id="womenscollegesoccerhoustonchristianvseasttexasaampm" tvg-name="Women's College Soccer ⚽ | ⚽ Women's College Soccer : Houston Christian 🇺🇸 vs East Texas A&amp;M 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Houston_Christian_vs_East_Texas_A_amp_M.png" group-title="Eventi Live DLHD",Women's College Soccer ⚽ | ⚽ Women's College Soccer : Houston Christian 🇺🇸 vs East Texas A&amp;M 🇺🇸 (01:00)
 https://thedaddy.li/watch.php?id=152
 
-#EXTINF:-1 tvg-id="worldabudhabit10leagueyaslionsvsunitedtigers" tvg-name="Cricket 🏏 | 🏏 World Abu Dhabi T10 League : Yas Lions vs United Tigers (13:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Yas_Lions_vs_United_Tigers.png" group-title="Eventi Live DLHD",Cricket 🏏 | 🏏 World Abu Dhabi T10 League : Yas Lions vs United Tigers (13:45)
-https://thedaddy.li/watch.php?id=550
-
-#EXTINF:-1 tvg-id="worldabudhabit10leagueuaebullsvsemirateseagles" tvg-name="Cricket 🏏 | 🏏 World Abu Dhabi T10 League : UAE Bulls 🇦🇪 vs Emirates Eagles 🇦🇪 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/UAE_Bulls_vs_Emirates_Eagles.png" group-title="Eventi Live DLHD",Cricket 🏏 | 🏏 World Abu Dhabi T10 League : UAE Bulls 🇦🇪 vs Emirates Eagles 🇦🇪 (16:00)
-https://thedaddy.li/watch.php?id=550
-
-#EXTINF:-1 tvg-id="2026stockholmopentennisearlyrounds" tvg-name="Tennis 🎾 | 🎾 2026 Stockholm Open Tennis Early Rounds (12:00)" group-title="Eventi Live DLHD",Tennis 🎾 | 🎾 2026 Stockholm Open Tennis Early Rounds (12:00)
-https://thedaddy.li/watch.php?id=46
-
-#EXTINF:-1 tvg-id="2026stockholmopentennisearlyrounds" tvg-name="Tennis 🎾 | 🎾 2026 Stockholm Open Tennis Early Rounds (12:00)" group-title="Eventi Live DLHD",Tennis 🎾 | 🎾 2026 Stockholm Open Tennis Early Rounds (12:00)
-https://thedaddy.li/watch.php?id=576
-
-#EXTINF:-1 tvg-id="wwenxt" tvg-name="Wrestling (NXT) 🤼 | 🤼 WWE NXT (10:30)" group-title="Eventi Live DLHD",Wrestling (NXT) 🤼 | 🤼 WWE NXT (10:30)
-https://thedaddy.li/watch.php?id=300
-
-#EXTINF:-1 tvg-id="wwenxt" tvg-name="Wrestling (NXT) 🤼 | 🤼 WWE NXT (10:30)" group-title="Eventi Live DLHD",Wrestling (NXT) 🤼 | 🤼 WWE NXT (10:30)
-https://thedaddy.li/watch.php?id=280
-
 #EXTINF:-1 tvg-id="womenstgl2026motorcitygcvslosangelesgc" tvg-name="Golf ⛳ | ⛳ Womens TGL 2026 : Motor City GC vs Los Angeles GC (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Motor_City_GC_vs_Los_Angeles_GC.png" group-title="Eventi Live DLHD",Golf ⛳ | ⛳ Womens TGL 2026 : Motor City GC vs Los Angeles GC (01:00)
 https://thedaddy.li/watch.php?id=325
 
 #EXTINF:-1 tvg-id="womenstgl2026motorcitygcvslosangelesgc" tvg-name="Golf ⛳ | ⛳ Womens TGL 2026 : Motor City GC vs Los Angeles GC (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Motor_City_GC_vs_Los_Angeles_GC.png" group-title="Eventi Live DLHD",Golf ⛳ | ⛳ Womens TGL 2026 : Motor City GC vs Los Angeles GC (01:00)
 https://thedaddy.li/watch.php?id=70
-
-#EXTINF:-1 tvg-id="worldsnookerlivechampionofchampions2026leicesterengland" tvg-name="Snooker 🎱 | 🎱 World Snooker Live Champion of Champions 2026 - Leicester, England 🏴 (13:00)" group-title="Eventi Live DLHD",Snooker 🎱 | 🎱 World Snooker Live Champion of Champions 2026 - Leicester, England 🏴 (13:00)
-https://thedaddy.li/watch.php?id=353
 
 #EXTINF:-1 tvg-id="worldsnookerlivechampionofchampions2026leicesterengland" tvg-name="Snooker 🎱 | 🎱 World Snooker Live Champion of Champions 2026 - Leicester, England 🏴 (19:00)" group-title="Eventi Live DLHD",Snooker 🎱 | 🎱 World Snooker Live Champion of Champions 2026 - Leicester, England 🏴 (19:00)
 https://thedaddy.li/watch.php?id=353
@@ -266,12 +239,6 @@ https://thedaddy.li/watch.php?id=44
 #EXTINF:-1 tvg-id="womenscollegebasketballcollegeofcharlestonvssoutherncal" tvg-name="Women's College Basketball 🏀 | 🏀 Women's College Basketball : College of Charleston 🇺🇸 vs Southern Cal 🇺🇸 (03:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/College_of_Charleston_vs_Southern_Cal.png" group-title="Eventi Live DLHD",Women's College Basketball 🏀 | 🏀 Women's College Basketball : College of Charleston 🇺🇸 vs Southern Cal 🇺🇸 (03:30)
 https://thedaddy.li/watch.php?id=397
 
-#EXTINF:-1 tvg-id="liveracingfromhuntingdonandfairyhouse" tvg-name="Horse Racing 🏇 | 🏇 Live racing from Huntingdon and Fairyhouse (12:00)" group-title="Eventi Live DLHD",Horse Racing 🏇 | 🏇 Live racing from Huntingdon and Fairyhouse (12:00)
-https://thedaddy.li/watch.php?id=555
-
-#EXTINF:-1 tvg-id="liveracingfromaroundtheuk" tvg-name="Horse Racing 🏇 | 🏇 Live racing from around the UK (12:30)" group-title="Eventi Live DLHD",Horse Racing 🏇 | 🏇 Live racing from around the UK (12:30)
-https://thedaddy.li/watch.php?id=554
-
 #EXTINF:-1 tvg-id="nhlminnesotawildvsmontrealcanadiens" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Minnesota Wild 🇺🇸 vs Montreal Canadiens 🇨🇦 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Minnesota_Wild_vs_Montreal_Canadiens.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Minnesota Wild 🇺🇸 vs Montreal Canadiens 🇨🇦 (00:00)
 https://thedaddy.li/watch.php?id=550
 
@@ -282,9 +249,6 @@ https://thedaddy.li/watch.php?id=338
 https://thedaddy.li/watch.php?id=451
 
 #EXTINF:-1 tvg-id="worldchampionshipwomenswitzerlandwvsaustriaw" tvg-name="Ice Hockey 🏒 | 🏒 World Championship, Women : Switzerland (W) 🇨🇭 vs Austria (W) 🇦🇹 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Switzerland_W_vs_Austria_W.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 World Championship, Women : Switzerland (W) 🇨🇭 vs Austria (W) 🇦🇹 (18:00)
-https://thedaddy.li/watch.php?id=663
-
-#EXTINF:-1 tvg-id="iihfwomensicehockeyworldchampionshipjapanvsfinland" tvg-name="IIHF Ice Hockey 🏒 | 🏒 IIHF Women's Ice Hockey World Championship : Japan 🇯🇵 vs Finland 🇫🇮 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Japan_vs_Finland.png" group-title="Eventi Live DLHD",IIHF Ice Hockey 🏒 | 🏒 IIHF Women's Ice Hockey World Championship : Japan 🇯🇵 vs Finland 🇫🇮 (14:00)
 https://thedaddy.li/watch.php?id=663
 
 #EXTINF:-1 tvg-id="lenchampionsleaguecsmoradeavsbrescia" tvg-name="Water polo 🤽 | 🤽 LEN Champions League : CSM Oradea 🇷🇴 vs Brescia 🇮🇹 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/CSM_Oradea_vs_Brescia.png" group-title="Eventi Live DLHD",Water polo 🤽 | 🤽 LEN Champions League : CSM Oradea 🇷🇴 vs Brescia 🇮🇹 (17:30)

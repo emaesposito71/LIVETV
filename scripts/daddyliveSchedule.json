@@ -680,6 +680,20 @@
                     {
                         "channel_name": "ON Sport 1 Egypt",
                         "channel_id": "611"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1201"
+                    }
+                ]
+            },
+            {
+                "time": "17:30",
+                "event": "Romania Liga 2 : Metalul Buzau vs Steaua Bucuresti",
+                "channels": [
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1202"
                     }
                 ]
             },
@@ -690,6 +704,10 @@
                     {
                         "channel_name": "ESPN+ USA",
                         "channel_id": "55"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1205"
                     },
                     {
                         "channel_name": "beIN Sports Malaysia",
@@ -704,6 +722,10 @@
                     {
                         "channel_name": "CBS Sports Network",
                         "channel_id": "308"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1204"
                     },
                     {
                         "channel_name": "beIN Sports 3 Malaysia",
@@ -740,6 +762,10 @@
                         "channel_id": "59"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1210"
+                    },
+                    {
                         "channel_name": "M+ LALIGA TV",
                         "channel_id": "84"
                     }
@@ -752,6 +778,26 @@
                     {
                         "channel_name": "TV2 Sport X Denmark",
                         "channel_id": "808"
+                    }
+                ]
+            },
+            {
+                "time": "18:00",
+                "event": "\u26bd Spanish Copa del Rey : CD Pamplona vs SD Eibar",
+                "channels": [
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1209"
+                    }
+                ]
+            },
+            {
+                "time": "18:00",
+                "event": "\u26bd UEFA Women's Europa Cup : Feyenoord Women vs Wolfsburg Women",
+                "channels": [
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1211"
                     }
                 ]
             },
@@ -1890,6 +1936,10 @@
                         "channel_id": "4"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1203"
+                    },
+                    {
                         "channel_name": "Arena Sport 1 Serbia",
                         "channel_id": "429"
                     },
@@ -1916,6 +1966,10 @@
                         "channel_id": "5"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1219"
+                    },
+                    {
                         "channel_name": "Nova SPORT 1 CZ",
                         "channel_id": "1021"
                     },
@@ -1940,6 +1994,10 @@
                     {
                         "channel_name": "Nova SPORT 2 CZ",
                         "channel_id": "1022"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1218"
                     },
                     {
                         "channel_name": "Arena 1 Premium Serbia",
@@ -2068,6 +2126,10 @@
                         "channel_id": "135"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1212"
+                    },
+                    {
                         "channel_name": "Nova Sports 4 Greece",
                         "channel_id": "634"
                     },
@@ -2092,6 +2154,10 @@
                     {
                         "channel_name": "Magenta Sport 302",
                         "channel_id": "8"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1217"
                     },
                     {
                         "channel_name": "Arena 5 Premium Serbia",
@@ -2124,6 +2190,10 @@
                         "channel_id": "889"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1216"
+                    },
+                    {
                         "channel_name": "Arena 4 Premium Serbia",
                         "channel_id": "6"
                     },
@@ -2140,6 +2210,10 @@
                     {
                         "channel_name": "M+ Baloncesto Spain",
                         "channel_id": "23"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1220"
                     },
                     {
                         "channel_name": "Arena Sport 2 Serbia",
@@ -2170,6 +2244,10 @@
                     {
                         "channel_name": "Arena Sport 1 Serbia",
                         "channel_id": "429"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1213"
                     },
                     {
                         "channel_name": "Sportklub 3 Croatia",
@@ -3858,6 +3936,10 @@
                 "event": "\ud83c\udfd2 International Champions Hockey League, Qualifiers : Adler Mannheim vs Tappara Tampere",
                 "channels": [
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1214"
+                    },
+                    {
                         "channel_name": "Viaplay SE",
                         "channel_id": "3064"
                     }
@@ -3956,6 +4038,10 @@
                         "channel_id": "432"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1207"
+                    },
+                    {
                         "channel_name": "Viaplay Sport SE",
                         "channel_id": "3069"
                     }
@@ -3963,11 +4049,15 @@
             },
             {
                 "time": "18:00",
-                "event": "\ud83c\udfd2 Champions Hockey League : Rogle \ud83c\uddf8\ud83c\uddea vs Skelleftea \ud83c\uddf8\ud83c\uddea",
+                "event": "\ud83c\udfd2 Champions Hockey League : Rogle \u00c4ngelholm \ud83c\uddf8\ud83c\uddea vs Skelleftea AIK \ud83c\uddf8\ud83c\uddea",
                 "channels": [
                     {
                         "channel_name": "Viasat Vinter",
                         "channel_id": "26"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1208"
                     },
                     {
                         "channel_name": "V Sport Vinter",
@@ -3982,6 +4072,10 @@
                     {
                         "channel_name": "Polsat Sport 3 Poland",
                         "channel_id": "129"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1215"
                     },
                     {
                         "channel_name": "Arena Sport 5 Serbia",
