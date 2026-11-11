@@ -1360,7 +1360,7 @@ def eventi_dlhd_m3u8_generator_world():
     # Carica le variabili d'ambiente dal file .env
     load_dotenv()
 
-    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlive.sx"
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://thedaddy.li"
     JSON_FILE = os.path.join(script_dir, "daddyliveSchedule.json")
     OUTPUT_FILE = os.path.join(output_dir, "eventi_dlhd.m3u")
     HEADERS = { 
@@ -1737,7 +1737,7 @@ def eventi_dlhd_m3u8_generator():
 
     # Carica le variabili d'ambiente dal file .env
     load_dotenv()
-    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlive.sx"
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://thedaddy.li"
     JSON_FILE = os.path.join(script_dir, "daddyliveSchedule.json") # Cache in scripts
     OUTPUT_FILE = os.path.join(output_dir, "eventi_dlhd.m3u") # Output in main dir
      
@@ -2110,9 +2110,14 @@ def schedule_extractor():
     # Carica le variabili d'ambiente dal file .env
     load_dotenv()
     
+    # v-fix: dlive.sx e' offline (DNS non risolto): daddylive ora vive su
+    # thedaddy.li. Gli URL schedule derivano da LINK_DADDY (env): un futuro
+    # cambio di dominio si gestisce dal .env/workflow senza toccare il codice.
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://thedaddy.li"
+    _daddy_host = urllib.parse.urlparse(LINK_DADDY).netloc.replace(".", "-")
     SCHEDULE_URLS = [
-        "https://dlive-sx.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en",
-        "https://dlive.sx",
+        LINK_DADDY.rstrip("/") + "/",
+        f"https://{_daddy_host}.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en",
     ]
     
     def html_to_json(html_content):
@@ -2274,6 +2279,14 @@ def schedule_extractor():
                     print(f"X ERRORE cloudscraper con {url}: {str(e)}")
             return False
         
+        # v-fix: prima la via veloce (cloudscraper su HTML server-rendered,
+        # ~2s): se ottiene lo schedule non si avvia nemmeno Chromium. Sul
+        # nuovo dominio gli script pubblicitari della homepage possono
+        # mandare in crash il driver Playwright e bloccare l'estrazione.
+        # Il browser resta come fallback per eventuali challenge Cloudflare.
+        if scrape_via_requests():
+            return True
+
         for url in SCHEDULE_URLS:
             print(f"Accesso a {url}...")
             try:
@@ -2303,8 +2316,6 @@ def schedule_extractor():
             except Exception as e:
                 print(f"X ERRORE con {url}: {str(e)}")
 
-        if scrape_via_requests():
-            return True
         return False
     
     if __name__ == "__main__":
@@ -3382,7 +3393,7 @@ def search_m3u8_in_sites(channel_id, is_tennis=False, session=None):
     Cerca i file .m3u8 nei siti specificati per i canali daddy e tennis
     """
     # Carica la variabile d'ambiente LINK_DADDY
-    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlive.sx"
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://thedaddy.li"
     # Restituisce direttamente l'URL .php come richiesto
     embed_url = f"{LINK_DADDY}/watch.php?id={channel_id}"
     print(f"URL .php per il canale Daddylive {channel_id}: {embed_url}")
@@ -3430,7 +3441,7 @@ def main():
         try:
             if canali_daddy_flag == "si":
                 if _schedule_is_stale():
-                    print("::warning::Schedule dlive non scaricato con successo oggi: eventi_dlhd.m3u NON rigenerato (resta l'ultimo buono). Cause tipiche: dlive.sx o translate.goog bloccano lo scraping dal runner.")
+                    print("::warning::Schedule dlive non scaricato con successo oggi: eventi_dlhd.m3u NON rigenerato (resta l'ultimo buono). Cause tipiche: thedaddy.li/LINK_DADDY o translate.goog bloccano lo scraping dal runner.")
                 elif eventi_dlhd_en == "si":
                     eventi_dlhd_m3u8_generator_world()
                 else:
