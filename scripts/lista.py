@@ -275,6 +275,88 @@ def cached_poster_url(team1, team2):
         return absolute, absolute
     except Exception:
         return None, absolute
+
+def poster_github_url(relative_path, absolute_path):
+    """URL raw GitHub per un poster/logo (fallback: percorso locale)."""
+    user = os.getenv("NOMEGITHUB", "").strip()
+    repo = os.getenv("NOMEREPO", "").strip()
+    if user and repo:
+        return f"https://raw.githubusercontent.com/{user}/{repo}/main/{urllib.parse.quote(relative_path.replace(os.sep, '/'), safe='/')}"
+    return absolute_path
+
+
+def title_poster_relative_path(name):
+    return os.path.join("logos", f"evento_{_poster_slug(name)}.png")
+
+
+def cached_title_poster_url(name):
+    """URL del poster-titolo se gia' esistente e non piu' vecchio di 3 ore."""
+    relative = title_poster_relative_path(name)
+    absolute = os.path.join(output_dir, relative)
+    try:
+        if not os.path.exists(absolute):
+            return None
+        if time.time() - os.path.getmtime(absolute) > 3 * 60 * 60:
+            return None
+        if not poster_is_current(absolute):
+            return None
+        return poster_github_url(relative, absolute)
+    except Exception:
+        return None
+
+
+def create_title_poster(name, category='', output_path=''):
+    """Poster per eventi senza 'vs' (race, tornei, sessioni): monogramma
+    grande al centro + titolo, stesso stile/gradienti dei poster 'vs'."""
+    W, H = POSTER_SIZE
+    S = W / 640.0
+    accent = _poster_accent(name, category)
+    gold = (212, 175, 55)
+
+    bg = Image.new('RGB', (W, H), (10, 10, 15))
+    draw = ImageDraw.Draw(bg)
+    top, bottom = (10, 10, 15), (25, 25, 38)
+    for y in range(H):
+        t = y / max(1, H - 1)
+        draw.line((0, y, W, y), fill=(
+            int(top[0] + (bottom[0] - top[0]) * t),
+            int(top[1] + (bottom[1] - top[1]) * t),
+            int(top[2] + (bottom[2] - top[2]) * t),
+        ))
+
+    bg = bg.convert('RGBA')
+    draw = ImageDraw.Draw(bg)
+    overlay = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    od = ImageDraw.Draw(overlay)
+    od.polygon([(0, H), (W, int(H * 0.66)), (W, H)], fill=(*accent, 22))
+    od.polygon([(0, H), (W, int(H * 0.79)), (W, H)], fill=(*gold, 16))
+    bg = Image.alpha_composite(bg, overlay)
+    draw = ImageDraw.Draw(bg)
+
+    league = _poster_league(name, category)
+    header_font = _poster_font(max(10, int(13 * S)), bold=True)
+    draw.text((int(32 * S), int(18 * S)), league, font=header_font, fill=accent, anchor='la')
+
+    initials = _poster_initials(name)
+    mono_font = _poster_font(max(40, int(120 * S)), bold=True)
+    draw.text((W // 2, int(H * 0.40)), initials, font=mono_font, fill=accent, anchor='mm')
+
+    name_font = _poster_font(max(11, int(17 * S)), bold=True)
+    lines = _poster_wrap(_poster_clean(name), 26, 2)
+    start_y = int(H * 0.72)
+    for i, line in enumerate(lines):
+        draw.text((W // 2, start_y + i * int(20 * S)), line, font=name_font, fill=(241, 245, 249), anchor='ma')
+
+    rule_y = int(H * 0.90)
+    draw.line((int(64 * S), rule_y, W - int(64 * S), rule_y), fill=(*gold, 90), width=1)
+
+    if output_path:
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        info = PngImagePlugin.PngInfo()
+        info.add_text("livetv-poster", POSTER_VERSION)
+        bg.convert('RGB').save(output_path, 'PNG', optimize=True, pnginfo=info)
+    return bg
+
 # ---------- end poster generator ----------
 
 # ---------- EasySports-style multi-source logo resolver ----------
@@ -1448,6 +1530,24 @@ def eventi_dlhd_m3u8_generator_world():
         except Exception as e: 
             print(f"[!] Errore nella ricerca del logo per '{event_name}': {e}") 
         
+        # v-fix: eventi SENZA "vs" nel titolo (F1, MotoGP, tennis,
+        # ciclismo, skating...): questa funzione finiva qui e restituiva
+        # None, lasciando le card senza immagine. Ora si genera un poster
+        # con monogramma/titolo (stessa cache di 3h dei poster "vs").
+        try:
+            clean_name = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', str(event_name or '')).strip()
+            title_name = _poster_clean(clean_name) or "Evento"
+            cached_title = cached_title_poster_url(title_name)
+            if cached_title:
+                return cached_title
+            relative_title = title_poster_relative_path(title_name)
+            absolute_title = os.path.join(output_dir, relative_title)
+            create_title_poster(title_name, category, absolute_title)
+            print(f"[OK] Poster titolo creato: {relative_title}")
+            return poster_github_url(relative_title, absolute_title)
+        except Exception as e_title:
+            print(f"[!] Poster titolo fallito per '{event_name}': {e_title}")
+
         # Se non troviamo nulla, restituiamo None 
         return None
 
@@ -1469,7 +1569,15 @@ def eventi_dlhd_m3u8_generator_world():
     #     return re.sub(r'<[^>]+>', '', name).strip()
      
     def extract_channels_from_json(path): 
-        keywords = {"italy", "rai", "italia", "it", "uk", "tnt", "usa", "tennis channel", "tennis stream", "la"} 
+        # v-fix: filtro canali configurabile via EVENTI_KEYWORDS (lista
+        # separata da virgole). VUOTO (default) = NESSUN filtro: si
+        # emettono TUTTI gli eventi dello schedule con tutti i loro
+        # canali. Il vecchio set fisso eliminava silenziosamente ~80%
+        # degli eventi (tutti quelli su canali SS/UK/US/LIVE/PPV...).
+        keywords = {k.strip().lower() for k in os.getenv("EVENTI_KEYWORDS", "").split(",") if k.strip()}
+        # v-fix: cutoff eventi gia' iniziati configurabile in ore.
+        # 0 (default) = tutta la giornata: la app filtra da sola i finiti.
+        hours_back = _env_int("EVENTI_HOURS_BACK", 0, 0)
         now = datetime.now()  # ora attuale completa (data+ora) 
      
         with open(path, "r", encoding="utf-8") as f: 
@@ -1499,6 +1607,7 @@ def eventi_dlhd_m3u8_generator_world():
      
                 for item in event_items: 
                     time_str = item.get("time", "00:00") # Orario originale dal JSON
+                    event_date_obj = block_date
                     event_title = item.get("event", "Evento") 
      
                     try: 
@@ -1510,8 +1619,13 @@ def eventi_dlhd_m3u8_generator_world():
                         event_date_obj = block_date + timedelta(days=1) if original_event_time_obj.hour < 5 else block_date
                         event_datetime = datetime.combine(event_date_obj, original_event_time_obj)
 
-                        # Includi se l'evento e' iniziato da meno di 2 ore (o e' futuro)
-                        if now - event_datetime > timedelta(hours=2):
+                        # v-fix: cutoff configurabile via EVENTI_HOURS_BACK (ore).
+                        # 0 (default) = si mantiene l'intera giornata; gli
+                        # eventi gia' iniziati restano in playlist e la UI
+                        # li mostra come finiti. Il vecchio cutoff fisso a
+                        # 2 ore svuotava il mattino se lo script girava
+                        # nel pomeriggio.
+                        if hours_back > 0 and (now - event_datetime).total_seconds() > hours_back * 3600:
                             continue
 
                         time_formatted = event_datetime.strftime("%H:%M")
@@ -1523,15 +1637,20 @@ def eventi_dlhd_m3u8_generator_world():
                         channel_name = ch.get("channel_name", "") 
                         channel_id = ch.get("channel_id", "") 
      
-                        words = set(re.findall(r'\b\w+\b', channel_name.lower())) 
-                        if keywords.intersection(words): 
-                            tvg_name = f"{event_title} ({time_formatted})" 
-                            categorized_channels[category].append({ 
-                                "tvg_name": tvg_name, 
-                                "channel_name": channel_name, 
-                                "channel_id": channel_id,
-                                "event_title": event_title  # Aggiungiamo il titolo dell'evento per la ricerca del logo
-                            }) 
+                        # v-fix: filtro canali SOLO se EVENTI_KEYWORDS e'
+                        # impostato; default = nessun filtro.
+                        if keywords:
+                            words = set(re.findall(r'\b\w+\b', channel_name.lower()))
+                            if not keywords.intersection(words):
+                                continue
+                        tvg_name = f"{event_title} ({time_formatted})"
+                        categorized_channels[category].append({
+                            "tvg_name": tvg_name,
+                            "channel_name": channel_name,
+                            "channel_id": channel_id,
+                            "event_title": event_title,  # titolo per la ricerca del logo
+                            "event_date": event_date_obj.isoformat(),  # v-fix: data reale (rollover <05:00)
+                        })
      
         return categorized_channels 
      
@@ -1575,7 +1694,11 @@ def eventi_dlhd_m3u8_generator_world():
                                                     
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
-                            f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
+                            # v-fix: data reale dell'evento in ISO (i titoli
+                            # portano solo HH:MM): la app la usa per collocare
+                            # gli eventi notturni (rollover 05:00 UK).
+                            date_attribute = f' x-event-date="{ch.get("event_date", "")}"' if ch.get("event_date") else ''
+                            f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}"{date_attribute} tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
                             # Aggiungi EXTHTTP headers per canali daddy (esclusi .php)
                             if "ava.karmakurama.com" in stream and not stream.endswith('.php'):
                                 daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referrer": "https://ava.karmakurama.com/", "Origin": "https://ava.karmakurama.com"}
@@ -1785,6 +1908,24 @@ def eventi_dlhd_m3u8_generator():
         except Exception as e: 
             print(f"[!] Errore nella ricerca del logo per '{event_name}': {e}") 
         
+        # v-fix: eventi SENZA "vs" nel titolo (F1, MotoGP, tennis,
+        # ciclismo, skating...): questa funzione finiva qui e restituiva
+        # None, lasciando le card senza immagine. Ora si genera un poster
+        # con monogramma/titolo (stessa cache di 3h dei poster "vs").
+        try:
+            clean_name = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', str(event_name or '')).strip()
+            title_name = _poster_clean(clean_name) or "Evento"
+            cached_title = cached_title_poster_url(title_name)
+            if cached_title:
+                return cached_title
+            relative_title = title_poster_relative_path(title_name)
+            absolute_title = os.path.join(output_dir, relative_title)
+            create_title_poster(title_name, category, absolute_title)
+            print(f"[OK] Poster titolo creato: {relative_title}")
+            return poster_github_url(relative_title, absolute_title)
+        except Exception as e_title:
+            print(f"[!] Poster titolo fallito per '{event_name}': {e_title}")
+
         # Se non troviamo nulla, restituiamo None 
         return None
 
@@ -1806,7 +1947,15 @@ def eventi_dlhd_m3u8_generator():
         return re.sub(r'<[^>]+>', '', name).strip() 
      
     def extract_channels_from_json(path): 
-        keywords = {"italy", "rai", "italia", "it"} 
+        # v-fix: filtro canali configurabile via EVENTI_KEYWORDS (lista
+        # separata da virgole). VUOTO (default) = NESSUN filtro: si
+        # emettono TUTTI gli eventi dello schedule con tutti i loro
+        # canali. Il vecchio set fisso eliminava silenziosamente ~80%
+        # degli eventi (tutti quelli su canali SS/UK/US/LIVE/PPV...).
+        keywords = {k.strip().lower() for k in os.getenv("EVENTI_KEYWORDS", "").split(",") if k.strip()}
+        # v-fix: cutoff eventi gia' iniziati configurabile in ore.
+        # 0 (default) = tutta la giornata: la app filtra da sola i finiti.
+        hours_back = _env_int("EVENTI_HOURS_BACK", 0, 0)
         now = datetime.now()  # ora attuale completa (data+ora) 
      
         with open(path, "r", encoding="utf-8") as f: 
@@ -1836,6 +1985,7 @@ def eventi_dlhd_m3u8_generator():
      
                 for item in event_items: 
                     time_str = item.get("time", "00:00") 
+                    event_date_obj = block_date
                     try: 
                         # Parse orario evento
                         time_obj = datetime.strptime(time_str, "%H:%M")
@@ -1845,8 +1995,13 @@ def eventi_dlhd_m3u8_generator():
                         event_date_obj = block_date + timedelta(days=1) if time_obj.hour < 5 else block_date
                         event_datetime = datetime.combine(event_date_obj, time_obj.time())
 
-                        # Includi se l'evento e' iniziato da meno di 2 ore (o e' futuro)
-                        if now - event_datetime > timedelta(hours=2):
+                        # v-fix: cutoff configurabile via EVENTI_HOURS_BACK (ore).
+                        # 0 (default) = si mantiene l'intera giornata; gli
+                        # eventi gia' iniziati restano in playlist e la UI
+                        # li mostra come finiti. Il vecchio cutoff fisso a
+                        # 2 ore svuotava il mattino se lo script girava
+                        # nel pomeriggio.
+                        if hours_back > 0 and (now - event_datetime).total_seconds() > hours_back * 3600:
                             continue
 
                         time_formatted = time_obj.strftime("%H:%M")
@@ -1859,15 +2014,20 @@ def eventi_dlhd_m3u8_generator():
                         channel_name = ch.get("channel_name", "") 
                         channel_id = ch.get("channel_id", "") 
      
-                        words = set(re.findall(r'\b\w+\b', channel_name.lower())) 
-                        if keywords.intersection(words): 
-                            tvg_name = f"{event_title} ({time_formatted})" 
-                            categorized_channels[category].append({ 
-                                "tvg_name": tvg_name, 
-                                "channel_name": channel_name, 
-                                "channel_id": channel_id,
-                                "event_title": event_title  # Aggiungiamo il titolo dell'evento per la ricerca del logo
-                            }) 
+                        # v-fix: filtro canali SOLO se EVENTI_KEYWORDS e'
+                        # impostato; default = nessun filtro.
+                        if keywords:
+                            words = set(re.findall(r'\b\w+\b', channel_name.lower()))
+                            if not keywords.intersection(words):
+                                continue
+                        tvg_name = f"{event_title} ({time_formatted})"
+                        categorized_channels[category].append({
+                            "tvg_name": tvg_name,
+                            "channel_name": channel_name,
+                            "channel_id": channel_id,
+                            "event_title": event_title,  # titolo per la ricerca del logo
+                            "event_date": event_date_obj.isoformat(),  # v-fix: data reale (rollover <05:00)
+                        })
      
         return categorized_channels 
      
@@ -1911,7 +2071,11 @@ def eventi_dlhd_m3u8_generator():
 
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
-                            f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
+                            # v-fix: data reale dell'evento in ISO (i titoli
+                            # portano solo HH:MM): la app la usa per collocare
+                            # gli eventi notturni (rollover 05:00 UK).
+                            date_attribute = f' x-event-date="{ch.get("event_date", "")}"' if ch.get("event_date") else ''
+                            f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}"{date_attribute} tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
                             # Aggiungi EXTHTTP headers per canali daddy (esclusi .php)
                             if "ava.karmakurama.com" in stream and not stream.endswith('.php'):
                                 daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referrer": "https://ava.karmakurama.com/", "Origin": "https://ava.karmakurama.com"}
@@ -1947,8 +2111,8 @@ def schedule_extractor():
     load_dotenv()
     
     SCHEDULE_URLS = [
-        "https://thedaddy.li",
-        "https://thedaddy-li.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en",
+        "https://dlive-sx.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en",
+        "https://dlive.sx",
     ]
     
     def html_to_json(html_content):
@@ -2056,6 +2220,59 @@ def schedule_extractor():
         
         script_dir = os.path.dirname(os.path.abspath(__file__))
         json_output = os.path.join(script_dir, "daddyliveSchedule.json")
+
+        def save_schedule(json_data):
+            """v-fix: salva JSON + meta (con conteggi) solo se ha eventi."""
+            n_day = len(json_data)
+            n_cat = sum(len(sections) for sections in json_data.values())
+            n_ev = sum(len(items) for sections in json_data.values() for items in sections.values())
+            n_ch = sum(len(it.get("channels", [])) for sections in json_data.values() for items in sections.values() for it in items)
+            print(f"[INFO] Schedule: {n_day} giorno(i), {n_cat} categorie, {n_ev} eventi, {n_ch} righe canale")
+            if n_ev == 0:
+                print("AVVISO: schedule vuoto (0 eventi): non salvato, resta l'ultimo buono.")
+                return False
+            with open(json_output, "w", encoding="utf-8") as f:
+                json.dump(json_data, f, indent=4)
+            print(f"OK Salvato in {json_output}")
+            modify_json_file(json_output)
+            meta = {
+                "scraped_at": datetime.utcnow().isoformat(),
+                "day_title": next(iter(json_data), ""),
+                "categories": n_cat,
+                "events": n_ev,
+                "channel_rows": n_ch,
+            }
+            with open(os.path.join(script_dir, "schedule_meta.json"), "w", encoding="utf-8") as mf:
+                json.dump(meta, mf, indent=2)
+            return True
+
+        def scrape_via_requests():
+            """v-fix: fallback requests+cloudscraper quando Playwright o il
+            mirror translate.goog falliscono (la causa tipica degli eventi
+            che spariscono: l'ultima estrazione riuscita resta congelata)."""
+            try:
+                import cloudscraper
+            except Exception:
+                print("[!] cloudscraper non disponibile: fallback disattivato.")
+                return False
+            for url in SCHEDULE_URLS:
+                print(f"Accesso (cloudscraper) a {url}...")
+                try:
+                    response = cloudscraper.create_scraper().get(url, timeout=30)
+                    response.raise_for_status()
+                    soup = BeautifulSoup(response.text, 'html.parser')
+                    schedule_div = soup.find('div', id='schedule')
+                    if not schedule_div:
+                        schedule_div = soup.find('div', class_='schedule schedule--compact')
+                    if not schedule_div:
+                        print(f"X #schedule non trovato (cloudscraper) su {url}")
+                        continue
+                    print("OK Schedule estratto via cloudscraper!")
+                    if save_schedule(html_to_json(str(schedule_div))):
+                        return True
+                except Exception as e:
+                    print(f"X ERRORE cloudscraper con {url}: {str(e)}")
+            return False
         
         for url in SCHEDULE_URLS:
             print(f"Accesso a {url}...")
@@ -2078,19 +2295,16 @@ def schedule_extractor():
                     print("❌ #schedule non trovato!")
                     continue
                 
-                print("✓ Schedule estratto!")
+                print("OK Schedule estratto!")
                 json_data = html_to_json(str(schedule_div))
-                
-                with open(json_output, "w", encoding="utf-8") as f:
-                    json.dump(json_data, f, indent=4)
-                
-                print(f"✓ Salvato in {json_output}")
-                modify_json_file(json_output)
-                return True
+                if save_schedule(json_data):
+                    return True
                 
             except Exception as e:
-                print(f"❌ ERRORE con {url}: {str(e)}")
-        
+                print(f"X ERRORE con {url}: {str(e)}")
+
+        if scrape_via_requests():
+            return True
         return False
     
     if __name__ == "__main__":
@@ -3175,6 +3389,25 @@ def search_m3u8_in_sites(channel_id, is_tennis=False, session=None):
     return embed_url
 
 # Funzione principale che esegue tutti gli script
+
+def _schedule_is_stale():
+    """v-fix: True se lo schedule non e' stato salvato con successo OGGI
+    (UTC) oppure e' vuoto. schedule_meta.json viene scritto da
+    schedule_extractor ad ogni estrazione riuscita e committato dal
+    workflow, quindi sopravvive tra i run. Rigenerare eventi_dlhd.m3u da
+    un JSON vecchio produrrebbe eventi fantasma: la data e' ricostruita
+    come "oggi" (block_date = max(date, today))."""
+    try:
+        with open(os.path.join(script_dir, "schedule_meta.json"), "r", encoding="utf-8") as f:
+            meta = json.load(f)
+        scraped = datetime.fromisoformat(str(meta.get("scraped_at", "")))
+        if scraped.date() != datetime.utcnow().date():
+            return True
+        return int(meta.get("events", 0)) <= 0
+    except Exception:
+        return True
+
+
 def main():
     # load_daddy_cache()  # RIMOSSO: non più definita né necessaria
     try:
@@ -3190,9 +3423,15 @@ def main():
         world_flag = os.getenv("WORLD", "si").strip().lower()
 
         # eventi_dlhd M3U8
+        # v-fix: se lo schedule non e' stato scaricato con successo OGGI,
+        # non si rigenera eventi_dlhd.m3u dal JSON vecchio: la data viene
+        # ricostruita come "oggi" e produrrebbe eventi fantasma del giorno
+        # sbagliato. Si conserva l'ultimo M3U buono e si segnala il problema.
         try:
             if canali_daddy_flag == "si":
-                if eventi_dlhd_en == "si":
+                if _schedule_is_stale():
+                    print("::warning::Schedule dlive non scaricato con successo oggi: eventi_dlhd.m3u NON rigenerato (resta l'ultimo buono). Cause tipiche: dlive.sx o translate.goog bloccano lo scraping dal runner.")
+                elif eventi_dlhd_en == "si":
                     eventi_dlhd_m3u8_generator_world()
                 else:
                     eventi_dlhd_m3u8_generator()
