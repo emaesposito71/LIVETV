@@ -1575,6 +1575,10 @@ def eventi_dlhd_m3u8_generator_world():
         # canali. Il vecchio set fisso eliminava silenziosamente ~80%
         # degli eventi (tutti quelli su canali SS/UK/US/LIVE/PPV...).
         keywords = {k.strip().lower() for k in os.getenv("EVENTI_KEYWORDS", "").split(",") if k.strip()}
+        # v-fix: blacklist categorie via EVENTI_EXCLUDE_CATS (sottostringhe
+        # separate da virgole, case-insensitive). Default: "TV Shows,Upcoming
+        # Events". EVENTI_EXCLUDE_CATS="" = nessuna esclusione.
+        exclude_cats = [k.strip().lower() for k in os.getenv("EVENTI_EXCLUDE_CATS", "TV Shows,Upcoming Events").split(",") if k.strip()]
         # v-fix: cutoff eventi gia' iniziati configurabile in ore.
         # 0 (default) = tutta la giornata: la app filtra da sola i finiti.
         hours_back = _env_int("EVENTI_HOURS_BACK", 0, 0)
@@ -1599,8 +1603,11 @@ def eventi_dlhd_m3u8_generator_world():
      
             for category_raw, event_items in sections.items(): 
                 category = clean_category_name(category_raw)
-                # Salta la categoria TV Shows
-                if category.lower() == "tv shows":
+                # v-fix: il vecchio confronto == "tv shows" non matchava MAI
+                # (la categoria reale e' "TV Shows 📺", con emoji): i telefilm
+                # finivano in playlist. Ora blacklist a sottostringa.
+                cat_lower = category.lower()
+                if any(x in cat_lower for x in exclude_cats):
                     continue
                 if category not in categorized_channels: 
                     categorized_channels[category] = [] 
@@ -1953,6 +1960,10 @@ def eventi_dlhd_m3u8_generator():
         # canali. Il vecchio set fisso eliminava silenziosamente ~80%
         # degli eventi (tutti quelli su canali SS/UK/US/LIVE/PPV...).
         keywords = {k.strip().lower() for k in os.getenv("EVENTI_KEYWORDS", "").split(",") if k.strip()}
+        # v-fix: blacklist categorie via EVENTI_EXCLUDE_CATS (sottostringhe
+        # separate da virgole, case-insensitive). Default: "TV Shows,Upcoming
+        # Events". EVENTI_EXCLUDE_CATS="" = nessuna esclusione.
+        exclude_cats = [k.strip().lower() for k in os.getenv("EVENTI_EXCLUDE_CATS", "TV Shows,Upcoming Events").split(",") if k.strip()]
         # v-fix: cutoff eventi gia' iniziati configurabile in ore.
         # 0 (default) = tutta la giornata: la app filtra da sola i finiti.
         hours_back = _env_int("EVENTI_HOURS_BACK", 0, 0)
@@ -1977,8 +1988,11 @@ def eventi_dlhd_m3u8_generator():
      
             for category_raw, event_items in sections.items(): 
                 category = clean_category_name(category_raw)
-                # Salta la categoria TV Shows
-                if category.lower() == "tv shows":
+                # v-fix: il vecchio confronto == "tv shows" non matchava MAI
+                # (la categoria reale e' "TV Shows 📺", con emoji): i telefilm
+                # finivano in playlist. Ora blacklist a sottostringa.
+                cat_lower = category.lower()
+                if any(x in cat_lower for x in exclude_cats):
                     continue
                 if category not in categorized_channels: 
                     categorized_channels[category] = [] 
