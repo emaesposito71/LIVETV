@@ -3433,6 +3433,36 @@ def _schedule_is_stale():
         return True
 
 
+def aggiorna_dlhd_canali_fissi():
+    """Rigenera dlhd.m3u (canali 24/7) allineando il dominio a LINK_DADDY.
+
+    dlhd.m3u e' una lista statica: nomi, loghi, tvg-id e id canale non
+    cambiano, cambia solo il dominio (es. dlive.sx -> thedaddy.li).
+    La funzione usa il file esistente come template e riscrive solo gli
+    URL watch.php?id=... con il LINK_DADDY corrente letto dal .env,
+    lasciando intatti gli altri URL (es. popcdn.day).
+    """
+    import re
+    link_daddy = (os.getenv("LINK_DADDY", "") or "").strip().rstrip("/") or "https://thedaddy.li"
+    path_dlhd = os.path.join(output_dir, "dlhd.m3u")
+    if not os.path.exists(path_dlhd):
+        print(f"[DLHD 24/7] File non trovato, salto: {path_dlhd}")
+        return
+    with open(path_dlhd, "r", encoding="utf-8") as f:
+        contenuto = f.read()
+    nuovo, n = re.subn(r"https?://[^/\s\"']+/watch\.php\?id=",
+                       f"{link_daddy}/watch.php?id=", contenuto)
+    if n == 0:
+        print("[DLHD 24/7] Nessun URL watch.php trovato in dlhd.m3u")
+        return
+    if nuovo != contenuto:
+        with open(path_dlhd, "w", encoding="utf-8") as f:
+            f.write(nuovo)
+        print(f"[DLHD 24/7] dlhd.m3u aggiornato: {n} URL -> {link_daddy}")
+    else:
+        print(f"[DLHD 24/7] dlhd.m3u gia' allineato a {link_daddy} ({n} URL)")
+
+
 def main():
     # load_daddy_cache()  # RIMOSSO: non più definita né necessaria
     try:
@@ -3442,6 +3472,13 @@ def main():
                 schedule_success = schedule_extractor()
             except Exception as e:
                 print(f"Errore durante l'esecuzione di schedule_extractor: {e}")
+
+        # Canali fissi 24/7 DLHD: allinea dlhd.m3u al dominio corrente
+        try:
+            if canali_daddy_flag == "si":
+                aggiorna_dlhd_canali_fissi()
+        except Exception as e:
+            print(f"Errore durante l'aggiornamento di dlhd.m3u: {e}")
 
         # Leggi le variabili d'ambiente
         eventi_dlhd_en = os.getenv("eventi_dlhd_EN", "no").strip().lower()
