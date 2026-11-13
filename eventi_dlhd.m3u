@@ -2,6 +2,21 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
+#EXTINF:-1 tvg-id="2026floracingnightinamericaatsenoiaraceway" x-event-date="2026-11-13" tvg-name="PPV Events 🎟️ | 🏁 2026 FloRacing Night in America at Senoia Raceway (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_2026_FloRacing_Night_in_America_at_Senoia_Raceway.png" group-title="Eventi Live DLHD",PPV Events 🎟️ | 🏁 2026 FloRacing Night in America at Senoia Raceway (21:30)
+https://thedaddy.li/watch.php?id=20
+
+#EXTINF:-1 tvg-id="wvtoughmancontest" x-event-date="2026-11-14" tvg-name="PPV Events 🎟️ | 🏁 WV Toughman Contest (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_WV_Toughman_Contest.png" group-title="Eventi Live DLHD",PPV Events 🎟️ | 🏁 WV Toughman Contest (00:00)
+https://thedaddy.li/watch.php?id=13
+
+#EXTINF:-1 tvg-id="2026naranationalsatsouthernillinoiscenter" x-event-date="2026-11-14" tvg-name="PPV Events 🎟️ | 🏁 2026 NARA Nationals at Southern Illinois Center (00:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_2026_NARA_Nationals_at_Southern_Illinois_Center.png" group-title="Eventi Live DLHD",PPV Events 🎟️ | 🏁 2026 NARA Nationals at Southern Illinois Center (00:30)
+https://thedaddy.li/watch.php?id=14
+
+#EXTINF:-1 tvg-id="redowlboxingboxfestxxiiangelperezvswesleyferrer" x-event-date="2026-11-14" tvg-name="PPV Events 🎟️ | 🏁 Red Owl Boxing : BoxFest XXII - Angel Perez vs Wesley Ferrer (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/BoxFest_XXII_Angel_Perez_vs_Wesley_Ferrer.png" group-title="Eventi Live DLHD",PPV Events 🎟️ | 🏁 Red Owl Boxing : BoxFest XXII - Angel Perez vs Wesley Ferrer (01:00)
+https://thedaddy.li/watch.php?id=15
+
+#EXTINF:-1 tvg-id="2026amaendurocrossatidahofalls" x-event-date="2026-11-14" tvg-name="PPV Events 🎟️ | 🏁 2026 AMA EnduroCross at Idaho Falls (02:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_2026_AMA_EnduroCross_at_Idaho_Falls.png" group-title="Eventi Live DLHD",PPV Events 🎟️ | 🏁 2026 AMA EnduroCross at Idaho Falls (02:00)
+https://thedaddy.li/watch.php?id=16
+
 #EXTINF:-1 tvg-id="africacupofnationsqualificationcomorosvscongo" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Comoros 🇰🇲 vs Congo 🇨🇬 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Comoros_vs_Congo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Comoros 🇰🇲 vs Congo 🇨🇬 (13:00)
 https://thedaddy.li/watch.php?id=117
 
@@ -40,6 +55,9 @@ https://thedaddy.li/watch.php?id=413
 
 #EXTINF:-1 tvg-id="uefanationsleaguemoldovavskazakhstan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Moldova 🇲🇩 vs Kazakhstan 🇰🇿 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Moldova_vs_Kazakhstan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Moldova 🇲🇩 vs Kazakhstan 🇰🇿 (17:00)
 https://thedaddy.li/watch.php?id=68
+
+#EXTINF:-1 tvg-id="uefanationsleaguemoldovavskazakhstan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Moldova 🇲🇩 vs Kazakhstan 🇰🇿 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Moldova_vs_Kazakhstan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Moldova 🇲🇩 vs Kazakhstan 🇰🇿 (17:00)
+https://thedaddy.li/watch.php?id=1211
 
 #EXTINF:-1 tvg-id="uefanationsleaguemoldovavskazakhstan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Moldova 🇲🇩 vs Kazakhstan 🇰🇿 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Moldova_vs_Kazakhstan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Moldova 🇲🇩 vs Kazakhstan 🇰🇿 (17:00)
 https://thedaddy.li/watch.php?id=756
@@ -182,14 +200,32 @@ https://thedaddy.li/watch.php?id=1209
 #EXTINF:-1 tvg-id="footballslovenianleague2triglavvsplants" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Football - Slovenian League 2: Triglav 🇸🇮 vs Plants 🇸🇮 (16:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Triglav_vs_Plants.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Football - Slovenian League 2: Triglav 🇸🇮 vs Plants 🇸🇮 (16:30)
 https://thedaddy.li/watch.php?id=25
 
+#EXTINF:-1 tvg-id="friendlymatchgermanyu21vsbelgiumu21" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Friendly Match : Germany U21 vs Belgium U21 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Germany_U21_vs_Belgium_U21.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Friendly Match : Germany U21 vs Belgium U21 (17:00)
+https://thedaddy.li/watch.php?id=1213
+
+#EXTINF:-1 tvg-id="friendlymatchgermanyu21vsbelgiumu21" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Friendly Match : Germany U21 vs Belgium U21 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Germany_U21_vs_Belgium_U21.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Friendly Match : Germany U21 vs Belgium U21 (17:00)
+https://thedaddy.li/watch.php?id=1213
+
 #EXTINF:-1 tvg-id="eurou21qualifyingdenmarku21vsnetherlandsu21" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Euro U-21 Qualifying : Denmark U21 🇩🇰 vs Netherlands U21 🇳🇱 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Denmark_U21_vs_Netherlands_U21.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Euro U-21 Qualifying : Denmark U21 🇩🇰 vs Netherlands U21 🇳🇱 (17:30)
 https://thedaddy.li/watch.php?id=379
+
+#EXTINF:-1 tvg-id="eurou21qualifyingdenmarku21vsnetherlandsu21" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Euro U-21 Qualifying : Denmark U21 🇩🇰 vs Netherlands U21 🇳🇱 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Denmark_U21_vs_Netherlands_U21.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Euro U-21 Qualifying : Denmark U21 🇩🇰 vs Netherlands U21 🇳🇱 (17:30)
+https://thedaddy.li/watch.php?id=1212
 
 #EXTINF:-1 tvg-id="frauenbundesligahamburgersvvsmainz" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Hamburger SV 🇩🇪 vs Mainz 🇩🇪 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hamburger_SV_vs_Mainz.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Hamburger SV 🇩🇪 vs Mainz 🇩🇪 (17:30)
 https://thedaddy.li/watch.php?id=13
 
 #EXTINF:-1 tvg-id="frauenbundesligahamburgersvvsmainz" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Hamburger SV 🇩🇪 vs Mainz 🇩🇪 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hamburger_SV_vs_Mainz.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Hamburger SV 🇩🇪 vs Mainz 🇩🇪 (17:30)
+https://thedaddy.li/watch.php?id=1217
+
+#EXTINF:-1 tvg-id="frauenbundesligahamburgersvvsmainz" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Hamburger SV 🇩🇪 vs Mainz 🇩🇪 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hamburger_SV_vs_Mainz.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Hamburger SV 🇩🇪 vs Mainz 🇩🇪 (17:30)
 https://thedaddy.li/watch.php?id=426
+
+#EXTINF:-1 tvg-id="francepremiereliguewomennanteswvslensw" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ France Premiere Ligue Women : Nantes W vs Lens W (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nantes_W_vs_Lens_W.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France Premiere Ligue Women : Nantes W vs Lens W (18:00)
+https://thedaddy.li/watch.php?id=1218
+
+#EXTINF:-1 tvg-id="friendlymatchfranceu21vsitalyu21" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Friendly Match : France U21 vs Italy U21 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_U21_vs_Italy_U21.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Friendly Match : France U21 vs Italy U21 (17:30)
+https://thedaddy.li/watch.php?id=1216
 
 #EXTINF:-1 tvg-id="francepremièreliguenantesvslens" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ France - Première Ligue : Nantes 🇫🇷 vs Lens 🇫🇷 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nantes_vs_Lens.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France - Première Ligue : Nantes 🇫🇷 vs Lens 🇫🇷 (18:00)
 https://thedaddy.li/watch.php?id=148
@@ -225,10 +261,16 @@ https://thedaddy.li/watch.php?id=146
 https://thedaddy.li/watch.php?id=539
 
 #EXTINF:-1 tvg-id="spainsegundadivisionleganésvsburgos" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Leganés 🇪🇸 vs Burgos 🇪🇸 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Leganes_vs_Burgos.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Leganés 🇪🇸 vs Burgos 🇪🇸 (19:30)
+https://thedaddy.li/watch.php?id=1202
+
+#EXTINF:-1 tvg-id="spainsegundadivisionleganésvsburgos" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Leganés 🇪🇸 vs Burgos 🇪🇸 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Leganes_vs_Burgos.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Leganés 🇪🇸 vs Burgos 🇪🇸 (19:30)
 https://thedaddy.li/watch.php?id=712
 
 #EXTINF:-1 tvg-id="spainsegundadivisionleganésvsburgos" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Leganés 🇪🇸 vs Burgos 🇪🇸 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Leganes_vs_Burgos.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Leganés 🇪🇸 vs Burgos 🇪🇸 (19:30)
 https://thedaddy.li/watch.php?id=3026
+
+#EXTINF:-1 tvg-id="friendlymatchenglandu21vsportugalu21" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Friendly Match : England U21 vs Portugal U21 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/England_U21_vs_Portugal_U21.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Friendly Match : England U21 vs Portugal U21 (19:30)
+https://thedaddy.li/watch.php?id=1203
 
 #EXTINF:-1 tvg-id="italyseriecospitalettovsdolomitibellunesi" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Ospitaletto 🇮🇹 vs Dolomiti Bellunesi 🇮🇹 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ospitaletto_vs_Dolomiti_Bellunesi.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Ospitaletto 🇮🇹 vs Dolomiti Bellunesi 🇮🇹 (19:30)
 https://thedaddy.li/watch.php?id=23
@@ -244,6 +286,9 @@ https://thedaddy.li/watch.php?id=69
 
 #EXTINF:-1 tvg-id="uefanationsleaguebulgariavsiceland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bulgaria_vs_Iceland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)
 https://thedaddy.li/watch.php?id=76
+
+#EXTINF:-1 tvg-id="uefanationsleaguebulgariavsiceland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bulgaria_vs_Iceland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)
+https://thedaddy.li/watch.php?id=1229
 
 #EXTINF:-1 tvg-id="uefanationsleaguebulgariavsiceland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bulgaria_vs_Iceland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)
 https://thedaddy.li/watch.php?id=994
@@ -263,14 +308,35 @@ https://thedaddy.li/watch.php?id=90
 #EXTINF:-1 tvg-id="uefanationsleaguebulgariavsiceland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bulgaria_vs_Iceland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)
 https://thedaddy.li/watch.php?id=28
 
+#EXTINF:-1 tvg-id="uefanationsleaguebulgariavsiceland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bulgaria_vs_Iceland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)
+https://thedaddy.li/watch.php?id=4007
+
+#EXTINF:-1 tvg-id="uefanationsleaguebulgariavsiceland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bulgaria_vs_Iceland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Bulgaria 🇧🇬 vs Iceland 🇮🇸 (19:45)
+https://thedaddy.li/watch.php?id=3048
+
 #EXTINF:-1 tvg-id="uefanationsleagueandorravsgibraltar" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Andorra_vs_Gibraltar.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)
 https://thedaddy.li/watch.php?id=77
 
 #EXTINF:-1 tvg-id="uefanationsleagueandorravsgibraltar" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Andorra_vs_Gibraltar.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)
+https://thedaddy.li/watch.php?id=1226
+
+#EXTINF:-1 tvg-id="uefanationsleagueandorravsgibraltar" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Andorra_vs_Gibraltar.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)
 https://thedaddy.li/watch.php?id=100
+
+#EXTINF:-1 tvg-id="uefanationsleagueandorravsgibraltar" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Andorra_vs_Gibraltar.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)
+https://thedaddy.li/watch.php?id=3006
+
+#EXTINF:-1 tvg-id="uefanationsleagueandorravsgibraltar" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Andorra_vs_Gibraltar.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)
+https://thedaddy.li/watch.php?id=4005
+
+#EXTINF:-1 tvg-id="uefanationsleagueandorravsgibraltar" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Andorra_vs_Gibraltar.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Andorra 🇦🇩 vs Gibraltar 🇬🇮 (19:45)
+https://thedaddy.li/watch.php?id=3006
 
 #EXTINF:-1 tvg-id="uefanationsleagueliechtensteinvsazerbaijan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liechtenstein_vs_Azerbaijan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)
 https://thedaddy.li/watch.php?id=86
+
+#EXTINF:-1 tvg-id="uefanationsleagueliechtensteinvsazerbaijan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liechtenstein_vs_Azerbaijan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)
+https://thedaddy.li/watch.php?id=1209
 
 #EXTINF:-1 tvg-id="uefanationsleagueliechtensteinvsazerbaijan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liechtenstein_vs_Azerbaijan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)
 https://thedaddy.li/watch.php?id=14
@@ -287,8 +353,20 @@ https://thedaddy.li/watch.php?id=420
 #EXTINF:-1 tvg-id="uefanationsleagueliechtensteinvsazerbaijan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liechtenstein_vs_Azerbaijan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)
 https://thedaddy.li/watch.php?id=3005
 
+#EXTINF:-1 tvg-id="uefanationsleagueliechtensteinvsazerbaijan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liechtenstein_vs_Azerbaijan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)
+https://thedaddy.li/watch.php?id=3005
+
+#EXTINF:-1 tvg-id="uefanationsleagueliechtensteinvsazerbaijan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liechtenstein_vs_Azerbaijan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)
+https://thedaddy.li/watch.php?id=4003
+
+#EXTINF:-1 tvg-id="uefanationsleagueliechtensteinvsazerbaijan" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liechtenstein_vs_Azerbaijan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Liechtenstein 🇱🇮 vs Azerbaijan 🇦🇿 (19:45)
+https://thedaddy.li/watch.php?id=3005
+
 #EXTINF:-1 tvg-id="uefanationsleaguescotlandvsnorthmacedonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_North_Macedonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)
 https://thedaddy.li/watch.php?id=105
+
+#EXTINF:-1 tvg-id="uefanationsleaguescotlandvsnorthmacedonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_North_Macedonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)
+https://thedaddy.li/watch.php?id=1207
 
 #EXTINF:-1 tvg-id="uefanationsleaguescotlandvsnorthmacedonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_North_Macedonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)
 https://thedaddy.li/watch.php?id=357
@@ -320,8 +398,17 @@ https://thedaddy.li/watch.php?id=95
 #EXTINF:-1 tvg-id="uefanationsleaguescotlandvsnorthmacedonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_North_Macedonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)
 https://thedaddy.li/watch.php?id=3002
 
+#EXTINF:-1 tvg-id="uefanationsleaguescotlandvsnorthmacedonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_North_Macedonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)
+https://thedaddy.li/watch.php?id=4002
+
+#EXTINF:-1 tvg-id="uefanationsleaguescotlandvsnorthmacedonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_North_Macedonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs North Macedonia 🇲🇰 (19:45)
+https://thedaddy.li/watch.php?id=3002
+
 #EXTINF:-1 tvg-id="uefanationsleaguesloveniavsswitzerland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovenia_vs_Switzerland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)
 https://thedaddy.li/watch.php?id=106
+
+#EXTINF:-1 tvg-id="uefanationsleaguesloveniavsswitzerland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovenia_vs_Switzerland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)
+https://thedaddy.li/watch.php?id=1208
 
 #EXTINF:-1 tvg-id="uefanationsleaguesloveniavsswitzerland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovenia_vs_Switzerland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)
 https://thedaddy.li/watch.php?id=439
@@ -362,8 +449,17 @@ https://thedaddy.li/watch.php?id=26
 #EXTINF:-1 tvg-id="uefanationsleaguesloveniavsswitzerland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovenia_vs_Switzerland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)
 https://thedaddy.li/watch.php?id=142
 
+#EXTINF:-1 tvg-id="uefanationsleaguesloveniavsswitzerland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovenia_vs_Switzerland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)
+https://thedaddy.li/watch.php?id=4006
+
+#EXTINF:-1 tvg-id="uefanationsleaguesloveniavsswitzerland" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovenia_vs_Switzerland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovenia 🇸🇮 vs Switzerland 🇨🇭 (19:45)
+https://thedaddy.li/watch.php?id=3020
+
 #EXTINF:-1 tvg-id="uefanationsleaguenetherlandsvsgreece" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Netherlands_vs_Greece.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)
 https://thedaddy.li/watch.php?id=107
+
+#EXTINF:-1 tvg-id="uefanationsleaguenetherlandsvsgreece" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Netherlands_vs_Greece.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)
+https://thedaddy.li/watch.php?id=1206
 
 #EXTINF:-1 tvg-id="uefanationsleaguenetherlandsvsgreece" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Netherlands_vs_Greece.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)
 https://thedaddy.li/watch.php?id=39
@@ -422,8 +518,20 @@ https://thedaddy.li/watch.php?id=101
 #EXTINF:-1 tvg-id="uefanationsleaguenetherlandsvsgreece" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Netherlands_vs_Greece.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)
 https://thedaddy.li/watch.php?id=143
 
+#EXTINF:-1 tvg-id="uefanationsleaguenetherlandsvsgreece" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Netherlands_vs_Greece.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)
+https://thedaddy.li/watch.php?id=4001
+
+#EXTINF:-1 tvg-id="uefanationsleaguenetherlandsvsgreece" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Netherlands_vs_Greece.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)
+https://thedaddy.li/watch.php?id=3017
+
+#EXTINF:-1 tvg-id="uefanationsleaguenetherlandsvsgreece" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Netherlands_vs_Greece.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Netherlands 🇳🇱 vs Greece 🇬🇷 (19:45)
+https://thedaddy.li/watch.php?id=3025
+
 #EXTINF:-1 tvg-id="uefanationsleagueserbiavsgermany" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Serbia_vs_Germany.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)
 https://thedaddy.li/watch.php?id=108
+
+#EXTINF:-1 tvg-id="uefanationsleagueserbiavsgermany" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Serbia_vs_Germany.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)
+https://thedaddy.li/watch.php?id=1205
 
 #EXTINF:-1 tvg-id="uefanationsleagueserbiavsgermany" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Serbia_vs_Germany.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)
 https://thedaddy.li/watch.php?id=740
@@ -476,8 +584,20 @@ https://thedaddy.li/watch.php?id=93
 #EXTINF:-1 tvg-id="uefanationsleagueserbiavsgermany" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Serbia_vs_Germany.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)
 https://thedaddy.li/watch.php?id=141
 
+#EXTINF:-1 tvg-id="uefanationsleagueserbiavsgermany" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Serbia_vs_Germany.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)
+https://thedaddy.li/watch.php?id=4008
+
+#EXTINF:-1 tvg-id="uefanationsleagueserbiavsgermany" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Serbia_vs_Germany.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)
+https://thedaddy.li/watch.php?id=3011
+
+#EXTINF:-1 tvg-id="uefanationsleagueserbiavsgermany" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Serbia_vs_Germany.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Serbia 🇷🇸 vs Germany 🇩🇪 (19:45)
+https://thedaddy.li/watch.php?id=3069
+
 #EXTINF:-1 tvg-id="uefanationsleagueluxembourgvsestonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Luxembourg_vs_Estonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)
 https://thedaddy.li/watch.php?id=109
+
+#EXTINF:-1 tvg-id="uefanationsleagueluxembourgvsestonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Luxembourg_vs_Estonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)
+https://thedaddy.li/watch.php?id=1228
 
 #EXTINF:-1 tvg-id="uefanationsleagueluxembourgvsestonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Luxembourg_vs_Estonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)
 https://thedaddy.li/watch.php?id=468
@@ -485,8 +605,17 @@ https://thedaddy.li/watch.php?id=468
 #EXTINF:-1 tvg-id="uefanationsleagueluxembourgvsestonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Luxembourg_vs_Estonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)
 https://thedaddy.li/watch.php?id=30
 
+#EXTINF:-1 tvg-id="uefanationsleagueluxembourgvsestonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Luxembourg_vs_Estonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)
+https://thedaddy.li/watch.php?id=4004
+
+#EXTINF:-1 tvg-id="uefanationsleagueluxembourgvsestonia" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Luxembourg_vs_Estonia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Luxembourg 🇱🇺 vs Estonia 🇪🇪 (19:45)
+https://thedaddy.li/watch.php?id=3049
+
 #EXTINF:-1 tvg-id="uefanationsleagueslovakiavsfaroeislands" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovakia_vs_Faroe_Islands.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)
 https://thedaddy.li/watch.php?id=110
+
+#EXTINF:-1 tvg-id="uefanationsleagueslovakiavsfaroeislands" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovakia_vs_Faroe_Islands.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)
+https://thedaddy.li/watch.php?id=1227
 
 #EXTINF:-1 tvg-id="uefanationsleagueslovakiavsfaroeislands" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovakia_vs_Faroe_Islands.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)
 https://thedaddy.li/watch.php?id=1059
@@ -500,8 +629,17 @@ https://thedaddy.li/watch.php?id=29
 #EXTINF:-1 tvg-id="uefanationsleagueslovakiavsfaroeislands" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovakia_vs_Faroe_Islands.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)
 https://thedaddy.li/watch.php?id=3003
 
+#EXTINF:-1 tvg-id="uefanationsleagueslovakiavsfaroeislands" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovakia_vs_Faroe_Islands.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)
+https://thedaddy.li/watch.php?id=4009
+
+#EXTINF:-1 tvg-id="uefanationsleagueslovakiavsfaroeislands" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slovakia_vs_Faroe_Islands.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Slovakia 🇸🇰 vs Faroe Islands 🇫🇴 (19:45)
+https://thedaddy.li/watch.php?id=3003
+
 #EXTINF:-1 tvg-id="africacupofnationsqualificationmoroccovsniger" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Morocco 🇲🇦 vs Niger 🇳🇪 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Morocco_vs_Niger.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Morocco 🇲🇦 vs Niger 🇳🇪 (20:00)
 https://thedaddy.li/watch.php?id=425
+
+#EXTINF:-1 tvg-id="africacupofnationsqualificationmoroccovsniger" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Morocco 🇲🇦 vs Niger 🇳🇪 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Morocco_vs_Niger.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Morocco 🇲🇦 vs Niger 🇳🇪 (20:00)
+https://thedaddy.li/watch.php?id=1230
 
 #EXTINF:-1 tvg-id="africacupofnationsqualificationmoroccovsniger" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Morocco 🇲🇦 vs Niger 🇳🇪 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Morocco_vs_Niger.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Morocco 🇲🇦 vs Niger 🇳🇪 (20:00)
 https://thedaddy.li/watch.php?id=372
@@ -518,14 +656,26 @@ https://thedaddy.li/watch.php?id=713
 #EXTINF:-1 tvg-id="africacupofnationsqualificationmoroccovsniger" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Morocco 🇲🇦 vs Niger 🇳🇪 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Morocco_vs_Niger.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Africa Cup of Nations Qualification : Morocco 🇲🇦 vs Niger 🇳🇪 (20:00)
 https://thedaddy.li/watch.php?id=91
 
+#EXTINF:-1 tvg-id="concacafnationsleaguegrenadavssaintkittsandnevis" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ CONCACAF Nations League : Grenada vs Saint Kitts and Nevis (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Grenada_vs_Saint_Kitts_and_Nevis.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ CONCACAF Nations League : Grenada vs Saint Kitts and Nevis (20:00)
+https://thedaddy.li/watch.php?id=1232
+
+#EXTINF:-1 tvg-id="uruguayligaaufmontevideocityvsracingmontevideo" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Uruguay Liga AUF : Montevideo City vs Racing Montevideo (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Montevideo_City_vs_Racing_Montevideo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Uruguay Liga AUF : Montevideo City vs Racing Montevideo (20:00)
+https://thedaddy.li/watch.php?id=1233
+
 #EXTINF:-1 tvg-id="spaincopadelreysalamancaudsvsceltadevigo" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Salamanca UDS 🇪🇸 vs Celta de Vigo 🇪🇸 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Salamanca_UDS_vs_Celta_de_Vigo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Salamanca UDS 🇪🇸 vs Celta de Vigo 🇪🇸 (20:00)
 https://thedaddy.li/watch.php?id=127
+
+#EXTINF:-1 tvg-id="spaincopadelreysalamancaudsvsceltadevigo" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Salamanca UDS 🇪🇸 vs Celta de Vigo 🇪🇸 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Salamanca_UDS_vs_Celta_de_Vigo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Salamanca UDS 🇪🇸 vs Celta de Vigo 🇪🇸 (20:00)
+https://thedaddy.li/watch.php?id=1234
 
 #EXTINF:-1 tvg-id="spaincopadelreysalamancaudsvsceltadevigo" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Salamanca UDS 🇪🇸 vs Celta de Vigo 🇪🇸 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Salamanca_UDS_vs_Celta_de_Vigo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Copa del Rey : Salamanca UDS 🇪🇸 vs Celta de Vigo 🇪🇸 (20:00)
 https://thedaddy.li/watch.php?id=137
 
 #EXTINF:-1 tvg-id="northamericaconcacafnationsleaguesaintmartinvselsalvador" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ North America - CONCACAF Nations League : Saint Martin 🇲🇫 vs El Salvador 🇸🇻 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Saint_Martin_vs_El_Salvador.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ North America - CONCACAF Nations League : Saint Martin 🇲🇫 vs El Salvador 🇸🇻 (23:00)
 https://thedaddy.li/watch.php?id=758
+
+#EXTINF:-1 tvg-id="northamericaconcacafnationsleaguesaintmartinvselsalvador" x-event-date="2026-11-13" tvg-name="All Soccer Events ⚽ | ⚽ North America - CONCACAF Nations League : Saint Martin 🇲🇫 vs El Salvador 🇸🇻 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Saint_Martin_vs_El_Salvador.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ North America - CONCACAF Nations League : Saint Martin 🇲🇫 vs El Salvador 🇸🇻 (23:00)
+https://thedaddy.li/watch.php?id=3082
 
 #EXTINF:-1 tvg-id="northamericaconcacafnationsleaguemontserratvsnicaragua" x-event-date="2026-11-14" tvg-name="All Soccer Events ⚽ | ⚽ North America - CONCACAF Nations League : Montserrat 🇲🇸 vs Nicaragua 🇳🇮 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Montserrat_vs_Nicaragua.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ North America - CONCACAF Nations League : Montserrat 🇲🇸 vs Nicaragua 🇳🇮 (00:00)
 https://thedaddy.li/watch.php?id=756
@@ -574,6 +724,9 @@ https://thedaddy.li/watch.php?id=851
 
 #EXTINF:-1 tvg-id="friendlyargentinavsuruguay" x-event-date="2026-11-13" tvg-name="Friendly Soccer ⚽ | ⚽ Friendly : Argentina 🇦🇷 vs Uruguay 🇺🇾 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Argentina_vs_Uruguay.png" group-title="Eventi Live DLHD",Friendly Soccer ⚽ | ⚽ Friendly : Argentina 🇦🇷 vs Uruguay 🇺🇾 (23:00)
 https://thedaddy.li/watch.php?id=746
+
+#EXTINF:-1 tvg-id="friendlyargentinavsuruguay" x-event-date="2026-11-13" tvg-name="Friendly Soccer ⚽ | ⚽ Friendly : Argentina 🇦🇷 vs Uruguay 🇺🇾 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Argentina_vs_Uruguay.png" group-title="Eventi Live DLHD",Friendly Soccer ⚽ | ⚽ Friendly : Argentina 🇦🇷 vs Uruguay 🇺🇾 (23:00)
+https://thedaddy.li/watch.php?id=3029
 
 #EXTINF:-1 tvg-id="friendlyecuadorvscostarica" x-event-date="2026-11-14" tvg-name="Friendly Soccer ⚽ | ⚽ Friendly : Ecuador 🇪🇨 vs Costa Rica 🇨🇷 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ecuador_vs_Costa_Rica.png" group-title="Eventi Live DLHD",Friendly Soccer ⚽ | ⚽ Friendly : Ecuador 🇪🇨 vs Costa Rica 🇨🇷 (00:00)
 https://thedaddy.li/watch.php?id=142
@@ -634,6 +787,9 @@ https://thedaddy.li/watch.php?id=592
 
 #EXTINF:-1 tvg-id="atpstockholmopenroyaltennishallinsweden" x-event-date="2026-11-13" tvg-name="Tennis 🎾 | 🎾 ATP Stockholm Open - Royal Tennis Hall in Sweden (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_ATP_Stockholm_Open_Royal_Tennis_Hall_in_Sweden.png" group-title="Eventi Live DLHD",Tennis 🎾 | 🎾 ATP Stockholm Open - Royal Tennis Hall in Sweden (12:00)
 https://thedaddy.li/watch.php?id=40
+
+#EXTINF:-1 tvg-id="atpstockholmopenroyaltennishallinsweden" x-event-date="2026-11-13" tvg-name="Tennis 🎾 | 🎾 ATP Stockholm Open - Royal Tennis Hall in Sweden (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_ATP_Stockholm_Open_Royal_Tennis_Hall_in_Sweden.png" group-title="Eventi Live DLHD",Tennis 🎾 | 🎾 ATP Stockholm Open - Royal Tennis Hall in Sweden (12:00)
+https://thedaddy.li/watch.php?id=1231
 
 #EXTINF:-1 tvg-id="atpstockholmopenroyaltennishallinsweden" x-event-date="2026-11-13" tvg-name="Tennis 🎾 | 🎾 ATP Stockholm Open - Royal Tennis Hall in Sweden (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_ATP_Stockholm_Open_Royal_Tennis_Hall_in_Sweden.png" group-title="Eventi Live DLHD",Tennis 🎾 | 🎾 ATP Stockholm Open - Royal Tennis Hall in Sweden (12:00)
 https://thedaddy.li/watch.php?id=111
@@ -779,26 +935,71 @@ https://thedaddy.li/watch.php?id=102
 #EXTINF:-1 tvg-id="wtafinalscouples" x-event-date="2026-11-14" tvg-name="Tennis 🎾 | 🎾 WTA Finals: Couples (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_WTA_Finals_Couples.png" group-title="Eventi Live DLHD",Tennis 🎾 | 🎾 WTA Finals: Couples (00:00)
 https://thedaddy.li/watch.php?id=102
 
-#EXTINF:-1 tvg-id="wtasinglesmirraandreevavskarolinamuchova" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs Karolina Muchova (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mirra_Andreeva_vs_Karolina_Muchova.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs Karolina Muchova (20:00)
-https://thedaddy.li/watch.php?id=00
+#EXTINF:-1 tvg-id="wtasinglesmirraandreevavsdshnaider" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mirra_Andreeva_vs_D_Shnaider.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)
+https://thedaddy.li/watch.php?id=1073
+
+#EXTINF:-1 tvg-id="wtasinglesmirraandreevavsdshnaider" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mirra_Andreeva_vs_D_Shnaider.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)
+https://thedaddy.li/watch.php?id=1651
+
+#EXTINF:-1 tvg-id="wtasinglesmirraandreevavsdshnaider" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mirra_Andreeva_vs_D_Shnaider.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)
+https://thedaddy.li/watch.php?id=1524
+
+#EXTINF:-1 tvg-id="wtasinglesmirraandreevavsdshnaider" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mirra_Andreeva_vs_D_Shnaider.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)
+https://thedaddy.li/watch.php?id=1520
+
+#EXTINF:-1 tvg-id="wtasinglesmirraandreevavsdshnaider" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mirra_Andreeva_vs_D_Shnaider.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Mirra Andreeva vs D. Shnaider (20:00)
+https://thedaddy.li/watch.php?id=1501
 
 #EXTINF:-1 tvg-id="wtasinglesarynasabalenkavselinasvitolina" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aryna_Sabalenka_vs_Elina_Svitolina.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)
-https://thedaddy.li/watch.php?id=00
+https://thedaddy.li/watch.php?id=1074
+
+#EXTINF:-1 tvg-id="wtasinglesarynasabalenkavselinasvitolina" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aryna_Sabalenka_vs_Elina_Svitolina.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)
+https://thedaddy.li/watch.php?id=1652
+
+#EXTINF:-1 tvg-id="wtasinglesarynasabalenkavselinasvitolina" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aryna_Sabalenka_vs_Elina_Svitolina.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)
+https://thedaddy.li/watch.php?id=1524
+
+#EXTINF:-1 tvg-id="wtasinglesarynasabalenkavselinasvitolina" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aryna_Sabalenka_vs_Elina_Svitolina.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)
+https://thedaddy.li/watch.php?id=1520
+
+#EXTINF:-1 tvg-id="wtasinglesarynasabalenkavselinasvitolina" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aryna_Sabalenka_vs_Elina_Svitolina.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: Aryna Sabalenka vs Elina Svitolina (21:30)
+https://thedaddy.li/watch.php?id=1501
 
 #EXTINF:-1 tvg-id="wtadoublesgabrieladabrowskiluisastefanivssuweihsiehjelenaostapenko" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gabriela_Dabrowski_Luisa_Stefani_vs_Su_Wei_Hsieh_Jelena_Ostapenko.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)
-https://thedaddy.li/watch.php?id=00
+https://thedaddy.li/watch.php?id=1075
+
+#EXTINF:-1 tvg-id="wtadoublesgabrieladabrowskiluisastefanivssuweihsiehjelenaostapenko" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gabriela_Dabrowski_Luisa_Stefani_vs_Su_Wei_Hsieh_Jelena_Ostapenko.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)
+https://thedaddy.li/watch.php?id=1653
+
+#EXTINF:-1 tvg-id="wtadoublesgabrieladabrowskiluisastefanivssuweihsiehjelenaostapenko" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gabriela_Dabrowski_Luisa_Stefani_vs_Su_Wei_Hsieh_Jelena_Ostapenko.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)
+https://thedaddy.li/watch.php?id=1524
+
+#EXTINF:-1 tvg-id="wtadoublesgabrieladabrowskiluisastefanivssuweihsiehjelenaostapenko" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gabriela_Dabrowski_Luisa_Stefani_vs_Su_Wei_Hsieh_Jelena_Ostapenko.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)
+https://thedaddy.li/watch.php?id=1520
+
+#EXTINF:-1 tvg-id="wtadoublesgabrieladabrowskiluisastefanivssuweihsiehjelenaostapenko" x-event-date="2026-11-13" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gabriela_Dabrowski_Luisa_Stefani_vs_Su_Wei_Hsieh_Jelena_Ostapenko.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Gabriela Dabrowski / Luisa Stefani vs Su-Wei Hsieh / Jelena Ostapenko (23:00)
+https://thedaddy.li/watch.php?id=1501
 
 #EXTINF:-1 tvg-id="wtadoubleshanyuguokristinamladenovicvselisemertensshuaizhang" x-event-date="2026-11-14" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Hanyu Guo / Kristina Mladenovic vs Elise Mertens / Shuai Zhang (00:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hanyu_Guo_Kristina_Mladenovic_vs_Elise_Mertens_Shuai_Zhang.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Hanyu Guo / Kristina Mladenovic vs Elise Mertens / Shuai Zhang (00:30)
-https://thedaddy.li/watch.php?id=00
+https://thedaddy.li/watch.php?id=1076
+
+#EXTINF:-1 tvg-id="wtadoubleshanyuguokristinamladenovicvselisemertensshuaizhang" x-event-date="2026-11-14" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Hanyu Guo / Kristina Mladenovic vs Elise Mertens / Shuai Zhang (00:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hanyu_Guo_Kristina_Mladenovic_vs_Elise_Mertens_Shuai_Zhang.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Hanyu Guo / Kristina Mladenovic vs Elise Mertens / Shuai Zhang (00:30)
+https://thedaddy.li/watch.php?id=1524
+
+#EXTINF:-1 tvg-id="wtadoubleshanyuguokristinamladenovicvselisemertensshuaizhang" x-event-date="2026-11-14" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Hanyu Guo / Kristina Mladenovic vs Elise Mertens / Shuai Zhang (00:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hanyu_Guo_Kristina_Mladenovic_vs_Elise_Mertens_Shuai_Zhang.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Hanyu Guo / Kristina Mladenovic vs Elise Mertens / Shuai Zhang (00:30)
+https://thedaddy.li/watch.php?id=1520
+
+#EXTINF:-1 tvg-id="wtadoubleshanyuguokristinamladenovicvselisemertensshuaizhang" x-event-date="2026-11-14" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Hanyu Guo / Kristina Mladenovic vs Elise Mertens / Shuai Zhang (00:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hanyu_Guo_Kristina_Mladenovic_vs_Elise_Mertens_Shuai_Zhang.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: Hanyu Guo / Kristina Mladenovic vs Elise Mertens / Shuai Zhang (00:30)
+https://thedaddy.li/watch.php?id=1501
 
 #EXTINF:-1 tvg-id="atpdoublesnikolamekticedouardrogervasselinvsadampavlasekpetrrikl" x-event-date="2026-11-13" tvg-name="Tennis 🎾 ATP - Doubles: Stockholm (Sweden) | 🎾 ATP - Doubles: Nikola Mektic / Edouard Roger-Vasselin vs Adam Pavlasek / Petr Rikl (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nikola_Mektic_Edouard_Roger_Vasselin_vs_Adam_Pavlasek_Petr_Rikl.png" group-title="Eventi Live DLHD",Tennis 🎾 ATP - Doubles: Stockholm (Sweden) | 🎾 ATP - Doubles: Nikola Mektic / Edouard Roger-Vasselin vs Adam Pavlasek / Petr Rikl (10:30)
 https://thedaddy.li/watch.php?id=00
 
 #EXTINF:-1 tvg-id="challengermensinglessaschagueymardwayenburgvsottovirtanen" x-event-date="2026-11-13" tvg-name="Tennis 🎾 Challenger Men - Singles: Orleans (France) | 🎾 Challenger Men - Singles: Sascha Gueymard Wayenburg vs Otto Virtanen (10:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sascha_Gueymard_Wayenburg_vs_Otto_Virtanen.png" group-title="Eventi Live DLHD",Tennis 🎾 Challenger Men - Singles: Orleans (France) | 🎾 Challenger Men - Singles: Sascha Gueymard Wayenburg vs Otto Virtanen (10:00)
-https://thedaddy.li/watch.php?id=00
+https://thedaddy.li/watch.php?id=1080
 
 #EXTINF:-1 tvg-id="challengermensingleszsomborpirosvsdanielaltmaier" x-event-date="2026-11-13" tvg-name="Tennis 🎾 Challenger Men - Singles: Orleans (France) | 🎾 Challenger Men - Singles: Zsombor Piros vs Daniel Altmaier (10:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Zsombor_Piros_vs_Daniel_Altmaier.png" group-title="Eventi Live DLHD",Tennis 🎾 Challenger Men - Singles: Orleans (France) | 🎾 Challenger Men - Singles: Zsombor Piros vs Daniel Altmaier (10:00)
-https://thedaddy.li/watch.php?id=00
+https://thedaddy.li/watch.php?id=1077
 
 #EXTINF:-1 tvg-id="bwfworldtourjapanmasters" x-event-date="2026-11-13" tvg-name="Badminton 🏸 | 🏸 BWF World Tour Japan Masters (05:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_BWF_World_Tour_Japan_Masters.png" group-title="Eventi Live DLHD",Badminton 🏸 | 🏸 BWF World Tour Japan Masters (05:00)
 https://thedaddy.li/watch.php?id=810
@@ -1053,6 +1254,9 @@ https://thedaddy.li/watch.php?id=432
 https://thedaddy.li/watch.php?id=3
 
 #EXTINF:-1 tvg-id="euroleagueanadoluefesvsvirtusbologna" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Anadolu Efes 🇹🇷 vs Virtus Bologna 🇮🇹 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Anadolu_Efes_vs_Virtus_Bologna.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Anadolu Efes 🇹🇷 vs Virtus Bologna 🇮🇹 (17:30)
+https://thedaddy.li/watch.php?id=1214
+
+#EXTINF:-1 tvg-id="euroleagueanadoluefesvsvirtusbologna" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Anadolu Efes 🇹🇷 vs Virtus Bologna 🇮🇹 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Anadolu_Efes_vs_Virtus_Bologna.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Anadolu Efes 🇹🇷 vs Virtus Bologna 🇮🇹 (17:30)
 https://thedaddy.li/watch.php?id=20
 
 #EXTINF:-1 tvg-id="euroleagueanadoluefesvsvirtusbologna" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Anadolu Efes 🇹🇷 vs Virtus Bologna 🇮🇹 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Anadolu_Efes_vs_Virtus_Bologna.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Anadolu Efes 🇹🇷 vs Virtus Bologna 🇮🇹 (17:30)
@@ -1072,6 +1276,9 @@ https://thedaddy.li/watch.php?id=101
 
 #EXTINF:-1 tvg-id="euroleaguepanathinaikosvsbarcelona" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Panathinaikos 🇬🇷 vs Barcelona 🇪🇸 (19:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Panathinaikos_vs_Barcelona.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Panathinaikos 🇬🇷 vs Barcelona 🇪🇸 (19:15)
 https://thedaddy.li/watch.php?id=4
+
+#EXTINF:-1 tvg-id="euroleaguepanathinaikosvsbarcelona" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Panathinaikos 🇬🇷 vs Barcelona 🇪🇸 (19:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Panathinaikos_vs_Barcelona.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Panathinaikos 🇬🇷 vs Barcelona 🇪🇸 (19:15)
+https://thedaddy.li/watch.php?id=1201
 
 #EXTINF:-1 tvg-id="euroleaguepanathinaikosvsbarcelona" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Panathinaikos 🇬🇷 vs Barcelona 🇪🇸 (19:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Panathinaikos_vs_Barcelona.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Panathinaikos 🇬🇷 vs Barcelona 🇪🇸 (19:15)
 https://thedaddy.li/watch.php?id=21
@@ -1102,6 +1309,9 @@ https://thedaddy.li/watch.php?id=3023
 
 #EXTINF:-1 tvg-id="euroleaguelyonvilleurbannevsbesiktas" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Lyon-Villeurbanne 🇫🇷 vs Besiktas 🇹🇷 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lyon_Villeurbanne_vs_Besiktas.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Lyon-Villeurbanne 🇫🇷 vs Besiktas 🇹🇷 (19:30)
 https://thedaddy.li/watch.php?id=5
+
+#EXTINF:-1 tvg-id="euroleaguelyonvilleurbannevsbesiktas" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Lyon-Villeurbanne 🇫🇷 vs Besiktas 🇹🇷 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lyon_Villeurbanne_vs_Besiktas.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Lyon-Villeurbanne 🇫🇷 vs Besiktas 🇹🇷 (19:30)
+https://thedaddy.li/watch.php?id=1204
 
 #EXTINF:-1 tvg-id="euroleaguelyonvilleurbannevsbesiktas" x-event-date="2026-11-13" tvg-name="Euroleague Basketball 🏀 | 🏀 Euroleague : Lyon-Villeurbanne 🇫🇷 vs Besiktas 🇹🇷 (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lyon_Villeurbanne_vs_Besiktas.png" group-title="Eventi Live DLHD",Euroleague Basketball 🏀 | 🏀 Euroleague : Lyon-Villeurbanne 🇫🇷 vs Besiktas 🇹🇷 (19:30)
 https://thedaddy.li/watch.php?id=22
@@ -1445,20 +1655,41 @@ https://thedaddy.li/watch.php?id=1052
 #EXTINF:-1 tvg-id="hockeyallsvenskanbikkarlskogavsaik" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : BIK Karlskoga 🇸🇪 vs AIK 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/BIK_Karlskoga_vs_AIK.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : BIK Karlskoga 🇸🇪 vs AIK 🇸🇪 (18:00)
 https://thedaddy.li/watch.php?id=700
 
+#EXTINF:-1 tvg-id="hockeyallsvenskanbikkarlskogavsaik" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : BIK Karlskoga 🇸🇪 vs AIK 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/BIK_Karlskoga_vs_AIK.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : BIK Karlskoga 🇸🇪 vs AIK 🇸🇪 (18:00)
+https://thedaddy.li/watch.php?id=1225
+
 #EXTINF:-1 tvg-id="hockeyallsvenskanvisbyromavsmora" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Visby/Roma 🇸🇪 vs Mora 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Visby_Roma_vs_Mora.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Visby/Roma 🇸🇪 vs Mora 🇸🇪 (18:00)
 https://thedaddy.li/watch.php?id=706
+
+#EXTINF:-1 tvg-id="hockeyallsvenskanvisbyromavsmora" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Visby/Roma 🇸🇪 vs Mora 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Visby_Roma_vs_Mora.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Visby/Roma 🇸🇪 vs Mora 🇸🇪 (18:00)
+https://thedaddy.li/watch.php?id=1219
 
 #EXTINF:-1 tvg-id="hockeyallsvenskanvasterasvsleksands" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Vasteras 🇸🇪 vs Leksands 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Vasteras_vs_Leksands.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Vasteras 🇸🇪 vs Leksands 🇸🇪 (18:00)
 https://thedaddy.li/watch.php?id=705
 
+#EXTINF:-1 tvg-id="hockeyallsvenskanvasterasvsleksands" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Vasteras 🇸🇪 vs Leksands 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Vasteras_vs_Leksands.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Vasteras 🇸🇪 vs Leksands 🇸🇪 (18:00)
+https://thedaddy.li/watch.php?id=1220
+
 #EXTINF:-1 tvg-id="hockeyallsvenskanmodovsostersund" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Modo 🇸🇪 vs Ostersund 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Modo_vs_Ostersund.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Modo 🇸🇪 vs Ostersund 🇸🇪 (18:00)
 https://thedaddy.li/watch.php?id=703
+
+#EXTINF:-1 tvg-id="hockeyallsvenskanmodovsostersund" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Modo 🇸🇪 vs Ostersund 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Modo_vs_Ostersund.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Modo 🇸🇪 vs Ostersund 🇸🇪 (18:00)
+https://thedaddy.li/watch.php?id=1224
 
 #EXTINF:-1 tvg-id="hockeyallsvenskansodertaljevsalmtuna" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Sodertalje 🇸🇪 vs Almtuna 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sodertalje_vs_Almtuna.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Sodertalje 🇸🇪 vs Almtuna 🇸🇪 (18:00)
 https://thedaddy.li/watch.php?id=704
 
+#EXTINF:-1 tvg-id="hockeyallsvenskansodertaljevsalmtuna" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Sodertalje 🇸🇪 vs Almtuna 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sodertalje_vs_Almtuna.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Sodertalje 🇸🇪 vs Almtuna 🇸🇪 (18:00)
+https://thedaddy.li/watch.php?id=1221
+
+#EXTINF:-1 tvg-id="swedenhockeyallsvenskanoskarshamnvsvimmerby" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 Sweden HockeyAllsvenskan : Oskarshamn vs Vimmerby (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Oskarshamn_vs_Vimmerby.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 Sweden HockeyAllsvenskan : Oskarshamn vs Vimmerby (18:00)
+https://thedaddy.li/watch.php?id=1222
+
 #EXTINF:-1 tvg-id="hockeyallsvenskannybrovskalmar" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Nybro 🇸🇪 vs Kalmar 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nybro_vs_Kalmar.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Nybro 🇸🇪 vs Kalmar 🇸🇪 (18:00)
 https://thedaddy.li/watch.php?id=707
+
+#EXTINF:-1 tvg-id="hockeyallsvenskannybrovskalmar" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Nybro 🇸🇪 vs Kalmar 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nybro_vs_Kalmar.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Nybro 🇸🇪 vs Kalmar 🇸🇪 (18:00)
+https://thedaddy.li/watch.php?id=1223
 
 #EXTINF:-1 tvg-id="hockeyallsvenskannybrovskalmar" x-event-date="2026-11-13" tvg-name="Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Nybro 🇸🇪 vs Kalmar 🇸🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nybro_vs_Kalmar.png" group-title="Eventi Live DLHD",Ice Hockey 🏒 | 🏒 HockeyAllsvenskan : Nybro 🇸🇪 vs Kalmar 🇸🇪 (18:00)
 https://thedaddy.li/watch.php?id=3067
@@ -1626,6 +1857,9 @@ https://thedaddy.li/watch.php?id=47
 https://thedaddy.li/watch.php?id=350
 
 #EXTINF:-1 tvg-id="nationschampionshipfrancevssouthafrica" x-event-date="2026-11-13" tvg-name="Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)
+https://thedaddy.li/watch.php?id=1235
+
+#EXTINF:-1 tvg-id="nationschampionshipfrancevssouthafrica" x-event-date="2026-11-13" tvg-name="Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)
 https://thedaddy.li/watch.php?id=469
 
 #EXTINF:-1 tvg-id="nationschampionshipfrancevssouthafrica" x-event-date="2026-11-13" tvg-name="Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)
@@ -1651,6 +1885,15 @@ https://thedaddy.li/watch.php?id=421
 
 #EXTINF:-1 tvg-id="nationschampionshipfrancevssouthafrica" x-event-date="2026-11-13" tvg-name="Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)
 https://thedaddy.li/watch.php?id=412
+
+#EXTINF:-1 tvg-id="nationschampionshipfrancevssouthafrica" x-event-date="2026-11-13" tvg-name="Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)
+https://thedaddy.li/watch.php?id=3001
+
+#EXTINF:-1 tvg-id="nationschampionshipfrancevssouthafrica" x-event-date="2026-11-13" tvg-name="Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)
+https://thedaddy.li/watch.php?id=3030
+
+#EXTINF:-1 tvg-id="nationschampionshipfrancevssouthafrica" x-event-date="2026-11-13" tvg-name="Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Nations Championship : France 🇫🇷 vs South Africa 🇿🇦 (20:10)
+https://thedaddy.li/watch.php?id=3050
 
 #EXTINF:-1 tvg-id="premierpadeldubait2026womensquarterfinals1" x-event-date="2026-11-13" tvg-name="Squash 🥎 | 🥎 Premier Padel. Dubai (T2026): Women's Quarter-Finals 1 (08:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Premier_Padel_Dubai_T2026_Women_s_Quarter_Finals_1.png" group-title="Eventi Live DLHD",Squash 🥎 | 🥎 Premier Padel. Dubai (T2026): Women's Quarter-Finals 1 (08:00)
 https://thedaddy.li/watch.php?id=521
