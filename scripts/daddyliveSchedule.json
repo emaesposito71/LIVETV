@@ -156,6 +156,10 @@
                         "channel_id": "425"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1202"
+                    },
+                    {
                         "channel_name": "DAZN2 DE",
                         "channel_id": "427"
                     },
@@ -182,6 +186,10 @@
                         "channel_id": "116"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1203"
+                    },
+                    {
                         "channel_name": "beIN SPORTS Xtra",
                         "channel_id": "100"
                     },
@@ -204,6 +212,10 @@
                         "channel_id": "372"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1201"
+                    },
+                    {
                         "channel_name": "beIN Sports 2 Malaysia",
                         "channel_id": "713"
                     },
@@ -223,11 +235,25 @@
             },
             {
                 "time": "16:00",
+                "event": "\u26bd Euro U21 Qualification : Turkey U21 vs Czech Republic U21",
+                "channels": [
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1207"
+                    }
+                ]
+            },
+            {
+                "time": "16:00",
                 "event": "\u26bd Africa Cup of Nations Qualification : Burkina Faso \ud83c\udde7\ud83c\uddeb vs Mauritania \ud83c\uddf2\ud83c\uddf7",
                 "channels": [
                     {
                         "channel_name": "Canal+ Sport 1 Afrique",
                         "channel_id": "486"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1206"
                     },
                     {
                         "channel_name": "beIN Sports MENA 2",
@@ -244,6 +270,10 @@
                         "channel_id": "56"
                     },
                     {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1205"
+                    },
+                    {
                         "channel_name": "beIN Sports MENA 5",
                         "channel_id": "95"
                     }
@@ -256,6 +286,10 @@
                     {
                         "channel_name": "Canal+ Sport 2 Afrique",
                         "channel_id": "487"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1204"
                     }
                 ]
             },
@@ -270,6 +304,20 @@
                     {
                         "channel_name": "YLE TV2 Finland",
                         "channel_id": "16"
+                    },
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1208"
+                    }
+                ]
+            },
+            {
+                "time": "16:30",
+                "event": "\u26bd Friendly Match : Kuwait vs Syria",
+                "channels": [
+                    {
+                        "channel_name": "Event SD Stream",
+                        "channel_id": "1209"
                     }
                 ]
             },
@@ -376,6 +424,10 @@
                     {
                         "channel_name": "beIN Sports Malaysia",
                         "channel_id": "712"
+                    },
+                    {
+                        "channel_name": "LALIGA TV Hypermotion",
+                        "channel_id": "3026"
                     }
                 ]
             },
@@ -484,6 +536,10 @@
                     {
                         "channel_name": "SuperSport Action",
                         "channel_id": "420"
+                    },
+                    {
+                        "channel_name": "Fubo Sports USA",
+                        "channel_id": "3005"
                     }
                 ]
             },
@@ -530,6 +586,10 @@
                     {
                         "channel_name": "beIN Sports MENA 5",
                         "channel_id": "95"
+                    },
+                    {
+                        "channel_name": "BBC Two UK",
+                        "channel_id": "3002"
                     }
                 ]
             },
@@ -796,6 +856,10 @@
                     {
                         "channel_name": "Sportklub 9 Croatia",
                         "channel_id": "29"
+                    },
+                    {
+                        "channel_name": "Fubo Sports Network 3",
+                        "channel_id": "3003"
                     }
                 ]
             },
@@ -2010,6 +2074,14 @@
                     {
                         "channel_name": "Sport 5 Israel",
                         "channel_id": "144"
+                    },
+                    {
+                        "channel_name": "Magenta Sport 317",
+                        "channel_id": "3013"
+                    },
+                    {
+                        "channel_name": "Nova Sports Prime Greece",
+                        "channel_id": "3023"
                     }
                 ]
             },
@@ -2040,6 +2112,10 @@
                     {
                         "channel_name": "Sport 5 Stars Israel",
                         "channel_id": "147"
+                    },
+                    {
+                        "channel_name": "Magenta Sport 310",
+                        "channel_id": "3014"
                     }
                 ]
             }
@@ -3116,6 +3192,10 @@
                     {
                         "channel_name": "TV4 Sportkanalen Sweden",
                         "channel_id": "707"
+                    },
+                    {
+                        "channel_name": "TV4 Sportkanalen Sweden",
+                        "channel_id": "3067"
                     }
                 ]
             },
@@ -3136,6 +3216,10 @@
                     {
                         "channel_name": "Magenta Sport 302",
                         "channel_id": "7"
+                    },
+                    {
+                        "channel_name": "Magenta Sport 302",
+                        "channel_id": "3019"
                     }
                 ]
             },
@@ -3146,6 +3230,10 @@
                     {
                         "channel_name": "Magenta Sport 303",
                         "channel_id": "8"
+                    },
+                    {
+                        "channel_name": "Magenta Sport 303",
+                        "channel_id": "3015"
                     }
                 ]
             },
@@ -3156,6 +3244,10 @@
                     {
                         "channel_name": "Magenta Sport 304",
                         "channel_id": "9"
+                    },
+                    {
+                        "channel_name": "Magenta Sport 304",
+                        "channel_id": "3022"
                     }
                 ]
             },
@@ -3166,6 +3258,10 @@
                     {
                         "channel_name": "Magenta Sport 305",
                         "channel_id": "10"
+                    },
+                    {
+                        "channel_name": "Magenta Sport 305",
+                        "channel_id": "3016"
                     }
                 ]
             },
@@ -3176,6 +3272,10 @@
                     {
                         "channel_name": "Magenta Sport 306",
                         "channel_id": "11"
+                    },
+                    {
+                        "channel_name": "Magenta Sport 306",
+                        "channel_id": "3021"
                     }
                 ]
             },
@@ -3186,6 +3286,10 @@
                     {
                         "channel_name": "Magenta Sport 307",
                         "channel_id": "12"
+                    },
+                    {
+                        "channel_name": "Magenta Sport 307",
+                        "channel_id": "3018"
                     }
                 ]
             }
