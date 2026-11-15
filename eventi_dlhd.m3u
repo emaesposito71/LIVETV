@@ -2,6 +2,12 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
+#EXTINF:-1 tvg-id="governorscupnewsmyrna" x-event-date="2026-11-15" tvg-name="PPV Events | 🏁 Governors Cup New Smyrna (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Governors_Cup_New_Smyrna.png" group-title="Eventi Live DLHD",PPV Events | 🏁 Governors Cup New Smyrna (17:00)
+https://thedaddy.li/watch.php?id=211
+
+#EXTINF:-1 tvg-id="submissionhunterpro105" x-event-date="2026-11-15" tvg-name="PPV Events | 🥋 Submission Hunter Pro 105 (22:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Submission_Hunter_Pro_105.png" group-title="Eventi Live DLHD",PPV Events | 🥋 Submission Hunter Pro 105 (22:30)
+https://thedaddy.li/watch.php?id=212
+
 #EXTINF:-1 tvg-id="cypriotwomensfirstdivisionpegeiaakamas2025vsxylofagoufc" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Cypriot Women's First Division : Pegeia Akamas 2025 🇨🇾 vs Xylofagou FC 🇨🇾 (09:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Pegeia_Akamas_2025_vs_Xylofagou_FC.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Cypriot Women's First Division : Pegeia Akamas 2025 🇨🇾 vs Xylofagou FC 🇨🇾 (09:00)
 https://thedaddy.li/watch.php?id=911
 
@@ -639,16 +645,25 @@ https://thedaddy.li/watch.php?id=1204
 https://thedaddy.li/watch.php?id=446
 
 #EXTINF:-1 tvg-id="spainprimeradivisiónfemeninavalenciavsgranada" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Valencia 🇪🇸 vs Granada 🇪🇸 (17:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Valencia_vs_Granada.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Valencia 🇪🇸 vs Granada 🇪🇸 (17:15)
+https://thedaddy.li/watch.php?id=1206
+
+#EXTINF:-1 tvg-id="spainprimeradivisiónfemeninavalenciavsgranada" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Valencia 🇪🇸 vs Granada 🇪🇸 (17:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Valencia_vs_Granada.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Valencia 🇪🇸 vs Granada 🇪🇸 (17:15)
 https://thedaddy.li/watch.php?id=529
 
 #EXTINF:-1 tvg-id="spainsegundadivisioneldensevssabadell" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eldense 🇪🇸 vs Sabadell 🇪🇸 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eldense_vs_Sabadell.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eldense 🇪🇸 vs Sabadell 🇪🇸 (17:30)
 https://thedaddy.li/watch.php?id=14
 
 #EXTINF:-1 tvg-id="spainsegundadivisioneldensevssabadell" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eldense 🇪🇸 vs Sabadell 🇪🇸 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eldense_vs_Sabadell.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eldense 🇪🇸 vs Sabadell 🇪🇸 (17:30)
+https://thedaddy.li/watch.php?id=1207
+
+#EXTINF:-1 tvg-id="spainsegundadivisioneldensevssabadell" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eldense 🇪🇸 vs Sabadell 🇪🇸 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eldense_vs_Sabadell.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eldense 🇪🇸 vs Sabadell 🇪🇸 (17:30)
 https://thedaddy.li/watch.php?id=3027
 
 #EXTINF:-1 tvg-id="spainsegundadivisioneibarvscádiz" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eibar 🇪🇸 vs Cádiz 🇪🇸 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eibar_vs_Cadiz.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eibar 🇪🇸 vs Cádiz 🇪🇸 (17:30)
 https://thedaddy.li/watch.php?id=539
+
+#EXTINF:-1 tvg-id="spainsegundadivisioneibarvscádiz" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eibar 🇪🇸 vs Cádiz 🇪🇸 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eibar_vs_Cadiz.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eibar 🇪🇸 vs Cádiz 🇪🇸 (17:30)
+https://thedaddy.li/watch.php?id=1208
 
 #EXTINF:-1 tvg-id="spainsegundadivisioneibarvscádiz" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eibar 🇪🇸 vs Cádiz 🇪🇸 (17:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eibar_vs_Cadiz.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Eibar 🇪🇸 vs Cádiz 🇪🇸 (17:30)
 https://thedaddy.li/watch.php?id=3026
@@ -662,14 +677,29 @@ https://thedaddy.li/watch.php?id=12
 #EXTINF:-1 tvg-id="peruprimeradivisioncomerciantesunidosvssportboys" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Peru - Primera Division : Comerciantes Unidos 🇵🇪 vs Sport Boys 🇵🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Comerciantes_Unidos_vs_Sport_Boys.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Peru - Primera Division : Comerciantes Unidos 🇵🇪 vs Sport Boys 🇵🇪 (18:00)
 https://thedaddy.li/watch.php?id=15
 
+#EXTINF:-1 tvg-id="peruprimeradivisioncomerciantesunidosvssportboys" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Peru - Primera Division : Comerciantes Unidos 🇵🇪 vs Sport Boys 🇵🇪 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Comerciantes_Unidos_vs_Sport_Boys.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Peru - Primera Division : Comerciantes Unidos 🇵🇪 vs Sport Boys 🇵🇪 (18:00)
+https://thedaddy.li/watch.php?id=1209
+
 #EXTINF:-1 tvg-id="polandiiligastalstalowawolavsolimpiagrudzidz" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Poland - II Liga : Stal Stalowa Wola 🇵🇱 vs Olimpia Grudziądz 🇵🇱 (18:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Stal_Stalowa_Wola_vs_Olimpia_Grudziadz.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Poland - II Liga : Stal Stalowa Wola 🇵🇱 vs Olimpia Grudziądz 🇵🇱 (18:30)
 https://thedaddy.li/watch.php?id=128
 
 #EXTINF:-1 tvg-id="brazilcopadobrasilfemininointernacionalvsflamengo" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Brazil Copa do Brasil, Feminino : Internacional 🇧🇷 vs Flamengo 🇧🇷 (19:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Internacional_vs_Flamengo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Brazil Copa do Brasil, Feminino : Internacional 🇧🇷 vs Flamengo 🇧🇷 (19:00)
 https://thedaddy.li/watch.php?id=79
 
+#EXTINF:-1 tvg-id="colombiaprimerabbocajuniorsvsindvalledelcauca" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Colombia Primera B : Boca Juniors vs Ind Valle del Cauca (19:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Boca_Juniors_vs_Ind_Valle_del_Cauca.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Colombia Primera B : Boca Juniors vs Ind Valle del Cauca (19:00)
+https://thedaddy.li/watch.php?id=1221
+
+#EXTINF:-1 tvg-id="boliviadivisionprofesionalalwaysreadyvsindependiente" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Bolivia Division Profesional : Always Ready vs Independiente (19:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Always_Ready_vs_Independiente.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bolivia Division Profesional : Always Ready vs Independiente (19:00)
+https://thedaddy.li/watch.php?id=1222
+
+#EXTINF:-1 tvg-id="uruguayligaaufdanubiovsliverpoolm" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Uruguay Liga AUF : Danubio vs Liverpool M (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Danubio_vs_Liverpool_M.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Uruguay Liga AUF : Danubio vs Liverpool M (19:30)
+https://thedaddy.li/watch.php?id=1223
+
 #EXTINF:-1 tvg-id="uefanationsleaguesimulcast" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Simulcast (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_UEFA_Nations_League_Simulcast.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Simulcast (19:45)
 https://thedaddy.li/watch.php?id=870
+
+#EXTINF:-1 tvg-id="uefanationsleaguesimulcast" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Simulcast (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_UEFA_Nations_League_Simulcast.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Simulcast (19:45)
+https://thedaddy.li/watch.php?id=1224
 
 #EXTINF:-1 tvg-id="uefanationsleaguesimulcast" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Simulcast (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_UEFA_Nations_League_Simulcast.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Simulcast (19:45)
 https://thedaddy.li/watch.php?id=393
@@ -682,6 +712,9 @@ https://thedaddy.li/watch.php?id=140
 
 #EXTINF:-1 tvg-id="uefanationsleaguespainvsengland" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Spain 🇪🇸 vs England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Spain_vs_England.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Spain 🇪🇸 vs England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (19:45)
 https://thedaddy.li/watch.php?id=77
+
+#EXTINF:-1 tvg-id="uefanationsleaguespainvsengland" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Spain 🇪🇸 vs England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Spain_vs_England.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Spain 🇪🇸 vs England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (19:45)
+https://thedaddy.li/watch.php?id=1225
 
 #EXTINF:-1 tvg-id="uefanationsleaguespainvsengland" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Spain 🇪🇸 vs England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Spain_vs_England.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Spain 🇪🇸 vs England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (19:45)
 https://thedaddy.li/watch.php?id=350
@@ -777,6 +810,9 @@ https://thedaddy.li/watch.php?id=5050
 https://thedaddy.li/watch.php?id=86
 
 #EXTINF:-1 tvg-id="uefanationsleaguefrancevsturkey" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : France 🇫🇷 vs Turkey 🇹🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_Turkey.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : France 🇫🇷 vs Turkey 🇹🇷 (19:45)
+https://thedaddy.li/watch.php?id=1226
+
+#EXTINF:-1 tvg-id="uefanationsleaguefrancevsturkey" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : France 🇫🇷 vs Turkey 🇹🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_Turkey.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : France 🇫🇷 vs Turkey 🇹🇷 (19:45)
 https://thedaddy.li/watch.php?id=1000
 
 #EXTINF:-1 tvg-id="uefanationsleaguefrancevsturkey" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : France 🇫🇷 vs Turkey 🇹🇷 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/France_vs_Turkey.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : France 🇫🇷 vs Turkey 🇹🇷 (19:45)
@@ -852,6 +888,9 @@ https://thedaddy.li/watch.php?id=5051
 https://thedaddy.li/watch.php?id=105
 
 #EXTINF:-1 tvg-id="uefanationsleaguecroatiavsczechrepublic" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Croatia 🇭🇷 vs Czech Republic 🇨🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Croatia_vs_Czech_Republic.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Croatia 🇭🇷 vs Czech Republic 🇨🇿 (19:45)
+https://thedaddy.li/watch.php?id=1228
+
+#EXTINF:-1 tvg-id="uefanationsleaguecroatiavsczechrepublic" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Croatia 🇭🇷 vs Czech Republic 🇨🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Croatia_vs_Czech_Republic.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Croatia 🇭🇷 vs Czech Republic 🇨🇿 (19:45)
 https://thedaddy.li/watch.php?id=18
 
 #EXTINF:-1 tvg-id="uefanationsleaguecroatiavsczechrepublic" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Croatia 🇭🇷 vs Czech Republic 🇨🇿 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Croatia_vs_Czech_Republic.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Croatia 🇭🇷 vs Czech Republic 🇨🇿 (19:45)
@@ -889,6 +928,9 @@ https://thedaddy.li/watch.php?id=5049
 
 #EXTINF:-1 tvg-id="uefanationsleaguebelgiumvsitaly" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Belgium 🇧🇪 vs Italy 🇮🇹 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Belgium_vs_Italy.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Belgium 🇧🇪 vs Italy 🇮🇹 (19:45)
 https://thedaddy.li/watch.php?id=106
+
+#EXTINF:-1 tvg-id="uefanationsleaguebelgiumvsitaly" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Belgium 🇧🇪 vs Italy 🇮🇹 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Belgium_vs_Italy.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Belgium 🇧🇪 vs Italy 🇮🇹 (19:45)
+https://thedaddy.li/watch.php?id=1227
 
 #EXTINF:-1 tvg-id="uefanationsleaguebelgiumvsitaly" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ UEFA Nations League : Belgium 🇧🇪 vs Italy 🇮🇹 (19:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Belgium_vs_Italy.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UEFA Nations League : Belgium 🇧🇪 vs Italy 🇮🇹 (19:45)
 https://thedaddy.li/watch.php?id=850
@@ -957,6 +999,9 @@ https://thedaddy.li/watch.php?id=5052
 https://thedaddy.li/watch.php?id=31
 
 #EXTINF:-1 tvg-id="nwslgothamfcvskansascitycurrent" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ NWSL : Gotham FC 🇺🇸 vs Kansas City Current 🇺🇸 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gotham_FC_vs_Kansas_City_Current.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ NWSL : Gotham FC 🇺🇸 vs Kansas City Current 🇺🇸 (20:00)
+https://thedaddy.li/watch.php?id=1230
+
+#EXTINF:-1 tvg-id="nwslgothamfcvskansascitycurrent" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ NWSL : Gotham FC 🇺🇸 vs Kansas City Current 🇺🇸 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gotham_FC_vs_Kansas_City_Current.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ NWSL : Gotham FC 🇺🇸 vs Kansas City Current 🇺🇸 (20:00)
 https://thedaddy.li/watch.php?id=51
 
 #EXTINF:-1 tvg-id="nwslgothamfcvskansascitycurrent" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ NWSL : Gotham FC 🇺🇸 vs Kansas City Current 🇺🇸 (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gotham_FC_vs_Kansas_City_Current.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ NWSL : Gotham FC 🇺🇸 vs Kansas City Current 🇺🇸 (20:00)
@@ -973,6 +1018,18 @@ https://thedaddy.li/watch.php?id=4005
 
 #EXTINF:-1 tvg-id="peruprimeradivisionjuanpabloiicollegevsdeportivogarcilaso" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Peru - Primera Division : Juan Pablo II College 🇵🇪 vs Deportivo Garcilaso 🇵🇪 (20:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Juan_Pablo_II_College_vs_Deportivo_Garcilaso.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Peru - Primera Division : Juan Pablo II College 🇵🇪 vs Deportivo Garcilaso 🇵🇪 (20:15)
 https://thedaddy.li/watch.php?id=15
+
+#EXTINF:-1 tvg-id="peruprimeradivisionjuanpabloiicollegevsdeportivogarcilaso" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Peru - Primera Division : Juan Pablo II College 🇵🇪 vs Deportivo Garcilaso 🇵🇪 (20:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Juan_Pablo_II_College_vs_Deportivo_Garcilaso.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Peru - Primera Division : Juan Pablo II College 🇵🇪 vs Deportivo Garcilaso 🇵🇪 (20:15)
+https://thedaddy.li/watch.php?id=1231
+
+#EXTINF:-1 tvg-id="colombiaprimerabenvigadovsumagdalena" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Colombia Primera B : Envigado vs U Magdalena (20:50)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Envigado_vs_U_Magdalena.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Colombia Primera B : Envigado vs U Magdalena (20:50)
+https://thedaddy.li/watch.php?id=1229
+
+#EXTINF:-1 tvg-id="paraguaycopacerroportenovssoldeamerica" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Paraguay Copa : Cerro Porteno vs Sol de America (21:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cerro_Porteno_vs_Sol_de_America.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Paraguay Copa : Cerro Porteno vs Sol de America (21:00)
+https://thedaddy.li/watch.php?id=1231
+
+#EXTINF:-1 tvg-id="boliviadivisionprofesionalnacionalpotosivsrealpotosi" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ Bolivia Division Profesional : Nacional Potosi vs Real Potosi (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nacional_Potosi_vs_Real_Potosi.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bolivia Division Profesional : Nacional Potosi vs Real Potosi (21:30)
+https://thedaddy.li/watch.php?id=1235
 
 #EXTINF:-1 tvg-id="concacafnationsleaguepanamavscuraçao" x-event-date="2026-11-15" tvg-name="All Soccer Events ⚽ | ⚽ CONCACAF Nations League : Panama 🇵🇦 vs Curaçao 🇨🇼 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Panama_vs_Curacao.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ CONCACAF Nations League : Panama 🇵🇦 vs Curaçao 🇨🇼 (23:00)
 https://thedaddy.li/watch.php?id=758
@@ -1296,6 +1353,9 @@ https://thedaddy.li/watch.php?id=1510
 https://thedaddy.li/watch.php?id=1655
 
 #EXTINF:-1 tvg-id="wtasingleselinasvitolinavsmirraandreeva" x-event-date="2026-11-15" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: 🇺🇦 Elina Svitolina vs 🇷🇺 Mirra Andreeva (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Elina_Svitolina_vs_Mirra_Andreeva.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: 🇺🇦 Elina Svitolina vs 🇷🇺 Mirra Andreeva (20:00)
+https://thedaddy.li/watch.php?id=1076
+
+#EXTINF:-1 tvg-id="wtasingleselinasvitolinavsmirraandreeva" x-event-date="2026-11-15" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: 🇺🇦 Elina Svitolina vs 🇷🇺 Mirra Andreeva (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Elina_Svitolina_vs_Mirra_Andreeva.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: 🇺🇦 Elina Svitolina vs 🇷🇺 Mirra Andreeva (20:00)
 https://thedaddy.li/watch.php?id=1524
 
 #EXTINF:-1 tvg-id="wtasingleselinasvitolinavsmirraandreeva" x-event-date="2026-11-15" tvg-name="Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: 🇺🇦 Elina Svitolina vs 🇷🇺 Mirra Andreeva (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Elina_Svitolina_vs_Mirra_Andreeva.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Singles: Finals - Indian Wells (World) | 🎾 WTA - Singles: 🇺🇦 Elina Svitolina vs 🇷🇺 Mirra Andreeva (20:00)
@@ -1318,6 +1378,9 @@ https://thedaddy.li/watch.php?id=1073
 
 #EXTINF:-1 tvg-id="atpdoublesmarceloarevalomatepavicvstheoarribagealbanoolivetti" x-event-date="2026-11-15" tvg-name="Tennis 🎾 ATP - Doubles: Finals - Turin (World) | 🎾 ATP - Doubles: 🇸🇻 Marcelo Arevalo / 🇭🇷 Mate Pavic vs 🇫🇷 Theo Arribage / 🇫🇷 Albano Olivetti (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Marcelo_Arevalo_Mate_Pavic_vs_Theo_Arribage_Albano_Olivetti.png" group-title="Eventi Live DLHD",Tennis 🎾 ATP - Doubles: Finals - Turin (World) | 🎾 ATP - Doubles: 🇸🇻 Marcelo Arevalo / 🇭🇷 Mate Pavic vs 🇫🇷 Theo Arribage / 🇫🇷 Albano Olivetti (17:00)
 https://thedaddy.li/watch.php?id=1654
+
+#EXTINF:-1 tvg-id="wtadoubleskaterinasiniakovataylortownsendvssaraerranijasminepaolini" x-event-date="2026-11-15" tvg-name="Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: 🇨🇿 Katerina Siniakova / 🇺🇸 Taylor Townsend vs 🇮🇹 Sara Errani / 🇮🇹 Jasmine Paolini (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Katerina_Siniakova_Taylor_Townsend_vs_Sara_Errani_Jasmine_Paolini.png" group-title="Eventi Live DLHD",Tennis 🎾 WTA - Doubles: Finals - Indian Wells (World) | 🎾 WTA - Doubles: 🇨🇿 Katerina Siniakova / 🇺🇸 Taylor Townsend vs 🇮🇹 Sara Errani / 🇮🇹 Jasmine Paolini (22:00)
+https://thedaddy.li/watch.php?id=1077
 
 #EXTINF:-1 tvg-id="challengermensinglesottovirtanenvsnisheshbasavareddy" x-event-date="2026-11-15" tvg-name="Tennis 🎾 Challenger Men - Singles: Orleans (France) | 🎾 Challenger Men - Singles: 🇫🇮 Otto Virtanen vs 🇺🇸 Nishesh Basavareddy (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Otto_Virtanen_vs_Nishesh_Basavareddy.png" group-title="Eventi Live DLHD",Tennis 🎾 Challenger Men - Singles: Orleans (France) | 🎾 Challenger Men - Singles: 🇫🇮 Otto Virtanen vs 🇺🇸 Nishesh Basavareddy (15:00)
 https://thedaddy.li/watch.php?id=1075
@@ -1482,6 +1545,9 @@ https://thedaddy.li/watch.php?id=1026
 https://thedaddy.li/watch.php?id=353
 
 #EXTINF:-1 tvg-id="championofchampions2026leicesterengland" x-event-date="2026-11-15" tvg-name="Snooker 🎱 | 🎱 Champion of Champions 2026 - Leicester, England (19:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Champion_of_Champions_2026_Leicester_England.png" group-title="Eventi Live DLHD",Snooker 🎱 | 🎱 Champion of Champions 2026 - Leicester, England (19:00)
+https://thedaddy.li/watch.php?id=1220
+
+#EXTINF:-1 tvg-id="championofchampions2026leicesterengland" x-event-date="2026-11-15" tvg-name="Snooker 🎱 | 🎱 Champion of Champions 2026 - Leicester, England (19:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Champion_of_Champions_2026_Leicester_England.png" group-title="Eventi Live DLHD",Snooker 🎱 | 🎱 Champion of Champions 2026 - Leicester, England (19:00)
 https://thedaddy.li/watch.php?id=48
 
 #EXTINF:-1 tvg-id="championofchampions2026leicesterengland" x-event-date="2026-11-15" tvg-name="Snooker 🎱 | 🎱 Champion of Champions 2026 - Leicester, England (19:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Champion_of_Champions_2026_Leicester_England.png" group-title="Eventi Live DLHD",Snooker 🎱 | 🎱 Champion of Champions 2026 - Leicester, England (19:00)
@@ -1549,6 +1615,9 @@ https://thedaddy.li/watch.php?id=903
 
 #EXTINF:-1 tvg-id="levimensslalomworldcuprun2" x-event-date="2026-11-15" tvg-name="Alpine Ski 🎿 | ⛷️ Levi | Men's Slalom World Cup | Run 2 (11:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Levi_Men_s_Slalom_World_Cup_Run_2.png" group-title="Eventi Live DLHD",Alpine Ski 🎿 | ⛷️ Levi | Men's Slalom World Cup | Run 2 (11:45)
 https://thedaddy.li/watch.php?id=894
+
+#EXTINF:-1 tvg-id="ncaaamericanfootballoklahomavsolemiss" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NCAA American Football : Oklahoma vs Ole Miss (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Oklahoma_vs_Ole_Miss.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NCAA American Football : Oklahoma vs Ole Miss (18:00)
+https://thedaddy.li/watch.php?id=1217
 
 #EXTINF:-1 tvg-id="nfldetroitlionsvsnewenglandpatriots" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Detroit Lions 🇺🇸 vs New England Patriots 🇺🇸 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Detroit Lions 🇺🇸 vs New England Patriots 🇺🇸 (14:30)
 https://thedaddy.li/watch.php?id=2
@@ -1632,6 +1701,9 @@ https://thedaddy.li/watch.php?id=667
 https://thedaddy.li/watch.php?id=449
 
 #EXTINF:-1 tvg-id="nflredzone" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_NFL_Redzone.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)
+https://thedaddy.li/watch.php?id=1210
+
+#EXTINF:-1 tvg-id="nflredzone" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_NFL_Redzone.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)
 https://thedaddy.li/watch.php?id=557
 
 #EXTINF:-1 tvg-id="nflredzone" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_NFL_Redzone.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)
@@ -1655,8 +1727,14 @@ https://thedaddy.li/watch.php?id=4042
 #EXTINF:-1 tvg-id="nflredzone" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_NFL_Redzone.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)
 https://thedaddy.li/watch.php?id=5044
 
+#EXTINF:-1 tvg-id="nflredzone" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_NFL_Redzone.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Redzone (18:00)
+https://thedaddy.li/watch.php?id=5011
+
 #EXTINF:-1 tvg-id="nflatlantafalconsvskansascitychiefs" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Atlanta_Falcons_vs_Kansas_City_Chiefs.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=5
+
+#EXTINF:-1 tvg-id="nflatlantafalconsvskansascitychiefs" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Atlanta_Falcons_vs_Kansas_City_Chiefs.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=1216
 
 #EXTINF:-1 tvg-id="nflatlantafalconsvskansascitychiefs" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Atlanta_Falcons_vs_Kansas_City_Chiefs.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=155
@@ -1694,8 +1772,14 @@ https://thedaddy.li/watch.php?id=7052
 #EXTINF:-1 tvg-id="nflatlantafalconsvskansascitychiefs" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Atlanta_Falcons_vs_Kansas_City_Chiefs.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=5060
 
+#EXTINF:-1 tvg-id="nflatlantafalconsvskansascitychiefs" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Atlanta_Falcons_vs_Kansas_City_Chiefs.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Atlanta Falcons 🇺🇸 vs Kansas City Chiefs 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=5012
+
 #EXTINF:-1 tvg-id="nflclevelandbrownsvshoustontexans" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cleveland_Browns_vs_Houston_Texans.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=6
+
+#EXTINF:-1 tvg-id="nflclevelandbrownsvshoustontexans" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cleveland_Browns_vs_Houston_Texans.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=1215
 
 #EXTINF:-1 tvg-id="nflclevelandbrownsvshoustontexans" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cleveland_Browns_vs_Houston_Texans.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=36
@@ -1714,6 +1798,9 @@ https://thedaddy.li/watch.php?id=2003
 
 #EXTINF:-1 tvg-id="nflclevelandbrownsvshoustontexans" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cleveland_Browns_vs_Houston_Texans.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=5061
+
+#EXTINF:-1 tvg-id="nflclevelandbrownsvshoustontexans" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cleveland_Browns_vs_Houston_Texans.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Cleveland Browns 🇺🇸 vs Houston Texans 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=5013
 
 #EXTINF:-1 tvg-id="nflgreenbaypackersvsminnesotavikings" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Green Bay Packers 🇺🇸 vs Minnesota Vikings 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Green_Bay_Packers_vs_Minnesota_Vikings.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Green Bay Packers 🇺🇸 vs Minnesota Vikings 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=7
@@ -1778,8 +1865,14 @@ https://thedaddy.li/watch.php?id=7054
 #EXTINF:-1 tvg-id="nflgreenbaypackersvsminnesotavikings" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Green Bay Packers 🇺🇸 vs Minnesota Vikings 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Green_Bay_Packers_vs_Minnesota_Vikings.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Green Bay Packers 🇺🇸 vs Minnesota Vikings 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=5062
 
+#EXTINF:-1 tvg-id="nflgreenbaypackersvsminnesotavikings" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Green Bay Packers 🇺🇸 vs Minnesota Vikings 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Green_Bay_Packers_vs_Minnesota_Vikings.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Green Bay Packers 🇺🇸 vs Minnesota Vikings 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=5018
+
 #EXTINF:-1 tvg-id="nfltennesseetitansvsjacksonvillejaguars" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tennessee_Titans_vs_Jacksonville_Jaguars.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=8
+
+#EXTINF:-1 tvg-id="nfltennesseetitansvsjacksonvillejaguars" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tennessee_Titans_vs_Jacksonville_Jaguars.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=1211
 
 #EXTINF:-1 tvg-id="nfltennesseetitansvsjacksonvillejaguars" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tennessee_Titans_vs_Jacksonville_Jaguars.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=3035
@@ -1793,8 +1886,14 @@ https://thedaddy.li/watch.php?id=2005
 #EXTINF:-1 tvg-id="nfltennesseetitansvsjacksonvillejaguars" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tennessee_Titans_vs_Jacksonville_Jaguars.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=5063
 
+#EXTINF:-1 tvg-id="nfltennesseetitansvsjacksonvillejaguars" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tennessee_Titans_vs_Jacksonville_Jaguars.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Tennessee Titans 🇺🇸 vs Jacksonville Jaguars 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=5014
+
 #EXTINF:-1 tvg-id="nflindianapoliscoltsvsmiamidolphins" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Indianapolis_Colts_vs_Miami_Dolphins.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=9
+
+#EXTINF:-1 tvg-id="nflindianapoliscoltsvsmiamidolphins" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Indianapolis_Colts_vs_Miami_Dolphins.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=1214
 
 #EXTINF:-1 tvg-id="nflindianapoliscoltsvsmiamidolphins" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Indianapolis_Colts_vs_Miami_Dolphins.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=3035
@@ -1808,8 +1907,14 @@ https://thedaddy.li/watch.php?id=2006
 #EXTINF:-1 tvg-id="nflindianapoliscoltsvsmiamidolphins" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Indianapolis_Colts_vs_Miami_Dolphins.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=5064
 
+#EXTINF:-1 tvg-id="nflindianapoliscoltsvsmiamidolphins" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Indianapolis_Colts_vs_Miami_Dolphins.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Indianapolis Colts 🇺🇸 vs Miami Dolphins 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=5015
+
 #EXTINF:-1 tvg-id="nflneworleanssaintsvscarolinapanthers" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_Orleans_Saints_vs_Carolina_Panthers.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=10
+
+#EXTINF:-1 tvg-id="nflneworleanssaintsvscarolinapanthers" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_Orleans_Saints_vs_Carolina_Panthers.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=1213
 
 #EXTINF:-1 tvg-id="nflneworleanssaintsvscarolinapanthers" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_Orleans_Saints_vs_Carolina_Panthers.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=3036
@@ -1823,8 +1928,14 @@ https://thedaddy.li/watch.php?id=2007
 #EXTINF:-1 tvg-id="nflneworleanssaintsvscarolinapanthers" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_Orleans_Saints_vs_Carolina_Panthers.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=5065
 
+#EXTINF:-1 tvg-id="nflneworleanssaintsvscarolinapanthers" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_Orleans_Saints_vs_Carolina_Panthers.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New Orleans Saints 🇺🇸 vs Carolina Panthers 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=5016
+
 #EXTINF:-1 tvg-id="nflnewyorkjetsvsbuffalobills" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_York_Jets_vs_Buffalo_Bills.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=11
+
+#EXTINF:-1 tvg-id="nflnewyorkjetsvsbuffalobills" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_York_Jets_vs_Buffalo_Bills.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=1212
 
 #EXTINF:-1 tvg-id="nflnewyorkjetsvsbuffalobills" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_York_Jets_vs_Buffalo_Bills.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=52
@@ -1847,8 +1958,14 @@ https://thedaddy.li/watch.php?id=2008
 #EXTINF:-1 tvg-id="nflnewyorkjetsvsbuffalobills" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_York_Jets_vs_Buffalo_Bills.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=5066
 
+#EXTINF:-1 tvg-id="nflnewyorkjetsvsbuffalobills" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_York_Jets_vs_Buffalo_Bills.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : New York Jets 🇺🇸 vs Buffalo Bills 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=5017
+
 #EXTINF:-1 tvg-id="nfllasvegasraidersvsseattleseahawks" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Las_Vegas_Raiders_vs_Seattle_Seahawks.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)
 https://thedaddy.li/watch.php?id=1
+
+#EXTINF:-1 tvg-id="nfllasvegasraidersvsseattleseahawks" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Las_Vegas_Raiders_vs_Seattle_Seahawks.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)
+https://thedaddy.li/watch.php?id=1232
 
 #EXTINF:-1 tvg-id="nfllasvegasraidersvsseattleseahawks" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Las_Vegas_Raiders_vs_Seattle_Seahawks.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)
 https://thedaddy.li/watch.php?id=112
@@ -1871,8 +1988,14 @@ https://thedaddy.li/watch.php?id=2009
 #EXTINF:-1 tvg-id="nfllasvegasraidersvsseattleseahawks" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Las_Vegas_Raiders_vs_Seattle_Seahawks.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)
 https://thedaddy.li/watch.php?id=5067
 
+#EXTINF:-1 tvg-id="nfllasvegasraidersvsseattleseahawks" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Las_Vegas_Raiders_vs_Seattle_Seahawks.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Las Vegas Raiders 🇺🇸 vs Seattle Seahawks 🇺🇸 (21:05)
+https://thedaddy.li/watch.php?id=5020
+
 #EXTINF:-1 tvg-id="nflarizonacardinalsvslosangelesrams" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Arizona Cardinals 🇺🇸 vs Los Angeles Rams 🇺🇸 (21:05)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Arizona_Cardinals_vs_Los_Angeles_Rams.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Arizona Cardinals 🇺🇸 vs Los Angeles Rams 🇺🇸 (21:05)
 https://thedaddy.li/watch.php?id=2
+
+#EXTINF:-1 tvg-id="nflarizonacardinalsvslosangelesrams" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Arizona Cardinals 🇺🇸 vs Los Angeles Rams 🇺🇸 (21:05)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Arizona_Cardinals_vs_Los_Angeles_Rams.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Arizona Cardinals 🇺🇸 vs Los Angeles Rams 🇺🇸 (21:05)
+https://thedaddy.li/watch.php?id=1233
 
 #EXTINF:-1 tvg-id="nflarizonacardinalsvslosangelesrams" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Arizona Cardinals 🇺🇸 vs Los Angeles Rams 🇺🇸 (21:05)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Arizona_Cardinals_vs_Los_Angeles_Rams.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Arizona Cardinals 🇺🇸 vs Los Angeles Rams 🇺🇸 (21:05)
 https://thedaddy.li/watch.php?id=36
@@ -1897,6 +2020,9 @@ https://thedaddy.li/watch.php?id=5068
 
 #EXTINF:-1 tvg-id="nfldallascowboysvssanfrancisco49ers" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Dallas Cowboys 🇺🇸 vs San Francisco 49ers 🇺🇸 (21:25)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Dallas_Cowboys_vs_San_Francisco_49ers.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Dallas Cowboys 🇺🇸 vs San Francisco 49ers 🇺🇸 (21:25)
 https://thedaddy.li/watch.php?id=6
+
+#EXTINF:-1 tvg-id="nfldallascowboysvssanfrancisco49ers" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Dallas Cowboys 🇺🇸 vs San Francisco 49ers 🇺🇸 (21:25)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Dallas_Cowboys_vs_San_Francisco_49ers.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Dallas Cowboys 🇺🇸 vs San Francisco 49ers 🇺🇸 (21:25)
+https://thedaddy.li/watch.php?id=1234
 
 #EXTINF:-1 tvg-id="nfldallascowboysvssanfrancisco49ers" x-event-date="2026-11-15" tvg-name="Am. Football (NFL) 🏈 | 🏈 NFL : Dallas Cowboys 🇺🇸 vs San Francisco 49ers 🇺🇸 (21:25)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Dallas_Cowboys_vs_San_Francisco_49ers.png" group-title="Eventi Live DLHD",Am. Football (NFL) 🏈 | 🏈 NFL : Dallas Cowboys 🇺🇸 vs San Francisco 49ers 🇺🇸 (21:25)
 https://thedaddy.li/watch.php?id=54
@@ -2286,6 +2412,9 @@ https://thedaddy.li/watch.php?id=776
 https://thedaddy.li/watch.php?id=25
 
 #EXTINF:-1 tvg-id="nbaphiladelphia76ersvsindianapacers" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Indiana Pacers 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Indiana_Pacers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Indiana Pacers 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=1218
+
+#EXTINF:-1 tvg-id="nbaphiladelphia76ersvsindianapacers" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Indiana Pacers 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Indiana_Pacers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Indiana Pacers 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=777
 
 #EXTINF:-1 tvg-id="nbaphiladelphia76ersvsindianapacers" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Indiana Pacers 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Indiana_Pacers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Indiana Pacers 🇺🇸 (18:00)
@@ -2340,6 +2469,9 @@ https://thedaddy.li/watch.php?id=5043
 https://thedaddy.li/watch.php?id=13
 
 #EXTINF:-1 tvg-id="nbaphoenixsunsvslosangeleslakers" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Phoenix_Suns_vs_Los_Angeles_Lakers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)
+https://thedaddy.li/watch.php?id=1230
+
+#EXTINF:-1 tvg-id="nbaphoenixsunsvslosangeleslakers" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Phoenix_Suns_vs_Los_Angeles_Lakers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)
 https://thedaddy.li/watch.php?id=982
 
 #EXTINF:-1 tvg-id="nbaphoenixsunsvslosangeleslakers" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Phoenix_Suns_vs_Los_Angeles_Lakers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)
@@ -2381,14 +2513,26 @@ https://thedaddy.li/watch.php?id=145
 #EXTINF:-1 tvg-id="nbaphoenixsunsvslosangeleslakers" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Phoenix_Suns_vs_Los_Angeles_Lakers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)
 https://thedaddy.li/watch.php?id=3003
 
+#EXTINF:-1 tvg-id="nbaphoenixsunsvslosangeleslakers" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Phoenix_Suns_vs_Los_Angeles_Lakers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Phoenix Suns 🇺🇸 vs Los Angeles Lakers 🇺🇸 (21:00)
+https://thedaddy.li/watch.php?id=5019
+
 #EXTINF:-1 tvg-id="nbalosangelesclippersvscharlottehornets" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Los Angeles Clippers 🇺🇸 vs Charlotte Hornets 🇺🇸 (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Los_Angeles_Clippers_vs_Charlotte_Hornets.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Los Angeles Clippers 🇺🇸 vs Charlotte Hornets 🇺🇸 (21:30)
 https://thedaddy.li/watch.php?id=14
 
 #EXTINF:-1 tvg-id="nbalosangelesclippersvscharlottehornets" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Los Angeles Clippers 🇺🇸 vs Charlotte Hornets 🇺🇸 (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Los_Angeles_Clippers_vs_Charlotte_Hornets.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Los Angeles Clippers 🇺🇸 vs Charlotte Hornets 🇺🇸 (21:30)
+https://thedaddy.li/watch.php?id=1236
+
+#EXTINF:-1 tvg-id="nbalosangelesclippersvscharlottehornets" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Los Angeles Clippers 🇺🇸 vs Charlotte Hornets 🇺🇸 (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Los_Angeles_Clippers_vs_Charlotte_Hornets.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Los Angeles Clippers 🇺🇸 vs Charlotte Hornets 🇺🇸 (21:30)
 https://thedaddy.li/watch.php?id=3002
+
+#EXTINF:-1 tvg-id="nbalosangelesclippersvscharlottehornets" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Los Angeles Clippers 🇺🇸 vs Charlotte Hornets 🇺🇸 (21:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Los_Angeles_Clippers_vs_Charlotte_Hornets.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Los Angeles Clippers 🇺🇸 vs Charlotte Hornets 🇺🇸 (21:30)
+https://thedaddy.li/watch.php?id=5021
 
 #EXTINF:-1 tvg-id="nbautahjazzvssanantoniospurs" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Utah_Jazz_vs_San_Antonio_Spurs.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)
 https://thedaddy.li/watch.php?id=7
+
+#EXTINF:-1 tvg-id="nbautahjazzvssanantoniospurs" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Utah_Jazz_vs_San_Antonio_Spurs.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)
+https://thedaddy.li/watch.php?id=1237
 
 #EXTINF:-1 tvg-id="nbautahjazzvssanantoniospurs" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Utah_Jazz_vs_San_Antonio_Spurs.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)
 https://thedaddy.li/watch.php?id=134
@@ -2398,6 +2542,9 @@ https://thedaddy.li/watch.php?id=157
 
 #EXTINF:-1 tvg-id="nbautahjazzvssanantoniospurs" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Utah_Jazz_vs_San_Antonio_Spurs.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)
 https://thedaddy.li/watch.php?id=3004
+
+#EXTINF:-1 tvg-id="nbautahjazzvssanantoniospurs" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Utah_Jazz_vs_San_Antonio_Spurs.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Utah Jazz 🇺🇸 vs San Antonio Spurs 🇺🇸 (22:00)
+https://thedaddy.li/watch.php?id=5022
 
 #EXTINF:-1 tvg-id="nbabostoncelticsvsdallasmavericks" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Boston Celtics 🇺🇸 vs Dallas Mavericks 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Boston_Celtics_vs_Dallas_Mavericks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Boston Celtics 🇺🇸 vs Dallas Mavericks 🇺🇸 (23:00)
 https://thedaddy.li/watch.php?id=8
@@ -2414,6 +2561,9 @@ https://thedaddy.li/watch.php?id=49
 #EXTINF:-1 tvg-id="nbabostoncelticsvsdallasmavericks" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Boston Celtics 🇺🇸 vs Dallas Mavericks 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Boston_Celtics_vs_Dallas_Mavericks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Boston Celtics 🇺🇸 vs Dallas Mavericks 🇺🇸 (23:00)
 https://thedaddy.li/watch.php?id=3005
 
+#EXTINF:-1 tvg-id="nbabostoncelticsvsdallasmavericks" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Boston Celtics 🇺🇸 vs Dallas Mavericks 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Boston_Celtics_vs_Dallas_Mavericks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Boston Celtics 🇺🇸 vs Dallas Mavericks 🇺🇸 (23:00)
+https://thedaddy.li/watch.php?id=5023
+
 #EXTINF:-1 tvg-id="nbatorontoraptorsvsnewyorkknicks" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Toronto Raptors 🇨🇦 vs New York Knicks 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Toronto_Raptors_vs_New_York_Knicks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Toronto Raptors 🇨🇦 vs New York Knicks 🇺🇸 (23:00)
 https://thedaddy.li/watch.php?id=9
 
@@ -2425,6 +2575,9 @@ https://thedaddy.li/watch.php?id=765
 
 #EXTINF:-1 tvg-id="nbatorontoraptorsvsnewyorkknicks" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Toronto Raptors 🇨🇦 vs New York Knicks 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Toronto_Raptors_vs_New_York_Knicks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Toronto Raptors 🇨🇦 vs New York Knicks 🇺🇸 (23:00)
 https://thedaddy.li/watch.php?id=3006
+
+#EXTINF:-1 tvg-id="nbatorontoraptorsvsnewyorkknicks" x-event-date="2026-11-15" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Toronto Raptors 🇨🇦 vs New York Knicks 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Toronto_Raptors_vs_New_York_Knicks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Toronto Raptors 🇨🇦 vs New York Knicks 🇺🇸 (23:00)
+https://thedaddy.li/watch.php?id=5024
 
 #EXTINF:-1 tvg-id="nbawashingtonwizardsvshoustonrockets" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Washington Wizards 🇺🇸 vs Houston Rockets 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Washington_Wizards_vs_Houston_Rockets.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Washington Wizards 🇺🇸 vs Houston Rockets 🇺🇸 (00:00)
 https://thedaddy.li/watch.php?id=10
@@ -2438,11 +2591,17 @@ https://thedaddy.li/watch.php?id=778
 #EXTINF:-1 tvg-id="nbawashingtonwizardsvshoustonrockets" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Washington Wizards 🇺🇸 vs Houston Rockets 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Washington_Wizards_vs_Houston_Rockets.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Washington Wizards 🇺🇸 vs Houston Rockets 🇺🇸 (00:00)
 https://thedaddy.li/watch.php?id=3007
 
+#EXTINF:-1 tvg-id="nbawashingtonwizardsvshoustonrockets" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Washington Wizards 🇺🇸 vs Houston Rockets 🇺🇸 (00:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Washington_Wizards_vs_Houston_Rockets.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Washington Wizards 🇺🇸 vs Houston Rockets 🇺🇸 (00:00)
+https://thedaddy.li/watch.php?id=5025
+
 #EXTINF:-1 tvg-id="nbamilwaukeebucksvsatlantahawks" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Milwaukee Bucks 🇺🇸 vs Atlanta Hawks 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Milwaukee_Bucks_vs_Atlanta_Hawks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Milwaukee Bucks 🇺🇸 vs Atlanta Hawks 🇺🇸 (01:00)
 https://thedaddy.li/watch.php?id=11
 
 #EXTINF:-1 tvg-id="nbamilwaukeebucksvsatlantahawks" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Milwaukee Bucks 🇺🇸 vs Atlanta Hawks 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Milwaukee_Bucks_vs_Atlanta_Hawks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Milwaukee Bucks 🇺🇸 vs Atlanta Hawks 🇺🇸 (01:00)
 https://thedaddy.li/watch.php?id=3008
+
+#EXTINF:-1 tvg-id="nbamilwaukeebucksvsatlantahawks" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Milwaukee Bucks 🇺🇸 vs Atlanta Hawks 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Milwaukee_Bucks_vs_Atlanta_Hawks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Milwaukee Bucks 🇺🇸 vs Atlanta Hawks 🇺🇸 (01:00)
+https://thedaddy.li/watch.php?id=5026
 
 #EXTINF:-1 tvg-id="nbasacramentokingsvsoklahomacitythunder" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Sacramento Kings 🇺🇸 vs Oklahoma City Thunder 🇺🇸 (02:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sacramento_Kings_vs_Oklahoma_City_Thunder.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Sacramento Kings 🇺🇸 vs Oklahoma City Thunder 🇺🇸 (02:00)
 https://thedaddy.li/watch.php?id=12
@@ -2452,6 +2611,9 @@ https://thedaddy.li/watch.php?id=755
 
 #EXTINF:-1 tvg-id="nbasacramentokingsvsoklahomacitythunder" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Sacramento Kings 🇺🇸 vs Oklahoma City Thunder 🇺🇸 (02:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sacramento_Kings_vs_Oklahoma_City_Thunder.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Sacramento Kings 🇺🇸 vs Oklahoma City Thunder 🇺🇸 (02:00)
 https://thedaddy.li/watch.php?id=3009
+
+#EXTINF:-1 tvg-id="nbasacramentokingsvsoklahomacitythunder" x-event-date="2026-11-16" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Sacramento Kings 🇺🇸 vs Oklahoma City Thunder 🇺🇸 (02:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sacramento_Kings_vs_Oklahoma_City_Thunder.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Sacramento Kings 🇺🇸 vs Oklahoma City Thunder 🇺🇸 (02:00)
+https://thedaddy.li/watch.php?id=5027
 
 #EXTINF:-1 tvg-id="menscollegebasketballabrahambaldwinagriculturalcollegevsfloridagulfcoast" x-event-date="2026-11-15" tvg-name="Men's College Basketball 🏀 | 🏀 Men's College Basketball : Abraham Baldwin Agricultural College 🇺🇸 vs Florida Gulf Coast 🇺🇸 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Abraham_Baldwin_Agricultural_College_vs_Florida_Gulf_Coast.png" group-title="Eventi Live DLHD",Men's College Basketball 🏀 | 🏀 Men's College Basketball : Abraham Baldwin Agricultural College 🇺🇸 vs Florida Gulf Coast 🇺🇸 (17:00)
 https://thedaddy.li/watch.php?id=00
@@ -2848,6 +3010,9 @@ https://thedaddy.li/watch.php?id=159
 
 #EXTINF:-1 tvg-id="pdcdartsgroupstagesecondroundmatches" x-event-date="2026-11-15" tvg-name="Darts 🎯 | 🎯 PDC Darts Group Stage - Second Round Matches (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_PDC_Darts_Group_Stage_Second_Round_Matches.png" group-title="Eventi Live DLHD",Darts 🎯 | 🎯 PDC Darts Group Stage - Second Round Matches (19:30)
 https://thedaddy.li/watch.php?id=38
+
+#EXTINF:-1 tvg-id="pdcdartsgroupstagesecondroundmatches" x-event-date="2026-11-15" tvg-name="Darts 🎯 | 🎯 PDC Darts Group Stage - Second Round Matches (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_PDC_Darts_Group_Stage_Second_Round_Matches.png" group-title="Eventi Live DLHD",Darts 🎯 | 🎯 PDC Darts Group Stage - Second Round Matches (19:30)
+https://thedaddy.li/watch.php?id=1219
 
 #EXTINF:-1 tvg-id="pdcdartsgroupstagesecondroundmatches" x-event-date="2026-11-15" tvg-name="Darts 🎯 | 🎯 PDC Darts Group Stage - Second Round Matches (19:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_PDC_Darts_Group_Stage_Second_Round_Matches.png" group-title="Eventi Live DLHD",Darts 🎯 | 🎯 PDC Darts Group Stage - Second Round Matches (19:30)
 https://thedaddy.li/watch.php?id=591
