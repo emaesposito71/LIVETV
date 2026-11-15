@@ -1,28 +1,4 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://github.com/leanhhu061206/LIVETV/raw/refs/heads/main/epg.xml.gz"
-#EXTINF:-1 tvg-id="FOX.US" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (FOX US)
-https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%20US&code=us&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="FOX.5.New.York" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (FOX 5 New York)
-https://cdnlivetv.tv/api/v1/channels/player/?name=FOX%205%20New%20York&code=&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="TSN.3.FHD.CA" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (TSN 3 FHD CA)
-https://cdnlivetv.tv/api/v1/channels/player/?name=TSN%203%20FHD%20CA&code=&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="Sky.Sports.NFL.FHD.UK" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (Sky Sports NFL FHD UK)
-https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20NFL%20FHD%20UK&code=gb&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="RDS.CA" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (RDS CA)
-https://cdnlivetv.tv/api/v1/channels/player/?name=RDS%20CA&code=ca&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="RTL.FHD.DE" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (RTL FHD DE)
-https://cdnlivetv.tv/api/v1/channels/player/?name=RTL%20FHD%20DE&code=de&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="Sky.Sport.Top.Event.FHD.DE" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (Sky Sport Top Event FHD DE)
-https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sport%20Top%20Event%20FHD%20DE&code=de&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="Sky.Sports.Football.FHD.UK" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (Sky Sports Football FHD UK)
-https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20Football%20FHD%20UK&code=gb&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="beIN.SPORTS.2.FR.FHD" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (beIN SPORTS 2 FR FHD)
-https://cdnlivetv.tv/api/v1/channels/player/?name=beIN%20SPORTS%202%20FR%20FHD&code=fr&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="Fox.Deportes.HD.US" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (Fox Deportes HD US)
-https://cdnlivetv.tv/api/v1/channels/player/?name=Fox%20Deportes%20HD%20US&code=&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="Max.Sport.3.FHD.BG" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (Max Sport 3 FHD BG)
-https://cdnlivetv.tv/api/v1/channels/player/?name=Max%20Sport%203%20FHD%20BG&code=bg&user=cdnlivetv&plan=free
-#EXTINF:-1 tvg-id="TV2.Sport.HD.DK" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Detroit_Lions_vs_New_England_Patriots.png",[NFL] 2026-11-15 14:30 - NFL - Detroit Lions vs New England Patriots (TV2 Sport HD DK)
-https://cdnlivetv.tv/api/v1/channels/player/?name=TV2%20Sport%20HD%20DK&code=dk&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="5Action.HD.UK" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Atlanta_Falcons_vs_Kansas_City_Chiefs.png",[NFL] 2026-11-15 18:00 - NFL - Atlanta Falcons vs Kansas City Chiefs (5Action HD UK)
 https://cdnlivetv.tv/api/v1/channels/player/?name=5Action%20HD%20UK&code=gb&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="TSN.2.FHD.CA" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Atlanta_Falcons_vs_Kansas_City_Chiefs.png",[NFL] 2026-11-15 18:00 - NFL - Atlanta Falcons vs Kansas City Chiefs (TSN 2 FHD CA)
@@ -137,6 +113,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.360.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-21 04:00 - Formula 1 -  vs  (Canal+ Sport 360 HD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-21 04:00 - Formula 1 -  vs  (Canal+ Sport HD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-21 04:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="CANAL+.SPORT.6.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-21 04:00 - Formula 1 -  vs  (CANAL+ SPORT 6 FHD PL)
@@ -149,6 +127,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.Extra.4.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-21 04:00 - Formula 1 -  vs  (Canal+ Sport Extra 4 FHD PL)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-21 04:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-22 04:00 - Formula 1 -  vs  (Canal+ Sport FHD PL)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.2.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-22 04:00 - Formula 1 -  vs  (Canal+ Sport 2 FHD PL)
@@ -169,6 +149,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.360.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-22 04:00 - Formula 1 -  vs  (Canal+ Sport 360 HD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-22 04:00 - Formula 1 -  vs  (Canal+ Sport HD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-22 04:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="CANAL+.SPORT.6.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-22 04:00 - Formula 1 -  vs  (CANAL+ SPORT 6 FHD PL)
@@ -181,6 +163,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.Extra.4.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-22 04:00 - Formula 1 -  vs  (Canal+ Sport Extra 4 FHD PL)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-22 04:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Sky.Sports.F1.FHD.UK" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",[Motorsport] 2026-11-27 13:30 - Formula 1 -  vs  (Sky Sports F1 FHD UK)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Sky%20Sports%20F1%20FHD%20UK&code=gb&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Sky.Sports.F1.FHD.UK" group-title="Eventi Live SPORTS99 ENG" tvg-logo="https://cdnlivetv.tv/api/v1/channels/images6318/united-kingdom/sky-sports-f1-fhd-uk.webp",[Motorsport] 2026-11-27 17:00 - Formula 1 -  vs  (Sky Sports F1 FHD UK)
@@ -209,6 +193,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.360.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-29 16:00 - Formula 1 -  vs  (Canal+ Sport 360 HD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-29 16:00 - Formula 1 -  vs  (Canal+ Sport HD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-29 16:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Tipik.FHD.BE" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-29 16:00 - Formula 1 -  vs  (Tipik FHD BE)
@@ -223,6 +209,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.Extra.4.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-29 16:00 - Formula 1 -  vs  (Canal+ Sport Extra 4 FHD PL)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-29 16:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Tipik.FHD.BE" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-11-29 16:00 - Formula 1 -  vs  (Tipik FHD BE)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-05 14:00 - Formula 1 -  vs  (Canal+ Sport FHD PL)
@@ -245,6 +233,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.360.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-05 14:00 - Formula 1 -  vs  (Canal+ Sport 360 HD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-05 14:00 - Formula 1 -  vs  (Canal+ Sport HD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-05 14:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Tipik.FHD.BE" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-05 14:00 - Formula 1 -  vs  (Tipik FHD BE)
@@ -259,6 +249,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.Extra.4.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-05 14:00 - Formula 1 -  vs  (Canal+ Sport Extra 4 FHD PL)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-05 14:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Tipik.FHD.BE" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-05 14:00 - Formula 1 -  vs  (Tipik FHD BE)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-06 13:00 - Formula 1 -  vs  (Canal+ Sport FHD PL)
@@ -281,6 +273,8 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.360.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-06 13:00 - Formula 1 -  vs  (Canal+ Sport 360 HD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20360%20HD%20FR&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.HD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-06 13:00 - Formula 1 -  vs  (Canal+ Sport HD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20HD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-06 13:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Tipik.FHD.BE" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-06 13:00 - Formula 1 -  vs  (Tipik FHD BE)
@@ -295,5 +289,7 @@ https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%202%2
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%203%20FHD%20PL&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Canal+.Sport.Extra.4.FHD.PL" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-06 13:00 - Formula 1 -  vs  (Canal+ Sport Extra 4 FHD PL)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20Extra%204%20FHD%20PL&code=&user=cdnlivetv&plan=free
+#EXTINF:-1 tvg-id="Canal+.Sport.SD.FR" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-06 13:00 - Formula 1 -  vs  (Canal+ Sport SD FR)
+https://cdnlivetv.tv/api/v1/channels/player/?name=Canal%2B%20Sport%20SD%20FR&code=&user=cdnlivetv&plan=free
 #EXTINF:-1 tvg-id="Tipik.FHD.BE" group-title="Eventi Live SPORTS99 ENG" tvg-logo="",[Motorsport] 2026-12-06 13:00 - Formula 1 -  vs  (Tipik FHD BE)
 https://cdnlivetv.tv/api/v1/channels/player/?name=Tipik%20FHD%20BE&code=&user=cdnlivetv&plan=free
