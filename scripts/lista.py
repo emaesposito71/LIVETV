@@ -2,6 +2,7 @@ import requests
 import os
 import re
 import time
+import html
 import unicodedata
 import urllib.parse
 import concurrent.futures
@@ -37,7 +38,7 @@ def _env_int(name, default, minimum):
         return default
 
 POSTER_SIZE = (_env_int("POSTER_WIDTH", 640, 320), _env_int("POSTER_HEIGHT", 360, 180))
-POSTER_VERSION = "5"
+POSTER_VERSION = "6"
 _EMOJI_RE = re.compile(r'[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\uFE0F\U000E0000-\U000E007F]')
 
 def _poster_clean(value):
@@ -468,7 +469,7 @@ def _build_stadium_spotlight_bg(W, H, c1, c2, S):
     bokeh = bokeh.filter(ImageFilter.GaussianBlur(radius=max(3, int(13 * S))))
     return Image.alpha_composite(canvas, bokeh)
 
-def create_event_poster(team1, team2, img1, img2, event_name='', category='', time_str='', output_path=''):
+def create_event_poster(team1, team2, img1, img2, event_name='', category='', time_str='', output_path='', src1='', src2=''):
     out_W, out_H = POSTER_SIZE
     # Supersampling 2x per bordi, loghi e testi ultra-nitidi senza scalettature
     W, H = out_W * 2, out_H * 2
@@ -530,6 +531,7 @@ def create_event_poster(team1, team2, img1, img2, event_name='', category='', ti
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         info = PngImagePlugin.PngInfo()
         info.add_text("livetv-poster", POSTER_VERSION)
+        info.add_text("livetv-sources", f"{src1 or ''}|{src2 or ''}")
         final_img.save(output_path, 'PNG', optimize=True, pnginfo=info)
     return final_img
 
@@ -537,6 +539,17 @@ def poster_is_current(path):
     try:
         with Image.open(path) as im:
             return im.size == POSTER_SIZE and im.info.get("livetv-poster") == POSTER_VERSION
+    except Exception:
+        return False
+
+
+def poster_sources_match(path, src1, src2):
+    """v-fix: True se il poster esistente e' stato generato con GLI STESSI
+    url dei loghi. Se una squadra che prima non aveva logo ora lo risolve,
+    il poster viene rigenerato invece di restare per 3h con le iniziali."""
+    try:
+        with Image.open(path) as im:
+            return im.info.get("livetv-sources", '') == f"{src1 or ''}|{src2 or ''}"
     except Exception:
         return False
 
@@ -717,6 +730,10 @@ _ESPN_COLLEGE_SOCCER = {
     'women': 'https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.w.1/teams?limit=500',
     'men': 'https://site.api.espn.com/apis/site/v2/sports/soccer/usa.ncaa.m.1/teams?limit=500',
 }
+# v-fix: college VOLLEYBALL femminile — prima mancava del tutto
+_ESPN_COLLEGE_VOLLEY = {
+    'women': 'https://site.api.espn.com/apis/site/v2/sports/volleyball/womens-college-volleyball/teams?limit=500',
+}
 _ESPN_LEAGUES = {
     'spain la liga': 'esp.1', 'spain segunda division': 'esp.2',
     'england premier league': 'eng.1', 'england championship': 'eng.2',
@@ -747,7 +764,7 @@ _SCORES365_SPORT_IDS = {
     'handball': 5, 'american-football': 6, 'baseball': 7,
     'volleyball': 8, 'rugby': 9,
 }
-_SCORES365_STOP = {'al', 'el', 'the', 'fc', 'cf', 'sc', 'club', 'team', 'de', 'cd', 'ca', 'ac', 'as', 'us', 'ss', 'ssc', 'fk', 'bc', 'kk'}
+_SCORES365_STOP = {'al', 'el', 'the', 'fc', 'cf', 'sc', 'club', 'team', 'de', 'cd', 'ca', 'ac', 'as', 'us', 'ss', 'ssc', 'fk', 'bc', 'kk', 'ec'}
 _ESPN_CACHE = {}
 _ESPN_LEAGUE_CACHE = {}
 _SCORES365_COMP_CACHE = {}
@@ -782,6 +799,8 @@ _PRIORITY_ALIASES = {
     'al kuwait': 'Al Kuwait SC',
     'rsc anderlecht ii': 'RSC Anderlecht',
     'anderlecht ii': 'RSC Anderlecht',
+    'southern mississippi': 'Southern Miss',
+    'hapoel netanel holon': 'Hapoel Holon',
 }
 _TEAM_ALIAS = {
     'inter': 'Inter Milan',
@@ -806,6 +825,8 @@ _TEAM_ALIAS = {
     'al kuwait': 'Al Kuwait',
     'rsc anderlecht ii': 'RSC Anderlecht',
     'anderlecht ii': 'RSC Anderlecht',
+    'southern mississippi': 'Southern Miss',
+    'hapoel netanel holon': 'Hapoel Holon',
 }
 
 
@@ -836,14 +857,27 @@ def _sport_of(category, title):
     return 'other'
 
 
+# v-fix: trascodifica dei glifi che NFD NON decompone (ł đ æ ø œ ß) e delle
+# lettere greche (ς σ → s): senza, il token match fallisce su nomi come
+# "Bielsko-Biała" / "Kronoς" e la squadra finisce nelle iniziali.
+_TRANSIT_MAP = str.maketrans({
+    'ł': 'l', 'Ł': 'L', 'đ': 'd', 'Đ': 'D', 'ð': 'd', 'Ð': 'D',
+    'þ': 'th', 'Þ': 'TH', 'æ': 'ae', 'Æ': 'AE', 'ø': 'o', 'Ø': 'O',
+    'œ': 'oe', 'Œ': 'OE', 'ı': 'i', 'İ': 'I', 'ß': 'ss', 'ς': 's', 'σ': 's',
+})
+
+
 def _norm_name(value):
-    s = unicodedata.normalize('NFD', str(value or ''))
+    s = str(value or '').translate(_TRANSIT_MAP)
+    s = unicodedata.normalize('NFD', s)
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
     return re.sub(r'[^a-z0-9]+', ' ', s.lower()).strip()
 
 
 def _clean_name(value):
-    s = _EMOJI_RE.sub(' ', str(value or ''))
+    # v-fix: html.unescape — lo schedule HTML contiene entita' non decodificate
+    # ("Texas A&amp;M", "Emory &amp; Henry"): senza decodifica nessuna fonte matcha.
+    s = _EMOJI_RE.sub(' ', html.unescape(str(value or '')))
     s = re.sub(r'\([^)]*\)', ' ', s)
     return re.sub(r'\s+', ' ', s).strip()
 
@@ -870,7 +904,7 @@ def _event_sides(title):
 
 
 def _reserve_aliases(name):
-    m = re.match(r'^(.*?)\s+(II|2|B|U23|U-23|U21|U-21|Next Gen)$', str(name or ''), re.I)
+    m = re.match(r'^(.*?)\s+(II|2|B|U1[89]|U2[0-5]|U-1[89]|U-2[0-5]|Next Gen|Reserves?|Primavera)$', str(name or ''), re.I)
     if not m:
         return []
     base = m.group(1).strip()
@@ -928,8 +962,12 @@ def _wiki_accept(desc, sport):
 
 def _fetch_json(url, timeout=6):
     try:
+        # v-fix CAUSA-PRINCIPALE: Wikimedia risponde 429 agli User-Agent da browser
+        # (policy bot: serve un UA descrittivo). Col LOGO_UA l'intero fallback
+        # Wikipedia restituiva sempre vuoto e decine di squadre caddevano nelle iniziali.
+        ua = WIKI_UA if 'wikipedia.org' in url else LOGO_UA
         r = requests.get(url, headers={
-            'User-Agent': LOGO_UA,
+            'User-Agent': ua,
             'Accept': 'application/json,text/html;q=0.9,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
         }, timeout=timeout)
@@ -956,53 +994,92 @@ def _store_logo(name, sport, url):
     _LOGO_TS[key] = time.time()
 
 
+_ESPN_Q_STOP = {'university', 'of', 'the'}
+
+
 def _espn_team_logo(teams, name):
     name = _alias_name(name)
     q = [w for w in _norm_name(name).split() if len(w) >= 2]
     if not q:
         return ''
+    # "University of Georgia" → [georgia]: i token generici escono dal confronto
+    qf = [w for w in q if w not in _ESPN_Q_STOP] or q
     for team in teams:
         tokens = set(_norm_name(team.get('n', '')).split())
-        if all(w in tokens for w in q):
+        if all(w in tokens for w in qf):
+            return team.get('logo', '')
+        if _match_tokens(qf, list(tokens)):
             return team.get('logo', '')
         if team.get('a') and _norm_name(team['a']) == _norm_name(name):
             return team.get('logo', '')
     return ''
 
 
-def _espn_search_team(name):
+# v-fix: search ESPN sport-aware. Prima era SOLO soccer: le nazionali di
+# cricket (Afghanistan, Zimbabwe...), hockey e i giocatori (tennis/golf/MMA)
+# non venivano mai cercati. La search v2 espone il logo direttamente in
+# contents[].image.default. Sport con copertura migliorabile altrove
+# (basket/football/volley NCAA) restano sulle liste dedicate per evitare
+# falsi match squadra-universitaria vs nazionale.
+_ESPN_SPORT_TAGS = {
+    'soccer': {'soccer'}, 'cricket': {'cricket'}, 'ice-hockey': {'hockey'},
+    'tennis': {'tennis'}, 'golf': {'golf'},
+    'fight': {'mma', 'boxing'},
+    'motor-sports': {'racing', 'motorsport', 'nascar'},
+}
+_ESPN_PLAYER_SPORTS = {'tennis', 'golf', 'fight', 'motor-sports'}
+
+
+def _espn_search_team(name, sport='soccer'):
     name = _alias_name(name)
     q = [w for w in _norm_name(name).split() if len(w) >= 2]
     if not q:
         return ''
+    tags = _ESPN_SPORT_TAGS.get(sport) or set()
     data = _fetch_json(_ESPN_SEARCH + urllib.parse.quote(name), 6)
     if not data:
         return ''
     tries = 0
     for result in data.get('results') or []:
-        if result.get('type') != 'team':
-            continue
         for item in result.get('contents') or []:
-            if item.get('type') != 'team' or 'soccer' not in (item.get('sport') or '').lower():
-                continue
-            tokens = set(_norm_name(item.get('displayName', '')).split())
-            if not all(w in tokens for w in q):
-                continue
-            m = re.search(r'~t:(\d+)', item.get('uid') or '')
-            slug = item.get('defaultLeagueSlug')
-            if not m or not slug:
-                continue
-            tries += 1
-            if tries > 2:
-                return ''
-            detail = _fetch_json(
-                'https://site.api.espn.com/apis/site/v2/sports/soccer/' +
-                urllib.parse.quote(slug) + '/teams/' + m.group(1), 6
-            )
-            if detail:
-                logos = (detail.get('team') or {}).get('logos') or []
-                if logos and logos[0].get('href'):
-                    return logos[0]['href']
+            item_type = item.get('type')
+            item_sport = (item.get('sport') or '').lower()
+            img = ((item.get('image') or {}).get('default') or '')
+            if item_type == 'team':
+                if tags and item_sport not in tags:
+                    continue
+                tokens = set(_norm_name(item.get('displayName', '')).split())
+                if not all(w in tokens for w in q):
+                    continue
+                if sport != 'soccer':
+                    if img:
+                        return img
+                    continue
+                m = re.search(r'~t:(\d+)', item.get('uid') or '')
+                slug = item.get('defaultLeagueSlug')
+                if not m or not slug:
+                    if img:
+                        return img
+                    continue
+                tries += 1
+                if tries > 2:
+                    return ''
+                detail = _fetch_json(
+                    'https://site.api.espn.com/apis/site/v2/sports/soccer/' +
+                    urllib.parse.quote(slug) + '/teams/' + m.group(1), 6
+                )
+                if detail:
+                    logos = (detail.get('team') or {}).get('logos') or []
+                    if logos and logos[0].get('href'):
+                        return logos[0]['href']
+                if img:
+                    return img
+            elif item_type == 'player' and sport in _ESPN_PLAYER_SPORTS:
+                if not img:
+                    continue
+                tokens = set(_norm_name(item.get('displayName', '')).split())
+                if all(w in tokens for w in q):
+                    return img
     return ''
 
 
@@ -1068,6 +1145,21 @@ def _lev(a, b):
     return d[m][n]
 
 
+def _match_tokens(q, t):
+    """Match tollerante fra token: esatto, Levenshtein<=1 (>=4 caratteri) su
+    entrambe le direzioni, o concatenazione compatta identica
+    ("be er sheva" vs "beer sheva"). Usato da 365scores e liste ESPN."""
+    q = [w for w in q if len(w) >= 2]
+    t = [w for w in t if len(w) >= 2]
+    if not q or not t:
+        return False
+    if ''.join(q) == ''.join(t):
+        return True
+    if all(any(w == x or (len(w) >= 4 and len(x) >= 4 and _lev(w, x) <= 1) for x in t) for w in q):
+        return True
+    return all(any(w == x or (len(w) >= 4 and len(x) >= 4 and _lev(w, x) <= 1) for x in q) for w in t)
+
+
 def _scores365_match(qname, cname):
     q = [w for w in _norm_name(qname).split() if len(w) >= 2 and w not in _SCORES365_STOP]
     t = [w for w in _norm_name(cname).split() if len(w) >= 2 and w not in _SCORES365_STOP]
@@ -1078,7 +1170,12 @@ def _scores365_match(qname, cname):
 
 
 def _scores365_queries(name):
-    clean = _clean_name(name)
+    # v-fix: translit + varianti troncate. La search di 365scores non matcha
+    # suffissi ("Goias EC", "Sada Cruzeiro Vôlei", "Olympiakos Piraeus II"),
+    # glifi greci ("Kronoς") ne' prefissi lunghi ("AC PAOK Thessaloniki"):
+    # si accorciano progressivamente; i candidati vengono comunque
+    # ri-verificati col match tollerante e dal filtro sport.
+    clean = _clean_name(name).translate(_TRANSIT_MAP)
     out = [clean]
     m = re.match(
         r'^(.*?)\s*(?:\((?:W|M|Women|Men|Femminile|Maschile)\)|\b(?:W|M|Women|Men|Femminile|Maschile))\s*$',
@@ -1086,6 +1183,19 @@ def _scores365_queries(name):
     )
     if m and m.group(1).strip():
         out.append(m.group(1).strip())
+    parts = (out[-1] if len(out) > 1 else out[0]).split()
+    while len(parts) > 1:
+        last = parts[-1].lower()
+        if len(parts) > 2 or last in _SCORES365_STOP:
+            parts = parts[:-1]
+            variant = ' '.join(parts)
+            if variant not in out:
+                out.append(variant)
+        else:
+            break
+    single = parts[-1] if parts else ''
+    if single and len(single) >= 4 and single not in out:
+        out.append(single)
     return list(dict.fromkeys(x for x in out if x))
 
 
@@ -1101,7 +1211,8 @@ def _scores365_logo(name, sport):
     sid = _SCORES365_SPORT_IDS.get(sport)
     if not sid:
         return ''
-    q = [w for w in _norm_name(name).split() if len(w) >= 2]
+    # v-fix: i token generici (ac, fc, ec...) escono dal confronto
+    q = [w for w in _norm_name(name).split() if len(w) >= 2 and w not in _SCORES365_STOP]
     if not q:
         return ''
     want_women = _women_marker(name)
@@ -1116,15 +1227,21 @@ def _scores365_logo(name, sport):
             cid = competitor.get('id')
             if not cid or cid in seen:
                 continue
-            tokens = set(w for w in _norm_name(competitor['name']).split() if len(w) >= 2)
-            if not all(w in tokens for w in q):
+            tokens = [w for w in _norm_name(competitor['name']).split() if len(w) >= 2]
+            if not _match_tokens(q, tokens):
                 continue
             seen.add(cid)
             gender_penalty = 0 if _women_marker(competitor['name']) == want_women else 1
-            candidates.append((gender_penalty, len(tokens) - len(q), len(str(competitor['name'])), cid))
+            # v-fix: match tollerante (fuzzy + reverse + compatto). Il vecchio
+            # confronto esaustivo falliva con sponsor/prefissi/diacritici:
+            # "Energa Czarni Slupsk"→"Czarni Słupsk", "MFK Zvolen"→"Zvolen",
+            # "Sada Cruzeiro Vôlei"→"Sada Cruzeiro", "Hapoel Netanel Holon"→"Hapoel Holon".
+            exact = set(tokens) == set(q)
+            mode = 0 if exact else (1 if set(q) <= set(tokens) else 2)
+            candidates.append((mode, gender_penalty, abs(len(tokens) - len(q)), len(str(competitor['name'])), cid))
     candidates.sort()
-    for _, _, _, cid in candidates[:3]:
-        return _SCORES365_IMG + str(cid)
+    for row in candidates[:3]:
+        return _SCORES365_IMG + str(row[-1])
     return ''
 
 
@@ -1151,6 +1268,31 @@ def _scores365_competition_teams(cid):
     return teams
 
 
+# v-fix: il match wiki accettava qualunque titolo che CONTENEVA la query
+# ("MFK Zvolen" → logo di "MFK Lokomotiva Zvolen", club diverso). Ora: titolo
+# esatto, contenuto nella query, o superset solo con token generici.
+_WIKI_OK_EXTRA = {
+    'fc', 'fk', 'cf', 'sc', 'ac', 'as', 'us', 'cd', 'ca', 'bc', 'kk', 'hc',
+    'vc', 'sk', 'bk', 'club', 'football', 'soccer', 'basketball', 'basket',
+    'hockey', 'ice', 'volleyball', 'handball', 'cricket', 'badminton',
+    'rugby', 'baseball', 'golf', 'darts', 'sports', 'sport', 'team', 'b',
+    'ii', 'next', 'gen', 'w', 'men', 'women', 'the', 'de', 'of',
+}
+
+
+def _wiki_title_ok(name, title):
+    q = [w for w in _norm_name(name).split() if len(w) >= 2]
+    t = [w for w in _norm_name(re.sub(r'\([^)]*\)', ' ', str(title or ''))).split() if len(w) >= 2]
+    if not q or not t:
+        return False
+    if q == t:
+        return True
+    if all(w in q for w in t):
+        return True
+    extra = [w for w in t if w not in q]
+    return bool(extra) and all(w in _WIKI_OK_EXTRA or re.match(r'^u-?\d{2}$', w) for w in extra)
+
+
 def _wiki_search_one(name, sport):
     global _WIKI_BACKOFF
     if time.time() < _WIKI_BACKOFF:
@@ -1172,7 +1314,7 @@ def _wiki_search_one(name, sport):
             continue
         if not _wiki_accept(page.get('description', ''), sport):
             continue
-        if not _title_matches(name, page.get('title', ''), sport):
+        if not _wiki_title_ok(name, page.get('title', '')):
             continue
         return src
     return ''
@@ -1285,21 +1427,29 @@ def _tsdb_player(name, sport):
     return ''
 
 
-def resolve_team_logo(team_name, event_name='', category=''):
-    name = _clean_name(team_name)
-    if len(name) < 2:
-        return ''
-    sport = _sport_of(category, event_name)
-    cached = _cached_logo(name, sport)
-    if cached is not None:
-        return cached
+def _base_team_name(name):
+    """Nome base di riserve/eta'/genere: "Dinamo St. Petersburg U20" →
+    "Dinamo St. Petersburg", "Celta de Vigo II" → "Celta de Vigo"."""
+    m = re.match(r'^(.*?)\s+(?:U-?\d{2}|II|2|B|Next Gen|Reserves?|Primavera)$', str(name or ''), re.I)
+    return m.group(1).strip() if m else ''
 
+
+def _resolve_chain(name, sport, category='', event_name=''):
+    """Catena completa di risoluzione per un nome (già pulito)."""
+    ctx = (category or '') + ' ' + (event_name or '')
     logo = ''
-    if sport == 'soccer':
-        logo = _espn_search_team(name)
-    if not logo and sport == 'soccer' and 'college soccer' in ((category or '') + ' ' + (event_name or '')).lower():
-        key = 'women' if 'women' in ((category or '') + ' ' + (event_name or '')).lower() else 'men'
+    if _ESPN_SPORT_TAGS.get(sport):
+        logo = _espn_search_team(name, sport)
+    if not logo and sport == 'soccer' and 'college soccer' in ctx.lower():
+        key = 'women' if 'women' in ctx.lower() else 'men'
         logo = _espn_team_logo(_espn_college_soccer_teams(key), name)
+    if not logo and sport == 'basketball' and 'college' in ctx.lower():
+        key = 'women' if _women_marker(ctx) else 'men'
+        logo = _espn_team_logo(_espn_college_teams(key), name)
+        if not logo and key == 'men':
+            logo = _espn_team_logo(_espn_college_teams('women'), name)
+    if not logo and sport == 'volleyball' and 'college' in ctx.lower():
+        logo = _espn_team_logo(_espn_teams_from_url(_ESPN_COLLEGE_VOLLEY['women'], 'volley-women'), name)
     if not logo and sport in _SCORES365_SPORT_IDS:
         logo = _scores365_logo(name, sport)
     if not logo:
@@ -1309,6 +1459,36 @@ def resolve_team_logo(team_name, event_name='', category=''):
             logo = _tsdb_team_variants(name, sport)
         else:
             logo = _tsdb_player(name, sport)
+    return logo
+
+
+def resolve_team_logo(team_name, event_name='', category=''):
+    name = _clean_name(team_name)
+    if len(name) < 2:
+        return ''
+    sport = _sport_of(category, event_name)
+    cached = _cached_logo(name, sport)
+    if cached is not None:
+        return cached
+
+    logo = _resolve_chain(name, sport, category, event_name)
+
+    # v-fix: squadre giovanili/riserve ("... U20", "... II") — se il nome
+    # completo non risolve si riprova col nome base ("Kyrgyz Republic U23" →
+    # "Kyrgyz Republic"; "Celta de Vigo II" → "Celta de Vigo").
+    if not logo:
+        base = _base_team_name(name)
+        if base and _norm_name(base) != _norm_name(name):
+            logo = _resolve_chain(base, sport, category, event_name)
+
+    # v-fix: doppio tennis "A / B" — la coppia non esiste come team nelle
+    # fonti; si risolvono i singoli giocatori (headshot/foto) al posto delle iniziali.
+    if not logo and '/' in name:
+        for part in [p.strip() for p in name.split('/')]:
+            if len(part) >= 4:
+                logo = _resolve_chain(part, sport, category, event_name)
+                if logo:
+                    break
 
     _store_logo(name, sport, logo)
     if logo:
@@ -1900,7 +2080,9 @@ def eventi_dlhd_m3u8_generator_world():
                         absolute_output_filename = os.path.join(output_dir, relative_logo_path)
                         if exists(absolute_output_filename):
                             file_age = current_time - os.path.getmtime(absolute_output_filename)
-                            if file_age <= three_hours_in_seconds and poster_is_current(absolute_output_filename):
+                            if (file_age <= three_hours_in_seconds
+                                    and poster_is_current(absolute_output_filename)
+                                    and poster_sources_match(absolute_output_filename, logo1_url, logo2_url)):
                                 print(f"[✓] Utilizzo immagine combinata esistente: {absolute_output_filename}")
                                 
                                 # Carica le variabili d'ambiente per GitHub
@@ -1960,7 +2142,7 @@ def eventi_dlhd_m3u8_generator_world():
                             except Exception as e_pil: # Errore specifico da PIL durante Image.open
                                 print(f"[!] Errore PIL aprendo logo2 ({logo2_url}): {e_pil}")
                                 logo2_url = None
-                        create_event_poster(team1, team2, img1, img2, event_name, category, time_str, absolute_output_filename)
+                        create_event_poster(team1, team2, img1, img2, event_name, category, time_str, absolute_output_filename, src1=logo1_url or '', src2=logo2_url or '')
                         
                         print(f"[✓] Immagine combinata creata: {absolute_output_filename}")
                         
@@ -2285,7 +2467,9 @@ def eventi_dlhd_m3u8_generator():
                         absolute_output_filename = os.path.join(output_dir, relative_logo_path)
                         if exists(absolute_output_filename):
                             file_age = current_time - os.path.getmtime(absolute_output_filename)
-                            if file_age <= three_hours_in_seconds and poster_is_current(absolute_output_filename):
+                            if (file_age <= three_hours_in_seconds
+                                    and poster_is_current(absolute_output_filename)
+                                    and poster_sources_match(absolute_output_filename, logo1_url, logo2_url)):
                                 print(f"[✓] Utilizzo immagine combinata esistente: {absolute_output_filename}")
                                 
                                 # Carica le variabili d'ambiente per GitHub
@@ -2345,7 +2529,7 @@ def eventi_dlhd_m3u8_generator():
                             except Exception as e_pil: # Errore specifico da PIL durante Image.open
                                 print(f"[!] Errore PIL aprendo logo2 ({logo2_url}): {e_pil}")
                                 logo2_url = None
-                        create_event_poster(team1, team2, img1, img2, event_name, category, time_str, absolute_output_filename)
+                        create_event_poster(team1, team2, img1, img2, event_name, category, time_str, absolute_output_filename, src1=logo1_url or '', src2=logo2_url or '')
                         
                         print(f"[✓] Immagine combinata creata: {absolute_output_filename}")
                         
