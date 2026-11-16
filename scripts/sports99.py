@@ -108,7 +108,9 @@ def generate_m3u(output_file: str = OUTPUT_FILE) -> str:
         if not url or poster_generator is None:
             return None
         try:
-            response = requests.get(url, headers={"User-Agent": poster_generator.LOGO_UA}, timeout=10)
+            ua = getattr(poster_generator, "WIKI_UA", "LiveTVPosterBot/1.0 (https://github.com/emaesposito71/LIVETV)") \
+                if "wikimedia.org" in url else poster_generator.LOGO_UA
+            response = requests.get(url, headers={"User-Agent": ua}, timeout=10)
             if response.status_code == 200 and "image" in (response.headers.get("Content-Type") or "").lower():
                 from io import BytesIO
                 from PIL import Image

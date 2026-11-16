@@ -25,6 +25,9 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.dirname(script_dir)
 
 # ---------- EasySports-style poster generator ----------
+import io
+import math
+import colorsys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, PngImagePlugin
 
 def _env_int(name, default, minimum):
@@ -34,7 +37,7 @@ def _env_int(name, default, minimum):
         return default
 
 POSTER_SIZE = (_env_int("POSTER_WIDTH", 640, 320), _env_int("POSTER_HEIGHT", 360, 180))
-POSTER_VERSION = "4"
+POSTER_VERSION = "5"
 _EMOJI_RE = re.compile(r'[\U0001F000-\U0001FAFF\u2600-\u27BF\u2B00-\u2BFF\uFE0F\U000E0000-\U000E007F]')
 
 def _poster_clean(value):
@@ -93,11 +96,11 @@ def migrate_logo_filenames():
 
 def _poster_font(size, bold=True, italic=False):
     if bold and italic:
-        names = ['DejaVuSans-BoldOblique.ttf', 'arialbi.ttf']
+        names = ['DejaVuSans-BoldOblique.ttf', 'DejaVuSans-Bold.ttf', 'arialbi.ttf', 'arialbd.ttf']
     elif bold:
         names = ['DejaVuSans-Bold.ttf', 'arialbd.ttf']
     elif italic:
-        names = ['DejaVuSans-Oblique.ttf', 'ariali.ttf']
+        names = ['DejaVuSans-Oblique.ttf', 'DejaVuSans.ttf', 'ariali.ttf']
     else:
         names = ['DejaVuSans.ttf', 'arial.ttf']
     for folder in ('/usr/share/fonts/truetype/dejavu/', 'C:/Windows/Fonts/', ''):
@@ -114,8 +117,15 @@ def _poster_font(size, bold=True, italic=False):
 def _poster_fit(img, box):
     if img is None:
         return None
-    img = img.convert('RGBA')
+    img = img.convert('RGBA').copy()
     img.thumbnail((box, box), getattr(Image, 'Resampling', Image).LANCZOS)
+    return img
+
+def _poster_fit_rect(img, max_w, max_h):
+    if img is None:
+        return None
+    img = img.convert('RGBA').copy()
+    img.thumbnail((max_w, max_h), getattr(Image, 'Resampling', Image).LANCZOS)
     return img
 
 def _poster_wrap(text, max_chars, max_lines=2):
@@ -151,103 +161,377 @@ def _poster_accent(event_name, category):
     if re.search(r'darts', text): return (211, 107, 168)
     if re.search(r'rugby', text): return (142, 124, 195)
     if re.search(r'volley', text): return (224, 194, 74)
-    return (63, 166, 106)
+    return (56, 189, 248)
 
-def _poster_league(event_name, category):
+def _poster_league_raw(event_name, category):
     text = _poster_clean(event_name)
     if ':' in text:
         text = text.split(':', 1)[0]
     if '|' in text:
         text = text.split('|')[-1]
     text = text.strip(' -')
-    return (text or _poster_clean(category) or 'LIVE EVENT').upper()[:46]
+    return (text or _poster_clean(category) or 'LIVE EVENT').strip()
+
+def _poster_league(event_name, category):
+    return _poster_league_raw(event_name, category).upper()[:46]
 
 def _poster_initials(name):
     words = [w for w in _poster_clean(name).split() if w]
     return ''.join(w[0] for w in words[:2]).upper() or '?'
 
+def _extract_vibrant_color(img, fallback=(56, 189, 248)):
+    """Estrae il colore dominante vivido dallo stemma (ignorando bianchi, neri, grigi e trasparenti)."""
+    if img is None:
+        return fallback
+    try:
+        small = img.convert('RGBA').copy()
+        small.thumbnail((64, 64), getattr(Image, 'Resampling', Image).LANCZOS)
+        pixels = list(small.get_flattened_data()) if hasattr(small, 'get_flattened_data') else list(small.getdata())
+        buckets, fallback_buckets = {}, {}
+        for r, g, b, a in pixels:
+            if a < 100:
+                continue
+            h, s, v = colorsys.rgb_to_hsv(r / 255.0, g / 255.0, b / 255.0)
+            if v < 0.16:
+                continue
+            if s < 0.18 and v > 0.82:
+                continue
+            hq = int(h * 24) % 24
+            if s >= 0.25 and 0.20 <= v <= 0.98:
+                weight = (s ** 1.4) * (0.5 + 0.5 * v) * (a / 255.0)
+                acc = buckets.setdefault(hq, [0.0, 0.0, 0.0, 0.0])
+                acc[0] += weight; acc[1] += r * weight; acc[2] += g * weight; acc[3] += b * weight
+            elif s >= 0.08:
+                weight = (a / 255.0) * 0.3
+                acc = fallback_buckets.setdefault(hq, [0.0, 0.0, 0.0, 0.0])
+                acc[0] += weight; acc[1] += r * weight; acc[2] += g * weight; acc[3] += b * weight
+        pool = buckets if buckets else fallback_buckets
+        if not pool:
+            return (148, 163, 184)
+        best = max(pool.values(), key=lambda x: x[0])
+        r, g, b = best[1] / best[0], best[2] / best[0], best[3] / best[0]
+        h, s, v = colorsys.rgb_to_hsv(r / 255.0, g / 255.0, b / 255.0)
+        s = min(1.0, max(0.60, s * 1.15))
+        v = min(1.0, max(0.84, v * 1.20))
+        rr, gg, bb = colorsys.hsv_to_rgb(h, s, v)
+        return (int(rr * 255), int(gg * 255), int(bb * 255))
+    except Exception:
+        return fallback
+
+def _ensure_color_contrast(c1, c2):
+    h1, s1, v1 = colorsys.rgb_to_hsv(c1[0] / 255.0, c1[1] / 255.0, c1[2] / 255.0)
+    h2, s2, v2 = colorsys.rgb_to_hsv(c2[0] / 255.0, c2[1] / 255.0, c2[2] / 255.0)
+    dh = min(abs(h1 - h2), 1.0 - abs(h1 - h2))
+    if dh < 0.05 and abs(s1 - s2) < 0.2:
+        h2 = (h2 + 0.09) % 1.0
+        rr, gg, bb = colorsys.hsv_to_rgb(h2, max(0.50, s2 * 0.9), min(1.0, v2 * 1.05))
+        return c1, (int(rr * 255), int(gg * 255), int(bb * 255))
+    return c1, c2
+
+def _add_radial_glow(canvas, center, radius_x, radius_y, color, intensity=145):
+    W, H = canvas.size
+    layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    cx, cy = center
+    steps = 6
+    for i in range(steps, 0, -1):
+        frac = i / steps
+        rx = int(radius_x * frac * 0.78)
+        ry = int(radius_y * frac * 0.78)
+        alpha = int(intensity * ((1.0 - (frac - 1 / steps)) ** 1.5) * 0.60)
+        d.ellipse((cx - rx, cy - ry, cx + rx, cy + ry), fill=(*color, min(255, alpha)))
+    layer = layer.filter(ImageFilter.GaussianBlur(radius=max(4, int(max(radius_x, radius_y) * 0.42))))
+    return Image.alpha_composite(canvas, layer)
+
+def _paste_logo_with_glow(canvas, logo_img, cx, cy, box_size, glow_color, glow_alpha=125):
+    logo = _poster_fit(logo_img, box_size)
+    if logo is None:
+        return canvas, False
+    W, H = canvas.size
+    lx = cx - logo.width // 2
+    ly = cy - logo.height // 2
+    alpha = logo.split()[3]
+
+    colored_sil = Image.new('RGBA', logo.size, (*glow_color, 255))
+    colored_sil.putalpha(alpha.point(lambda p: int(p * (glow_alpha / 255.0))))
+    glow_layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    glow_layer.paste(colored_sil, (lx, ly))
+    glow_layer = glow_layer.filter(ImageFilter.GaussianBlur(radius=max(3, int(box_size * 0.16))))
+    canvas = Image.alpha_composite(canvas, glow_layer)
+
+    shadow_sil = Image.new('RGBA', logo.size, (0, 0, 0, 255))
+    shadow_sil.putalpha(alpha.point(lambda p: int(p * 0.72)))
+    shadow_layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    shadow_layer.paste(shadow_sil, (lx, ly + max(2, int(box_size * 0.055))))
+    shadow_layer = shadow_layer.filter(ImageFilter.GaussianBlur(radius=max(2, int(box_size * 0.08))))
+    canvas = Image.alpha_composite(canvas, shadow_layer)
+
+    canvas.alpha_composite(logo, (lx, ly))
+    return canvas, True
+
+def _ensure_visible_on_dark(logo_img):
+    """Se il logo della lega e' molto scuro (es. testo blu notte/nero trasparente),
+    aggiunge automaticamente un morbido alone chiaro per renderlo perfetto sullo sfondo scuro."""
+    if logo_img is None:
+        return None
+    im = logo_img.convert('RGBA')
+    small = im.copy()
+    small.thumbnail((48, 48), getattr(Image, 'Resampling', Image).LANCZOS)
+    pixels = list(small.get_flattened_data()) if hasattr(small, 'get_flattened_data') else list(small.getdata())
+    vis = [(r, g, b) for r, g, b, a in pixels if a > 80]
+    if not vis:
+        return None
+    avg_lum = sum(0.299 * r + 0.587 * g + 0.114 * b for r, g, b in vis) / len(vis)
+    return im, (avg_lum < 72)
+
+_LEAGUE_IMG_MEM_CACHE = {}
+
+def _load_or_fetch_league_logo(event_name, category):
+    """Cerca il logo della competizione:
+    1) prima nella cache locale del repository (logos/league_<slug>.png),
+    2) altrimenti lo risolve online (ESPN Dark / 365Scores Light / TheSportsDB) e lo salva in logos/."""
+    raw_league = _poster_league_raw(event_name, category)
+    if not raw_league or raw_league.upper() in ('LIVE', 'LIVE EVENT', 'SPORT', 'EVENTO', 'ALL SOCCER EVENTS'):
+        return None
+    slug = _poster_slug(raw_league).lower()
+    if not slug or re.search(r'\bfriendly\b|\bsimulcast\b|\btv_shows\b', slug):
+        return None
+    if slug in _LEAGUE_IMG_MEM_CACHE:
+        cached = _LEAGUE_IMG_MEM_CACHE[slug]
+        return cached.copy() if cached is not None else None
+
+    logos_dir = os.path.join(output_dir, "logos")
+    os.makedirs(logos_dir, exist_ok=True)
+    local_path = os.path.join(logos_dir, f"league_{slug}.png")
+
+    # 1. Usa il logo lega gia' conservato nella repo (se esiste ed e' valido)
+    if os.path.exists(local_path):
+        try:
+            with Image.open(local_path) as existing:
+                loaded = existing.convert('RGBA')
+                _LEAGUE_IMG_MEM_CACHE[slug] = loaded
+                return loaded.copy()
+        except Exception:
+            pass
+
+    # 2. Altrimenti risolviamo gli URL candidati del logo della lega e salviamo il primo valido in logos/league_<slug>.png
+    try:
+        urls = resolve_league_logo_candidates(raw_league, event_name, category)
+    except Exception:
+        urls = []
+    for url in urls:
+        if not url:
+            continue
+        try:
+            ua = 'LiveTVPosterBot/1.0 (https://github.com/emaesposito71/LIVETV)' if 'wikimedia.org' in url else LOGO_UA
+            r = requests.get(url, headers={'User-Agent': ua}, timeout=8)
+            if r.status_code == 200 and 'image' in (r.headers.get('Content-Type') or '').lower():
+                loaded = Image.open(io.BytesIO(r.content)).convert('RGBA')
+                bbox = loaded.getbbox()
+                if bbox:
+                    loaded = loaded.crop(bbox)
+                try:
+                    loaded.save(local_path, 'PNG', optimize=True)
+                except Exception:
+                    pass
+                _LEAGUE_IMG_MEM_CACHE[slug] = loaded
+                return loaded.copy()
+        except Exception:
+            pass
+
+    _LEAGUE_IMG_MEM_CACHE[slug] = None
+    return None
+
+def _draw_league_header(canvas, event_name, category, c1, c2, S):
+    """Disegna in alto al centro il LOGO della lega (con filetti luminosi laterali),
+    oppure il testo della lega come fallback solo se il logo non esiste."""
+    W, H = canvas.size
+    league_img = _load_or_fetch_league_logo(event_name, category)
+    hy = int(66 * S)
+
+    if league_img is not None:
+        checked = _ensure_visible_on_dark(league_img)
+        if checked is not None:
+            im, is_very_dark = checked
+            badge = _poster_fit_rect(im, int(240 * S), int(86 * S))
+            if badge is not None and badge.width >= 8 and badge.height >= 8:
+                bx = W // 2 - badge.width // 2
+                by = hy - badge.height // 2
+                alpha = badge.split()[3]
+
+                # Alone luminoso dietro il logo della lega (piu' intenso se il logo originale e' scuro)
+                glow_col = (241, 245, 249) if is_very_dark else (255, 255, 255)
+                glow_op = 215 if is_very_dark else 75
+                glow_rad = max(3, int((11 if is_very_dark else 8) * S))
+                gl = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+                sil = Image.new('RGBA', badge.size, (*glow_col, 255))
+                sil.putalpha(alpha.point(lambda p: int(p * (glow_op / 255.0))))
+                gl.paste(sil, (bx, by))
+                gl = gl.filter(ImageFilter.GaussianBlur(radius=glow_rad))
+                canvas = Image.alpha_composite(canvas, gl)
+
+                if is_very_dark:
+                    # Secondo passaggio morbido per staccare perfettamente i loghi neri/blu notte
+                    gl2 = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+                    gl2.paste(sil, (bx, by))
+                    gl2 = gl2.filter(ImageFilter.GaussianBlur(radius=max(2, int(4 * S))))
+                    canvas = Image.alpha_composite(canvas, gl2)
+
+                canvas.alpha_composite(badge, (bx, by))
+
+                # Sottili filetti luminosi sfumati ai lati del logo lega
+                line_layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+                ld = ImageDraw.Draw(line_layer)
+                half_w = badge.width // 2 + int(22 * S)
+                span = int(140 * S)
+                for dx in range(span):
+                    a = int(150 * (1.0 - dx / max(1, span)))
+                    lx1 = W // 2 - half_w - dx
+                    lx2 = W // 2 + half_w + dx
+                    if 0 <= lx1 < W:
+                        ld.line((lx1, hy, lx1, hy + max(1, int(1.5 * S))), fill=(*c1, a))
+                    if 0 <= lx2 < W:
+                        ld.line((lx2, hy, lx2, hy + max(1, int(1.5 * S))), fill=(*c2, a))
+                return Image.alpha_composite(canvas, line_layer)
+
+    # Fallback testuale pulito solo per amichevoli o tornei minori privi di logo ufficiale
+    draw = ImageDraw.Draw(canvas)
+    l_txt = _poster_league(event_name, category)
+    header_font = _poster_font(max(12, int(22 * S)), bold=True)
+    bbox = draw.textbbox((0, 0), l_txt, font=header_font)
+    tw = bbox[2] - bbox[0]
+    hy_txt = int(58 * S)
+    draw.text((W // 2, hy_txt), l_txt, font=header_font, fill=(235, 240, 248, 240), anchor='mm')
+    line_layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    ld = ImageDraw.Draw(line_layer)
+    span = int(145 * S)
+    offset = tw // 2 + int(24 * S)
+    for dx in range(span):
+        a = int(155 * (1.0 - dx / max(1, span)))
+        lx1 = W // 2 - offset - dx
+        lx2 = W // 2 + offset + dx
+        if 0 <= lx1 < W:
+            ld.line((lx1, hy_txt, lx1, hy_txt + max(1, int(1.5 * S))), fill=(*c1, a))
+        if 0 <= lx2 < W:
+            ld.line((lx2, hy_txt, lx2, hy_txt + max(1, int(1.5 * S))), fill=(*c2, a))
+    return Image.alpha_composite(canvas, line_layer)
+
+def _build_stadium_spotlight_bg(W, H, c1, c2, S):
+    canvas = Image.new('RGBA', (W, H), (7, 9, 15, 255))
+    cx1, cx2 = int(W * 0.255), int(W * 0.745)
+
+    # Fasci di riflettori conici morbidi dall'alto
+    beams = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    bd = ImageDraw.Draw(beams)
+    bd.polygon([(int(-80 * S), int(-60 * S)), (int(280 * S), int(-60 * S)),
+                (cx1 + int(290 * S), H), (cx1 - int(300 * S), H)], fill=(*c1, 88))
+    bd.polygon([(W - int(280 * S), int(-60 * S)), (W + int(80 * S), int(-60 * S)),
+                (cx2 + int(300 * S), H), (cx2 - int(290 * S), H)], fill=(*c2, 88))
+    bd.polygon([(W // 2 - int(90 * S), int(-60 * S)), (W // 2 + int(90 * S), int(-60 * S)),
+                (W // 2 + int(320 * S), int(H * 0.85)), (W // 2 - int(320 * S), int(H * 0.85))],
+               fill=(255, 255, 255, 26))
+    beams = beams.filter(ImageFilter.GaussianBlur(radius=max(12, int(85 * S))))
+    canvas = Image.alpha_composite(canvas, beams)
+
+    # Bagliore palcoscenico/terreno sotto i loghi
+    stage_y = int(H * 0.69)
+    canvas = _add_radial_glow(canvas, (cx1, stage_y), int(350 * S), int(90 * S), c1, intensity=215)
+    canvas = _add_radial_glow(canvas, (cx2, stage_y), int(350 * S), int(90 * S), c2, intensity=215)
+
+    # Sottile orizzonte luminoso bicolore in basso
+    horizon = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    hd = ImageDraw.Draw(horizon)
+    x_margin = int(80 * S)
+    hy_line = int(H * 0.915)
+    span_w = max(1, W - 2 * x_margin)
+    for x in range(x_margin, W - x_margin):
+        t = (x - x_margin) / span_w
+        edge_fade = math.sin(t * math.pi) ** 0.8
+        r = int(c1[0] * (1 - t) + c2[0] * t)
+        g = int(c1[1] * (1 - t) + c2[1] * t)
+        b = int(c1[2] * (1 - t) + c2[2] * t)
+        hd.line((x, hy_line, x, hy_line + max(1, int(2 * S))), fill=(r, g, b, int(195 * edge_fade)))
+    horizon = horizon.filter(ImageFilter.GaussianBlur(radius=max(1, int(1.5 * S))))
+    canvas = Image.alpha_composite(canvas, horizon)
+
+    # Punti luce bokeh da stadio notturno
+    bokeh = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    bkd = ImageDraw.Draw(bokeh)
+    spots = [
+        (135, 110, 28, c1, 48), (225, 75, 16, (255, 255, 255), 38), (85, 195, 20, c1, 34),
+        (1145, 110, 28, c2, 48), (1055, 75, 16, (255, 255, 255), 38), (1195, 195, 20, c2, 34),
+        (455, 95, 14, c1, 28), (825, 95, 14, c2, 28),
+    ]
+    for sx, sy, sr, scol, sa in spots:
+        px, py, pr = int(sx * S), int(sy * S), max(2, int(sr * S))
+        bkd.ellipse((px - pr, py - pr, px + pr, py + pr), fill=(*scol, sa))
+    bokeh = bokeh.filter(ImageFilter.GaussianBlur(radius=max(3, int(13 * S))))
+    return Image.alpha_composite(canvas, bokeh)
+
 def create_event_poster(team1, team2, img1, img2, event_name='', category='', time_str='', output_path=''):
-    W, H = POSTER_SIZE
-    S = W / 640.0
-    accent = _poster_accent(event_name, category)
-    gold = (212, 175, 55)
+    out_W, out_H = POSTER_SIZE
+    # Supersampling 2x per bordi, loghi e testi ultra-nitidi senza scalettature
+    W, H = out_W * 2, out_H * 2
+    S = W / 1280.0
 
-    bg = Image.new('RGB', (W, H), (10, 10, 15))
-    draw = ImageDraw.Draw(bg)
-    top, bottom = (10, 10, 15), (25, 25, 38)
-    for y in range(H):
-        t = y / max(1, H - 1)
-        draw.line((0, y, W, y), fill=(
-            int(top[0] + (bottom[0] - top[0]) * t),
-            int(top[1] + (bottom[1] - top[1]) * t),
-            int(top[2] + (bottom[2] - top[2]) * t),
-        ))
+    sport_col = _poster_accent(event_name, category)
+    c1 = _extract_vibrant_color(img1, sport_col)
+    c2 = _extract_vibrant_color(img2, (239, 68, 68) if sport_col != (239, 68, 68) else (59, 130, 246))
+    c1, c2 = _ensure_color_contrast(c1, c2)
 
-    bg = bg.convert('RGBA')
-    draw = ImageDraw.Draw(bg)
+    canvas = _build_stadium_spotlight_bg(W, H, c1, c2, S)
 
-    overlay = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-    od = ImageDraw.Draw(overlay)
-    od.polygon([(0, H), (W, int(H * 0.66)), (W, H)], fill=(*accent, 22))
-    od.polygon([(0, H), (W, int(H * 0.79)), (W, H)], fill=(*gold, 16))
-    bg = Image.alpha_composite(bg, overlay)
-    draw = ImageDraw.Draw(bg)
+    # Header in alto: LOGO della competizione (o fallback testo)
+    canvas = _draw_league_header(canvas, event_name, category, c1, c2, S)
 
-    league = _poster_league(event_name, category)
-    header_font = _poster_font(max(10, int(13 * S)), bold=True)
-    draw.text((int(32 * S), int(18 * S)), league, font=header_font, fill=accent, anchor='la')
+    cx1, cx2 = int(W * 0.255), int(W * 0.745)
+    logo_y = int(H * 0.455)
+    box_size = int(330 * S)
 
-    box = int(170 * S)
-    centers = [int(W * 0.25), int(W * 0.75)]
-    logo_y = int(H * 0.43)
-    shadow = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-    sd = ImageDraw.Draw(shadow)
-    for cx in centers:
-        sd.ellipse((cx - box * 0.45, int(H * 0.68), cx + box * 0.45, int(H * 0.73)), fill=(0, 0, 0, 100))
-    shadow = shadow.filter(ImageFilter.GaussianBlur(max(3, int(6 * S))))
-    bg = Image.alpha_composite(bg, shadow)
-    draw = ImageDraw.Draw(bg)
-
-    for img, name, cx in ((img1, team1, centers[0]), (img2, team2, centers[1])):
-        logo = _poster_fit(img, box)
-        if logo:
-            x = cx - logo.width // 2
-            y = logo_y - logo.height // 2
-            bg.alpha_composite(logo, (x, y))
-        else:
+    for img, name, cx, col in ((img1, team1, cx1, c1), (img2, team2, cx2, c2)):
+        canvas, ok = _paste_logo_with_glow(canvas, img, cx, logo_y, box_size, col, glow_alpha=135)
+        if not ok:
             initials = _poster_initials(name)
-            font = _poster_font(max(20, int(54 * S)), bold=True)
-            draw.text((cx, logo_y), initials, font=font, fill=accent, anchor='mm')
+            mono_font = _poster_font(max(32, int(108 * S)), bold=True)
+            glow_l = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+            gd = ImageDraw.Draw(glow_l)
+            gd.text((cx, logo_y), initials, font=mono_font, fill=(*col, 140), anchor='mm')
+            glow_l = glow_l.filter(ImageFilter.GaussianBlur(radius=max(4, int(16 * S))))
+            canvas = Image.alpha_composite(canvas, glow_l)
+            draw = ImageDraw.Draw(canvas)
+            draw.text((cx, logo_y + int(3 * S)), initials, font=mono_font, fill=(0, 0, 0, 180), anchor='mm')
+            draw.text((cx, logo_y), initials, font=mono_font, fill=(248, 250, 252, 245), anchor='mm')
 
-    cx, cy = W // 2, logo_y
-    r = int(44 * S)
-    draw.polygon([(cx - int(68 * S), cy - int(30 * S)), (cx - int(22 * S), cy + int(40 * S)),
-                  (cx - int(34 * S), cy + int(44 * S)), (cx - int(80 * S), cy - int(26 * S))], fill=gold)
-    draw.polygon([(cx + int(68 * S), cy + int(30 * S)), (cx + int(22 * S), cy - int(40 * S)),
-                  (cx + int(34 * S), cy - int(44 * S)), (cx + int(80 * S), cy + int(26 * S))], fill=accent)
-    pts = [(cx, cy - r), (cx + int(r * 0.85), cy - r // 2), (cx + int(r * 0.85), cy + r // 2),
-           (cx, cy + r), (cx - int(r * 0.85), cy + r // 2), (cx - int(r * 0.85), cy - r // 2)]
-    draw.polygon(pts, fill=(20, 20, 28))
-    draw.line(pts + [pts[0]], fill=gold, width=max(2, int(2 * S)))
-    vs_font = _poster_font(max(16, int(28 * S)), bold=True, italic=True)
-    draw.text((cx, cy + int(1 * S)), 'VS', font=vs_font, fill=gold, anchor='mm')
+    # Scritta centrale "VS" luminosa stile Stadium Spotlight (senza poligoni/esagoni)
+    vs_font = _poster_font(max(24, int(54 * S)), bold=True)
+    vs_glow = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    vgd = ImageDraw.Draw(vs_glow)
+    vgd.text((W // 2 - int(4 * S), logo_y), 'VS', font=vs_font, fill=(*c1, 140), anchor='mm')
+    vgd.text((W // 2 + int(4 * S), logo_y), 'VS', font=vs_font, fill=(*c2, 140), anchor='mm')
+    vs_glow = vs_glow.filter(ImageFilter.GaussianBlur(radius=max(4, int(16 * S))))
+    canvas = Image.alpha_composite(canvas, vs_glow)
 
-    name_font = _poster_font(max(11, int(16 * S)), bold=True)
-    for name, cx in ((team1, centers[0]), (team2, centers[1])):
+    draw = ImageDraw.Draw(canvas)
+    draw.text((W // 2, logo_y + int(2 * S)), 'VS', font=vs_font, fill=(0, 0, 0, 165), anchor='mm')
+    draw.text((W // 2, logo_y), 'VS', font=vs_font, fill=(255, 255, 255, 245), anchor='mm')
+
+    # Nomi delle due squadre in bianco nitido con drop-shadow
+    name_font = _poster_font(max(16, int(34 * S)), bold=True)
+    for name, cx in ((team1, cx1), (team2, cx2)):
         lines = _poster_wrap(_poster_clean(name), 18, 2)
         start_y = int(H * 0.78) if len(lines) == 1 else int(H * 0.75)
         for i, line in enumerate(lines):
-            draw.text((cx, start_y + i * int(18 * S)), line, font=name_font, fill=(241, 245, 249), anchor='ma')
+            y_pos = start_y + i * int(40 * S)
+            draw.text((cx, y_pos + int(3 * S)), line, font=name_font, fill=(0, 0, 0, 200), anchor='ma')
+            draw.text((cx, y_pos), line, font=name_font, fill=(255, 255, 255, 255), anchor='ma')
 
-    rule_y = int(H * 0.90)
-    draw.line((int(64 * S), rule_y, W - int(64 * S), rule_y), fill=(*gold, 90), width=1)
-
+    final_img = canvas.convert('RGB').resize((out_W, out_H), getattr(Image, 'Resampling', Image).LANCZOS)
     if output_path:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         info = PngImagePlugin.PngInfo()
         info.add_text("livetv-poster", POSTER_VERSION)
-        bg.convert('RGB').save(output_path, 'PNG', optimize=True, pnginfo=info)
-    return bg
+        final_img.save(output_path, 'PNG', optimize=True, pnginfo=info)
+    return final_img
 
 def poster_is_current(path):
     try:
@@ -306,62 +590,63 @@ def cached_title_poster_url(name):
 
 
 def create_title_poster(name, category='', output_path=''):
-    """Poster per eventi senza 'vs' (race, tornei, sessioni): monogramma
-    grande al centro + titolo, stesso stile/gradienti dei poster 'vs'."""
-    W, H = POSTER_SIZE
-    S = W / 640.0
-    accent = _poster_accent(name, category)
-    gold = (212, 175, 55)
+    """Poster Stadium Spotlight per eventi senza 'vs' (F1, MotoGP, tornei, gare):
+    mostra il grande logo della competizione al centro (se disponibile) oppure il monogramma luminoso."""
+    out_W, out_H = POSTER_SIZE
+    W, H = out_W * 2, out_H * 2
+    S = W / 1280.0
 
-    bg = Image.new('RGB', (W, H), (10, 10, 15))
-    draw = ImageDraw.Draw(bg)
-    top, bottom = (10, 10, 15), (25, 25, 38)
-    for y in range(H):
-        t = y / max(1, H - 1)
-        draw.line((0, y, W, y), fill=(
-            int(top[0] + (bottom[0] - top[0]) * t),
-            int(top[1] + (bottom[1] - top[1]) * t),
-            int(top[2] + (bottom[2] - top[2]) * t),
-        ))
+    league_img = _load_or_fetch_league_logo(name, category)
+    accent = _extract_vibrant_color(league_img, _poster_accent(name, category))
+    c1, c2 = _ensure_color_contrast(accent, _poster_accent(name, category))
 
-    bg = bg.convert('RGBA')
-    draw = ImageDraw.Draw(bg)
-    overlay = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-    od = ImageDraw.Draw(overlay)
-    od.polygon([(0, H), (W, int(H * 0.66)), (W, H)], fill=(*accent, 22))
-    od.polygon([(0, H), (W, int(H * 0.79)), (W, H)], fill=(*gold, 16))
-    bg = Image.alpha_composite(bg, overlay)
-    draw = ImageDraw.Draw(bg)
+    canvas = _build_stadium_spotlight_bg(W, H, c1, c2, S)
 
-    league = _poster_league(name, category)
-    header_font = _poster_font(max(10, int(13 * S)), bold=True)
-    draw.text((int(32 * S), int(18 * S)), league, font=header_font, fill=accent, anchor='la')
+    center_y = int(H * 0.40)
+    drawn_logo = False
+    if league_img is not None:
+        canvas, drawn_logo = _paste_logo_with_glow(canvas, league_img, W // 2, center_y, int(310 * S), c1, glow_alpha=145)
+    else:
+        canvas = _draw_league_header(canvas, name, category, c1, c2, S)
 
-    initials = _poster_initials(name)
-    mono_font = _poster_font(max(40, int(120 * S)), bold=True)
-    draw.text((W // 2, int(H * 0.40)), initials, font=mono_font, fill=accent, anchor='mm')
+    if not drawn_logo:
+        initials = _poster_initials(name)
+        mono_font = _poster_font(max(48, int(170 * S)), bold=True)
+        glow_l = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        gd = ImageDraw.Draw(glow_l)
+        gd.text((W // 2, center_y + int(10 * S)), initials, font=mono_font, fill=(*c1, 145), anchor='mm')
+        glow_l = glow_l.filter(ImageFilter.GaussianBlur(radius=max(6, int(22 * S))))
+        canvas = Image.alpha_composite(canvas, glow_l)
+        draw = ImageDraw.Draw(canvas)
+        draw.text((W // 2, center_y + int(14 * S)), initials, font=mono_font, fill=(0, 0, 0, 185), anchor='mm')
+        draw.text((W // 2, center_y + int(10 * S)), initials, font=mono_font, fill=(248, 250, 252, 245), anchor='mm')
 
-    name_font = _poster_font(max(11, int(17 * S)), bold=True)
-    lines = _poster_wrap(_poster_clean(name), 26, 2)
-    start_y = int(H * 0.72)
+    draw = ImageDraw.Draw(canvas)
+    clean_title = _poster_clean(name)
+    if ':' in clean_title and drawn_logo:
+        clean_title = clean_title.split(':', 1)[1].strip() or clean_title
+    name_font = _poster_font(max(16, int(33 * S)), bold=True)
+    lines = _poster_wrap(clean_title, 28, 2)
+    start_y = int(H * 0.74) if len(lines) == 1 else int(H * 0.71)
     for i, line in enumerate(lines):
-        draw.text((W // 2, start_y + i * int(20 * S)), line, font=name_font, fill=(241, 245, 249), anchor='ma')
+        y_pos = start_y + i * int(40 * S)
+        draw.text((W // 2, y_pos + int(3 * S)), line, font=name_font, fill=(0, 0, 0, 200), anchor='ma')
+        draw.text((W // 2, y_pos), line, font=name_font, fill=(255, 255, 255, 255), anchor='ma')
 
-    rule_y = int(H * 0.90)
-    draw.line((int(64 * S), rule_y, W - int(64 * S), rule_y), fill=(*gold, 90), width=1)
-
+    final_img = canvas.convert('RGB').resize((out_W, out_H), getattr(Image, 'Resampling', Image).LANCZOS)
     if output_path:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         info = PngImagePlugin.PngInfo()
         info.add_text("livetv-poster", POSTER_VERSION)
-        bg.convert('RGB').save(output_path, 'PNG', optimize=True, pnginfo=info)
-    return bg
+        final_img.save(output_path, 'PNG', optimize=True, pnginfo=info)
+    return final_img
 
 # ---------- end poster generator ----------
 
 # ---------- EasySports-style multi-source logo resolver ----------
 
 LOGO_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+WIKI_UA = "LiveTVPosterBot/1.0 (https://github.com/emaesposito71/LIVETV)"
 LOGO_TTL = 24 * 3600
 LOGO_MISS_TTL = 10 * 60
 _LOGO_CACHE = {}
@@ -373,7 +658,7 @@ _TSDB_BACKOFF = 0.0
 _SPORT_RULES = [
     ('fight', re.compile(r'(\bmma\b|wrestl|\bcombat\b|\bboxing\b|\bufc\b|\baew\b|\bwwe\b|🥊|🤼|🥋)', re.I)),
     ('motor-sports', re.compile(r'(motogp|moto gp|formula|\bf1\b|nascar|superbike|indycar|motorsport|🏍|🏎)', re.I)),
-    ('american-football', re.compile(r'(ncaaf|american football|🏈)', re.I)),
+    ('american-football', re.compile(r'(\bnfl\b|ncaaf|american football|🏈)', re.I)),
     ('ice-hockey', re.compile(r'(ice hockey|hockey|\bnhl\b|\bkhl\b|\bahl\b|\bechl\b|\bohl\b|\bwhl\b|🏒)', re.I)),
     ('basketball', re.compile(r'(basketball|\bnba\b|eurocup|euroleague|\baba\b|\bvtb\b|opap|🏀)', re.I)),
     ('baseball', re.compile(r'(baseball|\bmlb\b|⚾)', re.I)),
@@ -499,6 +784,10 @@ _PRIORITY_ALIASES = {
     'anderlecht ii': 'RSC Anderlecht',
 }
 _TEAM_ALIAS = {
+    'inter': 'Inter Milan',
+    'internazionale': 'Inter Milan',
+    'fc internazionale': 'Inter Milan',
+    'milan': 'AC Milan',
     'rionegro aguilas': 'Aguilas Doradas',
     'southern cal': 'USC Trojans',
     'costa adeje tenerife': 'Tenerife',
@@ -1192,6 +1481,175 @@ def prefetch_logos(events):
     _safe_print(f"[logos] cache dopo prefetch: {sum(1 for v in _LOGO_CACHE.values() if v)} loghi")
 
 
+_LEAGUE_URL_CACHE = {}
+_TSDB_COUNTRY_LEAGUES_CACHE = {}
+
+_KNOWN_LEAGUE_LOGOS = {
+    'nba': 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500-dark/nba.png&w=500&h=500&transparent=true',
+    'nfl': 'https://a.espncdn.com/i/teamlogos/leagues/500-dark/nfl.png',
+    'nhl': 'https://a.espncdn.com/i/teamlogos/leagues/500-dark/nhl.png',
+    'mlb': 'https://a.espncdn.com/i/teamlogos/leagues/500-dark/mlb.png',
+    'ufc': 'https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png',
+    'f1': 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/f1.png',
+    'formula 1': 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/f1.png',
+    'mens college basketball': 'https://a.espncdn.com/i/teamlogos/ncaa/500/ncaa.png',
+    'womens college basketball': 'https://a.espncdn.com/i/teamlogos/ncaa/500/ncaa.png',
+    'womens college volleyball': 'https://a.espncdn.com/i/teamlogos/ncaa/500/ncaa.png',
+    'college football': 'https://a.espncdn.com/i/teamlogos/ncaa/500/ncaa.png',
+}
+
+_TSDB_SPORT_NAME = {
+    'soccer': 'Soccer', 'basketball': 'Basketball', 'ice-hockey': 'Ice Hockey',
+    'american-football': 'American Football', 'baseball': 'Baseball',
+    'tennis': 'Tennis', 'motor-sports': 'Motorsport', 'fight': 'Fighting',
+    'golf': 'Golf', 'cricket': 'Cricket', 'rugby': 'Rugby', 'volleyball': 'Volleyball',
+    'darts': 'Darts',
+}
+
+def _parse_country_and_league(raw_league):
+    cleaned = _clean_name(raw_league)
+    cleaned = re.sub(r'\b(?:qualification|qualifiers|qualifying|playoffs|group\s+[a-z0-9]+|round\s+\d+)\b', '', cleaned, flags=re.I).strip(' -–:')
+    if ' - ' in cleaned:
+        parts = [p.strip() for p in cleaned.split(' - ', 1)]
+        if len(parts) == 2 and parts[0] and parts[1]:
+            return parts[0], parts[1], f"{parts[0]} {parts[1]}"
+    # Anche casi come "Slovakia 2. Liga", "Italy Serie A", "Brazil Superliga"
+    known_countries = (
+        'Italy|England|Spain|Germany|France|Portugal|Netherlands|Belgium|Turkey|Greece|Serbia|Croatia|'
+        'Slovakia|Czechia|Czech Republic|Poland|Romania|Sweden|Norway|Denmark|Scotland|Austria|Switzerland|'
+        'Russia|Ukraine|Israel|Brazil|Argentina|Colombia|Chile|Peru|Mexico|USA|Japan|Australia|Saudi Arabia'
+    )
+    m = re.match(rf'^({known_countries})\s+(.+)$', cleaned, re.I)
+    if m:
+        return m.group(1).strip(), m.group(2).strip(), cleaned
+    return '', cleaned, cleaned
+
+def resolve_league_logo_candidates(raw_league, event_name='', category=''):
+    norm = _norm_name(raw_league)
+    if not norm:
+        return []
+    if norm in _LEAGUE_URL_CACHE:
+        return _LEAGUE_URL_CACHE[norm]
+
+    candidates = []
+    def _add(u):
+        if u and u not in candidates:
+            candidates.append(u)
+
+    for k, v in _KNOWN_LEAGUE_LOGOS.items():
+        if norm == k or norm.startswith(k + ' ') or (' ' + k) in (' ' + norm):
+            _add(v)
+            _LEAGUE_URL_CACHE[norm] = candidates
+            return candidates
+
+    sport = _sport_of(category, event_name or raw_league)
+    country, short_lg, combined_lg = _parse_country_and_league(raw_league)
+
+    # 0. Campionati mappati in _ESPN_LEAGUES -> scoreboard ESPN (logo 500-dark ufficiale!)
+    espn_slug = _ESPN_LEAGUES.get(_norm_name(combined_lg)) or _ESPN_LEAGUES.get(norm)
+    if espn_slug:
+        sb = _fetch_json(f'https://site.api.espn.com/apis/site/v2/sports/soccer/{espn_slug}/scoreboard', 6)
+        if sb:
+            lgs = sb.get('leagues') or []
+            if lgs:
+                logos = lgs[0].get('logos') or []
+                dark_href = next((x.get('href') for x in logos if 'dark' in (x.get('rel') or []) and x.get('href')), '')
+                any_href = logos[0].get('href') if logos else ''
+                _add(dark_href or any_href)
+
+    # 1. 365Scores Competition Search (versione Light + versione standard come fallback)
+    sid = _SCORES365_SPORT_IDS.get(sport)
+    queries_365 = list(dict.fromkeys(q for q in [combined_lg, short_lg, raw_league] if q))
+    for q in queries_365:
+        data = _fetch_json(_SCORES365_SEARCH + urllib.parse.quote(q), 6)
+        if not data:
+            continue
+        country_ids = set()
+        if country:
+            cn = _norm_name(country)
+            for cobj in (data.get('countries') or []):
+                if cn in _norm_name(cobj.get('name', '')):
+                    country_ids.add(cobj.get('id'))
+        q_tokens = [w for w in _norm_name(short_lg or q).split() if len(w) >= 2]
+        best_cid = None
+        best_rank = (99, 99)
+        for comp in (data.get('competitions') or []):
+            if sid and comp.get('sportId') != sid:
+                continue
+            cname_norm = _norm_name((comp.get('name') or '') + ' ' + (comp.get('longName') or ''))
+            if q_tokens and not all(w in cname_norm for w in q_tokens):
+                continue
+            c_penalty = 0
+            if country:
+                if country_ids and comp.get('countryId') in country_ids:
+                    c_penalty = 0
+                elif _norm_name(country) in cname_norm:
+                    c_penalty = 0
+                else:
+                    c_penalty = 2
+            rank = (c_penalty, abs(len(_norm_name(comp.get('name', '')).split()) - len(q_tokens)))
+            if rank < best_rank and comp.get('id'):
+                best_rank = rank
+                best_cid = comp.get('id')
+        if best_cid and best_rank[0] == 0:
+            _add(f'https://imagecache.365scores.com/image/upload/f_png,c_limit,q_auto:eco,dpr_1/Competitions/Light/{best_cid}')
+            _add(f'https://imagecache.365scores.com/image/upload/f_png,c_limit,q_auto:eco,dpr_1/Competitions/{best_cid}')
+            break
+
+    # 2. ESPN Search v2 (loghi 500-dark ufficiali)
+    espn_sport_hint = {
+        'soccer': 'soccer', 'basketball': 'basketball', 'ice-hockey': 'hockey',
+        'american-football': 'football', 'baseball': 'baseball', 'tennis': 'tennis',
+        'motor-sports': 'racing', 'fight': 'mma', 'golf': 'golf', 'cricket': 'cricket', 'rugby': 'rugby',
+    }.get(sport, '')
+    for q in list(dict.fromkeys(q for q in [combined_lg, raw_league] if q)):
+        data = _fetch_json(_ESPN_SEARCH + urllib.parse.quote(q), 6)
+        if not data:
+            continue
+        for res in (data.get('results') or []):
+            if res.get('type') != 'league':
+                continue
+            for item in (res.get('contents') or []):
+                isport = (item.get('sport') or '').lower()
+                if espn_sport_hint and espn_sport_hint not in isport:
+                    continue
+                dname = _norm_name(item.get('displayName', ''))
+                if country and _norm_name(country) not in dname and len(country) > 3:
+                    adj_ok = {'italy': 'italian', 'england': 'english', 'spain': 'spanish', 'germany': 'german', 'france': 'french'}.get(_norm_name(country), '')
+                    if not (adj_ok and adj_ok in dname):
+                        continue
+                img = item.get('image') or {}
+                href = img.get('defaultDark') or img.get('default') or ''
+                if href and 'ESPN-icon-' not in href:
+                    if href.startswith('http://'):
+                        href = 'https://' + href[7:]
+                    _add(href)
+
+    # 3. TheSportsDB search_all_leagues per Paese + Sport (copre anche 2a/3a serie come Slovakia 2. Liga, Serie C, Prva Liga!)
+    tsdb_sport = _TSDB_SPORT_NAME.get(sport, '')
+    if country and tsdb_sport:
+        ckey = (country.lower(), tsdb_sport)
+        if ckey not in _TSDB_COUNTRY_LEAGUES_CACHE:
+            tdata = _fetch_json(
+                f'https://www.thesportsdb.com/api/v1/json/{_TSDB_KEY}/search_all_leagues.php?c=' +
+                urllib.parse.quote(country) + '&s=' + urllib.parse.quote(tsdb_sport), 6
+            )
+            _TSDB_COUNTRY_LEAGUES_CACHE[ckey] = (tdata.get('countries') or []) if tdata else []
+        q_tokens = [w for w in _norm_name(short_lg).split() if len(w) >= 1]
+        for row in _TSDB_COUNTRY_LEAGUES_CACHE[ckey]:
+            hay = _norm_name((row.get('strLeague') or '') + ' ' + (row.get('strLeagueAlternate') or ''))
+            if q_tokens and all(w in hay.split() or w in hay for w in q_tokens):
+                _add(row.get('strBadge') or '')
+                _add(row.get('strLogo') or '')
+
+    _LEAGUE_URL_CACHE[norm] = candidates
+    return candidates
+
+def resolve_league_logo(raw_league, event_name='', category=''):
+    cands = resolve_league_logo_candidates(raw_league, event_name, category)
+    return cands[0] if cands else ''
+
+
 def prefetch_logos_for_channels(categorized_channels):
     try:
         migrate_logo_filenames()
@@ -1465,7 +1923,7 @@ def eventi_dlhd_m3u8_generator_world():
                             try:
                                 # Aggiungi un User-Agent simile a un browser
                                 logo_headers = {
-                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+                                    "User-Agent": WIKI_UA if "wikimedia.org" in (logo1_url or "") else LOGO_UA
                                 }
                                 response1 = requests.get(logo1_url, headers=logo_headers, timeout=10)
                                 response1.raise_for_status() # Controlla errori HTTP
@@ -1486,7 +1944,7 @@ def eventi_dlhd_m3u8_generator_world():
                             try:
                                 # Aggiungi un User-Agent simile a un browser
                                 logo_headers = {
-                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+                                    "User-Agent": WIKI_UA if "wikimedia.org" in (logo2_url or "") else LOGO_UA
                                 }
                                 response2 = requests.get(logo2_url, headers=logo_headers, timeout=10)
                                 response2.raise_for_status() # Controlla errori HTTP
@@ -1850,7 +2308,7 @@ def eventi_dlhd_m3u8_generator():
                             try:
                                 # Aggiungi un User-Agent simile a un browser
                                 logo_headers = {
-                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+                                    "User-Agent": WIKI_UA if "wikimedia.org" in (logo1_url or "") else LOGO_UA
                                 }
                                 response1 = requests.get(logo1_url, headers=logo_headers, timeout=10)
                                 response1.raise_for_status() # Controlla errori HTTP
@@ -1871,7 +2329,7 @@ def eventi_dlhd_m3u8_generator():
                             try:
                                 # Aggiungi un User-Agent simile a un browser
                                 logo_headers = {
-                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+                                    "User-Agent": WIKI_UA if "wikimedia.org" in (logo2_url or "") else LOGO_UA
                                 }
                                 response2 = requests.get(logo2_url, headers=logo_headers, timeout=10)
                                 response2.raise_for_status() # Controlla errori HTTP
