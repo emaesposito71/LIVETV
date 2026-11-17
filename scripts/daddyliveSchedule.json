@@ -658,6 +658,14 @@
                     {
                         "channel_name": "Sportklub 9 Croatia",
                         "channel_id": "158"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2001"
+                    },
+                    {
+                        "channel_name": "Antena 1 Romania",
+                        "channel_id": "3068"
                     }
                 ]
             },
@@ -712,6 +720,14 @@
                     {
                         "channel_name": "beIN Sports MENA 6",
                         "channel_id": "96"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2003"
+                    },
+                    {
+                        "channel_name": "Fox Sports 2 USA",
+                        "channel_id": "3082"
                     }
                 ]
             },
@@ -734,6 +750,14 @@
                     {
                         "channel_name": "Polsat Sport Extra 4 Poland",
                         "channel_id": "996"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2006"
+                    },
+                    {
+                        "channel_name": "fuboTV",
+                        "channel_id": "3010"
                     }
                 ]
             },
@@ -768,6 +792,14 @@
                     {
                         "channel_name": "5Sport Israel",
                         "channel_id": "144"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2004"
+                    },
+                    {
+                        "channel_name": "ORF 1",
+                        "channel_id": "3016"
                     }
                 ]
             },
@@ -780,7 +812,7 @@
                         "channel_id": "105"
                     },
                     {
-                        "channel_name": "Event SD Stream",
+                        "channel_name": "Event SD Stream (SE)",
                         "channel_id": "1230"
                     },
                     {
@@ -838,6 +870,14 @@
                     {
                         "channel_name": "Sportklub 7 Croatia",
                         "channel_id": "156"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2005"
+                    },
+                    {
+                        "channel_name": "TVP Sport",
+                        "channel_id": "3060"
                     }
                 ]
             },
@@ -880,6 +920,14 @@
                     {
                         "channel_name": "Sportklub 8 Croatia",
                         "channel_id": "157"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2007"
+                    },
+                    {
+                        "channel_name": "fuboTV",
+                        "channel_id": "3009"
                     }
                 ]
             },
@@ -974,6 +1022,18 @@
                     {
                         "channel_name": "Sport 3 Israel",
                         "channel_id": "142"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2002"
+                    },
+                    {
+                        "channel_name": "TV 2 Direkte Norway",
+                        "channel_id": "3069"
+                    },
+                    {
+                        "channel_name": "Fox Sports 1 USA",
+                        "channel_id": "3081"
                     }
                 ]
             },
@@ -1080,6 +1140,22 @@
                     {
                         "channel_name": "Sport 4 Israel",
                         "channel_id": "143"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2008"
+                    },
+                    {
+                        "channel_name": "BBC Two UK",
+                        "channel_id": "3002"
+                    },
+                    {
+                        "channel_name": "DAZN2 DE",
+                        "channel_id": "3018"
+                    },
+                    {
+                        "channel_name": "Sport TV1 Portugal",
+                        "channel_id": "3021"
                     }
                 ]
             },
@@ -1106,6 +1182,14 @@
                     {
                         "channel_name": "beIN Sports Malaysia",
                         "channel_id": "712"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2009"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "3039"
                     }
                 ]
             },
@@ -1148,6 +1232,10 @@
                     {
                         "channel_name": "Sport TV1 Portugal",
                         "channel_id": "49"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "2010"
                     }
                 ]
             },
@@ -1414,6 +1502,10 @@
                     {
                         "channel_name": "5Sport Israel",
                         "channel_id": "144"
+                    },
+                    {
+                        "channel_name": "Backup Stream",
+                        "channel_id": "3027"
                     }
                 ]
             }
