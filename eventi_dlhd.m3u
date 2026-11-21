@@ -2,8 +2,47 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
+#EXTINF:-1 tvg-id="georgiastateracenightonelavoniaspeedway" x-event-date="2026-11-21" tvg-name="PPV Events | 🏁 Georgia State Race Night One : Lavonia Speedway (19:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Georgia_State_Race_Night_One_Lavonia_Speedway.png" group-title="Eventi Live DLHD",PPV Events | 🏁 Georgia State Race Night One : Lavonia Speedway (19:00)
+https://thedaddy.li/watch.php?id=1132
+
+#EXTINF:-1 tvg-id="wow34valencia" x-event-date="2026-11-21" tvg-name="PPV Events | 🥊 WOW 34 : Valencia (20:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_WOW_34_Valencia.png" group-title="Eventi Live DLHD",PPV Events | 🥊 WOW 34 : Valencia (20:00)
+https://thedaddy.li/watch.php?id=1133
+
+#EXTINF:-1 tvg-id="2026usacchasejohnsonclassicmercedspeedway" x-event-date="2026-11-21" tvg-name="PPV Events | 🏁 2026 USAC Chase Johnson Classic : Merced Speedway (21:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_2026_USAC_Chase_Johnson_Classic_Merced_Speedway.png" group-title="Eventi Live DLHD",PPV Events | 🏁 2026 USAC Chase Johnson Classic : Merced Speedway (21:45)
+https://thedaddy.li/watch.php?id=27
+
+#EXTINF:-1 tvg-id="2026snowballderbypreview5flagsspeedway" x-event-date="2026-11-21" tvg-name="PPV Events | 🏁 2026 Snowball Derby Preview : 5 Flags Speedway (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_2026_Snowball_Derby_Preview_5_Flags_Speedway.png" group-title="Eventi Live DLHD",PPV Events | 🏁 2026 Snowball Derby Preview : 5 Flags Speedway (22:00)
+https://thedaddy.li/watch.php?id=28
+
+#EXTINF:-1 tvg-id="toplevelpro25thanksgivingthrowdown" x-event-date="2026-11-21" tvg-name="PPV Events | 🥊 Top Level Pro 25 : Thanksgiving Throwdown (22:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Top_Level_Pro_25_Thanksgiving_Throwdown.png" group-title="Eventi Live DLHD",PPV Events | 🥊 Top Level Pro 25 : Thanksgiving Throwdown (22:00)
+https://thedaddy.li/watch.php?id=30
+
+#EXTINF:-1 tvg-id="wesprosumonewerav" x-event-date="2026-11-21" tvg-name="PPV Events | 🤼 WES : Pro Sumo - New Era V (22:35)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_WES_Pro_Sumo_New_Era_V.png" group-title="Eventi Live DLHD",PPV Events | 🤼 WES : Pro Sumo - New Era V (22:35)
+https://thedaddy.li/watch.php?id=25
+
+#EXTINF:-1 tvg-id="southernthundersuperdirtserieschampionship" x-event-date="2026-11-21" tvg-name="PPV Events | 🏁 Southern Thunder Super Dirt Series Championship (23:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Southern_Thunder_Super_Dirt_Series_Championship.png" group-title="Eventi Live DLHD",PPV Events | 🏁 Southern Thunder Super Dirt Series Championship (23:30)
+https://thedaddy.li/watch.php?id=20
+
+#EXTINF:-1 tvg-id="bobbymartinmemorialflipflop50nighttworiversideinternationalspeedway" x-event-date="2026-11-22" tvg-name="PPV Events | 🏁 Bobby Martin Memorial Flip Flop 50 Night Two : Riverside International Speedway (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Bobby_Martin_Memorial_Flip_Flop_50_Night_Two_Riverside_International_Speedway.png" group-title="Eventi Live DLHD",PPV Events | 🏁 Bobby Martin Memorial Flip Flop 50 Night Two : Riverside International Speedway (01:00)
+https://thedaddy.li/watch.php?id=29
+
+#EXTINF:-1 tvg-id="scottishchampionshipqueensparkvslivingston" x-event-date="2026-11-21" tvg-name="Scottish Championship ⚽ | ⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish Championship : Queen's Park 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Livingston 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Queen_s_Park_vs_Livingston.png" group-title="Eventi Live DLHD",Scottish Championship ⚽ | ⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish Championship : Queen's Park 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Livingston 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1291
+
+#EXTINF:-1 tvg-id="scottishchampionshipdunfermlineathleticvsgreenockmorton" x-event-date="2026-11-21" tvg-name="Scottish Championship ⚽ | ⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish Championship : Dunfermline Athletic 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Greenock Morton 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Dunfermline_Athletic_vs_Greenock_Morton.png" group-title="Eventi Live DLHD",Scottish Championship ⚽ | ⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish Championship : Dunfermline Athletic 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Greenock Morton 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1292
+
+#EXTINF:-1 tvg-id="scottishchampionshiparbroathvsstenhousemuir" x-event-date="2026-11-21" tvg-name="Scottish Championship ⚽ | ⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish Championship : Arbroath 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Stenhousemuir 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Arbroath_vs_Stenhousemuir.png" group-title="Eventi Live DLHD",Scottish Championship ⚽ | ⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish Championship : Arbroath 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Stenhousemuir 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1293
+
+#EXTINF:-1 tvg-id="scottishchampionshipraithroversvspartickthistle" x-event-date="2026-11-21" tvg-name="Scottish Championship ⚽ | ⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish Championship : Raith Rovers 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Partick Thistle 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Raith_Rovers_vs_Partick_Thistle.png" group-title="Eventi Live DLHD",Scottish Championship ⚽ | ⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scottish Championship : Raith Rovers 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Partick Thistle 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1294
+
 #EXTINF:-1 tvg-id="englandchampionshipnorwichcityvscardiffcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Norwich City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Cardiff City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Norwich_City_vs_Cardiff_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Norwich City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Cardiff City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (12:30)
 https://thedaddy.li/watch.php?id=159
+
+#EXTINF:-1 tvg-id="englandchampionshipnorwichcityvscardiffcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Norwich City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Cardiff City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Norwich_City_vs_Cardiff_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Norwich City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Cardiff City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (12:30)
+https://thedaddy.li/watch.php?id=1226
 
 #EXTINF:-1 tvg-id="englandchampionshipnorwichcityvscardiffcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Norwich City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Cardiff City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Norwich_City_vs_Cardiff_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Norwich City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Cardiff City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (12:30)
 https://thedaddy.li/watch.php?id=223
@@ -13,6 +52,9 @@ https://thedaddy.li/watch.php?id=3031
 
 #EXTINF:-1 tvg-id="englandchampionshipsouthamptonvsderbycounty" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Southampton 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Derby County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Southampton_vs_Derby_County.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Southampton 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Derby County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=158
+
+#EXTINF:-1 tvg-id="englandchampionshipsouthamptonvsderbycounty" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Southampton 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Derby County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Southampton_vs_Derby_County.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Southampton 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Derby County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
+https://thedaddy.li/watch.php?id=1225
 
 #EXTINF:-1 tvg-id="englandchampionshipsouthamptonvsderbycounty" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Southampton 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Derby County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Southampton_vs_Derby_County.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Southampton 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Derby County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=36
@@ -29,11 +71,17 @@ https://thedaddy.li/watch.php?id=167
 #EXTINF:-1 tvg-id="englandchampionshipboltonwanderersvsportsmouth" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Bolton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Portsmouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bolton_Wanderers_vs_Portsmouth.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Bolton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Portsmouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=3031
 
+#EXTINF:-1 tvg-id="englandchampionshipboltonwanderersvsportsmouth" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Bolton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Portsmouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bolton_Wanderers_vs_Portsmouth.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Bolton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Portsmouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1203
+
 #EXTINF:-1 tvg-id="englandchampionshiplincolncityvswrexham" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Lincoln City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wrexham 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lincoln_City_vs_Wrexham.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Lincoln City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wrexham 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (15:00)
 https://thedaddy.li/watch.php?id=168
 
 #EXTINF:-1 tvg-id="englandchampionshiplincolncityvswrexham" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Lincoln City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wrexham 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lincoln_City_vs_Wrexham.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Lincoln City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wrexham 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (15:00)
 https://thedaddy.li/watch.php?id=3032
+
+#EXTINF:-1 tvg-id="englandchampionshiplincolncityvswrexham" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Lincoln City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wrexham 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lincoln_City_vs_Wrexham.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Lincoln City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wrexham 🏴󠁧󠁢󠁷󠁬󠁳󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1202
 
 #EXTINF:-1 tvg-id="englandchampionshipmiddlesbroughvsbristolcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Middlesbrough 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Middlesbrough_vs_Bristol_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Middlesbrough 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=169
@@ -41,11 +89,17 @@ https://thedaddy.li/watch.php?id=169
 #EXTINF:-1 tvg-id="englandchampionshipmiddlesbroughvsbristolcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Middlesbrough 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Middlesbrough_vs_Bristol_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Middlesbrough 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=3033
 
+#EXTINF:-1 tvg-id="englandchampionshipmiddlesbroughvsbristolcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Middlesbrough 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Middlesbrough_vs_Bristol_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Middlesbrough 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1201
+
 #EXTINF:-1 tvg-id="englandchampionshipsheffieldunitedvswatford" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Sheffield United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Watford 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sheffield_United_vs_Watford.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Sheffield United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Watford 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=170
 
 #EXTINF:-1 tvg-id="englandchampionshipsheffieldunitedvswatford" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Sheffield United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Watford 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sheffield_United_vs_Watford.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Sheffield United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Watford 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=3034
+
+#EXTINF:-1 tvg-id="englandchampionshipsheffieldunitedvswatford" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Sheffield United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Watford 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sheffield_United_vs_Watford.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Sheffield United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Watford 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1236
 
 #EXTINF:-1 tvg-id="englandchampionshipstokecityvsbirminghamcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Stoke City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Birmingham City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Stoke_City_vs_Birmingham_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Stoke City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Birmingham City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=171
@@ -53,8 +107,14 @@ https://thedaddy.li/watch.php?id=171
 #EXTINF:-1 tvg-id="englandchampionshipstokecityvsbirminghamcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Stoke City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Birmingham City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Stoke_City_vs_Birmingham_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Stoke City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Birmingham City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=3035
 
+#EXTINF:-1 tvg-id="englandchampionshipstokecityvsbirminghamcity" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Stoke City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Birmingham City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Stoke_City_vs_Birmingham_City.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Stoke City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Birmingham City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1235
+
 #EXTINF:-1 tvg-id="englandchampionshipswanseacityvswestbromwichalbion" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Swansea City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs West Bromwich Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Swansea_City_vs_West_Bromwich_Albion.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Swansea City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs West Bromwich Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=172
+
+#EXTINF:-1 tvg-id="englandchampionshipswanseacityvswestbromwichalbion" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Swansea City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs West Bromwich Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Swansea_City_vs_West_Bromwich_Albion.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Swansea City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs West Bromwich Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1234
 
 #EXTINF:-1 tvg-id="englandchampionshipswanseacityvswestbromwichalbion" x-event-date="2026-11-21" tvg-name="England - Championship ⚽ | ⚽ England - Championship : Swansea City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs West Bromwich Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Swansea_City_vs_West_Bromwich_Albion.png" group-title="Eventi Live DLHD",England - Championship ⚽ | ⚽ England - Championship : Swansea City 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs West Bromwich Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=3036
@@ -62,65 +122,128 @@ https://thedaddy.li/watch.php?id=3036
 #EXTINF:-1 tvg-id="englandleagueoneblackpoolvswiganathletic" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Blackpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wigan Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Blackpool_vs_Wigan_Athletic.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Blackpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wigan Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=160
 
+#EXTINF:-1 tvg-id="englandleagueoneblackpoolvswiganathletic" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Blackpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wigan Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Blackpool_vs_Wigan_Athletic.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Blackpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wigan Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
+https://thedaddy.li/watch.php?id=1228
+
 #EXTINF:-1 tvg-id="englandleagueonereadingvsbromley" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Reading 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bromley 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Reading_vs_Bromley.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Reading 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bromley 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=161
+
+#EXTINF:-1 tvg-id="englandleagueonereadingvsbromley" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Reading 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bromley 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Reading_vs_Bromley.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Reading 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bromley 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
+https://thedaddy.li/watch.php?id=1227
 
 #EXTINF:-1 tvg-id="englandleagueonebradfordcityvsdoncasterrovers" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Bradford City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Doncaster Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bradford_City_vs_Doncaster_Rovers.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Bradford City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Doncaster Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=173
 
+#EXTINF:-1 tvg-id="englandleagueonebradfordcityvsdoncasterrovers" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Bradford City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Doncaster Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bradford_City_vs_Doncaster_Rovers.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Bradford City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Doncaster Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1280
+
 #EXTINF:-1 tvg-id="englandleagueoneburtonalbionvslutontown" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Burton Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Luton Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Burton_Albion_vs_Luton_Town.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Burton Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Luton Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=174
+
+#EXTINF:-1 tvg-id="englandleagueoneburtonalbionvslutontown" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Burton Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Luton Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Burton_Albion_vs_Luton_Town.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Burton Albion 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Luton Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1279
 
 #EXTINF:-1 tvg-id="englandleagueonecambridgeunitedvsstockportcounty" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Cambridge United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Stockport County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cambridge_United_vs_Stockport_County.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Cambridge United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Stockport County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=175
 
+#EXTINF:-1 tvg-id="englandleagueonecambridgeunitedvsstockportcounty" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Cambridge United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Stockport County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cambridge_United_vs_Stockport_County.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Cambridge United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Stockport County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1278
+
 #EXTINF:-1 tvg-id="englandleagueonehuddersfieldtownvsleicestercity" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Huddersfield Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leicester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Huddersfield_Town_vs_Leicester_City.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Huddersfield Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leicester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=176
+
+#EXTINF:-1 tvg-id="englandleagueonehuddersfieldtownvsleicestercity" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Huddersfield Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leicester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Huddersfield_Town_vs_Leicester_City.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Huddersfield Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leicester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1277
 
 #EXTINF:-1 tvg-id="englandleagueoneleytonorientvsafcwimbledon" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Leyton Orient 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs AFC Wimbledon 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Leyton_Orient_vs_AFC_Wimbledon.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Leyton Orient 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs AFC Wimbledon 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=177
 
+#EXTINF:-1 tvg-id="englandleagueoneleytonorientvsafcwimbledon" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Leyton Orient 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs AFC Wimbledon 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Leyton_Orient_vs_AFC_Wimbledon.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Leyton Orient 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs AFC Wimbledon 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1276
+
 #EXTINF:-1 tvg-id="englandleagueonemansfieldtownvsmiltonkeynesdons" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Mansfield Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Milton Keynes Dons 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mansfield_Town_vs_Milton_Keynes_Dons.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Mansfield Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Milton Keynes Dons 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=178
+
+#EXTINF:-1 tvg-id="englandleagueonemansfieldtownvsmiltonkeynesdons" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Mansfield Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Milton Keynes Dons 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mansfield_Town_vs_Milton_Keynes_Dons.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Mansfield Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Milton Keynes Dons 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1275
 
 #EXTINF:-1 tvg-id="englandleagueonenottscountyvsstevenage" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Notts County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Stevenage 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Notts_County_vs_Stevenage.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Notts County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Stevenage 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=179
 
+#EXTINF:-1 tvg-id="englandleagueonenottscountyvsstevenage" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Notts County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Stevenage 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Notts_County_vs_Stevenage.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Notts County 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Stevenage 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1274
+
 #EXTINF:-1 tvg-id="englandleagueoneoxfordunitedvswycombewanderers" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Oxford United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wycombe Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Oxford_United_vs_Wycombe_Wanderers.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Oxford United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wycombe Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=180
+
+#EXTINF:-1 tvg-id="englandleagueoneoxfordunitedvswycombewanderers" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Oxford United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wycombe Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Oxford_United_vs_Wycombe_Wanderers.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Oxford United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Wycombe Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1273
 
 #EXTINF:-1 tvg-id="englandleagueoneplymouthargylevspeterboroughunited" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Plymouth Argyle 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Peterborough United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Plymouth_Argyle_vs_Peterborough_United.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Plymouth Argyle 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Peterborough United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=181
 
+#EXTINF:-1 tvg-id="englandleagueoneplymouthargylevspeterboroughunited" x-event-date="2026-11-21" tvg-name="England - League One ⚽ | ⚽ England - League One : Plymouth Argyle 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Peterborough United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Plymouth_Argyle_vs_Peterborough_United.png" group-title="Eventi Live DLHD",England - League One ⚽ | ⚽ England - League One : Plymouth Argyle 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Peterborough United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1204
+
 #EXTINF:-1 tvg-id="englandleaguetwogillinghamvscrewealexandra" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Gillingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crewe Alexandra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gillingham_vs_Crewe_Alexandra.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Gillingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crewe Alexandra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=154
+
+#EXTINF:-1 tvg-id="englandleaguetwogillinghamvscrewealexandra" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Gillingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crewe Alexandra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Gillingham_vs_Crewe_Alexandra.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Gillingham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crewe Alexandra 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
+https://thedaddy.li/watch.php?id=1231
 
 #EXTINF:-1 tvg-id="englandleaguetwonewportcountyvsswindontown" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Newport County 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs Swindon Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Newport_County_vs_Swindon_Town.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Newport County 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs Swindon Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=155
 
+#EXTINF:-1 tvg-id="englandleaguetwonewportcountyvsswindontown" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Newport County 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs Swindon Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Newport_County_vs_Swindon_Town.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Newport County 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs Swindon Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
+https://thedaddy.li/watch.php?id=1230
+
 #EXTINF:-1 tvg-id="englandleaguetwoaccringtonstanleyvssalfordcity" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Accrington Stanley 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Salford City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Accrington_Stanley_vs_Salford_City.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Accrington Stanley 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Salford City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=182
+
+#EXTINF:-1 tvg-id="englandleaguetwoaccringtonstanleyvssalfordcity" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Accrington Stanley 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Salford City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Accrington_Stanley_vs_Salford_City.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Accrington Stanley 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Salford City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1290
 
 #EXTINF:-1 tvg-id="englandleaguetwobarnetvsportvale" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Barnet 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Port Vale 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Barnet_vs_Port_Vale.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Barnet 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Port Vale 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=183
 
+#EXTINF:-1 tvg-id="englandleaguetwobarnetvsportvale" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Barnet 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Port Vale 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Barnet_vs_Port_Vale.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Barnet 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Port Vale 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1289
+
 #EXTINF:-1 tvg-id="englandleaguetwocheltenhamtownvsbristolrovers" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Cheltenham Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cheltenham_Town_vs_Bristol_Rovers.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Cheltenham Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=184
+
+#EXTINF:-1 tvg-id="englandleaguetwocheltenhamtownvsbristolrovers" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Cheltenham Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cheltenham_Town_vs_Bristol_Rovers.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Cheltenham Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Bristol Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1288
 
 #EXTINF:-1 tvg-id="englandleaguetwochesterfieldvsshrewsburytown" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Chesterfield 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Shrewsbury Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chesterfield_vs_Shrewsbury_Town.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Chesterfield 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Shrewsbury Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=185
 
+#EXTINF:-1 tvg-id="englandleaguetwochesterfieldvsshrewsburytown" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Chesterfield 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Shrewsbury Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chesterfield_vs_Shrewsbury_Town.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Chesterfield 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Shrewsbury Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1287
+
 #EXTINF:-1 tvg-id="englandleaguetwocrawleytownvsfleetwoodtown" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Crawley Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fleetwood Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Crawley_Town_vs_Fleetwood_Town.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Crawley Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fleetwood Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=186
+
+#EXTINF:-1 tvg-id="englandleaguetwocrawleytownvsfleetwoodtown" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Crawley Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fleetwood Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Crawley_Town_vs_Fleetwood_Town.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Crawley Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fleetwood Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1286
 
 #EXTINF:-1 tvg-id="englandleaguetwogrimsbytownvsrotherhamunited" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Grimsby Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Rotherham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Grimsby_Town_vs_Rotherham_United.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Grimsby Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Rotherham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=187
 
+#EXTINF:-1 tvg-id="englandleaguetwogrimsbytownvsrotherhamunited" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Grimsby Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Rotherham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Grimsby_Town_vs_Rotherham_United.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Grimsby Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Rotherham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1285
+
 #EXTINF:-1 tvg-id="englandleaguetwonorthamptontownvsrochdale" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Northampton Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Rochdale 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Northampton_Town_vs_Rochdale.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Northampton Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Rochdale 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=188
 
+#EXTINF:-1 tvg-id="englandleaguetwonorthamptontownvsrochdale" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Northampton Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Rochdale 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Northampton_Town_vs_Rochdale.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Northampton Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Rochdale 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1284
+
 #EXTINF:-1 tvg-id="englandleaguetwooldhamathleticvsexetercity" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Oldham Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Exeter City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Oldham_Athletic_vs_Exeter_City.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Oldham Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Exeter City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=189
+
+#EXTINF:-1 tvg-id="englandleaguetwooldhamathleticvsexetercity" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Oldham Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Exeter City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Oldham_Athletic_vs_Exeter_City.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Oldham Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Exeter City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1283
 
 #EXTINF:-1 tvg-id="englandleaguetwotranmereroversvscolchesterunited" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : Tranmere Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Colchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tranmere_Rovers_vs_Colchester_United.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : Tranmere Rovers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Colchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=190
@@ -128,17 +251,32 @@ https://thedaddy.li/watch.php?id=190
 #EXTINF:-1 tvg-id="englandleaguetwoyorkcityvswalsall" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : York City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Walsall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/York_City_vs_Walsall.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : York City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Walsall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=191
 
+#EXTINF:-1 tvg-id="englandleaguetwoyorkcityvswalsall" x-event-date="2026-11-21" tvg-name="England - League Two ⚽ | ⚽ England - League Two : York City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Walsall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/York_City_vs_Walsall.png" group-title="Eventi Live DLHD",England - League Two ⚽ | ⚽ England - League Two : York City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Walsall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1281
+
 #EXTINF:-1 tvg-id="scottishpremiershipcelticvsstmirren" x-event-date="2026-11-21" tvg-name="Scottish Premiership ⚽ | ⚽ Scottish Premiership : Celtic 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs St. Mirren 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Celtic_vs_St_Mirren.png" group-title="Eventi Live DLHD",Scottish Premiership ⚽ | ⚽ Scottish Premiership : Celtic 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs St. Mirren 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
 https://thedaddy.li/watch.php?id=192
+
+#EXTINF:-1 tvg-id="scottishpremiershipcelticvsstmirren" x-event-date="2026-11-21" tvg-name="Scottish Premiership ⚽ | ⚽ Scottish Premiership : Celtic 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs St. Mirren 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Celtic_vs_St_Mirren.png" group-title="Eventi Live DLHD",Scottish Premiership ⚽ | ⚽ Scottish Premiership : Celtic 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs St. Mirren 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1231
 
 #EXTINF:-1 tvg-id="scottishpremiershipfalkirkvsstjohnstone" x-event-date="2026-11-21" tvg-name="Scottish Premiership ⚽ | ⚽ Scottish Premiership : Falkirk 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs St. Johnstone 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Falkirk_vs_St_Johnstone.png" group-title="Eventi Live DLHD",Scottish Premiership ⚽ | ⚽ Scottish Premiership : Falkirk 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs St. Johnstone 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
 https://thedaddy.li/watch.php?id=193
 
+#EXTINF:-1 tvg-id="scottishpremiershipfalkirkvsstjohnstone" x-event-date="2026-11-21" tvg-name="Scottish Premiership ⚽ | ⚽ Scottish Premiership : Falkirk 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs St. Johnstone 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Falkirk_vs_St_Johnstone.png" group-title="Eventi Live DLHD",Scottish Premiership ⚽ | ⚽ Scottish Premiership : Falkirk 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs St. Johnstone 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1230
+
 #EXTINF:-1 tvg-id="scottishpremiershiphibernianvsdundeeunited" x-event-date="2026-11-21" tvg-name="Scottish Premiership ⚽ | ⚽ Scottish Premiership : Hibernian 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Dundee United 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hibernian_vs_Dundee_United.png" group-title="Eventi Live DLHD",Scottish Premiership ⚽ | ⚽ Scottish Premiership : Hibernian 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Dundee United 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
 https://thedaddy.li/watch.php?id=194
 
+#EXTINF:-1 tvg-id="scottishpremiershiphibernianvsdundeeunited" x-event-date="2026-11-21" tvg-name="Scottish Premiership ⚽ | ⚽ Scottish Premiership : Hibernian 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Dundee United 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hibernian_vs_Dundee_United.png" group-title="Eventi Live DLHD",Scottish Premiership ⚽ | ⚽ Scottish Premiership : Hibernian 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Dundee United 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1229
+
 #EXTINF:-1 tvg-id="scottishpremiershipkilmarnockvsaberdeen" x-event-date="2026-11-21" tvg-name="Scottish Premiership ⚽ | ⚽ Scottish Premiership : Kilmarnock 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Aberdeen 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kilmarnock_vs_Aberdeen.png" group-title="Eventi Live DLHD",Scottish Premiership ⚽ | ⚽ Scottish Premiership : Kilmarnock 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Aberdeen 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
 https://thedaddy.li/watch.php?id=195
+
+#EXTINF:-1 tvg-id="scottishpremiershipkilmarnockvsaberdeen" x-event-date="2026-11-21" tvg-name="Scottish Premiership ⚽ | ⚽ Scottish Premiership : Kilmarnock 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Aberdeen 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kilmarnock_vs_Aberdeen.png" group-title="Eventi Live DLHD",Scottish Premiership ⚽ | ⚽ Scottish Premiership : Kilmarnock 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Aberdeen 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1228
 
 #EXTINF:-1 tvg-id="majorleaguesoccernewenglandvsphiladelphiaunion" x-event-date="2026-11-21" tvg-name="Major League Soccer (MLS) ⚽ | ⚽ Major League Soccer : New England 🇺🇸 vs Philadelphia Union 🇺🇸 (19:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_England_vs_Philadelphia_Union.png" group-title="Eventi Live DLHD",Major League Soccer (MLS) ⚽ | ⚽ Major League Soccer : New England 🇺🇸 vs Philadelphia Union 🇺🇸 (19:00)
 https://thedaddy.li/watch.php?id=167
@@ -227,6 +365,9 @@ https://thedaddy.li/watch.php?id=63
 #EXTINF:-1 tvg-id="turkeysuperliggençlerbirliivsgaziantepfk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Gençlerbirliği 🇹🇷 vs Gaziantep FK 🇹🇷 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Genclerbirligi_vs_Gaziantep_FK.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Gençlerbirliği 🇹🇷 vs Gaziantep FK 🇹🇷 (10:30)
 https://thedaddy.li/watch.php?id=3092
 
+#EXTINF:-1 tvg-id="turkeysuperliggençlerbirliivsgaziantepfk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Gençlerbirliği 🇹🇷 vs Gaziantep FK 🇹🇷 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Genclerbirligi_vs_Gaziantep_FK.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Gençlerbirliği 🇹🇷 vs Gaziantep FK 🇹🇷 (10:30)
+https://thedaddy.li/watch.php?id=1201
+
 #EXTINF:-1 tvg-id="russiafnlolimpiyetsvstorpedomoskva" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Russia - FNL : Olimpiyets 🇷🇺 vs Torpedo Moskva 🇷🇺 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Olimpiyets_vs_Torpedo_Moskva.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Russia - FNL : Olimpiyets 🇷🇺 vs Torpedo Moskva 🇷🇺 (10:30)
 https://thedaddy.li/watch.php?id=127
 
@@ -236,8 +377,14 @@ https://thedaddy.li/watch.php?id=400
 #EXTINF:-1 tvg-id="romanialigaiicetateasuceavavsasupolitimioara" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Romania - Liga II : Cetatea Suceava 🇷🇴 vs ASU Poli Timişoara 🇷🇴 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cetatea_Suceava_vs_ASU_Poli_Timisoara.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Romania - Liga II : Cetatea Suceava 🇷🇴 vs ASU Poli Timişoara 🇷🇴 (10:30)
 https://thedaddy.li/watch.php?id=583
 
+#EXTINF:-1 tvg-id="romanialigaiicetateasuceavavsasupolitimioara" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Romania - Liga II : Cetatea Suceava 🇷🇴 vs ASU Poli Timişoara 🇷🇴 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cetatea_Suceava_vs_ASU_Poli_Timisoara.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Romania - Liga II : Cetatea Suceava 🇷🇴 vs ASU Poli Timişoara 🇷🇴 (10:30)
+https://thedaddy.li/watch.php?id=1205
+
 #EXTINF:-1 tvg-id="azerbaijanpremierliqashamakhivsturant" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Azerbaijan - Premier Liqa : Shamakhi 🇦🇿 vs Turan-T 🇦🇿 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Shamakhi_vs_Turan_T.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Azerbaijan - Premier Liqa : Shamakhi 🇦🇿 vs Turan-T 🇦🇿 (10:30)
 https://thedaddy.li/watch.php?id=1
+
+#EXTINF:-1 tvg-id="azerbaijanpremierliqashamakhivsturant" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Azerbaijan - Premier Liqa : Shamakhi 🇦🇿 vs Turan-T 🇦🇿 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Shamakhi_vs_Turan_T.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Azerbaijan - Premier Liqa : Shamakhi 🇦🇿 vs Turan-T 🇦🇿 (10:30)
+https://thedaddy.li/watch.php?id=1204
 
 #EXTINF:-1 tvg-id="belaruspremierleaguedneprmogilevvsvitebsk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Belarus Premier League : Dnepr Mogilev 🇧🇾 vs Vitebsk 🇧🇾 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Dnepr_Mogilev_vs_Vitebsk.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Belarus Premier League : Dnepr Mogilev 🇧🇾 vs Vitebsk 🇧🇾 (11:00)
 https://thedaddy.li/watch.php?id=2
@@ -248,17 +395,38 @@ https://thedaddy.li/watch.php?id=779
 #EXTINF:-1 tvg-id="spainprimeradivisiónfemeninabadalonavsdeportivodelacoruña" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Badalona 🇪🇸 vs Deportivo de La Coruña 🇪🇸 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Badalona_vs_Deportivo_de_La_Coruna.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Badalona 🇪🇸 vs Deportivo de La Coruña 🇪🇸 (11:00)
 https://thedaddy.li/watch.php?id=446
 
+#EXTINF:-1 tvg-id="spainprimeradivisiónfemeninabadalonavsdeportivodelacoruña" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Badalona 🇪🇸 vs Deportivo de La Coruña 🇪🇸 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Badalona_vs_Deportivo_de_La_Coruna.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Badalona 🇪🇸 vs Deportivo de La Coruña 🇪🇸 (11:00)
+https://thedaddy.li/watch.php?id=1211
+
 #EXTINF:-1 tvg-id="turkey1ligstanbulsporvskeçiörengücü" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : İstanbulspor 🇹🇷 vs Keçiörengücü 🇹🇷 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Istanbulspor_vs_Keciorengucu.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : İstanbulspor 🇹🇷 vs Keçiörengücü 🇹🇷 (10:30)
 https://thedaddy.li/watch.php?id=26
+
+#EXTINF:-1 tvg-id="turkey1ligstanbulsporvskeçiörengücü" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : İstanbulspor 🇹🇷 vs Keçiörengücü 🇹🇷 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Istanbulspor_vs_Keciorengucu.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : İstanbulspor 🇹🇷 vs Keçiörengücü 🇹🇷 (10:30)
+https://thedaddy.li/watch.php?id=1203
 
 #EXTINF:-1 tvg-id="turkey1ligmardin1969vsbandrmaspor" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : Mardin 1969 🇹🇷 vs Bandırmaspor 🇹🇷 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mardin_1969_vs_Band_rmaspor.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : Mardin 1969 🇹🇷 vs Bandırmaspor 🇹🇷 (10:30)
 https://thedaddy.li/watch.php?id=889
 
+#EXTINF:-1 tvg-id="turkey1ligmardin1969vsbandrmaspor" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : Mardin 1969 🇹🇷 vs Bandırmaspor 🇹🇷 (10:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mardin_1969_vs_Band_rmaspor.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : Mardin 1969 🇹🇷 vs Bandırmaspor 🇹🇷 (10:30)
+https://thedaddy.li/watch.php?id=1202
+
 #EXTINF:-1 tvg-id="ukrainianpremierleaguekoloskovalivkavsmetalist1925kharkiv" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Ukrainian Premier League : Kolos Kovalivka 🇺🇦 vs Metalist 1925 Kharkiv 🇺🇦 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kolos_Kovalivka_vs_Metalist_1925_Kharkiv.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Ukrainian Premier League : Kolos Kovalivka 🇺🇦 vs Metalist 1925 Kharkiv 🇺🇦 (11:00)
 https://thedaddy.li/watch.php?id=152
 
+#EXTINF:-1 tvg-id="ukrainianpremierleaguekoloskovalivkavsmetalist1925kharkiv" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Ukrainian Premier League : Kolos Kovalivka 🇺🇦 vs Metalist 1925 Kharkiv 🇺🇦 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kolos_Kovalivka_vs_Metalist_1925_Kharkiv.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Ukrainian Premier League : Kolos Kovalivka 🇺🇦 vs Metalist 1925 Kharkiv 🇺🇦 (11:00)
+https://thedaddy.li/watch.php?id=1206
+
 #EXTINF:-1 tvg-id="ukrainianpremierleaguekryvbasvskudrivka" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Ukrainian Premier League : Kryvbas 🇺🇦 vs Kudrivka 🇺🇦 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kryvbas_vs_Kudrivka.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Ukrainian Premier League : Kryvbas 🇺🇦 vs Kudrivka 🇺🇦 (11:00)
 https://thedaddy.li/watch.php?id=153
+
+#EXTINF:-1 tvg-id="ukrainianpremierleaguekryvbasvskudrivka" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Ukrainian Premier League : Kryvbas 🇺🇦 vs Kudrivka 🇺🇦 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kryvbas_vs_Kudrivka.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Ukrainian Premier League : Kryvbas 🇺🇦 vs Kudrivka 🇺🇦 (11:00)
+https://thedaddy.li/watch.php?id=1207
+
+#EXTINF:-1 tvg-id="vietnamvleaguetruongtuoidongnaivshanoifc" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇻🇳 Vietnam V League : Truong Tuoi Dong Nai 🇻🇳 vs Hanoi FC 🇻🇳 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Truong_Tuoi_Dong_Nai_vs_Hanoi_FC.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇻🇳 Vietnam V League : Truong Tuoi Dong Nai 🇻🇳 vs Hanoi FC 🇻🇳 (11:00)
+https://thedaddy.li/watch.php?id=1208
+
+#EXTINF:-1 tvg-id="vietnamvleaguenamdinhvshaiphong" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇻🇳 Vietnam V League : Nam Dinh 🇻🇳 vs Hai Phong 🇻🇳 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nam_Dinh_vs_Hai_Phong.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇻🇳 Vietnam V League : Nam Dinh 🇻🇳 vs Hai Phong 🇻🇳 (11:00)
+https://thedaddy.li/watch.php?id=1209
 
 #EXTINF:-1 tvg-id="taçadeportugalatléticocpvscasapia" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Taça de Portugal : Atlético CP 🇵🇹 vs Casa Pia 🇵🇹 (11:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Atletico_CP_vs_Casa_Pia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Taça de Portugal : Atlético CP 🇵🇹 vs Casa Pia 🇵🇹 (11:00)
 https://thedaddy.li/watch.php?id=540
@@ -273,10 +441,19 @@ https://thedaddy.li/watch.php?id=756
 https://thedaddy.li/watch.php?id=877
 
 #EXTINF:-1 tvg-id="italyserieawomenparmavsnapoli" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A (women) : Parma 🇮🇹 vs Napoli 🇮🇹 (11:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Parma_vs_Napoli.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A (women) : Parma 🇮🇹 vs Napoli 🇮🇹 (11:30)
+https://thedaddy.li/watch.php?id=1212
+
+#EXTINF:-1 tvg-id="italyserieawomenparmavsnapoli" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A (women) : Parma 🇮🇹 vs Napoli 🇮🇹 (11:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Parma_vs_Napoli.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A (women) : Parma 🇮🇹 vs Napoli 🇮🇹 (11:30)
 https://thedaddy.li/watch.php?id=914
 
 #EXTINF:-1 tvg-id="indiansuperleaguechennaiyinvsroundglasspunjab" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Indian Super League : Chennaiyin 🇮🇳 vs RoundGlass Punjab 🇮🇳 (11:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chennaiyin_vs_RoundGlass_Punjab.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Indian Super League : Chennaiyin 🇮🇳 vs RoundGlass Punjab 🇮🇳 (11:30)
 https://thedaddy.li/watch.php?id=886
+
+#EXTINF:-1 tvg-id="indiansuperleaguechennaiyinvsroundglasspunjab" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Indian Super League : Chennaiyin 🇮🇳 vs RoundGlass Punjab 🇮🇳 (11:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chennaiyin_vs_RoundGlass_Punjab.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Indian Super League : Chennaiyin 🇮🇳 vs RoundGlass Punjab 🇮🇳 (11:30)
+https://thedaddy.li/watch.php?id=1213
+
+#EXTINF:-1 tvg-id="thailandthaileague1chonburivsuthaithani" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇹🇭 Thailand Thai League 1 : Chonburi 🇹🇭 vs Uthai Thani 🇹🇭 (11:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chonburi_vs_Uthai_Thani.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇹🇭 Thailand Thai League 1 : Chonburi 🇹🇭 vs Uthai Thani 🇹🇭 (11:30)
+https://thedaddy.li/watch.php?id=1214
 
 #EXTINF:-1 tvg-id="indonesiasuperleaguepsmvspersija" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Indonesia - Super League : PSM 🇮🇩 vs Persija 🇮🇩 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/PSM_vs_Persija.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Indonesia - Super League : PSM 🇮🇩 vs Persija 🇮🇩 (12:00)
 https://thedaddy.li/watch.php?id=25
@@ -290,11 +467,20 @@ https://thedaddy.li/watch.php?id=434
 #EXTINF:-1 tvg-id="serbiasuperligaradnikinivszemun" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Radnički Niš 🇷🇸 vs Zemun 🇷🇸 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Radnicki_Nis_vs_Zemun.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Radnički Niš 🇷🇸 vs Zemun 🇷🇸 (12:00)
 https://thedaddy.li/watch.php?id=945
 
+#EXTINF:-1 tvg-id="serbiasuperligaradnikinivszemun" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Radnički Niš 🇷🇸 vs Zemun 🇷🇸 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Radnicki_Nis_vs_Zemun.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Radnički Niš 🇷🇸 vs Zemun 🇷🇸 (12:00)
+https://thedaddy.li/watch.php?id=1222
+
 #EXTINF:-1 tvg-id="serbiaprvaligaspartaksuboticavsbakatopola" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Prva Liga : Spartak Subotica 🇷🇸 vs Bačka Topola 🇷🇸 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Spartak_Subotica_vs_Backa_Topola.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Prva Liga : Spartak Subotica 🇷🇸 vs Bačka Topola 🇷🇸 (12:00)
 https://thedaddy.li/watch.php?id=944
 
 #EXTINF:-1 tvg-id="swedenallsvenskanöstersundsfkvsvarberg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Östersunds FK 🇸🇪 vs Varberg 🇸🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ostersunds_FK_vs_Varberg.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Östersunds FK 🇸🇪 vs Varberg 🇸🇪 (12:00)
 https://thedaddy.li/watch.php?id=707
+
+#EXTINF:-1 tvg-id="swedenallsvenskanöstersundsfkvsvarberg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Östersunds FK 🇸🇪 vs Varberg 🇸🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ostersunds_FK_vs_Varberg.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Östersunds FK 🇸🇪 vs Varberg 🇸🇪 (12:00)
+https://thedaddy.li/watch.php?id=1215
+
+#EXTINF:-1 tvg-id="swedensuperettanenköpingskvsörebro" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇸🇪 Sweden Superettan : Enköping SK 🇸🇪 vs Örebro 🇸🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Enkoping_SK_vs_Orebro.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇸🇪 Sweden Superettan : Enköping SK 🇸🇪 vs Örebro 🇸🇪 (12:00)
+https://thedaddy.li/watch.php?id=1216
 
 #EXTINF:-1 tvg-id="kosovosuperligamalishevavsdukagjini" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Kosovo Superliga : Malisheva 🇽🇰 vs Dukagjini 🇽🇰 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Malisheva_vs_Dukagjini.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Kosovo Superliga : Malisheva 🇽🇰 vs Dukagjini 🇽🇰 (12:00)
 https://thedaddy.li/watch.php?id=167
@@ -312,7 +498,10 @@ https://thedaddy.li/watch.php?id=946
 https://thedaddy.li/watch.php?id=556
 
 #EXTINF:-1 tvg-id="bundesliga2hannover96vsgreutherfürth" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Hannover 96 🇩🇪 vs Greuther Fürth 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hannover_96_vs_Greuther_Furth.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Hannover 96 🇩🇪 vs Greuther Fürth 🇩🇪 (12:00)
-https://thedaddy.li/watch.php?id=948
+https://thedaddy.li/watch.php?id=949
+
+#EXTINF:-1 tvg-id="bundesliga2hannover96vsgreutherfürth" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Hannover 96 🇩🇪 vs Greuther Fürth 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hannover_96_vs_Greuther_Furth.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Hannover 96 🇩🇪 vs Greuther Fürth 🇩🇪 (12:00)
+https://thedaddy.li/watch.php?id=1219
 
 #EXTINF:-1 tvg-id="bundesliga2hannover96vsgreutherfürth" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Hannover 96 🇩🇪 vs Greuther Fürth 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hannover_96_vs_Greuther_Furth.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Hannover 96 🇩🇪 vs Greuther Fürth 🇩🇪 (12:00)
 https://thedaddy.li/watch.php?id=584
@@ -327,7 +516,10 @@ https://thedaddy.li/watch.php?id=11
 https://thedaddy.li/watch.php?id=3014
 
 #EXTINF:-1 tvg-id="bundesliga2nürnbergvseintrachtbraunschweig" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Nürnberg 🇩🇪 vs Eintracht Braunschweig 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nurnberg_vs_Eintracht_Braunschweig.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Nürnberg 🇩🇪 vs Eintracht Braunschweig 🇩🇪 (12:00)
-https://thedaddy.li/watch.php?id=949
+https://thedaddy.li/watch.php?id=948
+
+#EXTINF:-1 tvg-id="bundesliga2nürnbergvseintrachtbraunschweig" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Nürnberg 🇩🇪 vs Eintracht Braunschweig 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nurnberg_vs_Eintracht_Braunschweig.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Nürnberg 🇩🇪 vs Eintracht Braunschweig 🇩🇪 (12:00)
+https://thedaddy.li/watch.php?id=1218
 
 #EXTINF:-1 tvg-id="bundesliga2nürnbergvseintrachtbraunschweig" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Nürnberg 🇩🇪 vs Eintracht Braunschweig 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nurnberg_vs_Eintracht_Braunschweig.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Nürnberg 🇩🇪 vs Eintracht Braunschweig 🇩🇪 (12:00)
 https://thedaddy.li/watch.php?id=999
@@ -349,6 +541,9 @@ https://thedaddy.li/watch.php?id=3015
 
 #EXTINF:-1 tvg-id="bundesliga2wolfsburgvsholsteinkiel" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Wolfsburg 🇩🇪 vs Holstein Kiel 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Wolfsburg_vs_Holstein_Kiel.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Wolfsburg 🇩🇪 vs Holstein Kiel 🇩🇪 (12:00)
 https://thedaddy.li/watch.php?id=947
+
+#EXTINF:-1 tvg-id="bundesliga2wolfsburgvsholsteinkiel" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Wolfsburg 🇩🇪 vs Holstein Kiel 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Wolfsburg_vs_Holstein_Kiel.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Wolfsburg 🇩🇪 vs Holstein Kiel 🇩🇪 (12:00)
+https://thedaddy.li/watch.php?id=1217
 
 #EXTINF:-1 tvg-id="bundesliga2wolfsburgvsholsteinkiel" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga 2 : Wolfsburg 🇩🇪 vs Holstein Kiel 🇩🇪 (12:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Wolfsburg_vs_Holstein_Kiel.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga 2 : Wolfsburg 🇩🇪 vs Holstein Kiel 🇩🇪 (12:00)
 https://thedaddy.li/watch.php?id=456
@@ -383,11 +578,17 @@ https://thedaddy.li/watch.php?id=3013
 #EXTINF:-1 tvg-id="russianpremierleagueakronvsfakel" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Russian Premier League : Akron 🇷🇺 vs Fakel 🇷🇺 (12:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Akron_vs_Fakel.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Russian Premier League : Akron 🇷🇺 vs Fakel 🇷🇺 (12:15)
 https://thedaddy.li/watch.php?id=573
 
+#EXTINF:-1 tvg-id="russianpremierleagueakronvsfakel" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Russian Premier League : Akron 🇷🇺 vs Fakel 🇷🇺 (12:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Akron_vs_Fakel.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Russian Premier League : Akron 🇷🇺 vs Fakel 🇷🇺 (12:15)
+https://thedaddy.li/watch.php?id=1223
+
 #EXTINF:-1 tvg-id="englandpremierleaguemanchestercityvsfulham" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Manchester_City_vs_Fulham.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=9
 
 #EXTINF:-1 tvg-id="englandpremierleaguemanchestercityvsfulham" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Manchester_City_vs_Fulham.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=31
+
+#EXTINF:-1 tvg-id="englandpremierleaguemanchestercityvsfulham" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Manchester_City_vs_Fulham.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
+https://thedaddy.li/watch.php?id=1224
 
 #EXTINF:-1 tvg-id="englandpremierleaguemanchestercityvsfulham" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Manchester_City_vs_Fulham.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Manchester City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=343
@@ -477,6 +678,9 @@ https://thedaddy.li/watch.php?id=3003
 https://thedaddy.li/watch.php?id=35
 
 #EXTINF:-1 tvg-id="englandchampionshipmillwallvsqueensparkrangers" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : Millwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Queens Park Rangers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Millwall_vs_Queens_Park_Rangers.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : Millwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Queens Park Rangers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
+https://thedaddy.li/watch.php?id=1229
+
+#EXTINF:-1 tvg-id="englandchampionshipmillwallvsqueensparkrangers" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : Millwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Queens Park Rangers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Millwall_vs_Queens_Park_Rangers.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : Millwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Queens Park Rangers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=38
 
 #EXTINF:-1 tvg-id="englandchampionshipmillwallvsqueensparkrangers" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : Millwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Queens Park Rangers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Millwall_vs_Queens_Park_Rangers.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : Millwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Queens Park Rangers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
@@ -512,20 +716,41 @@ https://thedaddy.li/watch.php?id=141
 #EXTINF:-1 tvg-id="englandchampionshipmillwallvsqueensparkrangers" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : Millwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Queens Park Rangers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Millwall_vs_Queens_Park_Rangers.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : Millwall 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Queens Park Rangers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:30)
 https://thedaddy.li/watch.php?id=3005
 
+#EXTINF:-1 tvg-id="malaysiasuperleaguemelakafcvsstarcity" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇲🇾 Malaysia Super League : Melaka FC 🇲🇾 vs Star City 🇲🇾 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Melaka_FC_vs_Star_City.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇲🇾 Malaysia Super League : Melaka FC 🇲🇾 vs Star City 🇲🇾 (12:30)
+https://thedaddy.li/watch.php?id=1232
+
 #EXTINF:-1 tvg-id="fifau17worldcupjapanu17vscolombiau17" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Japan U17 🇯🇵 vs Colombia U17 🇨🇴 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Japan_U17_vs_Colombia_U17.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Japan U17 🇯🇵 vs Colombia U17 🇨🇴 (12:30)
 https://thedaddy.li/watch.php?id=758
 
 #EXTINF:-1 tvg-id="fifau17worldcupjapanu17vscolombiau17" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Japan U17 🇯🇵 vs Colombia U17 🇨🇴 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Japan_U17_vs_Colombia_U17.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Japan U17 🇯🇵 vs Colombia U17 🇨🇴 (12:30)
 https://thedaddy.li/watch.php?id=12
 
+#EXTINF:-1 tvg-id="fifau17worldcupjapanu17vscolombiau17" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Japan U17 🇯🇵 vs Colombia U17 🇨🇴 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Japan_U17_vs_Colombia_U17.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Japan U17 🇯🇵 vs Colombia U17 🇨🇴 (12:30)
+https://thedaddy.li/watch.php?id=1220
+
 #EXTINF:-1 tvg-id="hungarynb1puskásvsmtk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Hungary - NB1 : Puskás 🇭🇺 vs MTK 🇭🇺 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Puskas_vs_MTK.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Hungary - NB1 : Puskás 🇭🇺 vs MTK 🇭🇺 (12:30)
 https://thedaddy.li/watch.php?id=265
+
+#EXTINF:-1 tvg-id="hungarynb1puskásvsmtk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Hungary - NB1 : Puskás 🇭🇺 vs MTK 🇭🇺 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Puskas_vs_MTK.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Hungary - NB1 : Puskás 🇭🇺 vs MTK 🇭🇺 (12:30)
+https://thedaddy.li/watch.php?id=1233
+
+#EXTINF:-1 tvg-id="worldcupu17serbiau17vshondurasu17" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🌍 World Cup U17 : Serbia U17 🇷🇸 vs Honduras U17 🇭🇳 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Serbia_U17_vs_Honduras_U17.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🌍 World Cup U17 : Serbia U17 🇷🇸 vs Honduras U17 🇭🇳 (12:30)
+https://thedaddy.li/watch.php?id=1235
+
+#EXTINF:-1 tvg-id="thailandthaileague1ratchaburivsprachuap" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇹🇭 Thailand Thai League 1 : Ratchaburi 🇹🇭 vs Prachuap 🇹🇭 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ratchaburi_vs_Prachuap.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇹🇭 Thailand Thai League 1 : Ratchaburi 🇹🇭 vs Prachuap 🇹🇭 (12:30)
+https://thedaddy.li/watch.php?id=1236
 
 #EXTINF:-1 tvg-id="denmark1divisionvejlevshbkøge" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Denmark - 1. division : Vejle 🇩🇰 vs HB Køge 🇩🇰 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Vejle_vs_HB_K_ge.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Denmark - 1. division : Vejle 🇩🇰 vs HB Køge 🇩🇰 (12:30)
 https://thedaddy.li/watch.php?id=806
 
+#EXTINF:-1 tvg-id="denmark1divisionvejlevshbkøge" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Denmark - 1. division : Vejle 🇩🇰 vs HB Køge 🇩🇰 (12:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Vejle_vs_HB_K_ge.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Denmark - 1. division : Vejle 🇩🇰 vs HB Køge 🇩🇰 (12:30)
+https://thedaddy.li/watch.php?id=1234
+
 #EXTINF:-1 tvg-id="bulgariaparvaligaslaviasofiavsarda" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bulgaria - Parva Liga : Slavia Sofia 🇧🇬 vs Arda 🇧🇬 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slavia_Sofia_vs_Arda.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bulgaria - Parva Liga : Slavia Sofia 🇧🇬 vs Arda 🇧🇬 (12:45)
 https://thedaddy.li/watch.php?id=465
+
+#EXTINF:-1 tvg-id="bulgariaparvaligaslaviasofiavsarda" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bulgaria - Parva Liga : Slavia Sofia 🇧🇬 vs Arda 🇧🇬 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slavia_Sofia_vs_Arda.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bulgaria - Parva Liga : Slavia Sofia 🇧🇬 vs Arda 🇧🇬 (12:45)
+https://thedaddy.li/watch.php?id=1202
 
 #EXTINF:-1 tvg-id="bulgariaparvaligaslaviasofiavsarda" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bulgaria - Parva Liga : Slavia Sofia 🇧🇬 vs Arda 🇧🇬 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Slavia_Sofia_vs_Arda.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bulgaria - Parva Liga : Slavia Sofia 🇧🇬 vs Arda 🇧🇬 (12:45)
 https://thedaddy.li/watch.php?id=3048
@@ -536,11 +761,20 @@ https://thedaddy.li/watch.php?id=196
 #EXTINF:-1 tvg-id="uaeproleaguebaniyasvsalnasr" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ UAE Pro League : Bani Yas 🇦🇪 vs Al Nasr 🇦🇪 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bani_Yas_vs_Al_Nasr.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UAE Pro League : Bani Yas 🇦🇪 vs Al Nasr 🇦🇪 (12:45)
 https://thedaddy.li/watch.php?id=601
 
+#EXTINF:-1 tvg-id="uaeproleaguebaniyasvsalnasr" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ UAE Pro League : Bani Yas 🇦🇪 vs Al Nasr 🇦🇪 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bani_Yas_vs_Al_Nasr.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UAE Pro League : Bani Yas 🇦🇪 vs Al Nasr 🇦🇪 (12:45)
+https://thedaddy.li/watch.php?id=1204
+
 #EXTINF:-1 tvg-id="uaeproleaguekhorfakkanvsaljazira" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ UAE Pro League : Khor Fakkan 🇦🇪 vs Al Jazira 🇦🇪 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Khor_Fakkan_vs_Al_Jazira.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UAE Pro League : Khor Fakkan 🇦🇪 vs Al Jazira 🇦🇪 (12:45)
 https://thedaddy.li/watch.php?id=600
 
+#EXTINF:-1 tvg-id="uaeproleaguekhorfakkanvsaljazira" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ UAE Pro League : Khor Fakkan 🇦🇪 vs Al Jazira 🇦🇪 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Khor_Fakkan_vs_Al_Jazira.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ UAE Pro League : Khor Fakkan 🇦🇪 vs Al Jazira 🇦🇪 (12:45)
+https://thedaddy.li/watch.php?id=1203
+
 #EXTINF:-1 tvg-id="englandwomenssuperleagueliverpoolvschelseafc" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Women's Super League : Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Chelsea FC 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liverpool_vs_Chelsea_FC.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Women's Super League : Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Chelsea FC 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:45)
 https://thedaddy.li/watch.php?id=449
+
+#EXTINF:-1 tvg-id="englandwomenssuperleagueliverpoolvschelseafc" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Women's Super League : Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Chelsea FC 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liverpool_vs_Chelsea_FC.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Women's Super League : Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Chelsea FC 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:45)
+https://thedaddy.li/watch.php?id=1201
 
 #EXTINF:-1 tvg-id="englandwomenssuperleagueliverpoolvschelseafc" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Women's Super League : Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Chelsea FC 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Liverpool_vs_Chelsea_FC.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Women's Super League : Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Chelsea FC 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (12:45)
 https://thedaddy.li/watch.php?id=130
@@ -558,6 +792,9 @@ https://thedaddy.li/watch.php?id=411
 https://thedaddy.li/watch.php?id=116
 
 #EXTINF:-1 tvg-id="franceligue2lavalvsmontpellier" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ France - Ligue 2 : Laval 🇫🇷 vs Montpellier 🇫🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Laval_vs_Montpellier.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France - Ligue 2 : Laval 🇫🇷 vs Montpellier 🇫🇷 (13:00)
+https://thedaddy.li/watch.php?id=1245
+
+#EXTINF:-1 tvg-id="franceligue2lavalvsmontpellier" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ France - Ligue 2 : Laval 🇫🇷 vs Montpellier 🇫🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Laval_vs_Montpellier.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France - Ligue 2 : Laval 🇫🇷 vs Montpellier 🇫🇷 (13:00)
 https://thedaddy.li/watch.php?id=580
 
 #EXTINF:-1 tvg-id="franceligue2lavalvsmontpellier" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ France - Ligue 2 : Laval 🇫🇷 vs Montpellier 🇫🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Laval_vs_Montpellier.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France - Ligue 2 : Laval 🇫🇷 vs Montpellier 🇫🇷 (13:00)
@@ -566,8 +803,17 @@ https://thedaddy.li/watch.php?id=144
 #EXTINF:-1 tvg-id="norwayeliteserientromsøvsviking" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Norway Eliteserien : Tromsø 🇳🇴 vs Viking 🇳🇴 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Troms_vs_Viking.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Norway Eliteserien : Tromsø 🇳🇴 vs Viking 🇳🇴 (13:00)
 https://thedaddy.li/watch.php?id=200
 
+#EXTINF:-1 tvg-id="norwayeliteserientromsøvsviking" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Norway Eliteserien : Tromsø 🇳🇴 vs Viking 🇳🇴 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Troms_vs_Viking.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Norway Eliteserien : Tromsø 🇳🇴 vs Viking 🇳🇴 (13:00)
+https://thedaddy.li/watch.php?id=1239
+
+#EXTINF:-1 tvg-id="denmarkdivision1vendsysselvshvidovreif" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇩🇰 Denmark Division 1 : Vendsyssel 🇩🇰 vs Hvidovre IF 🇩🇰 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Vendsyssel_vs_Hvidovre_IF.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇩🇰 Denmark Division 1 : Vendsyssel 🇩🇰 vs Hvidovre IF 🇩🇰 (13:00)
+https://thedaddy.li/watch.php?id=1246
+
 #EXTINF:-1 tvg-id="spainsegundadivisionsabadellvsgranada" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Sabadell 🇪🇸 vs Granada 🇪🇸 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sabadell_vs_Granada.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Sabadell 🇪🇸 vs Granada 🇪🇸 (13:00)
 https://thedaddy.li/watch.php?id=539
+
+#EXTINF:-1 tvg-id="spainsegundadivisionsabadellvsgranada" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Sabadell 🇪🇸 vs Granada 🇪🇸 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sabadell_vs_Granada.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Sabadell 🇪🇸 vs Granada 🇪🇸 (13:00)
+https://thedaddy.li/watch.php?id=1255
 
 #EXTINF:-1 tvg-id="spainsegundadivisionsabadellvsgranada" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Sabadell 🇪🇸 vs Granada 🇪🇸 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sabadell_vs_Granada.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Segunda Division : Sabadell 🇪🇸 vs Granada 🇪🇸 (13:00)
 https://thedaddy.li/watch.php?id=3026
@@ -638,8 +884,14 @@ https://thedaddy.li/watch.php?id=63
 #EXTINF:-1 tvg-id="turkeysuperligamedskvsrizespor" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Amed SK 🇹🇷 vs Rizespor 🇹🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Amed_SK_vs_Rizespor.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Amed SK 🇹🇷 vs Rizespor 🇹🇷 (13:00)
 https://thedaddy.li/watch.php?id=3092
 
+#EXTINF:-1 tvg-id="turkeysuperligamedskvsrizespor" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Amed SK 🇹🇷 vs Rizespor 🇹🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Amed_SK_vs_Rizespor.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Amed SK 🇹🇷 vs Rizespor 🇹🇷 (13:00)
+https://thedaddy.li/watch.php?id=1251
+
 #EXTINF:-1 tvg-id="turkeysuperliggalatasarayvssamsunspor" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Galatasaray 🇹🇷 vs Samsunspor 🇹🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Galatasaray_vs_Samsunspor.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Galatasaray 🇹🇷 vs Samsunspor 🇹🇷 (13:00)
 https://thedaddy.li/watch.php?id=62
+
+#EXTINF:-1 tvg-id="turkeysuperliggalatasarayvssamsunspor" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Galatasaray 🇹🇷 vs Samsunspor 🇹🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Galatasaray_vs_Samsunspor.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Galatasaray 🇹🇷 vs Samsunspor 🇹🇷 (13:00)
+https://thedaddy.li/watch.php?id=1250
 
 #EXTINF:-1 tvg-id="turkeysuperliggalatasarayvssamsunspor" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Galatasaray 🇹🇷 vs Samsunspor 🇹🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Galatasaray_vs_Samsunspor.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Galatasaray 🇹🇷 vs Samsunspor 🇹🇷 (13:00)
 https://thedaddy.li/watch.php?id=425
@@ -678,16 +930,25 @@ https://thedaddy.li/watch.php?id=16
 https://thedaddy.li/watch.php?id=17
 
 #EXTINF:-1 tvg-id="germany3ligafortunadüsseldorfvssonnenhofgroßaspach" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Düsseldorf 🇩🇪 vs Sonnenhof Großaspach 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Fortuna_Dusseldorf_vs_Sonnenhof_Gro_aspach.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Düsseldorf 🇩🇪 vs Sonnenhof Großaspach 🇩🇪 (13:00)
+https://thedaddy.li/watch.php?id=1244
+
+#EXTINF:-1 tvg-id="germany3ligafortunadüsseldorfvssonnenhofgroßaspach" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Düsseldorf 🇩🇪 vs Sonnenhof Großaspach 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Fortuna_Dusseldorf_vs_Sonnenhof_Gro_aspach.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Düsseldorf 🇩🇪 vs Sonnenhof Großaspach 🇩🇪 (13:00)
 https://thedaddy.li/watch.php?id=3098
 
 #EXTINF:-1 tvg-id="germany3ligafortunakölnvsmeppen" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Köln 🇩🇪 vs Meppen 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Fortuna_Koln_vs_Meppen.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Köln 🇩🇪 vs Meppen 🇩🇪 (13:00)
 https://thedaddy.li/watch.php?id=18
 
 #EXTINF:-1 tvg-id="germany3ligafortunakölnvsmeppen" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Köln 🇩🇪 vs Meppen 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Fortuna_Koln_vs_Meppen.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Köln 🇩🇪 vs Meppen 🇩🇪 (13:00)
+https://thedaddy.li/watch.php?id=1243
+
+#EXTINF:-1 tvg-id="germany3ligafortunakölnvsmeppen" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Köln 🇩🇪 vs Meppen 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Fortuna_Koln_vs_Meppen.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Fortuna Köln 🇩🇪 vs Meppen 🇩🇪 (13:00)
 https://thedaddy.li/watch.php?id=3100
 
 #EXTINF:-1 tvg-id="germany3ligahoffenheimiivspreußenmünster" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Hoffenheim II 🇩🇪 vs Preußen Münster 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hoffenheim_II_vs_Preu_en_Munster.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Hoffenheim II 🇩🇪 vs Preußen Münster 🇩🇪 (13:00)
 https://thedaddy.li/watch.php?id=19
+
+#EXTINF:-1 tvg-id="germany3ligahoffenheimiivspreußenmünster" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Hoffenheim II 🇩🇪 vs Preußen Münster 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hoffenheim_II_vs_Preu_en_Munster.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Hoffenheim II 🇩🇪 vs Preußen Münster 🇩🇪 (13:00)
+https://thedaddy.li/watch.php?id=1242
 
 #EXTINF:-1 tvg-id="germany3ligahoffenheimiivspreußenmünster" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Hoffenheim II 🇩🇪 vs Preußen Münster 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Hoffenheim_II_vs_Preu_en_Munster.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Hoffenheim II 🇩🇪 vs Preußen Münster 🇩🇪 (13:00)
 https://thedaddy.li/watch.php?id=3099
@@ -707,14 +968,29 @@ https://thedaddy.li/watch.php?id=21
 #EXTINF:-1 tvg-id="germany3ligaverlvsrotweissessen" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Verl 🇩🇪 vs Rot-Weiss Essen 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Verl_vs_Rot_Weiss_Essen.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Verl 🇩🇪 vs Rot-Weiss Essen 🇩🇪 (13:00)
 https://thedaddy.li/watch.php?id=734
 
+#EXTINF:-1 tvg-id="germany3ligaverlvsrotweissessen" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Verl 🇩🇪 vs Rot-Weiss Essen 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Verl_vs_Rot_Weiss_Essen.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany - 3. Liga : Verl 🇩🇪 vs Rot-Weiss Essen 🇩🇪 (13:00)
+https://thedaddy.li/watch.php?id=1240
+
 #EXTINF:-1 tvg-id="frauenbundesligakölnvswerderbremen" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Köln 🇩🇪 vs Werder Bremen 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Koln_vs_Werder_Bremen.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Köln 🇩🇪 vs Werder Bremen 🇩🇪 (13:00)
 https://thedaddy.li/watch.php?id=22
+
+#EXTINF:-1 tvg-id="frauenbundesligakölnvswerderbremen" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Köln 🇩🇪 vs Werder Bremen 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Koln_vs_Werder_Bremen.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Frauen-Bundesliga : Köln 🇩🇪 vs Werder Bremen 🇩🇪 (13:00)
+https://thedaddy.li/watch.php?id=1237
+
+#EXTINF:-1 tvg-id="malaysiasuperleaguekelantanredwarriorvssabah" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇲🇾 Malaysia Super League : Kelantan Red Warrior 🇲🇾 vs Sabah 🇲🇾 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kelantan_Red_Warrior_vs_Sabah.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇲🇾 Malaysia Super League : Kelantan Red Warrior 🇲🇾 vs Sabah 🇲🇾 (13:00)
+https://thedaddy.li/watch.php?id=1238
 
 #EXTINF:-1 tvg-id="germanyregionalligaerzgebirgeauevsbabelsberg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Germany Regionalliga : Erzgebirge Aue 🇩🇪 vs Babelsberg 🇩🇪 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Erzgebirge_Aue_vs_Babelsberg.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Germany Regionalliga : Erzgebirge Aue 🇩🇪 vs Babelsberg 🇩🇪 (13:00)
 https://thedaddy.li/watch.php?id=733
 
 #EXTINF:-1 tvg-id="azerbaijanpremierliqasafabakuvsqabala" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Azerbaijan - Premier Liqa : Safa Baku 🇦🇿 vs Qabala 🇦🇿 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Safa_Baku_vs_Qabala.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Azerbaijan - Premier Liqa : Safa Baku 🇦🇿 vs Qabala 🇦🇿 (13:00)
 https://thedaddy.li/watch.php?id=1
+
+#EXTINF:-1 tvg-id="azerbaijanpremierliqasafabakuvsqabala" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Azerbaijan - Premier Liqa : Safa Baku 🇦🇿 vs Qabala 🇦🇿 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Safa_Baku_vs_Qabala.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Azerbaijan - Premier Liqa : Safa Baku 🇦🇿 vs Qabala 🇦🇿 (13:00)
+https://thedaddy.li/watch.php?id=1247
+
+#EXTINF:-1 tvg-id="greecebasketballleagueiraklisvsaekathens" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | 🏀 🇬🇷 Greece Basketball League : Iraklis 🇬🇷 vs AEK Athens 🇬🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Iraklis_vs_AEK_Athens.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | 🏀 🇬🇷 Greece Basketball League : Iraklis 🇬🇷 vs AEK Athens 🇬🇷 (13:00)
+https://thedaddy.li/watch.php?id=1254
 
 #EXTINF:-1 tvg-id="jordancupalramthavssahlhoran" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Jordan Cup : Al Ramtha 🇯🇴 vs Sahl Horan 🇯🇴 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Al_Ramtha_vs_Sahl_Horan.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Jordan Cup : Al Ramtha 🇯🇴 vs Sahl Horan 🇯🇴 (13:00)
 https://thedaddy.li/watch.php?id=23
@@ -726,19 +1002,37 @@ https://thedaddy.li/watch.php?id=59
 https://thedaddy.li/watch.php?id=400
 
 #EXTINF:-1 tvg-id="romanialigaicsikszeredavscorvinulhunedoara" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Romania - Liga I : Csikszereda 🇷🇴 vs Corvinul Hunedoara 🇷🇴 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Csikszereda_vs_Corvinul_Hunedoara.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Romania - Liga I : Csikszereda 🇷🇴 vs Corvinul Hunedoara 🇷🇴 (13:00)
+https://thedaddy.li/watch.php?id=1248
+
+#EXTINF:-1 tvg-id="romanialigaicsikszeredavscorvinulhunedoara" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Romania - Liga I : Csikszereda 🇷🇴 vs Corvinul Hunedoara 🇷🇴 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Csikszereda_vs_Corvinul_Hunedoara.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Romania - Liga I : Csikszereda 🇷🇴 vs Corvinul Hunedoara 🇷🇴 (13:00)
 https://thedaddy.li/watch.php?id=583
 
 #EXTINF:-1 tvg-id="serbiasuperligacrvenazvezdavsradniksurdulica" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Crvena Zvezda 🇷🇸 vs Radnik Surdulica 🇷🇸 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Crvena_Zvezda_vs_Radnik_Surdulica.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Crvena Zvezda 🇷🇸 vs Radnik Surdulica 🇷🇸 (13:00)
 https://thedaddy.li/watch.php?id=135
 
+#EXTINF:-1 tvg-id="serbiasuperligacrvenazvezdavsradniksurdulica" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Crvena Zvezda 🇷🇸 vs Radnik Surdulica 🇷🇸 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Crvena_Zvezda_vs_Radnik_Surdulica.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Crvena Zvezda 🇷🇸 vs Radnik Surdulica 🇷🇸 (13:00)
+https://thedaddy.li/watch.php?id=1256
+
 #EXTINF:-1 tvg-id="turkey1ligkayserisporvssaryer" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : Kayserispor 🇹🇷 vs Sarıyer 🇹🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kayserispor_vs_Sar_yer.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : Kayserispor 🇹🇷 vs Sarıyer 🇹🇷 (13:00)
 https://thedaddy.li/watch.php?id=889
+
+#EXTINF:-1 tvg-id="turkey1ligkayserisporvssaryer" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : Kayserispor 🇹🇷 vs Sarıyer 🇹🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kayserispor_vs_Sar_yer.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - 1. Lig : Kayserispor 🇹🇷 vs Sarıyer 🇹🇷 (13:00)
+https://thedaddy.li/watch.php?id=1252
 
 #EXTINF:-1 tvg-id="fifau17worldcupcameroonu17vsvenezuelau17" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Cameroon U17 🇨🇲 vs Venezuela U17 🇻🇪 (13:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cameroon_U17_vs_Venezuela_U17.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Cameroon U17 🇨🇲 vs Venezuela U17 🇻🇪 (13:30)
 https://thedaddy.li/watch.php?id=756
 
+#EXTINF:-1 tvg-id="tanzanialigikuubarapambavscoastalunion" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇹🇿 Tanzania Ligi Kuu Bara : Pamba 🇹🇿 vs Coastal Union 🇹🇿 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Pamba_vs_Coastal_Union.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇹🇿 Tanzania Ligi Kuu Bara : Pamba 🇹🇿 vs Coastal Union 🇹🇿 (13:00)
+https://thedaddy.li/watch.php?id=1249
+
+#EXTINF:-1 tvg-id="worldcupu17tanzaniau17vscostaricau17" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🌍 World Cup U17 : Tanzania U17 🇹🇿 vs Costa Rica U17 🇨🇷 (13:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tanzania_U17_vs_Costa_Rica_U17.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🌍 World Cup U17 : Tanzania U17 🇹🇿 vs Costa Rica U17 🇨🇷 (13:00)
+https://thedaddy.li/watch.php?id=1253
+
 #EXTINF:-1 tvg-id="southafricaleaguecupstellenboschvsorlandopirates" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ South Africa - League Cup : Stellenbosch 🇿🇦 vs Orlando Pirates 🇿🇦 (13:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Stellenbosch_vs_Orlando_Pirates.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ South Africa - League Cup : Stellenbosch 🇿🇦 vs Orlando Pirates 🇿🇦 (13:30)
 https://thedaddy.li/watch.php?id=413
+
+#EXTINF:-1 tvg-id="southafricaleaguecupstellenboschvsorlandopirates" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ South Africa - League Cup : Stellenbosch 🇿🇦 vs Orlando Pirates 🇿🇦 (13:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Stellenbosch_vs_Orlando_Pirates.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ South Africa - League Cup : Stellenbosch 🇿🇦 vs Orlando Pirates 🇿🇦 (13:30)
+https://thedaddy.li/watch.php?id=1205
 
 #EXTINF:-1 tvg-id="italyseriectrevisovspergolettese" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Treviso 🇮🇹 vs Pergolettese 🇮🇹 (13:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Treviso_vs_Pergolettese.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Treviso 🇮🇹 vs Pergolettese 🇮🇹 (13:30)
 https://thedaddy.li/watch.php?id=201
@@ -786,6 +1080,9 @@ https://thedaddy.li/watch.php?id=213
 https://thedaddy.li/watch.php?id=259
 
 #EXTINF:-1 tvg-id="polandekstraklasacracoviakrakówvsjagielloniabiaystok" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Cracovia Kraków 🇵🇱 vs Jagiellonia Białystok 🇵🇱 (13:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cracovia_Krakow_vs_Jagiellonia_Bia_ystok.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Cracovia Kraków 🇵🇱 vs Jagiellonia Białystok 🇵🇱 (13:45)
+https://thedaddy.li/watch.php?id=1206
+
+#EXTINF:-1 tvg-id="polandekstraklasacracoviakrakówvsjagielloniabiaystok" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Cracovia Kraków 🇵🇱 vs Jagiellonia Białystok 🇵🇱 (13:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cracovia_Krakow_vs_Jagiellonia_Bia_ystok.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Cracovia Kraków 🇵🇱 vs Jagiellonia Białystok 🇵🇱 (13:45)
 https://thedaddy.li/watch.php?id=100
 
 #EXTINF:-1 tvg-id="polandekstraklasacracoviakrakówvsjagielloniabiaystok" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Cracovia Kraków 🇵🇱 vs Jagiellonia Białystok 🇵🇱 (13:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Cracovia_Krakow_vs_Jagiellonia_Bia_ystok.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Cracovia Kraków 🇵🇱 vs Jagiellonia Białystok 🇵🇱 (13:45)
@@ -797,6 +1094,9 @@ https://thedaddy.li/watch.php?id=779
 #EXTINF:-1 tvg-id="croatia1hnllokomotivazagrebvshajduksplit" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Croatia - 1. HNL : Lokomotiva Zagreb 🇭🇷 vs Hajduk Split 🇭🇷 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lokomotiva_Zagreb_vs_Hajduk_Split.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Croatia - 1. HNL : Lokomotiva Zagreb 🇭🇷 vs Hajduk Split 🇭🇷 (14:00)
 https://thedaddy.li/watch.php?id=3070
 
+#EXTINF:-1 tvg-id="croatia1hnllokomotivazagrebvshajduksplit" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Croatia - 1. HNL : Lokomotiva Zagreb 🇭🇷 vs Hajduk Split 🇭🇷 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lokomotiva_Zagreb_vs_Hajduk_Split.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Croatia - 1. HNL : Lokomotiva Zagreb 🇭🇷 vs Hajduk Split 🇭🇷 (14:00)
+https://thedaddy.li/watch.php?id=1258
+
 #EXTINF:-1 tvg-id="czechrepublic1ligasimulcast" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Simulcast 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Czech_Republic_1_liga_Simulcast.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Simulcast 🇨🇿 (14:00)
 https://thedaddy.li/watch.php?id=1038
 
@@ -806,11 +1106,17 @@ https://thedaddy.li/watch.php?id=1040
 #EXTINF:-1 tvg-id="czechrepublic1ligaartisvsjablonec" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Artis 🇨🇿 vs Jablonec 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Artis_vs_Jablonec.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Artis 🇨🇿 vs Jablonec 🇨🇿 (14:00)
 https://thedaddy.li/watch.php?id=3041
 
+#EXTINF:-1 tvg-id="czechrepublic1ligaartisvsjablonec" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Artis 🇨🇿 vs Jablonec 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Artis_vs_Jablonec.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Artis 🇨🇿 vs Jablonec 🇨🇿 (14:00)
+https://thedaddy.li/watch.php?id=1257
+
 #EXTINF:-1 tvg-id="czechrepublic1ligamladáboleslavvszlín" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Mladá Boleslav 🇨🇿 vs Zlín 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mlada_Boleslav_vs_Zlin.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Mladá Boleslav 🇨🇿 vs Zlín 🇨🇿 (14:00)
 https://thedaddy.li/watch.php?id=1041
 
 #EXTINF:-1 tvg-id="czechrepublic1ligamladáboleslavvszlín" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Mladá Boleslav 🇨🇿 vs Zlín 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mlada_Boleslav_vs_Zlin.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Mladá Boleslav 🇨🇿 vs Zlín 🇨🇿 (14:00)
 https://thedaddy.li/watch.php?id=3042
+
+#EXTINF:-1 tvg-id="czechrepublic1ligamladáboleslavvszlín" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Mladá Boleslav 🇨🇿 vs Zlín 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mlada_Boleslav_vs_Zlin.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Mladá Boleslav 🇨🇿 vs Zlín 🇨🇿 (14:00)
+https://thedaddy.li/watch.php?id=1222
 
 #EXTINF:-1 tvg-id="czechrepublic1ligabaníkostravavsteplice" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Baník Ostrava 🇨🇿 vs Teplice 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Banik_Ostrava_vs_Teplice.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Baník Ostrava 🇨🇿 vs Teplice 🇨🇿 (14:00)
 https://thedaddy.li/watch.php?id=1039
@@ -818,8 +1124,14 @@ https://thedaddy.li/watch.php?id=1039
 #EXTINF:-1 tvg-id="czechrepublic1ligabaníkostravavsteplice" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Baník Ostrava 🇨🇿 vs Teplice 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Banik_Ostrava_vs_Teplice.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Baník Ostrava 🇨🇿 vs Teplice 🇨🇿 (14:00)
 https://thedaddy.li/watch.php?id=3043
 
+#EXTINF:-1 tvg-id="czechrepublic1ligabaníkostravavsteplice" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Baník Ostrava 🇨🇿 vs Teplice 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Banik_Ostrava_vs_Teplice.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Baník Ostrava 🇨🇿 vs Teplice 🇨🇿 (14:00)
+https://thedaddy.li/watch.php?id=1221
+
 #EXTINF:-1 tvg-id="czechrepublic1ligasigmaolomoucvsslaviapraha" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Sigma Olomouc 🇨🇿 vs Slavia Praha 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sigma_Olomouc_vs_Slavia_Praha.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Sigma Olomouc 🇨🇿 vs Slavia Praha 🇨🇿 (14:00)
 https://thedaddy.li/watch.php?id=1027
+
+#EXTINF:-1 tvg-id="czechrepublic1ligasigmaolomoucvsslaviapraha" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Sigma Olomouc 🇨🇿 vs Slavia Praha 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sigma_Olomouc_vs_Slavia_Praha.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Sigma Olomouc 🇨🇿 vs Slavia Praha 🇨🇿 (14:00)
+https://thedaddy.li/watch.php?id=1220
 
 #EXTINF:-1 tvg-id="czechrepublic1ligasigmaolomoucvsslaviapraha" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Sigma Olomouc 🇨🇿 vs Slavia Praha 🇨🇿 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sigma_Olomouc_vs_Slavia_Praha.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Czech Republic - 1. liga : Sigma Olomouc 🇨🇿 vs Slavia Praha 🇨🇿 (14:00)
 https://thedaddy.li/watch.php?id=996
@@ -830,35 +1142,65 @@ https://thedaddy.li/watch.php?id=3045
 #EXTINF:-1 tvg-id="indiansuperleaguenortheastunitedvsgoa" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Indian Super League : NorthEast United 🇮🇳 vs Goa 🇮🇳 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/NorthEast_United_vs_Goa.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Indian Super League : NorthEast United 🇮🇳 vs Goa 🇮🇳 (14:00)
 https://thedaddy.li/watch.php?id=886
 
+#EXTINF:-1 tvg-id="indiansuperleaguenortheastunitedvsgoa" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Indian Super League : NorthEast United 🇮🇳 vs Goa 🇮🇳 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/NorthEast_United_vs_Goa.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Indian Super League : NorthEast United 🇮🇳 vs Goa 🇮🇳 (14:00)
+https://thedaddy.li/watch.php?id=1207
+
 #EXTINF:-1 tvg-id="italyseriebsimulcast" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Simulcast 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Italy_Serie_B_Simulcast.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Simulcast 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=68
 
 #EXTINF:-1 tvg-id="italyseriebascolivsvicenza" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Ascoli 🇮🇹 vs Vicenza 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ascoli_vs_Vicenza.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Ascoli 🇮🇹 vs Vicenza 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=69
 
+#EXTINF:-1 tvg-id="italyseriebascolivsvicenza" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Ascoli 🇮🇹 vs Vicenza 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ascoli_vs_Vicenza.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Ascoli 🇮🇹 vs Vicenza 🇮🇹 (14:00)
+https://thedaddy.li/watch.php?id=1219
+
 #EXTINF:-1 tvg-id="italyseriebcarraresevsvirtusentella" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Carrarese 🇮🇹 vs Virtus Entella 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Carrarese_vs_Virtus_Entella.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Carrarese 🇮🇹 vs Virtus Entella 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=76
+
+#EXTINF:-1 tvg-id="italyseriebcarraresevsvirtusentella" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Carrarese 🇮🇹 vs Virtus Entella 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Carrarese_vs_Virtus_Entella.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Carrarese 🇮🇹 vs Virtus Entella 🇮🇹 (14:00)
+https://thedaddy.li/watch.php?id=1218
 
 #EXTINF:-1 tvg-id="italyseriebmodenavsjuvestabia" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Modena 🇮🇹 vs Juve Stabia 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Modena_vs_Juve_Stabia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Modena 🇮🇹 vs Juve Stabia 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=77
 
+#EXTINF:-1 tvg-id="italyseriebmodenavsjuvestabia" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Modena 🇮🇹 vs Juve Stabia 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Modena_vs_Juve_Stabia.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Modena 🇮🇹 vs Juve Stabia 🇮🇹 (14:00)
+https://thedaddy.li/watch.php?id=1217
+
 #EXTINF:-1 tvg-id="italyseriebsampdoriavsbenevento" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Sampdoria 🇮🇹 vs Benevento 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sampdoria_vs_Benevento.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Sampdoria 🇮🇹 vs Benevento 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=86
+
+#EXTINF:-1 tvg-id="italyseriebsampdoriavsbenevento" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Sampdoria 🇮🇹 vs Benevento 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sampdoria_vs_Benevento.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Sampdoria 🇮🇹 vs Benevento 🇮🇹 (14:00)
+https://thedaddy.li/watch.php?id=1216
 
 #EXTINF:-1 tvg-id="italyseriebsüdtirolvscremonese" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Südtirol 🇮🇹 vs Cremonese 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sudtirol_vs_Cremonese.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Südtirol 🇮🇹 vs Cremonese 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=105
 
+#EXTINF:-1 tvg-id="italyseriebsüdtirolvscremonese" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Südtirol 🇮🇹 vs Cremonese 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sudtirol_vs_Cremonese.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Südtirol 🇮🇹 vs Cremonese 🇮🇹 (14:00)
+https://thedaddy.li/watch.php?id=1215
+
 #EXTINF:-1 tvg-id="cyprusfirstdivisionomoniaaradippouvspaphos" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Cyprus First Division : Omonia Aradippou 🇨🇾 vs Paphos 🇨🇾 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Omonia_Aradippou_vs_Paphos.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Cyprus First Division : Omonia Aradippou 🇨🇾 vs Paphos 🇨🇾 (14:00)
 https://thedaddy.li/watch.php?id=912
+
+#EXTINF:-1 tvg-id="cyprusfirstdivisionomoniaaradippouvspaphos" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Cyprus First Division : Omonia Aradippou 🇨🇾 vs Paphos 🇨🇾 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Omonia_Aradippou_vs_Paphos.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Cyprus First Division : Omonia Aradippou 🇨🇾 vs Paphos 🇨🇾 (14:00)
+https://thedaddy.li/watch.php?id=1209
 
 #EXTINF:-1 tvg-id="serbiasuperligamladostluanivselezniarpanevo" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Mladost Lučani 🇷🇸 vs Železničar Pančevo 🇷🇸 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mladost_Lucani_vs_Zeleznicar_Pancevo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Mladost Lučani 🇷🇸 vs Železničar Pančevo 🇷🇸 (14:00)
 https://thedaddy.li/watch.php?id=945
 
+#EXTINF:-1 tvg-id="serbiasuperligamladostluanivselezniarpanevo" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Mladost Lučani 🇷🇸 vs Železničar Pančevo 🇷🇸 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mladost_Lucani_vs_Zeleznicar_Pancevo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Super Liga : Mladost Lučani 🇷🇸 vs Železničar Pančevo 🇷🇸 (14:00)
+https://thedaddy.li/watch.php?id=1259
+
 #EXTINF:-1 tvg-id="sloveniaprvaligaolimpijavsradomlje" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Slovenia - Prva Liga : Olimpija 🇸🇮 vs Radomlje 🇸🇮 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Olimpija_vs_Radomlje.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Slovenia - Prva Liga : Olimpija 🇸🇮 vs Radomlje 🇸🇮 (14:00)
 https://thedaddy.li/watch.php?id=106
 
+#EXTINF:-1 tvg-id="sloveniaprvaligaolimpijavsradomlje" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Slovenia - Prva Liga : Olimpija 🇸🇮 vs Radomlje 🇸🇮 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Olimpija_vs_Radomlje.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Slovenia - Prva Liga : Olimpija 🇸🇮 vs Radomlje 🇸🇮 (14:00)
+https://thedaddy.li/watch.php?id=1260
+
 #EXTINF:-1 tvg-id="swedenallsvenskanaikvsdegerfors" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : AIK 🇸🇪 vs Degerfors 🇸🇪 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/AIK_vs_Degerfors.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : AIK 🇸🇪 vs Degerfors 🇸🇪 (14:00)
 https://thedaddy.li/watch.php?id=747
+
+#EXTINF:-1 tvg-id="swedenallsvenskanaikvsdegerfors" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : AIK 🇸🇪 vs Degerfors 🇸🇪 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/AIK_vs_Degerfors.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : AIK 🇸🇪 vs Degerfors 🇸🇪 (14:00)
+https://thedaddy.li/watch.php?id=1211
 
 #EXTINF:-1 tvg-id="swedenallsvenskanaikvsdegerfors" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : AIK 🇸🇪 vs Degerfors 🇸🇪 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/AIK_vs_Degerfors.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : AIK 🇸🇪 vs Degerfors 🇸🇪 (14:00)
 https://thedaddy.li/watch.php?id=2014
@@ -870,16 +1212,25 @@ https://thedaddy.li/watch.php?id=3068
 https://thedaddy.li/watch.php?id=703
 
 #EXTINF:-1 tvg-id="swedenallsvenskanmjällbyvsmalmöff" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Mjällby 🇸🇪 vs Malmö FF 🇸🇪 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mjallby_vs_Malmo_FF.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Mjällby 🇸🇪 vs Malmö FF 🇸🇪 (14:00)
+https://thedaddy.li/watch.php?id=1210
+
+#EXTINF:-1 tvg-id="swedenallsvenskanmjällbyvsmalmöff" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Mjällby 🇸🇪 vs Malmö FF 🇸🇪 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mjallby_vs_Malmo_FF.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Mjällby 🇸🇪 vs Malmö FF 🇸🇪 (14:00)
 https://thedaddy.li/watch.php?id=2015
 
 #EXTINF:-1 tvg-id="swedenallsvenskanmjällbyvsmalmöff" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Mjällby 🇸🇪 vs Malmö FF 🇸🇪 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mjallby_vs_Malmo_FF.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : Mjällby 🇸🇪 vs Malmö FF 🇸🇪 (14:00)
 https://thedaddy.li/watch.php?id=3064
+
+#EXTINF:-1 tvg-id="denmarkdivision1esbjergvsabcopenhagen" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇩🇰 Denmark Division 1 : Esbjerg 🇩🇰 vs AB Copenhagen 🇩🇰 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Esbjerg_vs_AB_Copenhagen.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇩🇰 Denmark Division 1 : Esbjerg 🇩🇰 vs AB Copenhagen 🇩🇰 (14:00)
+https://thedaddy.li/watch.php?id=1214
 
 #EXTINF:-1 tvg-id="italyserieasimulcast" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A : Simulcast 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_Italy_Serie_A_Simulcast.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A : Simulcast 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=107
 
 #EXTINF:-1 tvg-id="italyserieacomovscagliari" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A : Como 🇮🇹 vs Cagliari 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Como_vs_Cagliari.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A : Como 🇮🇹 vs Cagliari 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=108
+
+#EXTINF:-1 tvg-id="italyserieacomovscagliari" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A : Como 🇮🇹 vs Cagliari 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Como_vs_Cagliari.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A : Como 🇮🇹 vs Cagliari 🇮🇹 (14:00)
+https://thedaddy.li/watch.php?id=1213
 
 #EXTINF:-1 tvg-id="italyserieacomovscagliari" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A : Como 🇮🇹 vs Cagliari 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Como_vs_Cagliari.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A : Como 🇮🇹 vs Cagliari 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=110
@@ -922,6 +1273,9 @@ https://thedaddy.li/watch.php?id=109
 
 #EXTINF:-1 tvg-id="italyseriealaziovslecce" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A : Lazio 🇮🇹 vs Lecce 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lazio_vs_Lecce.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A : Lazio 🇮🇹 vs Lecce 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=877
+
+#EXTINF:-1 tvg-id="italyseriealaziovslecce" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A : Lazio 🇮🇹 vs Lecce 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lazio_vs_Lecce.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A : Lazio 🇮🇹 vs Lecce 🇮🇹 (14:00)
+https://thedaddy.li/watch.php?id=1212
 
 #EXTINF:-1 tvg-id="italyseriealaziovslecce" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie A : Lazio 🇮🇹 vs Lecce 🇮🇹 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lazio_vs_Lecce.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie A : Lazio 🇮🇹 vs Lecce 🇮🇹 (14:00)
 https://thedaddy.li/watch.php?id=151
@@ -1005,6 +1359,9 @@ https://thedaddy.li/watch.php?id=3017
 https://thedaddy.li/watch.php?id=948
 
 #EXTINF:-1 tvg-id="bundesligabayerleverkusenvspaderborn" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Bayer Leverkusen 🇩🇪 vs Paderborn 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bayer_Leverkusen_vs_Paderborn.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Bayer Leverkusen 🇩🇪 vs Paderborn 🇩🇪 (14:30)
+https://thedaddy.li/watch.php?id=1268
+
+#EXTINF:-1 tvg-id="bundesligabayerleverkusenvspaderborn" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Bayer Leverkusen 🇩🇪 vs Paderborn 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bayer_Leverkusen_vs_Paderborn.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Bayer Leverkusen 🇩🇪 vs Paderborn 🇩🇪 (14:30)
 https://thedaddy.li/watch.php?id=225
 
 #EXTINF:-1 tvg-id="bundesligabayerleverkusenvspaderborn" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Bayer Leverkusen 🇩🇪 vs Paderborn 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Bayer_Leverkusen_vs_Paderborn.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Bayer Leverkusen 🇩🇪 vs Paderborn 🇩🇪 (14:30)
@@ -1027,6 +1384,9 @@ https://thedaddy.li/watch.php?id=3012
 
 #EXTINF:-1 tvg-id="bundesligaborussiamgladbachvsborussiadortmund" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Borussia M'gladbach 🇩🇪 vs Borussia Dortmund 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Borussia_M_gladbach_vs_Borussia_Dortmund.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Borussia M'gladbach 🇩🇪 vs Borussia Dortmund 🇩🇪 (14:30)
 https://thedaddy.li/watch.php?id=558
+
+#EXTINF:-1 tvg-id="bundesligaborussiamgladbachvsborussiadortmund" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Borussia M'gladbach 🇩🇪 vs Borussia Dortmund 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Borussia_M_gladbach_vs_Borussia_Dortmund.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Borussia M'gladbach 🇩🇪 vs Borussia Dortmund 🇩🇪 (14:30)
+https://thedaddy.li/watch.php?id=1269
 
 #EXTINF:-1 tvg-id="bundesligaborussiamgladbachvsborussiadortmund" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Borussia M'gladbach 🇩🇪 vs Borussia Dortmund 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Borussia_M_gladbach_vs_Borussia_Dortmund.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Borussia M'gladbach 🇩🇪 vs Borussia Dortmund 🇩🇪 (14:30)
 https://thedaddy.li/watch.php?id=226
@@ -1080,6 +1440,9 @@ https://thedaddy.li/watch.php?id=3011
 https://thedaddy.li/watch.php?id=949
 
 #EXTINF:-1 tvg-id="bundesligaeintrachtfrankfurtvshoffenheim" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Eintracht Frankfurt 🇩🇪 vs Hoffenheim 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eintracht_Frankfurt_vs_Hoffenheim.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Eintracht Frankfurt 🇩🇪 vs Hoffenheim 🇩🇪 (14:30)
+https://thedaddy.li/watch.php?id=1267
+
+#EXTINF:-1 tvg-id="bundesligaeintrachtfrankfurtvshoffenheim" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Eintracht Frankfurt 🇩🇪 vs Hoffenheim 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eintracht_Frankfurt_vs_Hoffenheim.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Eintracht Frankfurt 🇩🇪 vs Hoffenheim 🇩🇪 (14:30)
 https://thedaddy.li/watch.php?id=227
 
 #EXTINF:-1 tvg-id="bundesligaeintrachtfrankfurtvshoffenheim" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Eintracht Frankfurt 🇩🇪 vs Hoffenheim 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eintracht_Frankfurt_vs_Hoffenheim.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Eintracht Frankfurt 🇩🇪 vs Hoffenheim 🇩🇪 (14:30)
@@ -1104,6 +1467,9 @@ https://thedaddy.li/watch.php?id=3013
 https://thedaddy.li/watch.php?id=946
 
 #EXTINF:-1 tvg-id="bundesligaelversbergvsfreiburg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Elversberg 🇩🇪 vs Freiburg 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Elversberg_vs_Freiburg.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Elversberg 🇩🇪 vs Freiburg 🇩🇪 (14:30)
+https://thedaddy.li/watch.php?id=1266
+
+#EXTINF:-1 tvg-id="bundesligaelversbergvsfreiburg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Elversberg 🇩🇪 vs Freiburg 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Elversberg_vs_Freiburg.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Elversberg 🇩🇪 vs Freiburg 🇩🇪 (14:30)
 https://thedaddy.li/watch.php?id=228
 
 #EXTINF:-1 tvg-id="bundesligaelversbergvsfreiburg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Elversberg 🇩🇪 vs Freiburg 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Elversberg_vs_Freiburg.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Elversberg 🇩🇪 vs Freiburg 🇩🇪 (14:30)
@@ -1120,6 +1486,9 @@ https://thedaddy.li/watch.php?id=3015
 
 #EXTINF:-1 tvg-id="bundesligaunionberlinvsrbleipzig" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Union Berlin 🇩🇪 vs RB Leipzig 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Union_Berlin_vs_RB_Leipzig.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Union Berlin 🇩🇪 vs RB Leipzig 🇩🇪 (14:30)
 https://thedaddy.li/watch.php?id=947
+
+#EXTINF:-1 tvg-id="bundesligaunionberlinvsrbleipzig" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Union Berlin 🇩🇪 vs RB Leipzig 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Union_Berlin_vs_RB_Leipzig.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Union Berlin 🇩🇪 vs RB Leipzig 🇩🇪 (14:30)
+https://thedaddy.li/watch.php?id=1265
 
 #EXTINF:-1 tvg-id="bundesligaunionberlinvsrbleipzig" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bundesliga : Union Berlin 🇩🇪 vs RB Leipzig 🇩🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Union_Berlin_vs_RB_Leipzig.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bundesliga : Union Berlin 🇩🇪 vs RB Leipzig 🇩🇪 (14:30)
 https://thedaddy.li/watch.php?id=229
@@ -1142,8 +1511,14 @@ https://thedaddy.li/watch.php?id=3014
 #EXTINF:-1 tvg-id="fifau17worldcupdominicanrepublicu17vsmontenegrou17" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Dominican Republic U17 🇩🇴 vs Montenegro U17 🇲🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Dominican_Republic_U17_vs_Montenegro_U17.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Dominican Republic U17 🇩🇴 vs Montenegro U17 🇲🇪 (14:30)
 https://thedaddy.li/watch.php?id=758
 
+#EXTINF:-1 tvg-id="swedensuperettanlundsbkvsnorrbyif" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ 🇸🇪 Sweden Superettan : Lunds BK 🇸🇪 vs Norrby IF 🇸🇪 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Lunds_BK_vs_Norrby_IF.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ 🇸🇪 Sweden Superettan : Lunds BK 🇸🇪 vs Norrby IF 🇸🇪 (14:30)
+https://thedaddy.li/watch.php?id=1270
+
 #EXTINF:-1 tvg-id="russianpremierleaguerubinkazanvszenit" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Russian Premier League : Rubin Kazan' 🇷🇺 vs Zenit 🇷🇺 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Rubin_Kazan_vs_Zenit.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Russian Premier League : Rubin Kazan' 🇷🇺 vs Zenit 🇷🇺 (14:30)
 https://thedaddy.li/watch.php?id=573
+
+#EXTINF:-1 tvg-id="russianpremierleaguerubinkazanvszenit" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Russian Premier League : Rubin Kazan' 🇷🇺 vs Zenit 🇷🇺 (14:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Rubin_Kazan_vs_Zenit.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Russian Premier League : Rubin Kazan' 🇷🇺 vs Zenit 🇷🇺 (14:30)
+https://thedaddy.li/watch.php?id=1264
 
 #EXTINF:-1 tvg-id="belgiumchallengerproleagueaseupenvssportinghasselt" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Belgium - Challenger Pro League : AS Eupen 🇧🇪 vs Sporting Hasselt 🇧🇪 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/AS_Eupen_vs_Sporting_Hasselt.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Belgium - Challenger Pro League : AS Eupen 🇧🇪 vs Sporting Hasselt 🇧🇪 (15:00)
 https://thedaddy.li/watch.php?id=214
@@ -1154,6 +1529,9 @@ https://thedaddy.li/watch.php?id=215
 #EXTINF:-1 tvg-id="bosniaandherzegovinapremijerligaeljezniarvsboracbanjaluka" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bosnia and Herzegovina - Premijer Liga : Željezničar 🇧🇦 vs Borac Banja Luka 🇧🇦 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Zeljeznicar_vs_Borac_Banja_Luka.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bosnia and Herzegovina - Premijer Liga : Željezničar 🇧🇦 vs Borac Banja Luka 🇧🇦 (15:00)
 https://thedaddy.li/watch.php?id=4
 
+#EXTINF:-1 tvg-id="bosniaandherzegovinapremijerligaeljezniarvsboracbanjaluka" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Bosnia and Herzegovina - Premijer Liga : Željezničar 🇧🇦 vs Borac Banja Luka 🇧🇦 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Zeljeznicar_vs_Borac_Banja_Luka.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Bosnia and Herzegovina - Premijer Liga : Željezničar 🇧🇦 vs Borac Banja Luka 🇧🇦 (15:00)
+https://thedaddy.li/watch.php?id=1221
+
 #EXTINF:-1 tvg-id="chileprimeradivisioncoquimbounidovseverton" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Chile - Primera Division : Coquimbo Unido 🇨🇱 vs Everton 🇨🇱 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Coquimbo_Unido_vs_Everton.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Chile - Primera Division : Coquimbo Unido 🇨🇱 vs Everton 🇨🇱 (15:00)
 https://thedaddy.li/watch.php?id=642
 
@@ -1163,14 +1541,26 @@ https://thedaddy.li/watch.php?id=911
 #EXTINF:-1 tvg-id="cyprusfirstdivisionomonianicosiavsapoel" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Cyprus - First Division : Omonia Nicosia 🇨🇾 vs APOEL 🇨🇾 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Omonia_Nicosia_vs_APOEL.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Cyprus - First Division : Omonia Nicosia 🇨🇾 vs APOEL 🇨🇾 (15:00)
 https://thedaddy.li/watch.php?id=624
 
+#EXTINF:-1 tvg-id="cyprusfirstdivisionomonianicosiavsapoel" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Cyprus - First Division : Omonia Nicosia 🇨🇾 vs APOEL 🇨🇾 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Omonia_Nicosia_vs_APOEL.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Cyprus - First Division : Omonia Nicosia 🇨🇾 vs APOEL 🇨🇾 (15:00)
+https://thedaddy.li/watch.php?id=1296
+
 #EXTINF:-1 tvg-id="hungarynb1újpestvsvárdase" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Hungary - NB1 : Újpest 🇭🇺 vs Várda SE 🇭🇺 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ujpest_vs_Varda_SE.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Hungary - NB1 : Újpest 🇭🇺 vs Várda SE 🇭🇺 (15:00)
 https://thedaddy.li/watch.php?id=265
 
 #EXTINF:-1 tvg-id="norwayeliteserienhamkamvsfredrikstadfk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Norway Eliteserien : HamKam 🇳🇴 vs Fredrikstad FK 🇳🇴 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/HamKam_vs_Fredrikstad_FK.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Norway Eliteserien : HamKam 🇳🇴 vs Fredrikstad FK 🇳🇴 (15:00)
 https://thedaddy.li/watch.php?id=812
 
+#EXTINF:-1 tvg-id="norwayeliteserienhamkamvsfredrikstadfk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Norway Eliteserien : HamKam 🇳🇴 vs Fredrikstad FK 🇳🇴 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/HamKam_vs_Fredrikstad_FK.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Norway Eliteserien : HamKam 🇳🇴 vs Fredrikstad FK 🇳🇴 (15:00)
+https://thedaddy.li/watch.php?id=1297
+
 #EXTINF:-1 tvg-id="fifau17worldcupbrazilu17vsrepublicofirelandu17" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Brazil U17 🇧🇷 vs Republic of Ireland U17 🇮🇪 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Brazil_U17_vs_Republic_of_Ireland_U17.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ FIFA U-17 World Cup : Brazil U17 🇧🇷 vs Republic of Ireland U17 🇮🇪 (15:00)
 https://thedaddy.li/watch.php?id=365
+
+#EXTINF:-1 tvg-id="englandpremierleaguegoalshow" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Goalshow 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_England_Premier_League_Goalshow.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Goalshow 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=249
+
+#EXTINF:-1 tvg-id="englandpremierleaguesimulcast" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Simulcast 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_England_Premier_League_Simulcast.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Simulcast 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=250
 
 #EXTINF:-1 tvg-id="englandpremierleaguesimulcast" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Simulcast 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_England_Premier_League_Simulcast.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Simulcast 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=9
@@ -1188,7 +1578,13 @@ https://thedaddy.li/watch.php?id=463
 https://thedaddy.li/watch.php?id=140
 
 #EXTINF:-1 tvg-id="englandpremierleagueastonvillavssunderland" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Aston Villa 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Sunderland 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aston_Villa_vs_Sunderland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Aston Villa 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Sunderland 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=251
+
+#EXTINF:-1 tvg-id="englandpremierleagueastonvillavssunderland" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Aston Villa 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Sunderland 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aston_Villa_vs_Sunderland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Aston Villa 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Sunderland 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=24
+
+#EXTINF:-1 tvg-id="englandpremierleagueastonvillavssunderland" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Aston Villa 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Sunderland 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aston_Villa_vs_Sunderland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Aston Villa 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Sunderland 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1226
 
 #EXTINF:-1 tvg-id="englandpremierleagueastonvillavssunderland" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Aston Villa 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Sunderland 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aston_Villa_vs_Sunderland.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Aston Villa 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Sunderland 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=596
@@ -1224,6 +1620,12 @@ https://thedaddy.li/watch.php?id=2022
 https://thedaddy.li/watch.php?id=3009
 
 #EXTINF:-1 tvg-id="englandpremierleagueafcbournemouthvsnottinghamforest" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : AFC Bournemouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Nottingham Forest 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/AFC_Bournemouth_vs_Nottingham_Forest.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : AFC Bournemouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Nottingham Forest 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=252
+
+#EXTINF:-1 tvg-id="englandpremierleagueafcbournemouthvsnottinghamforest" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : AFC Bournemouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Nottingham Forest 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/AFC_Bournemouth_vs_Nottingham_Forest.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : AFC Bournemouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Nottingham Forest 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1227
+
+#EXTINF:-1 tvg-id="englandpremierleagueafcbournemouthvsnottinghamforest" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : AFC Bournemouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Nottingham Forest 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/AFC_Bournemouth_vs_Nottingham_Forest.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : AFC Bournemouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Nottingham Forest 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=25
 
 #EXTINF:-1 tvg-id="englandpremierleagueafcbournemouthvsnottinghamforest" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : AFC Bournemouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Nottingham Forest 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/AFC_Bournemouth_vs_Nottingham_Forest.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : AFC Bournemouth 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Nottingham Forest 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
@@ -1254,7 +1656,13 @@ https://thedaddy.li/watch.php?id=2021
 https://thedaddy.li/watch.php?id=3004
 
 #EXTINF:-1 tvg-id="englandpremierleaguechelseavsleedsunited" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leeds United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chelsea_vs_Leeds_United.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leeds United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=253
+
+#EXTINF:-1 tvg-id="englandpremierleaguechelseavsleedsunited" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leeds United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chelsea_vs_Leeds_United.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leeds United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=26
+
+#EXTINF:-1 tvg-id="englandpremierleaguechelseavsleedsunited" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leeds United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chelsea_vs_Leeds_United.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leeds United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1225
 
 #EXTINF:-1 tvg-id="englandpremierleaguechelseavsleedsunited" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leeds United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chelsea_vs_Leeds_United.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Chelsea 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Leeds United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=64
@@ -1332,7 +1740,13 @@ https://thedaddy.li/watch.php?id=2023
 https://thedaddy.li/watch.php?id=3001
 
 #EXTINF:-1 tvg-id="englandpremierleaguecoventrycityvscrystalpalace" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Coventry City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crystal Palace 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Coventry_City_vs_Crystal_Palace.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Coventry City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crystal Palace 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=254
+
+#EXTINF:-1 tvg-id="englandpremierleaguecoventrycityvscrystalpalace" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Coventry City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crystal Palace 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Coventry_City_vs_Crystal_Palace.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Coventry City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crystal Palace 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=27
+
+#EXTINF:-1 tvg-id="englandpremierleaguecoventrycityvscrystalpalace" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Coventry City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crystal Palace 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Coventry_City_vs_Crystal_Palace.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Coventry City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crystal Palace 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1224
 
 #EXTINF:-1 tvg-id="englandpremierleaguecoventrycityvscrystalpalace" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Coventry City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crystal Palace 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Coventry_City_vs_Crystal_Palace.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Coventry City 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Crystal Palace 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=594
@@ -1363,6 +1777,9 @@ https://thedaddy.li/watch.php?id=3007
 
 #EXTINF:-1 tvg-id="englandpremierleaguetottenhamhotspurvsipswichtown" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Tottenham Hotspur 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Ipswich Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tottenham_Hotspur_vs_Ipswich_Town.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Tottenham Hotspur 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Ipswich Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=28
+
+#EXTINF:-1 tvg-id="englandpremierleaguetottenhamhotspurvsipswichtown" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Tottenham Hotspur 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Ipswich Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tottenham_Hotspur_vs_Ipswich_Town.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Tottenham Hotspur 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Ipswich Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1223
 
 #EXTINF:-1 tvg-id="englandpremierleaguetottenhamhotspurvsipswichtown" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Premier League : Tottenham Hotspur 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Ipswich Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Tottenham_Hotspur_vs_Ipswich_Town.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Premier League : Tottenham Hotspur 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Ipswich Town 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=343
@@ -1424,11 +1841,26 @@ https://thedaddy.li/watch.php?id=157
 #EXTINF:-1 tvg-id="belgiumproleaguesportingcharleroivssinttruiden" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Belgium - Pro League : Sporting Charleroi 🇧🇪 vs Sint-Truiden 🇧🇪 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sporting_Charleroi_vs_Sint_Truiden.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Belgium - Pro League : Sporting Charleroi 🇧🇪 vs Sint-Truiden 🇧🇪 (15:00)
 https://thedaddy.li/watch.php?id=3049
 
+#EXTINF:-1 tvg-id="belgiumproleaguesportingcharleroivssinttruiden" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Belgium - Pro League : Sporting Charleroi 🇧🇪 vs Sint-Truiden 🇧🇪 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Sporting_Charleroi_vs_Sint_Truiden.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Belgium - Pro League : Sporting Charleroi 🇧🇪 vs Sint-Truiden 🇧🇪 (15:00)
+https://thedaddy.li/watch.php?id=1295
+
+#EXTINF:-1 tvg-id="englandchampionshipwesthamunitedvsprestonnorthend" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : West Ham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Preston North End 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/West_Ham_United_vs_Preston_North_End.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : West Ham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Preston North End 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=255
+
+#EXTINF:-1 tvg-id="englandchampionshipwesthamunitedvsprestonnorthend" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : West Ham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Preston North End 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/West_Ham_United_vs_Preston_North_End.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : West Ham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Preston North End 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1233
+
 #EXTINF:-1 tvg-id="englandchampionshipwesthamunitedvsprestonnorthend" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : West Ham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Preston North End 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/West_Ham_United_vs_Preston_North_End.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : West Ham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Preston North End 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=308
 
 #EXTINF:-1 tvg-id="englandchampionshipwesthamunitedvsprestonnorthend" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : West Ham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Preston North End 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/West_Ham_United_vs_Preston_North_End.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : West Ham United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Preston North End 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=3008
+
+#EXTINF:-1 tvg-id="englandchampionshipwolverhamptonwanderersvscharltonathletic" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : Wolverhampton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Charlton Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Wolverhampton_Wanderers_vs_Charlton_Athletic.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : Wolverhampton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Charlton Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=256
+
+#EXTINF:-1 tvg-id="englandchampionshipwolverhamptonwanderersvscharltonathletic" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : Wolverhampton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Charlton Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Wolverhampton_Wanderers_vs_Charlton_Athletic.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : Wolverhampton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Charlton Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
+https://thedaddy.li/watch.php?id=1232
 
 #EXTINF:-1 tvg-id="englandchampionshipwolverhamptonwanderersvscharltonathletic" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ England - Championship : Wolverhampton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Charlton Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Wolverhampton_Wanderers_vs_Charlton_Athletic.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ England - Championship : Wolverhampton Wanderers 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Charlton Athletic 🏴󠁧󠁢󠁥󠁮󠁧󠁿 (15:00)
 https://thedaddy.li/watch.php?id=30
@@ -1565,8 +1997,14 @@ https://thedaddy.li/watch.php?id=559
 #EXTINF:-1 tvg-id="austriabundesligalasklinzvshartberg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Austria - Bundesliga : LASK Linz 🇦🇹 vs Hartberg 🇦🇹 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/LASK_Linz_vs_Hartberg.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Austria - Bundesliga : LASK Linz 🇦🇹 vs Hartberg 🇦🇹 (16:00)
 https://thedaddy.li/watch.php?id=18
 
+#EXTINF:-1 tvg-id="austriabundesligalasklinzvshartberg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Austria - Bundesliga : LASK Linz 🇦🇹 vs Hartberg 🇦🇹 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/LASK_Linz_vs_Hartberg.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Austria - Bundesliga : LASK Linz 🇦🇹 vs Hartberg 🇦🇹 (16:00)
+https://thedaddy.li/watch.php?id=1238
+
 #EXTINF:-1 tvg-id="austriabundesligawsgtirolvsaustrialustenau" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Austria - Bundesliga : WSG Tirol 🇦🇹 vs Austria Lustenau 🇦🇹 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/WSG_Tirol_vs_Austria_Lustenau.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Austria - Bundesliga : WSG Tirol 🇦🇹 vs Austria Lustenau 🇦🇹 (16:00)
 https://thedaddy.li/watch.php?id=19
+
+#EXTINF:-1 tvg-id="austriabundesligawsgtirolvsaustrialustenau" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Austria - Bundesliga : WSG Tirol 🇦🇹 vs Austria Lustenau 🇦🇹 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/WSG_Tirol_vs_Austria_Lustenau.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Austria - Bundesliga : WSG Tirol 🇦🇹 vs Austria Lustenau 🇦🇹 (16:00)
+https://thedaddy.li/watch.php?id=1237
 
 #EXTINF:-1 tvg-id="jordancupalfaisalyvsalahli" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Jordan Cup : Al Faisaly 🇯🇴 vs Al Ahli 🇯🇴 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Al_Faisaly_vs_Al_Ahli.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Jordan Cup : Al Faisaly 🇯🇴 vs Al Ahli 🇯🇴 (16:00)
 https://thedaddy.li/watch.php?id=23
@@ -1576,6 +2014,9 @@ https://thedaddy.li/watch.php?id=222
 
 #EXTINF:-1 tvg-id="serbiasuperligaofkbeogradvsnovipazar" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Super Liga : OFK Beograd 🇷🇸 vs Novi Pazar 🇷🇸 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/OFK_Beograd_vs_Novi_Pazar.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Super Liga : OFK Beograd 🇷🇸 vs Novi Pazar 🇷🇸 (16:00)
 https://thedaddy.li/watch.php?id=945
+
+#EXTINF:-1 tvg-id="serbiasuperligaofkbeogradvsnovipazar" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Serbia - Super Liga : OFK Beograd 🇷🇸 vs Novi Pazar 🇷🇸 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/OFK_Beograd_vs_Novi_Pazar.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Serbia - Super Liga : OFK Beograd 🇷🇸 vs Novi Pazar 🇷🇸 (16:00)
+https://thedaddy.li/watch.php?id=1239
 
 #EXTINF:-1 tvg-id="spainprimeradivisiónfemeninaeibarvsatleticomadrid" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Eibar 🇪🇸 vs Atletico Madrid 🇪🇸 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Eibar_vs_Atletico_Madrid.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Spain - Primera División Femenina : Eibar 🇪🇸 vs Atletico Madrid 🇪🇸 (16:00)
 https://thedaddy.li/watch.php?id=448
@@ -1588,6 +2029,9 @@ https://thedaddy.li/watch.php?id=63
 
 #EXTINF:-1 tvg-id="turkeysuperligkocaelisporvsfenerbahçe" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Kocaelispor 🇹🇷 vs Fenerbahçe 🇹🇷 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kocaelispor_vs_Fenerbahce.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Kocaelispor 🇹🇷 vs Fenerbahçe 🇹🇷 (16:00)
 https://thedaddy.li/watch.php?id=62
+
+#EXTINF:-1 tvg-id="turkeysuperligkocaelisporvsfenerbahçe" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Kocaelispor 🇹🇷 vs Fenerbahçe 🇹🇷 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kocaelispor_vs_Fenerbahce.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Kocaelispor 🇹🇷 vs Fenerbahçe 🇹🇷 (16:00)
+https://thedaddy.li/watch.php?id=1236
 
 #EXTINF:-1 tvg-id="turkeysuperligkocaelisporvsfenerbahçe" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Kocaelispor 🇹🇷 vs Fenerbahçe 🇹🇷 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Kocaelispor_vs_Fenerbahce.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Turkey - Super Lig : Kocaelispor 🇹🇷 vs Fenerbahçe 🇹🇷 (16:00)
 https://thedaddy.li/watch.php?id=290
@@ -1614,6 +2058,9 @@ https://thedaddy.li/watch.php?id=103
 https://thedaddy.li/watch.php?id=160
 
 #EXTINF:-1 tvg-id="italyseriebcatanzarovspalermo" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Catanzaro 🇮🇹 vs Palermo 🇮🇹 (16:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Catanzaro_vs_Palermo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Catanzaro 🇮🇹 vs Palermo 🇮🇹 (16:15)
+https://thedaddy.li/watch.php?id=1206
+
+#EXTINF:-1 tvg-id="italyseriebcatanzarovspalermo" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie B : Catanzaro 🇮🇹 vs Palermo 🇮🇹 (16:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Catanzaro_vs_Palermo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie B : Catanzaro 🇮🇹 vs Palermo 🇮🇹 (16:15)
 https://thedaddy.li/watch.php?id=146
 
 #EXTINF:-1 tvg-id="franceligue1nicevspsg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ France - Ligue 1 : Nice 🇫🇷 vs PSG 🇫🇷 (16:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nice_vs_PSG.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France - Ligue 1 : Nice 🇫🇷 vs PSG 🇫🇷 (16:15)
@@ -1621,6 +2068,9 @@ https://thedaddy.li/watch.php?id=960
 
 #EXTINF:-1 tvg-id="franceligue1nicevspsg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ France - Ligue 1 : Nice 🇫🇷 vs PSG 🇫🇷 (16:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nice_vs_PSG.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France - Ligue 1 : Nice 🇫🇷 vs PSG 🇫🇷 (16:15)
 https://thedaddy.li/watch.php?id=425
+
+#EXTINF:-1 tvg-id="franceligue1nicevspsg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ France - Ligue 1 : Nice 🇫🇷 vs PSG 🇫🇷 (16:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nice_vs_PSG.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France - Ligue 1 : Nice 🇫🇷 vs PSG 🇫🇷 (16:15)
+https://thedaddy.li/watch.php?id=1205
 
 #EXTINF:-1 tvg-id="franceligue1nicevspsg" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ France - Ligue 1 : Nice 🇫🇷 vs PSG 🇫🇷 (16:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Nice_vs_PSG.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ France - Ligue 1 : Nice 🇫🇷 vs PSG 🇫🇷 (16:15)
 https://thedaddy.li/watch.php?id=372
@@ -1659,13 +2109,22 @@ https://thedaddy.li/watch.php?id=2028
 https://thedaddy.li/watch.php?id=259
 
 #EXTINF:-1 tvg-id="polandekstraklasazagbielubinvsgórnikzabrze" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Zagłębie Lubin 🇵🇱 vs Górnik Zabrze 🇵🇱 (16:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Zag_ebie_Lubin_vs_Gornik_Zabrze.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Zagłębie Lubin 🇵🇱 vs Górnik Zabrze 🇵🇱 (16:30)
+https://thedaddy.li/watch.php?id=1208
+
+#EXTINF:-1 tvg-id="polandekstraklasazagbielubinvsgórnikzabrze" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Zagłębie Lubin 🇵🇱 vs Górnik Zabrze 🇵🇱 (16:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Zag_ebie_Lubin_vs_Gornik_Zabrze.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Poland - Ekstraklasa : Zagłębie Lubin 🇵🇱 vs Górnik Zabrze 🇵🇱 (16:30)
 https://thedaddy.li/watch.php?id=100
 
 #EXTINF:-1 tvg-id="swedenallsvenskangaisvsvästeråssk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : GAIS 🇸🇪 vs Västerås SK 🇸🇪 (16:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/GAIS_vs_Vasteras_SK.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : GAIS 🇸🇪 vs Västerås SK 🇸🇪 (16:30)
 https://thedaddy.li/watch.php?id=707
 
+#EXTINF:-1 tvg-id="swedenallsvenskangaisvsvästeråssk" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : GAIS 🇸🇪 vs Västerås SK 🇸🇪 (16:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/GAIS_vs_Vasteras_SK.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Sweden - Allsvenskan : GAIS 🇸🇪 vs Västerås SK 🇸🇪 (16:30)
+https://thedaddy.li/watch.php?id=1207
+
 #EXTINF:-1 tvg-id="sloveniaprvaligamuravsbravo" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Slovenia - Prva Liga : Mura 🇸🇮 vs Bravo 🇸🇮 (16:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mura_vs_Bravo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Slovenia - Prva Liga : Mura 🇸🇮 vs Bravo 🇸🇮 (16:30)
 https://thedaddy.li/watch.php?id=106
+
+#EXTINF:-1 tvg-id="sloveniaprvaligamuravsbravo" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Slovenia - Prva Liga : Mura 🇸🇮 vs Bravo 🇸🇮 (16:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mura_vs_Bravo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Slovenia - Prva Liga : Mura 🇸🇮 vs Bravo 🇸🇮 (16:30)
+https://thedaddy.li/watch.php?id=1209
 
 #EXTINF:-1 tvg-id="italyseriecfolgorecaratesevsunionarzignanochiampo" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Italy - Serie C : Folgore Caratese 🇮🇹 vs Union ArzignanoChiampo 🇮🇹 (16:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Folgore_Caratese_vs_Union_ArzignanoChiampo.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Italy - Serie C : Folgore Caratese 🇮🇹 vs Union ArzignanoChiampo 🇮🇹 (16:30)
 https://thedaddy.li/watch.php?id=202
@@ -1687,6 +2146,9 @@ https://thedaddy.li/watch.php?id=203
 
 #EXTINF:-1 tvg-id="russianpremierleaguecskamoskvavsakhmatgrozny" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Russian Premier League : CSKA Moskva 🇷🇺 vs Akhmat Grozny 🇷🇺 (16:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/CSKA_Moskva_vs_Akhmat_Grozny.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Russian Premier League : CSKA Moskva 🇷🇺 vs Akhmat Grozny 🇷🇺 (16:45)
 https://thedaddy.li/watch.php?id=573
+
+#EXTINF:-1 tvg-id="russianpremierleaguecskamoskvavsakhmatgrozny" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Russian Premier League : CSKA Moskva 🇷🇺 vs Akhmat Grozny 🇷🇺 (16:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/CSKA_Moskva_vs_Akhmat_Grozny.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Russian Premier League : CSKA Moskva 🇷🇺 vs Akhmat Grozny 🇷🇺 (16:45)
+https://thedaddy.li/watch.php?id=1212
 
 #EXTINF:-1 tvg-id="russianpremierleaguecskamoskvavsakhmatgrozny" x-event-date="2026-11-21" tvg-name="All Soccer Events ⚽ | ⚽ Russian Premier League : CSKA Moskva 🇷🇺 vs Akhmat Grozny 🇷🇺 (16:45)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/CSKA_Moskva_vs_Akhmat_Grozny.png" group-title="Eventi Live DLHD",All Soccer Events ⚽ | ⚽ Russian Premier League : CSKA Moskva 🇷🇺 vs Akhmat Grozny 🇷🇺 (16:45)
 https://thedaddy.li/watch.php?id=941
@@ -3665,6 +4127,9 @@ https://thedaddy.li/watch.php?id=110
 #EXTINF:-1 tvg-id="oktagon98mateuszlegierskivsivanbuchinger" x-event-date="2026-11-21" tvg-name="MMA 🥊👊 | 🥋 OKTAGON 98 : Mateusz Legierski 🇵🇱 vs Ivan Buchinger 🇸🇰 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mateusz_Legierski_vs_Ivan_Buchinger.png" group-title="Eventi Live DLHD",MMA 🥊👊 | 🥋 OKTAGON 98 : Mateusz Legierski 🇵🇱 vs Ivan Buchinger 🇸🇰 (17:00)
 https://thedaddy.li/watch.php?id=628
 
+#EXTINF:-1 tvg-id="oktagon98mateuszlegierskivsivanbuchinger" x-event-date="2026-11-21" tvg-name="MMA 🥊👊 | 🥋 OKTAGON 98 : Mateusz Legierski 🇵🇱 vs Ivan Buchinger 🇸🇰 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Mateusz_Legierski_vs_Ivan_Buchinger.png" group-title="Eventi Live DLHD",MMA 🥊👊 | 🥋 OKTAGON 98 : Mateusz Legierski 🇵🇱 vs Ivan Buchinger 🇸🇰 (17:00)
+https://thedaddy.li/watch.php?id=1131
+
 #EXTINF:-1 tvg-id="ksw123valeriumirceavsmarcinheld" x-event-date="2026-11-21" tvg-name="MMA 🥊👊 | 🥋 KSW 123 : Valeriu Mircea 🇷🇴 vs Marcin Held 🇵🇱 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Valeriu_Mircea_vs_Marcin_Held.png" group-title="Eventi Live DLHD",MMA 🥊👊 | 🥋 KSW 123 : Valeriu Mircea 🇷🇴 vs Marcin Held 🇵🇱 (18:00)
 https://thedaddy.li/watch.php?id=151
 
@@ -3700,6 +4165,21 @@ https://thedaddy.li/watch.php?id=1026
 
 #EXTINF:-1 tvg-id="ufcfightnightprelimsaleksandretopuriavssantiagoluna" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aleksandre_Topuria_vs_Santiago_Luna.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)
 https://thedaddy.li/watch.php?id=290
+
+#EXTINF:-1 tvg-id="ufcfightnightprelimsaleksandretopuriavssantiagoluna" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aleksandre_Topuria_vs_Santiago_Luna.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)
+https://thedaddy.li/watch.php?id=2001
+
+#EXTINF:-1 tvg-id="ufcfightnightprelimsaleksandretopuriavssantiagoluna" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aleksandre_Topuria_vs_Santiago_Luna.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)
+https://thedaddy.li/watch.php?id=2002
+
+#EXTINF:-1 tvg-id="ufcfightnightprelimsaleksandretopuriavssantiagoluna" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aleksandre_Topuria_vs_Santiago_Luna.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)
+https://thedaddy.li/watch.php?id=2003
+
+#EXTINF:-1 tvg-id="ufcfightnightprelimsaleksandretopuriavssantiagoluna" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aleksandre_Topuria_vs_Santiago_Luna.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)
+https://thedaddy.li/watch.php?id=5002
+
+#EXTINF:-1 tvg-id="ufcfightnightprelimsaleksandretopuriavssantiagoluna" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Aleksandre_Topuria_vs_Santiago_Luna.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Prelims : Aleksandre Topuria 🇪🇸 vs Santiago Luna 🇦🇷 (15:00)
+https://thedaddy.li/watch.php?id=5001
 
 #EXTINF:-1 tvg-id="ufcfightnightmaincardjiriprochazkavsnavajostirling" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Jiri_Prochazka_vs_Navajo_Stirling.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)
 https://thedaddy.li/watch.php?id=163
@@ -3742,6 +4222,21 @@ https://thedaddy.li/watch.php?id=1026
 
 #EXTINF:-1 tvg-id="ufcfightnightmaincardjiriprochazkavsnavajostirling" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Jiri_Prochazka_vs_Navajo_Stirling.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)
 https://thedaddy.li/watch.php?id=146
+
+#EXTINF:-1 tvg-id="ufcfightnightmaincardjiriprochazkavsnavajostirling" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Jiri_Prochazka_vs_Navajo_Stirling.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)
+https://thedaddy.li/watch.php?id=2001
+
+#EXTINF:-1 tvg-id="ufcfightnightmaincardjiriprochazkavsnavajostirling" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Jiri_Prochazka_vs_Navajo_Stirling.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)
+https://thedaddy.li/watch.php?id=2002
+
+#EXTINF:-1 tvg-id="ufcfightnightmaincardjiriprochazkavsnavajostirling" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Jiri_Prochazka_vs_Navajo_Stirling.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)
+https://thedaddy.li/watch.php?id=2003
+
+#EXTINF:-1 tvg-id="ufcfightnightmaincardjiriprochazkavsnavajostirling" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Jiri_Prochazka_vs_Navajo_Stirling.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)
+https://thedaddy.li/watch.php?id=5002
+
+#EXTINF:-1 tvg-id="ufcfightnightmaincardjiriprochazkavsnavajostirling" x-event-date="2026-11-21" tvg-name="UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Jiri_Prochazka_vs_Navajo_Stirling.png" group-title="Eventi Live DLHD",UFC Fight Night 🥊👊 | 🥋 UFC Fight Night Main Card : Jiri Prochazka 🇨🇿 vs Navajo Stirling 🇦🇺 (18:00)
+https://thedaddy.li/watch.php?id=5001
 
 #EXTINF:-1 tvg-id="allelitewrestlingcollision" x-event-date="2026-11-22" tvg-name="Wrestling (AEW) 🤼 | 🤼 All Elite Wrestling: Collision 🇺🇸 (01:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/evento_All_Elite_Wrestling_Collision.png" group-title="Eventi Live DLHD",Wrestling (AEW) 🤼 | 🤼 All Elite Wrestling: Collision 🇺🇸 (01:00)
 https://thedaddy.li/watch.php?id=338
@@ -4610,6 +5105,9 @@ https://thedaddy.li/watch.php?id=104
 #EXTINF:-1 tvg-id="nbaphiladelphia76ersvsmilwaukeebucks" x-event-date="2026-11-21" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Milwaukee Bucks 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Milwaukee_Bucks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Milwaukee Bucks 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=145
 
+#EXTINF:-1 tvg-id="nbaphiladelphia76ersvsmilwaukeebucks" x-event-date="2026-11-21" tvg-name="NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Milwaukee Bucks 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Philadelphia_76ers_vs_Milwaukee_Bucks.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : Philadelphia 76ers 🇺🇸 vs Milwaukee Bucks 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=2006
+
 #EXTINF:-1 tvg-id="nbanewyorkknicksvsportlandtrailblazers" x-event-date="2026-11-22" tvg-name="NBA Basketball 🏀 | 🏀 NBA : New York Knicks 🇺🇸 vs Portland Trail Blazers 🇺🇸 (00:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/New_York_Knicks_vs_Portland_Trail_Blazers.png" group-title="Eventi Live DLHD",NBA Basketball 🏀 | 🏀 NBA : New York Knicks 🇺🇸 vs Portland Trail Blazers 🇺🇸 (00:30)
 https://thedaddy.li/watch.php?id=3
 
@@ -5228,6 +5726,9 @@ https://thedaddy.li/watch.php?id=496
 #EXTINF:-1 tvg-id="nhledmontonoilersvscarolinahurricanes" x-event-date="2026-11-21" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Edmonton Oilers 🇨🇦 vs Carolina Hurricanes 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Edmonton_Oilers_vs_Carolina_Hurricanes.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Edmonton Oilers 🇨🇦 vs Carolina Hurricanes 🇺🇸 (18:00)
 https://thedaddy.li/watch.php?id=580
 
+#EXTINF:-1 tvg-id="nhledmontonoilersvscarolinahurricanes" x-event-date="2026-11-21" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Edmonton Oilers 🇨🇦 vs Carolina Hurricanes 🇺🇸 (18:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Edmonton_Oilers_vs_Carolina_Hurricanes.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Edmonton Oilers 🇨🇦 vs Carolina Hurricanes 🇺🇸 (18:00)
+https://thedaddy.li/watch.php?id=2004
+
 #EXTINF:-1 tvg-id="nhlchicagoblackhawksvscalgaryflames" x-event-date="2026-11-21" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Chicago Blackhawks 🇺🇸 vs Calgary Flames 🇨🇦 (20:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chicago_Blackhawks_vs_Calgary_Flames.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Chicago Blackhawks 🇺🇸 vs Calgary Flames 🇨🇦 (20:30)
 https://thedaddy.li/watch.php?id=23
 
@@ -5257,6 +5758,9 @@ https://thedaddy.li/watch.php?id=434
 
 #EXTINF:-1 tvg-id="nhlchicagoblackhawksvscalgaryflames" x-event-date="2026-11-21" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Chicago Blackhawks 🇺🇸 vs Calgary Flames 🇨🇦 (20:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chicago_Blackhawks_vs_Calgary_Flames.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Chicago Blackhawks 🇺🇸 vs Calgary Flames 🇨🇦 (20:30)
 https://thedaddy.li/watch.php?id=21
+
+#EXTINF:-1 tvg-id="nhlchicagoblackhawksvscalgaryflames" x-event-date="2026-11-21" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Chicago Blackhawks 🇺🇸 vs Calgary Flames 🇨🇦 (20:30)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Chicago_Blackhawks_vs_Calgary_Flames.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Chicago Blackhawks 🇺🇸 vs Calgary Flames 🇨🇦 (20:30)
+https://thedaddy.li/watch.php?id=2005
 
 #EXTINF:-1 tvg-id="nhlbuffalosabresvsfloridapanthers" x-event-date="2026-11-21" tvg-name="NHL Ice Hockey 🏒 | 🏒 NHL : Buffalo Sabres 🇺🇸 vs Florida Panthers 🇺🇸 (23:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Buffalo_Sabres_vs_Florida_Panthers.png" group-title="Eventi Live DLHD",NHL Ice Hockey 🏒 | 🏒 NHL : Buffalo Sabres 🇺🇸 vs Florida Panthers 🇺🇸 (23:00)
 https://thedaddy.li/watch.php?id=8
@@ -5375,14 +5879,23 @@ https://thedaddy.li/watch.php?id=218
 #EXTINF:-1 tvg-id="shlroglevstimra" x-event-date="2026-11-21" tvg-name="SHL Ice Hockey 🏒 | 🏒 SHL : Rogle 🇸🇪 vs Timra 🇸🇪 (14:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Rogle_vs_Timra.png" group-title="Eventi Live DLHD",SHL Ice Hockey 🏒 | 🏒 SHL : Rogle 🇸🇪 vs Timra 🇸🇪 (14:15)
 https://thedaddy.li/watch.php?id=704
 
+#EXTINF:-1 tvg-id="shlroglevstimra" x-event-date="2026-11-21" tvg-name="SHL Ice Hockey 🏒 | 🏒 SHL : Rogle 🇸🇪 vs Timra 🇸🇪 (14:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Rogle_vs_Timra.png" group-title="Eventi Live DLHD",SHL Ice Hockey 🏒 | 🏒 SHL : Rogle 🇸🇪 vs Timra 🇸🇪 (14:15)
+https://thedaddy.li/watch.php?id=1261
+
 #EXTINF:-1 tvg-id="shlfrolundavsbrynas" x-event-date="2026-11-21" tvg-name="SHL Ice Hockey 🏒 | 🏒 SHL : Frolunda 🇸🇪 vs Brynas 🇸🇪 (14:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Frolunda_vs_Brynas.png" group-title="Eventi Live DLHD",SHL Ice Hockey 🏒 | 🏒 SHL : Frolunda 🇸🇪 vs Brynas 🇸🇪 (14:15)
 https://thedaddy.li/watch.php?id=700
 
 #EXTINF:-1 tvg-id="shlfrolundavsbrynas" x-event-date="2026-11-21" tvg-name="SHL Ice Hockey 🏒 | 🏒 SHL : Frolunda 🇸🇪 vs Brynas 🇸🇪 (14:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Frolunda_vs_Brynas.png" group-title="Eventi Live DLHD",SHL Ice Hockey 🏒 | 🏒 SHL : Frolunda 🇸🇪 vs Brynas 🇸🇪 (14:15)
 https://thedaddy.li/watch.php?id=1035
 
+#EXTINF:-1 tvg-id="shlfrolundavsbrynas" x-event-date="2026-11-21" tvg-name="SHL Ice Hockey 🏒 | 🏒 SHL : Frolunda 🇸🇪 vs Brynas 🇸🇪 (14:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Frolunda_vs_Brynas.png" group-title="Eventi Live DLHD",SHL Ice Hockey 🏒 | 🏒 SHL : Frolunda 🇸🇪 vs Brynas 🇸🇪 (14:15)
+https://thedaddy.li/watch.php?id=1262
+
 #EXTINF:-1 tvg-id="shldjurgardensvslulea" x-event-date="2026-11-21" tvg-name="SHL Ice Hockey 🏒 | 🏒 SHL : Djurgardens 🇸🇪 vs Lulea 🇸🇪 (14:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Djurgardens_vs_Lulea.png" group-title="Eventi Live DLHD",SHL Ice Hockey 🏒 | 🏒 SHL : Djurgardens 🇸🇪 vs Lulea 🇸🇪 (14:15)
 https://thedaddy.li/watch.php?id=705
+
+#EXTINF:-1 tvg-id="shldjurgardensvslulea" x-event-date="2026-11-21" tvg-name="SHL Ice Hockey 🏒 | 🏒 SHL : Djurgardens 🇸🇪 vs Lulea 🇸🇪 (14:15)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Djurgardens_vs_Lulea.png" group-title="Eventi Live DLHD",SHL Ice Hockey 🏒 | 🏒 SHL : Djurgardens 🇸🇪 vs Lulea 🇸🇪 (14:15)
+https://thedaddy.li/watch.php?id=1263
 
 #EXTINF:-1 tvg-id="shlorebrovsskelleftea" x-event-date="2026-11-21" tvg-name="SHL Ice Hockey 🏒 | 🏒 SHL : Orebro 🇸🇪 vs Skelleftea 🇸🇪 (17:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Orebro_vs_Skelleftea.png" group-title="Eventi Live DLHD",SHL Ice Hockey 🏒 | 🏒 SHL : Orebro 🇸🇪 vs Skelleftea 🇸🇪 (17:00)
 https://thedaddy.li/watch.php?id=703
@@ -5717,8 +6230,14 @@ https://thedaddy.li/watch.php?id=997
 #EXTINF:-1 tvg-id="wrnationscupgeorgiavsusa" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 WR Nations Cup : Georgia 🇬🇪 vs USA 🇺🇸 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Georgia_vs_USA.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 WR Nations Cup : Georgia 🇬🇪 vs USA 🇺🇸 (14:00)
 https://thedaddy.li/watch.php?id=590
 
+#EXTINF:-1 tvg-id="wrnationscupgeorgiavsusa" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 WR Nations Cup : Georgia 🇬🇪 vs USA 🇺🇸 (14:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Georgia_vs_USA.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 WR Nations Cup : Georgia 🇬🇪 vs USA 🇺🇸 (14:00)
+https://thedaddy.li/watch.php?id=1208
+
 #EXTINF:-1 tvg-id="autumnnationsseriesscotlandvsjapan" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Japan 🇯🇵 (14:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_Japan.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Japan 🇯🇵 (14:10)
 https://thedaddy.li/watch.php?id=353
+
+#EXTINF:-1 tvg-id="autumnnationsseriesscotlandvsjapan" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Japan 🇯🇵 (14:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_Japan.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Japan 🇯🇵 (14:10)
+https://thedaddy.li/watch.php?id=1271
 
 #EXTINF:-1 tvg-id="autumnnationsseriesscotlandvsjapan" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Japan 🇯🇵 (14:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Scotland_vs_Japan.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Japan 🇯🇵 (14:10)
 https://thedaddy.li/watch.php?id=589
@@ -5731,6 +6250,9 @@ https://thedaddy.li/watch.php?id=460
 
 #EXTINF:-1 tvg-id="autumnnationsseriesenglandvsnewzealand" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs New Zealand 🇳🇿 (14:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/England_vs_New_Zealand.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs New Zealand 🇳🇿 (14:10)
 https://thedaddy.li/watch.php?id=350
+
+#EXTINF:-1 tvg-id="autumnnationsseriesenglandvsnewzealand" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs New Zealand 🇳🇿 (14:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/England_vs_New_Zealand.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs New Zealand 🇳🇿 (14:10)
+https://thedaddy.li/watch.php?id=1272
 
 #EXTINF:-1 tvg-id="autumnnationsseriesenglandvsnewzealand" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs New Zealand 🇳🇿 (14:10)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/England_vs_New_Zealand.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs New Zealand 🇳🇿 (14:10)
 https://thedaddy.li/watch.php?id=588
@@ -5772,10 +6294,16 @@ https://thedaddy.li/watch.php?id=591
 https://thedaddy.li/watch.php?id=592
 
 #EXTINF:-1 tvg-id="wrnationscupspainvssamoa" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 WR Nations Cup : Spain 🇪🇸 vs Samoa 🇼🇸 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Spain_vs_Samoa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 WR Nations Cup : Spain 🇪🇸 vs Samoa 🇼🇸 (16:00)
+https://thedaddy.li/watch.php?id=1240
+
+#EXTINF:-1 tvg-id="wrnationscupspainvssamoa" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 WR Nations Cup : Spain 🇪🇸 vs Samoa 🇼🇸 (16:00)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Spain_vs_Samoa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 WR Nations Cup : Spain 🇪🇸 vs Samoa 🇼🇸 (16:00)
 https://thedaddy.li/watch.php?id=219
 
 #EXTINF:-1 tvg-id="autumnnationsseriesitalyvsfiji" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Italy 🇮🇹 vs Fiji 🇫🇯 (16:40)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Italy_vs_Fiji.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Italy 🇮🇹 vs Fiji 🇫🇯 (16:40)
 https://thedaddy.li/watch.php?id=353
+
+#EXTINF:-1 tvg-id="autumnnationsseriesitalyvsfiji" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Italy 🇮🇹 vs Fiji 🇫🇯 (16:40)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Italy_vs_Fiji.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Italy 🇮🇹 vs Fiji 🇫🇯 (16:40)
+https://thedaddy.li/watch.php?id=1211
 
 #EXTINF:-1 tvg-id="autumnnationsseriesitalyvsfiji" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Italy 🇮🇹 vs Fiji 🇫🇯 (16:40)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Italy_vs_Fiji.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Italy 🇮🇹 vs Fiji 🇫🇯 (16:40)
 https://thedaddy.li/watch.php?id=590
@@ -5791,6 +6319,9 @@ https://thedaddy.li/watch.php?id=462
 
 #EXTINF:-1 tvg-id="autumnnationsseriesirelandvssouthafrica" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Ireland 🇮🇪 vs South Africa 🇿🇦 (16:40)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ireland_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Ireland 🇮🇪 vs South Africa 🇿🇦 (16:40)
 https://thedaddy.li/watch.php?id=350
+
+#EXTINF:-1 tvg-id="autumnnationsseriesirelandvssouthafrica" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Ireland 🇮🇪 vs South Africa 🇿🇦 (16:40)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ireland_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Ireland 🇮🇪 vs South Africa 🇿🇦 (16:40)
+https://thedaddy.li/watch.php?id=1210
 
 #EXTINF:-1 tvg-id="autumnnationsseriesirelandvssouthafrica" x-event-date="2026-11-21" tvg-name="Rugby Union 🏉 | 🏉 Autumn Nations Series : Ireland 🇮🇪 vs South Africa 🇿🇦 (16:40)" tvg-logo="https://raw.githubusercontent.com/emaesposito71/LIVETV/main/logos/Ireland_vs_South_Africa.png" group-title="Eventi Live DLHD",Rugby Union 🏉 | 🏉 Autumn Nations Series : Ireland 🇮🇪 vs South Africa 🇿🇦 (16:40)
 https://thedaddy.li/watch.php?id=469
